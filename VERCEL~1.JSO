@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "sbux-supplier-briefing",
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "sbux_news_data.json", "use": "@vercel/static" }
+  ],
+  "headers": [
+    {
+      "source": "/sbux_news_data.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ]
+}

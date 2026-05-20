@@ -1,0 +1,269 @@
+{
+  "lastUpdated": "2026-05-20",
+  "days": [
+    {
+      "date": "2026-05-20",
+      "label": "05/20",
+      "items": [
+        {
+          "id": "20260520-1",
+          "market": "🇺🇸 美國市場",
+          "source": "CNBC / Fox Business / 聯合新聞網",
+          "pubDate": "2026-05-15",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": ["組織重組", "採購架構", "供應鏈管理"],
+          "headline": "美國再裁 300 人、關閉部分地區辦公室：Niccol 上任後第三波裁員",
+          "summary": "星巴克 5/15 宣布裁撤 300 名美國總部與地區支援辦公室員工，並關閉部分地區辦公室。這是執行長 Brian Niccol 上任以來第三波裁員，將產生約 4 億美元的重組費用（2.8 億美元為資產減損的非現金費用，1.2 億美元為現金資遣費）。西雅圖總部估計裁減 61 人，自 6/20 起生效。",
+          "whyMatters": "全球供應商的採購窗口聯絡人面臨第三波震盪。地區支援辦公室關閉意味著區域性採購決策權回收，現有的多點對接架構可能簡化為集中對接，部分供應商既有的關係資產將失效，需立即盤點並重新建立聯繫。",
+          "potentialImpact": [
+            "立即盤點美國採購窗口名單，識別本波裁員可能影響的關鍵聯絡人",
+            "區域辦公室關閉後，本地化的物流、設備、耗材合約需重新對應總部窗口",
+            "4 億美元重組費用顯示成本壓縮持續，供應商議價壓力預期上升"
+          ],
+          "sourceLinks": [
+            {"label": "CNBC", "url": "https://www.cnbc.com/2026/05/15/starbucks-to-lay-off-300-us-employees-close-some-regional-offices.html"},
+            {"label": "Fox Business", "url": "https://www.foxbusiness.com/economy/starbucks-cut-300-us-jobs-close-some-regional-support-offices-turnaround-strategy"},
+            {"label": "聯合新聞網", "url": "https://udn.com/news/story/6811/9505966"}
+          ]
+        },
+        {
+          "id": "20260520-2",
+          "market": "🌏 APAC",
+          "source": "CNBC / 星島日報",
+          "pubDate": "2026-05-15",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": ["供應鏈技術", "AI 自動化", "APAC 策略"],
+          "headline": "美國裁員同時 啟用印度新科技辦公室：技術中心東移加速",
+          "summary": "在宣布美國裁員 300 人的同一週，星巴克同步揭露於印度開設新的科技辦公室，作為全球技術與數位轉型的新基地。此舉與 Deep Brew AI、NomadGo 庫存系統等供應鏈技術平台的擴張連動，印度將承接更多後端開發、資料工程與系統整合工作。",
+          "whyMatters": "供應商與 SBUX 技術接口（EDI、API、Deep Brew 資料規格）的對接窗口將逐步轉至印度團隊。亞洲時區的供應商可望縮短回應週期，但歐美供應商需注意對接時差與文件流程變動；同時，技術人員集中印度也代表未來自動化補貨、AI 預測規格將更快迭代。",
+          "potentialImpact": [
+            "EDI / API 系統升級可能加速，供應商需準備短週期的技術文件更新",
+            "印度技術中心可能成為新的供應商門戶（Supplier Portal）維運基地",
+            "亞洲供應商可把握時區優勢主動建立與印度團隊的技術對接"
+          ],
+          "sourceLinks": [
+            {"label": "CNBC", "url": "https://www.cnbc.com/2026/05/15/starbucks-to-lay-off-300-us-employees-close-some-regional-offices.html"},
+            {"label": "星島日報", "url": "https://www.singtaousa.com/2026/05/16/news/usa/starbucks-layoffs-headquarters/"}
+          ]
+        },
+        {
+          "id": "20260520-3",
+          "market": "🌍 全球",
+          "source": "SBUX IR / Investing.com",
+          "pubDate": "2026-04-29",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": ["財務表現", "採購量預測", "門市擴張"],
+          "headline": "Q2 FY26 業績超預期、盤後股價 +7.77%，股利 $0.62、全年指引續上調",
+          "summary": "Q2 FY26 合併淨營收 95.3 億美元（年增 9%），全球同店銷售 +6.2%（客流 +3.8%、客單價 +2.3%），GAAP EPS $0.45、Non-GAAP EPS $0.50（高於市場預期 $0.42）。董事會宣布派發每股 $0.62 股利（5/29 發放），連續 64 季配息，CAGR 17%。全年同店銷售與 Non-GAAP EPS 指引續上修。",
+          "whyMatters": "業績與股利的雙重訊號確認 SBUX 採購量會持續放大；連續配息與穩健現金流也意味著供應商付款風險偏低。對於想推進新品提案、提高最低採購量（MOQ）或調整價格框架的供應商，目前是 SBUX 對成本與創新接受度較高的窗口期。",
+          "potentialImpact": [
+            "全年同店銷售 ≥+5% 帶動原物料、包裝、設備採購量同步上修",
+            "穩健配息代表現金流健全，可爭取更長付款期或預付保留款條件",
+            "Q3 是新品 / 包裝升級提案的高接受度窗口，建議主動安排提案會議"
+          ],
+          "sourceLinks": [
+            {"label": "SBUX 官方 8-K", "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000078/sbux-03292026xearningsrele.htm"},
+            {"label": "Investing.com 中文", "url": "https://hk.investing.com/news/transcripts/article-93CH-1448170"}
+          ]
+        },
+        {
+          "id": "20260520-4",
+          "market": "🇨🇳 中國市場",
+          "source": "SBUX IR / Yahoo Finance",
+          "pubDate": "2026-04-30",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": ["APAC 策略", "採購架構", "門市擴張"],
+          "headline": "中國合資 4 月正式完成，國際業務 Q2 同店 +5%、營收 +10%",
+          "summary": "星巴克 4 月底完成與博裕資本（Boyu Capital）的中國合資交割，博裕基金持股 60%、星巴克保留 40% 及品牌與 IP 授權。Q2 FY26 國際業務同店銷售 +5%、營收 +10%，中國、日本、英國均為主要動能；本季新開 128 家全球門市。China JV 的影響將自 Q3 起完整反映在財報。",
+          "whyMatters": "Q3 起中國採購、財報合併基礎將出現結構性改變。原本透過 SBUX 總部對中國市場的全球供應商，未來訂單流可能分流至合資公司獨立決策；Boyu 在中國本土的關係網絡可能優先導入本地化供應商，現有外資供應商需主動爭取續約。",
+          "potentialImpact": [
+            "Q3 報表起，中國業務分項與全球供應商簽約對象可能改變",
+            "本地化採購比例上升，跨境供應商需強化在地化合作或建立中國子公司",
+            "日本、英國同步強勁，APAC 與歐洲供應商可同步推進產能擴充"
+          ],
+          "sourceLinks": [
+            {"label": "SBUX 8-K（中國 JV）", "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000064/sbux-04022026xexhibit991.htm"},
+            {"label": "Yahoo Finance（2026 全球擴張）", "url": "https://finance.yahoo.com/news/starbucks-sets-2026-reset-global-050757666.html"}
+          ]
+        },
+        {
+          "id": "20260520-5",
+          "market": "🇰🇷 韓國市場",
+          "source": "ETtoday / 聯合新聞網",
+          "pubDate": "2026-05-19",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": ["品牌策略", "ESG 風險", "APAC 策略"],
+          "headline": "韓國星巴克「坦克日」促銷觸怒民主運動歷史，韓國 CEO 孫正賢遭解僱",
+          "summary": "韓國星巴克 5/15–5/26 舉辦保溫鋼杯（Tank Tumbler）促銷活動，並在 5/18 推出「坦克日」（Tank Day）行銷，使用「猛敲桌子」等字眼，被批評對 5/18 光州民主化運動的歷史傷痛缺乏敏感度，引發社群炎上。集團總部震怒，韓國執行長孫正賢已遭解僱。",
+          "whyMatters": "事件本身對全球採購量的直接影響有限，但顯示 SBUX 在 ESG、文化與政治敏感度上的審查標準正在收緊。供應商若參與品牌包裝、行銷物料、文宣設計等合作項目，需強化文化合規檢核流程，避免成為下一個事件的連帶責任方。",
+          "potentialImpact": [
+            "包裝、行銷物料、活動贈品的供應商需新增文化敏感度審核流程",
+            "韓國本地物流、原料供應商可能因短期消費抵制承受 1–2 週銷量壓力",
+            "SBUX 對外部代理商、設計合作夥伴的合規條款可能新增 ESG 條件"
+          ],
+          "sourceLinks": [
+            {"label": "ETtoday 國際", "url": "https://www.ettoday.net/news/20260519/3168182.htm"},
+            {"label": "聯合新聞網", "url": "https://udn.com/news/story/6811/9511851"}
+          ]
+        },
+        {
+          "id": "20260520-6",
+          "market": "🇹🇼 台灣市場",
+          "source": "NOWnews / Starbucks Taiwan",
+          "pubDate": "2026-05-13",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": ["消費者行為", "零售競爭", "飲品趨勢"],
+          "headline": "台灣星巴克 5 月買一送一 9 天 + foodomo「好友分享日」帶動外送量",
+          "summary": "星巴克台灣 5 月主打三大咖啡優惠：5/13–5/29 每週三四五於 foodomo 外送平台「好友分享日」，購買兩杯特大杯那堤、冷萃或經典紅茶那堤享買一送一（特大那堤 NT$77.5 起）；另有門市端 9 天買一送一活動。促銷期間預期帶動週中外送單量明顯成長。",
+          "whyMatters": "促銷帶來短期飲品原料（咖啡豆、牛奶、紅茶基底）與外送包材（杯、提袋、吸管）需求激增。供應台灣市場的飲品基底、乳品、糖漿、紙杯與外送專用包裝供應商需確認備貨量充足；同時 foodomo 通路擴張顯示外送占比持續提升，包材規格趨向適合外送的耐熱、防漏設計。",
+          "potentialImpact": [
+            "促銷期飲品基底、牛奶、紙杯短期需求預期成長 20–30%，供應商需備貨",
+            "外送包裝（防漏蓋、提袋）規格需求上升，可推進耐熱 / 永續包材提案",
+            "foodomo 等本地通路占比擴張，建議追蹤外送專案的訂單頻率調整"
+          ],
+          "sourceLinks": [
+            {"label": "NOWnews", "url": "https://www.nownews.com/news/6835549"},
+            {"label": "Starbucks Taiwan 星聞室", "url": "https://www.starbucks.com.tw/news/overview.jspx"}
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-05-14",
+      "label": "05/14",
+      "items": [
+        {
+          "id": "20260514-1",
+          "market": "🇺🇸 美國市場",
+          "source": "Bloomberg / Fast Company",
+          "pubDate": "2026-05-12",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": ["供應鏈管理", "採購關係", "組織重組"],
+          "headline": "採購團隊被迫遷往納什維爾，拒絕者直接裁員",
+          "summary": "星巴克向旗下約 100 人的西雅圖採購（Sourcing）團隊發出最後通牒：遷往田納西州納什維爾並接受薪資至少 5% 降幅，否則離職。$1 億美元的新辦公室預計 2027 年正式啟用，目前員工抵制遷移意願強烈，部分已開始尋找新工作。",
+          "whyMatters": "身為全球供應商，您的採購窗口可能在未來 6–18 個月內大規模異動。西雅圖資深採購人員若選擇不遷移，現有合約關係、付款條件與年度框架協議都將需要重新對接。現在是主動確認繼任聯絡人、鞏固關係的關鍵時機。",
+          "potentialImpact": [
+            "現有採購窗口斷鏈風險高，需立即建立備用聯絡人名單",
+            "新負責人可能重新審視現有合約條件與供應商優先序",
+            "採購決策中心南移，未來可能需赴納什維爾進行關係維護"
+          ],
+          "sourceLinks": [
+            {"label": "Fast Company", "url": "https://www.fastcompany.com/91530802/starbucks-is-asking-workers-to-move-to-nashville-its-not-going-well"},
+            {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-04-21/starbucks-plots-big-nashville-presence-but-workers-are-resisting-relocation"}
+          ]
+        },
+        {
+          "id": "20260514-2",
+          "market": "🌍 全球",
+          "source": "Supply Chain Dive / Milli Chronicle",
+          "pubDate": "2026-05-14",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": ["供應鏈技術", "AI 自動化", "庫存管理"],
+          "headline": "AI 驅動供應鏈全面升級，FY2026 全美加拿大門市上線",
+          "summary": "星巴克導入 NomadGo 電腦視覺庫存系統，盤點頻率提高 8 倍、準確率達 99%，盤點時間從 60 分鐘壓縮至 15 分鐘以內。後端以自研 Deep Brew AI 平台整合銷售、天氣、活動等數據，實現自動化補貨決策。全美及加拿大門市於 FY2026 全面部署，同步汰換 AS/400 等老舊系統。",
+          "whyMatters": "SBUX 的補貨邏輯已從人工預測轉向 AI 自動化。未能符合新系統數據規格（如 EDI 接口、SKU 標準）的供應商，將面臨訂單延遲或被系統性排除在自動補貨清單之外的風險，直接影響銷售量。",
+          "potentialImpact": [
+            "供應商需確認是否已納入 Deep Brew 資料庫並符合數據規格",
+            "補貨前置時間（Lead Time）需配合高頻 AI 補貨節奏縮短",
+            "EDI / API 接口須升級以對應 SBUX 新供應鏈平台"
+          ],
+          "sourceLinks": [
+            {"label": "Supply Chain Dive", "url": "https://www.supplychaindive.com/news/starbucks-inventory-counting-ai-out-of-stock/759248/"},
+            {"label": "Milli Chronicle", "url": "https://millichronicle.com/2026/01/62567.html"}
+          ]
+        },
+        {
+          "id": "20260514-3",
+          "market": "🇨🇳 中國市場",
+          "source": "Starbucks Investor Relations",
+          "pubDate": "2026-05-14",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": ["APAC 策略", "門市擴張", "採購架構"],
+          "headline": "中國合資正式完成：博裕資本持股 60%，擴張目標上看 15,000–20,000 家門市",
+          "summary": "星巴克與博裕資本（Boyu Capital）完成中國業務合資交割，博裕持股 60%、星巴克保留 40% 及品牌授權。目前中國門市約 8,000 家，長期目標倍增至 15,000–20,000 家。Q2 中國同店銷售僅成長 0.5%，靠折扣支撐客流量（+2.1%），但客單價下滑（-1.6%）。",
+          "whyMatters": "中國採購決策主導權已移轉至合資公司。若您目前透過 SBUX 總部服務中國市場，訂單流程與採購聯絡人可能需全面重新確認。門市目標倍增帶來巨大採購量增長機會，但客單價下滑也預示中國端將持續壓縮採購成本。",
+          "potentialImpact": [
+            "中國採購窗口可能由合資公司獨立決策，需建立新的直接聯繫",
+            "門市倍增帶來大規模採購量成長機會，尤其對本地化供應商",
+            "客單價壓力可能轉嫁為對供應商的持續降價要求"
+          ],
+          "sourceLinks": [
+            {"label": "SBUX IR 官方公告", "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-and-Boyu-Capital-Finalize-Joint-Venture-to-Accelerate-Long-Term-Growth-in-China/default.aspx"}
+          ]
+        },
+        {
+          "id": "20260514-4",
+          "market": "🌍 全球",
+          "source": "CNBC / Yahoo Finance",
+          "pubDate": "2026-04-28",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": ["財務表現", "採購量預測", "門市擴張"],
+          "headline": "Q2 業績超預期，全年指引上調至同店銷售至少成長 5%",
+          "summary": "Q2 淨營收 $95.3 億（年增 9%），全球同店銷售 +6.2%（客流 +3.8%、客單價 +2.3%），Non-GAAP EPS $0.50 超出預期的 $0.43。北美同店銷售強勁達 +7.1%。全年同店銷售指引從 3% 上調至至少 5%，EPS 指引從 $2.15–$2.40 上調至 $2.25–$2.45。",
+          "whyMatters": "SBUX 財務動能回升是供應商採購量預測的正面訊號。業績回升 + 新門市持續開設 + 菜單創新加速，意味著對原物料、包裝、設備等各類供應商的總需求量將隨之增加。指引上調也代表 SBUX 財務健全度改善，付款風險降低。",
+          "potentialImpact": [
+            "建議依 +5% 同店銷售增速重新調整年度備料與產能規劃",
+            "業績回升窗口有利推進新品合作提案，採購方接受度較高",
+            "FY2026 全年新增逾 2,000 家門市，帶動設備與耗材需求持續成長"
+          ],
+          "sourceLinks": [
+            {"label": "SBUX 官方財報", "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q2-Fiscal-Year-2026-Results/default.aspx"},
+            {"label": "CNBC", "url": "https://www.cnbc.com/2026/04/28/starbucks-sbux-q2-2026-earnings.html"}
+          ]
+        },
+        {
+          "id": "20260514-5",
+          "market": "🇺🇸 北美 / 🇯🇵 日本",
+          "source": "About Starbucks / Stories Japan",
+          "pubDate": "2026-05-12",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": ["飲品趨勢", "原料需求", "APAC 策略"],
+          "headline": "夏季菜單正式上市：熱帶蝴蝶特飲、墨西哥米漿系列，日本同步推夏季限定",
+          "summary": "北美夏季菜單 5/12 上市，新品含 Tropical Butterfly Refresher（蝴蝶豌豆花萃取）、Iced Horchata Shaken Espresso 回歸及新品 Horchata Frappuccino。日本 Starbucks Reserve Roastery 東京同日推出夏季系列飲品與輕食。同步上線 App 預約取餐功能（最多提前 1 小時）。",
+          "whyMatters": "新 SKU 上市代表特定原料需求激增：蝴蝶豌豆花萃取、墨西哥肉桂 / 米漿風味、熱帶水果調味料。若您供應相關成分，需確認是否已列入備料清單；App 預約功能提升客流量也間接拉高整體備貨壓力。",
+          "potentialImpact": [
+            "蝴蝶豌豆花、米漿風味原料短期需求激增，供應商需確認備貨量",
+            "提前布局秋冬新品提案，把握下季菜單開發窗口",
+            "追蹤日本 Roastery 夏季系列是否延伸至台灣、韓國、中國等 APAC 市場"
+          ],
+          "sourceLinks": [
+            {"label": "About Starbucks 官方", "url": "https://about.starbucks.com/stories/2026/starbucks-summer-menu-arrives-with-new-tropical-butterfly-refresher-and-horchata-inspired-beverages/"},
+            {"label": "Starbucks Stories Japan", "url": "https://stories.starbucks.co.jp/press/2026/pr2026-05-11-2/"}
+          ]
+        },
+        {
+          "id": "20260514-6",
+          "market": "🇺🇸 美國市場",
+          "source": "New York Post / Axios Nashville",
+          "pubDate": "2026-05-12",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": ["品牌策略", "成本結構", "ESG 風險"],
+          "headline": "Schultz 抨擊西雅圖市府，納什維爾遷移獲田納西州 3,000 萬美元補貼",
+          "summary": "創辦人 Howard Schultz 公開批評西雅圖市長「社會主義」立場，稱該市對企業敵意升高，呼應 SBUX 總部南遷決策。田納西州提供約 3,000 萬美元搬遷補貼，進一步確認納什維爾擴張的長期性。",
+          "whyMatters": "此事件確認 SBUX 的成本重組是長期策略而非臨時調整。低稅、低成本的納什維爾環境將鼓勵 SBUX 持續優化整體採購成本結構，間接加大對供應商的議價壓力。",
+          "potentialImpact": [
+            "SBUX 長期成本壓縮意圖明確，合約談判時需預備更強的差異化理由",
+            "Schultz 政治表態恐引發消費者分化，短期影響部分市場品牌形象",
+            "ESG 與員工關係敏感度提升，供應商需留意相關合規要求變化"
+          ],
+          "sourceLinks": [
+            {"label": "Axios Nashville", "url": "https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move"},
+            {"label": "SBUX IR 公告", "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Selects-Tennessee-for-Southeast-Corporate-Office-2026-MgIal80vem/default.aspx"}
+          ]
+        }
+      ]
+    }
+  ]
+}
