@@ -1,6 +1,136 @@
 {
-  "lastUpdated": "2026-05-25",
+  "lastUpdated": "2026-05-26",
   "days": [
+    {
+      "date": "2026-05-26",
+      "label": "05/26",
+      "items": [
+        {
+          "id": "20260526-1",
+          "market": "🇰🇷 韓國市場",
+          "source": "CNBC / Al Jazeera",
+          "pubDate": "2026-05-19",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "ESG 風險",
+            "APAC 策略"
+          ],
+          "headline": "韓國星巴克執行長因「坦克日」促銷踩雷遭解僱，當地抵制潮持續延燒",
+          "summary": "韓國星巴克於5月18日光州民主化運動紀念日推出以「Tank Day（坦克日）」為名的促銷活動，遭公眾強烈批評嘲諷歷史悲劇。母公司新世界集團隨即展開調查，宣布解除韓國星巴克執行長孫贞鉉及相關行銷主管職務。星巴克全球總部表示事件「非蓄意，但絕不應發生」，全球聲譽承壓。",
+          "whyMatters": "此事件引發韓國社會大規模抵制，短期內將衝擊韓國門市客流與銷售額，進而影響本地食材、原料及周邊供應商的採購量。高管解僱後，韓國採購決策可能進入過渡期，合約連續性存在風險。此類 ESG 聲譽事件也可能促使星巴克全球重審行銷合規流程，影響各市場合作方式。",
+          "potentialImpact": [
+            "評估韓國市場短期訂單波動風險，抵制效應可能持續數週至數月，建議密切監控韓國門市銷售數據並預備彈性庫存調整方案",
+            "針對與韓國星巴克的供應合約建立應急預案，因管理層更迭可能導致採購策略暫時中斷或決策延遲",
+            "從此事件汲取 ESG 合規教訓，在與星巴克各市場的合作提案中主動強化文化敏感度與風險管理機制，提升供應商信賴度"
+          ],
+          "sourceLinks": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/19/starbucks-korea-head-fired-after-tank-day-promotion-sparks-public-uproar.html"
+            },
+            {
+              "label": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/5/19/starbucks-korea-ceo-fired-over-promotion-that-evoked-military-crackdown"
+            }
+          ]
+        },
+        {
+          "id": "20260526-2",
+          "market": "🇺🇸 美國市場",
+          "source": "about.starbucks.com / Axios",
+          "pubDate": "2026-05-19",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "包裝創新",
+            "品牌策略",
+            "採購關係"
+          ],
+          "headline": "星巴克 × Miffy 聯名商品5月19日北美正式上市，延續亞太市場熱銷模式",
+          "summary": "星巴克於5月19日在美國及加拿大門市正式推出 Miffy（米飛兔）聯名限量系列，涵蓋馬克杯、冷飲杯、保溫瓶、禮品卡及毛絨玩具，定價24.95至49.95美元。此系列早在亞太地區率先上市並獲熱烈回響，北美版本的推出順應粉絲大量期待。設計主打夏季色系，融合星巴克品牌綠與繽紛配色，預計引發集點熱潮。",
+          "whyMatters": "聯名限量商品系列為馬克杯、保溫瓶、毛絨玩具及禮品包裝供應商帶來短期採購機會。此次「APAC 先行、北美跟進」的發行模式顯示亞太供應商在星巴克聯名商品中具優先合作優勢。限量集點模式已成星巴克常態行銷策略，供應商可從中評估未來聯名合作的市場潛力與產能需求。",
+          "potentialImpact": [
+            "掌握星巴克聯名商品採購窗口，針對限量周邊（馬克杯、保溫瓶、毛絨玩具）備好快速響應產能，爭取成為下一季度聯名系列的核心供應商",
+            "APAC 供應商可爭取成為聯名系列的優先打樣及製造合作方，強化與星巴克全球採購團隊的直接溝通關係",
+            "評估跨市場同步或近同步上市的物流需求，因星巴克正逐步推行全球協同的商品發行策略，提前佈局多市場配送能力"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks Official",
+              "url": "https://about.starbucks.com/stories/2026/miffy-starbucks-a-charming-new-merch-collection/"
+            },
+            {
+              "label": "Axios",
+              "url": "https://www.axios.com/2026/05/18/starbucks-miffy-collab-merch-launch"
+            }
+          ]
+        },
+        {
+          "id": "20260526-3",
+          "market": "🇺🇸 美國市場",
+          "source": "CNBC / Restaurant Dive",
+          "pubDate": "2026-05-21",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "供應鏈技術",
+            "庫存管理",
+            "採購架構"
+          ],
+          "headline": "星巴克放棄 AI 庫存管理系統：上線僅9個月即下架，北美門市全面回歸人工盤點",
+          "summary": "星巴克宣布終止在北美全線門市使用的 AI 自動盤點系統，該系統由 NomadGo 開發，利用 LiDAR 及攝影機掃描庫存，但因頻繁誤判（如無法辨識牛奶類型或漏盤商品）導致嚴重營運問題。系統於2025年9月上線，僅9個月便宣告停用。星巴克官方表示決定「標準化盤點方式，持續專注規模化執行的一致性」，回歸人工管理模式。",
+          "whyMatters": "AI 盤點系統的失敗意味著星巴克短期內將以人工庫存管理為主，可能導致補貨頻率及訂單節奏出現短暫不穩定，影響乳製品、糖漿等高頻耗材供應商的交貨預測準確性。長遠而言，此事件顯示星巴克在供應鏈自動化仍有未填補需求，具備高精準度庫存解決方案的供應商或技術服務商可把握機遇提出合作。",
+          "potentialImpact": [
+            "與星巴克採購及營運團隊密切溝通，了解人工盤點過渡期間是否需調整安全庫存量或交貨頻率，主動提供靈活交貨方案以應對門市需求波動",
+            "評估因人工盤點誤差可能導致的短期訂單不穩定風險，針對乳製品、糖漿等高週轉商品建立緩衝庫存機制，降低斷貨風險",
+            "若具備相關技術能力，可向星巴克提案具高辨識精準度的庫存管理解決方案，填補 NomadGo 系統退出後的供應鏈技術缺口"
+          ],
+          "sourceLinks": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/21/starbucks-scraps-ai-inventory-tool-across-north-america.html"
+            },
+            {
+              "label": "Restaurant Dive",
+              "url": "https://www.restaurantdive.com/news/Starbucks-eliminates-computer-vision-ai-inventory-system/820934/"
+            }
+          ]
+        },
+        {
+          "id": "20260526-4",
+          "market": "🇹🇼 台灣市場",
+          "source": "Focus Taiwan / Taipei Times",
+          "pubDate": "2026-05-24",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "門市擴張",
+            "採購量預測",
+            "APAC 策略"
+          ],
+          "headline": "台灣星巴克達成第600家門市里程碑，統一超商集團宣示持續擴張計劃",
+          "summary": "星巴克台灣於5月24日正式開設第600間門市，座落於台北市南港區南港車站正對面，取名「愿秀門市」，命名紀念統一超商集團創辦人高清願及其女兒高秀玲。此旗艦店與統一超商旗下康是美第600號門市同址揭幕。集團董事長羅智先宣示已著手規劃「下一個600家」，展現強勁擴張意志。",
+          "whyMatters": "台灣第600家門市的里程碑標誌著在地市場穩健成長，統一超商集團明確表達繼續擴張意願，顯示台灣市場的原料、食品及包裝採購需求具長期增長潛力。此擴張目標為在地及區域性供應商提供具體的訂單增長預期，有助供應商提前進行產能規劃與備貨布局。",
+          "potentialImpact": [
+            "評估台灣市場供應量成長空間，配合統一超商集團「再開600家」的擴張目標提前規劃產能及原料長期供應協議",
+            "爭取成為新開幕門市或旗艦型門市的優先供應商，透過參與門市開幕活動或提供試用合作提升品牌曝光度",
+            "關注統一超商集團與星巴克的聯合採購模式，在條件允許下爭取跨品牌供應合約，降低單一客戶依賴風險並擴大業務規模"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Focus Taiwan",
+              "url": "https://focustaiwan.tw/business/202605240008"
+            },
+            {
+              "label": "Taipei Times",
+              "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/05/25/2003857923"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-25",
       "label": "05/25",
