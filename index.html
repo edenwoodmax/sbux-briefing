@@ -8,448 +8,736 @@
 <meta name="theme-color" content="#00704A">
 <title>SBUX 供應商簡報</title>
 <style>
-:root{
-  --green:#00704A; --green-dark:#005538; --green-light:#edf7f2;
-  --high-bg:#fff0f0; --high-col:#c0392b; --high-brd:#f5c6cb;
-  --med-bg:#fffbec;  --med-col:#b7770d;  --med-brd:#fde68a;
-  --low-bg:#eef6fd;  --low-col:#1a6fa8;  --low-brd:#bee3f8;
-  --sidebar:220px; --topbar:56px; --daytab:48px;
+/* ═══════════════════════════════════════════════════════
+   TOKENS
+═══════════════════════════════════════════════════════ */
+:root {
+  --green:#00704A; --green-dk:#005538; --green-lt:#edf7f2; --green-md:#c3e6d8;
+  --high:#c0392b; --high-bg:#fff0f0; --high-brd:#f5c6cb; --high-bar:#e74c3c;
+  --med:#b7770d;  --med-bg:#fffbec;  --med-brd:#fde68a;  --med-bar:#f39c12;
+  --low:#1a6fa8;  --low-bg:#eef6fd;  --low-brd:#bee3f8;  --low-bar:#3498db;
+  --sidebar:244px; --topbar:54px; --fb:88px;
   color-scheme:light;
 }
-*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{height:100%}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Noto Sans TC',sans-serif;
-  background:#f2f2ed;color:#1a1a1a;font-size:15px;line-height:1.6;overscroll-behavior:none}
+  background:#f0f0ea;color:#1a1a1a;font-size:14px;line-height:1.6;overscroll-behavior:none}
+button{font-family:inherit}
 
-/* ════════ SIDEBAR (desktop only) ════════ */
+/* ═══════════════════════════════════════════════════════
+   SIDEBAR
+═══════════════════════════════════════════════════════ */
 #sidebar{
-  display:none;
-  width:var(--sidebar);background:#1a1a1a;color:#fff;
+  display:none; width:var(--sidebar); background:#141414; color:#fff;
   position:fixed;top:0;left:0;bottom:0;z-index:200;
-  flex-direction:column;overflow-y:auto}
-.sb-logo{padding:18px 16px 12px;border-bottom:1px solid #2a2a2a}
-.sb-logo-row{display:flex;align-items:center;gap:9px;margin-bottom:3px}
-.sb-icon{width:32px;height:32px;background:var(--green);border-radius:50%;
-  display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
-.sb-name{font-size:13.5px;font-weight:700;line-height:1.3}
-.sb-sub{font-size:10px;color:#777;padding:8px 16px;border-bottom:1px solid #222}
-.sb-days{flex:1;padding:6px 0}
-.sb-day{display:flex;align-items:center;justify-content:space-between;
-  padding:9px 16px;cursor:pointer;border-left:3px solid transparent;
-  font-size:13px;color:#aaa;transition:all .15s}
-.sb-day:hover{background:#262626;color:#fff}
-.sb-day.active{background:#1e3328;border-left-color:var(--green);color:#fff}
-.sb-day-name{font-weight:600;font-size:13px}
-.sb-day-cnt{font-size:10px;background:#2a2a2a;color:#888;
-  padding:1px 7px;border-radius:99px;font-weight:700}
-.sb-day.active .sb-day-cnt{background:var(--green);color:#fff}
-.sb-stats{padding:12px 14px 16px;border-top:1px solid #222}
-.sb-stats-lbl{font-size:9px;color:#555;letter-spacing:.8px;text-transform:uppercase;margin-bottom:7px}
-.sb-stats-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px}
-.sstat{background:#212121;border-radius:6px;padding:6px 4px;text-align:center}
-.sstat.h{background:#2e1515}
-.sstat.m{background:#2e2510}
-.sstat.l{background:#0f1e2e}
-.sstat-n{font-size:18px;font-weight:800;line-height:1.1}
-.sstat.h .sstat-n{color:#f87171}
-.sstat.m .sstat-n{color:#fbbf24}
-.sstat.l .sstat-n{color:#60a5fa}
-.sstat-t{font-size:9px;color:#666;margin-top:1px}
+  flex-direction:column;overflow-y:auto;overflow-x:hidden}
+.sb-logo{padding:15px 14px 11px;border-bottom:1px solid #222;
+  display:flex;align-items:center;gap:10px;flex-shrink:0}
+.sb-icon{width:30px;height:30px;background:var(--green);border-radius:50%;
+  display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.sb-name{font-size:13px;font-weight:700}
+.sb-updated{font-size:10px;color:#555;padding:5px 14px 6px;border-bottom:1px solid #1c1c1c;flex-shrink:0}
 
-/* ════════ MOBILE TOP HEADER ════════ */
-#mobile-header{
+/* ── Calendar ── */
+#cal-wrap{padding:11px 10px 8px;border-bottom:1px solid #1c1c1c;flex-shrink:0}
+.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px}
+.cal-nav{background:none;border:none;color:#666;font-size:17px;cursor:pointer;
+  padding:1px 5px;border-radius:4px;transition:color .15s;line-height:1}
+.cal-nav:hover{color:#fff}
+.cal-title{font-size:11.5px;font-weight:700;color:#bbb}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.cal-dow{text-align:center;font-size:9px;color:#444;font-weight:600;padding:2px 0}
+.cal-cell{
+  position:relative;text-align:center;padding:3px 1px;font-size:11px;
+  color:#3a3a3a;border-radius:5px;line-height:1.2;cursor:default}
+.cal-cell.has-news{color:#aaa;cursor:pointer}
+.cal-cell.has-news:hover{background:#232323}
+.cal-cell.is-today{font-weight:800;color:var(--green)}
+.cal-cell.is-sel{background:var(--green)!important;color:#fff!important;border-radius:5px}
+.cal-cell.is-sel:hover{background:var(--green-dk)!important}
+.cal-dot{display:block;font-size:8.5px;color:var(--green);font-weight:800;line-height:1.1}
+.cal-cell.is-sel .cal-dot{color:rgba(255,255,255,.75)}
+.cal-all-btn{
+  display:block;width:100%;margin-top:7px;background:none;
+  border:1px solid #252525;color:#555;font-size:11px;padding:5px 8px;
+  border-radius:6px;cursor:pointer;transition:all .15s;text-align:center}
+.cal-all-btn:hover{border-color:#444;color:#aaa}
+.cal-all-btn.active{background:var(--green);border-color:var(--green);color:#fff}
+
+/* ── Sidebar stats ── */
+.sb-stats{padding:11px 10px 12px;flex-shrink:0}
+.sb-stats-lbl{font-size:9px;color:#444;letter-spacing:.8px;text-transform:uppercase;margin-bottom:6px}
+.sb-stats-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:7px}
+.sstat{border-radius:6px;padding:6px 3px;text-align:center}
+.sstat.h{background:#1f0d0d} .sstat.m{background:#1f1807} .sstat.l{background:#09182a}
+.sstat-n{font-size:19px;font-weight:800;line-height:1}
+.sstat.h .sstat-n{color:#f87171} .sstat.m .sstat-n{color:#fbbf24} .sstat.l .sstat-n{color:#60a5fa}
+.sstat-t{font-size:9px;color:#555;margin-top:1px}
+.sb-total{text-align:center;font-size:11px;color:#555}
+.sb-total strong{color:#bbb}
+#sidebar::-webkit-scrollbar{width:3px}
+#sidebar::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:2px}
+
+/* ── Tooltip ── */
+#tt{position:fixed;z-index:9999;background:#1c1c1c;border:1px solid #2e2e2e;
+  border-radius:9px;padding:9px 12px;font-size:11px;color:#bbb;
+  pointer-events:none;opacity:0;transition:opacity .12s;min-width:130px;line-height:1.75}
+#tt.show{opacity:1}
+.tt-date{font-weight:700;color:#fff;font-size:12px;margin-bottom:2px}
+.tt-r{display:flex;justify-content:space-between;gap:14px}
+.tt-r span:last-child{font-weight:700;color:#e0e0e0}
+.tt-mkt{margin-top:4px;font-size:10px;color:#666;line-height:1.5}
+
+/* ═══════════════════════════════════════════════════════
+   MOBILE HEADER
+═══════════════════════════════════════════════════════ */
+#mobile-hd{
   position:fixed;top:0;left:0;right:0;height:var(--topbar);z-index:300;
   background:var(--green);color:#fff;
   display:flex;align-items:center;padding:0 16px;gap:10px;
-  box-shadow:0 2px 8px rgba(0,0,0,.2)}
-.mh-icon{width:28px;height:28px;background:rgba(255,255,255,.2);
-  border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:15px}
-.mh-title{font-size:15px;font-weight:700;flex:1}
-.mh-updated{font-size:10px;opacity:.75;text-align:right}
+  box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.mh-icon{width:28px;height:28px;background:rgba(255,255,255,.2);border-radius:50%;
+  display:flex;align-items:center;justify-content:center;font-size:15px}
+.mh-title{font-size:14px;font-weight:700;flex:1}
+.mh-date{font-size:10px;opacity:.75}
 
-/* ════════ MOBILE DAY TABS ════════ */
-#mobile-days{
-  position:fixed;top:var(--topbar);left:0;right:0;height:var(--daytab);z-index:299;
-  background:#fff;border-bottom:2px solid #e8e8e8;
-  display:flex;align-items:center;overflow-x:auto;gap:0;
-  scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:0 4px}
-#mobile-days::-webkit-scrollbar{display:none}
-.mday{flex-shrink:0;padding:0 14px;height:100%;
-  display:flex;flex-direction:column;align-items:center;justify-content:center;
-  cursor:pointer;border-bottom:3px solid transparent;gap:1px;min-width:64px;
-  transition:all .15s;color:#888}
-.mday.active{border-bottom-color:var(--green);color:var(--green)}
-.mday-lbl{font-size:12px;font-weight:700;line-height:1}
-.mday-cnt{font-size:10px;background:#f0f0f0;color:#aaa;
-  padding:0 6px;border-radius:99px;line-height:1.6;font-weight:600}
-.mday.active .mday-cnt{background:var(--green);color:#fff}
-
-/* ════════ FILTER / SEARCH BAR ════════ */
+/* ═══════════════════════════════════════════════════════
+   FILTER BAR
+═══════════════════════════════════════════════════════ */
 #filterbar{
-  position:fixed;z-index:290;background:rgba(242,242,237,.96);
-  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
-  border-bottom:1px solid #ddd;
-  display:flex;flex-direction:column;gap:0;padding:0 14px;
-  scrollbar-width:none}
-#filterbar::-webkit-scrollbar{display:none}
-.fbtn{font-size:12px;font-weight:700;padding:5px 13px;border-radius:99px;
-  border:1.5px solid #ddd;background:#fff;cursor:pointer;white-space:nowrap;
-  color:#666;transition:all .15s;flex-shrink:0}
-.fbtn:hover{border-color:#aaa}
-.fbtn.fa{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
-.fbtn.fh{background:var(--high-bg);color:var(--high-col);border-color:var(--high-brd)}
-.fbtn.fm{background:var(--med-bg);color:var(--med-col);border-color:var(--med-brd)}
-.fbtn.fl{background:var(--low-bg);color:var(--low-col);border-color:var(--low-brd)}
-#searchbox{flex-shrink:0;padding:6px 14px;border-radius:99px;border:1.5px solid #ddd;
-  font-size:13px;outline:none;background:#fff;min-width:0;
-  margin-left:auto;transition:border .15s}
+  position:fixed;z-index:290;
+  background:rgba(241,241,235,.97);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-bottom:1px solid #d8d8d4;
+  display:flex;flex-direction:column}
+.frow{
+  display:flex;align-items:center;gap:6px;
+  padding:7px 14px;overflow-x:auto;scrollbar-width:none}
+.frow::-webkit-scrollbar{display:none}
+.frow+.frow{border-top:1px solid #e4e4df}
+.fdiv{color:#d0d0d0;flex-shrink:0;font-size:13px;user-select:none}
+
+/* pill */
+.pill{
+  font-size:11.5px;font-weight:600;padding:4px 12px;border-radius:99px;
+  border:1.5px solid #d8d8d8;background:#fff;cursor:pointer;white-space:nowrap;
+  color:#666;transition:all .15s;flex-shrink:0;line-height:1.4}
+.pill:hover{border-color:#b0b0b0}
+.pill-date.active{background:var(--green-lt);color:var(--green-dk);border-color:var(--green-md)}
+.pill-impact.active{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.pill-high.active{background:var(--high-bg);color:var(--high);border-color:var(--high-brd)}
+.pill-med.active{background:var(--med-bg);color:var(--med);border-color:var(--med-brd)}
+.pill-low.active{background:var(--low-bg);color:var(--low);border-color:var(--low-brd)}
+.pill-bm.active{background:#fff8e1;color:#b45309;border-color:#fde68a}
+.pill-mkt.active{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+
+#searchbox{
+  flex-shrink:0;padding:5px 13px;border-radius:99px;border:1.5px solid #d8d8d8;
+  font-size:12px;outline:none;background:#fff;margin-left:auto;
+  transition:border .15s;width:170px}
 #searchbox:focus{border-color:var(--green)}
-.filter-row{display:flex;align-items:center;gap:7px;overflow-x:auto;scrollbar-width:none;padding:8px 0;width:100%}
-.filter-row::-webkit-scrollbar{display:none}
-.filter-row+.filter-row{border-top:1px solid #ebebeb;}
-.mfbtn{font-size:11.5px;font-weight:600;padding:4px 11px;border-radius:99px;border:1.5px solid #e0e0e0;background:#f8f8f8;cursor:pointer;white-space:nowrap;color:#444;transition:all .15s;flex-shrink:0}
-.mfbtn:hover{border-color:#aaa}
-.mfbtn.active{background:var(--green);color:#fff;border-color:var(--green-dark)}
 
-/* ════════ MAIN CONTENT ════════ */
-#main{padding-bottom:30px}
+/* ═══════════════════════════════════════════════════════
+   MAIN
+═══════════════════════════════════════════════════════ */
+#main{padding-bottom:48px}
 #cards{padding:12px 14px}
-.day-hd{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
-  color:#aaa;margin:4px 0 12px}
-.empty{text-align:center;color:#ccc;padding:60px 20px;font-size:14px}
 
-/* ════════ CARD ════════ */
-.card{background:#fff;border-radius:12px;border:1px solid #e8e8e8;
-  margin-bottom:11px;overflow:hidden;cursor:pointer;
-  transition:box-shadow .2s,border-color .2s;-webkit-user-select:none;user-select:none}
-.card:active{opacity:.95}
-.card.open{border-color:#c8c8c8;box-shadow:0 4px 18px rgba(0,0,0,.09)}
+.results-hd{
+  font-size:10.5px;color:#b0b0b0;font-weight:700;letter-spacing:.5px;
+  padding:2px 0 10px;display:flex;align-items:center;gap:7px}
+.results-cnt{background:#e4e4e0;color:#888;font-size:10px;font-weight:700;
+  padding:1px 8px;border-radius:99px}
 
-.c-meta{display:flex;flex-wrap:wrap;align-items:center;gap:5px;
-  padding:9px 13px 8px;background:#fafafa;border-bottom:1px solid #f0f0f0;font-size:12px}
-.c-market{font-weight:700;color:#333}
+/* Week summary */
+.week-sum{
+  background:#fff;border:1px solid #e4e4e0;border-radius:10px;
+  padding:10px 13px;margin-bottom:10px}
+.ws-hd{font-size:9.5px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;
+  color:#c0c0c0;margin-bottom:6px}
+.ws-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:5px}
+.ws-stat{font-size:12px;color:#888}
+.ws-stat strong{color:#333}
+.ws-tags{display:flex;gap:4px;flex-wrap:wrap}
+.ws-tag{font-size:10px;background:#f3f3f0;color:#777;padding:2px 7px;border-radius:4px}
+
+/* Date group header */
+.dg-hd{
+  font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;
+  color:#c0c0c0;margin:14px 0 7px;display:flex;align-items:center;gap:8px}
+.dg-hd::after{content:'';flex:1;height:1px;background:#e4e4e0}
+
+/* Empty */
+.empty{text-align:center;color:#ccc;padding:70px 20px 50px;font-size:14px;line-height:2.2}
+
+/* ═══════════════════════════════════════════════════════
+   CARD
+═══════════════════════════════════════════════════════ */
+.card{
+  background:#fff;border-radius:10px;border:1px solid #e4e4e0;
+  margin-bottom:8px;overflow:hidden;
+  transition:box-shadow .18s,border-color .18s;
+  display:flex}
+.card:hover{border-color:#c8c8c4;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.card.open{border-color:#b8b8b4;box-shadow:0 4px 16px rgba(0,0,0,.09)}
+
+/* left color bar */
+.c-bar{width:4px;flex-shrink:0;border-radius:0}
+.c-bar.high{background:var(--high-bar)}
+.c-bar.medium{background:var(--med-bar)}
+.c-bar.low{background:var(--low-bar)}
+
+.c-inner{flex:1;min-width:0}
+
+/* meta */
+.c-meta{
+  display:flex;align-items:center;gap:5px;
+  padding:8px 11px 5px;font-size:11px}
+.c-market{font-weight:700;color:#1a1a1a;font-size:11.5px}
 .c-sep{color:#ddd}
-.c-src{color:#888}
-.c-date{color:#bbb;margin-left:auto;font-size:11px}
+.c-src{color:#aaa;font-size:10.5px}
+.c-date{margin-left:auto;font-size:10.5px;color:#c0c0c0;flex-shrink:0}
+.c-bm{
+  background:none;border:none;cursor:pointer;font-size:15px;
+  padding:0 0 0 5px;line-height:1;flex-shrink:0;
+  opacity:.35;transition:opacity .15s,transform .1s}
+.c-bm:hover{opacity:.8;transform:scale(1.15)}
+.c-bm.on{opacity:1}
 
-.c-impact{display:flex;flex-wrap:wrap;align-items:center;gap:6px;
-  padding:7px 13px;border-bottom:1px solid #f5f5f5}
-.ibadge{font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:5px}
-.ibadge.high{background:var(--high-bg);color:var(--high-col)}
-.ibadge.medium{background:var(--med-bg);color:var(--med-col)}
-.ibadge.low{background:var(--low-bg);color:var(--low-col)}
-.area-sep{font-size:10px;color:#ddd}
-.atag{font-size:10.5px;background:#f3f3f3;color:#555;
-  padding:2px 7px;border-radius:4px;font-weight:500}
+/* tags */
+.c-tags{
+  display:flex;flex-wrap:wrap;align-items:center;gap:4px;
+  padding:0 11px 7px}
+.ibadge{font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;flex-shrink:0}
+.ibadge.high{background:var(--high-bg);color:var(--high)}
+.ibadge.medium{background:var(--med-bg);color:var(--med)}
+.ibadge.low{background:var(--low-bg);color:var(--low)}
+.atag{font-size:10px;background:#f3f3f0;color:#777;padding:2px 6px;border-radius:4px}
 
-.c-body{padding:11px 13px 12px}
-.c-hl-lbl{font-size:9.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:#ccc;margin-bottom:3px}
-.c-hl{font-size:15px;font-weight:700;color:var(--green);line-height:1.4;padding-right:20px;position:relative}
-.chevron{position:absolute;right:0;top:2px;font-size:14px;color:#ccc;transition:transform .2s}
-.card.open .chevron{transform:rotate(180deg)}
+/* body */
+.c-body{padding:0 11px 10px;cursor:pointer}
+.c-hl{
+  font-size:14px;font-weight:700;color:#111;line-height:1.42;
+  position:relative;padding-right:20px;
+  display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
+.c-hl.clamped{-webkit-line-clamp:2}
+.card.open .c-hl{color:var(--green);display:block}
+.chev{position:absolute;right:0;top:1px;font-size:11px;color:#ccc;transition:transform .2s}
+.card.open .chev{transform:rotate(180deg)}
 
-.c-detail{display:none;padding:0 13px 14px;border-top:1px solid #f5f5f5;margin-top:10px}
-.card.open .c-detail{display:block}
-.blbl{font-size:9.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:#ccc;margin-top:12px;margin-bottom:4px}
-.btxt{font-size:13.5px;color:#333;line-height:1.65}
-.why{background:var(--green-light);border-left:3px solid var(--green);
-  border-radius:0 7px 7px 0;padding:10px 13px;margin-top:4px}
-.why p{font-size:13px;color:#1a3d2e;line-height:1.65}
-.plist{list-style:none;padding:0;margin-top:4px}
-.plist li{font-size:13.5px;color:#333;padding:3px 0 3px 18px;position:relative;line-height:1.55}
-.plist li::before{content:'•';position:absolute;left:5px;color:var(--green);font-weight:700}
-.slinks{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
-.slink{font-size:11.5px;color:var(--green);text-decoration:none;
-  background:var(--green-light);padding:4px 10px;border-radius:5px;
-  border:1px solid #c3e6d8;transition:background .15s}
-.slink:active{background:#c3e6d8}
+/* detail */
+.c-det{display:none;padding:0 11px 12px;border-top:1px solid #f0f0ec;margin-top:8px}
+.card.open .c-det{display:block}
+.blbl{font-size:9px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;
+  color:#ccc;margin:11px 0 4px}
+.btxt{font-size:13px;color:#333;line-height:1.65}
+.why-box{
+  background:var(--green-lt);border-left:3px solid var(--green);
+  border-radius:0 7px 7px 0;padding:9px 12px}
+.why-box p{font-size:13px;color:#1a3d2e;line-height:1.65}
+.plist{list-style:none;padding:0}
+.plist li{font-size:13px;color:#333;padding:3px 0 3px 16px;position:relative;line-height:1.55}
+.plist li::before{content:'›';position:absolute;left:4px;color:var(--green);font-weight:700}
+.slinks{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
+.slink{
+  font-size:11px;color:var(--green);text-decoration:none;
+  background:var(--green-lt);padding:4px 10px;border-radius:5px;
+  border:1px solid var(--green-md);transition:background .15s;
+  display:inline-flex;align-items:center;gap:4px}
+.slink:hover{background:var(--green-md)}
 
-/* ════════ LOADING ════════ */
-#loading{position:fixed;inset:0;background:#f2f2ed;
+/* ═══════════════════════════════════════════════════════
+   LOADING
+═══════════════════════════════════════════════════════ */
+#loading{
+  position:fixed;inset:0;background:#f0f0ea;
   display:flex;flex-direction:column;align-items:center;justify-content:center;
   z-index:999;gap:14px}
-.spin{width:38px;height:38px;border:3px solid #e8e8e8;
+.spin{width:36px;height:36px;border:3px solid #e8e8e0;
   border-top-color:var(--green);border-radius:50%;animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
-.load-txt{font-size:13px;color:#aaa}
+.load-txt{font-size:12px;color:#b0b0b0}
 
-/* ════════ RESPONSIVE: DESKTOP ════════ */
+/* ═══════════════════════════════════════════════════════
+   DESKTOP
+═══════════════════════════════════════════════════════ */
 @media(min-width:768px){
-  #mobile-header,#mobile-days{display:none}
+  #mobile-hd{display:none}
   #sidebar{display:flex}
-  #filterbar{left:var(--sidebar);top:0;padding:10px 20px}
-  #main{margin-left:var(--sidebar);padding-top:96px}
-  #cards{padding:16px 20px;max-width:820px}
-  #searchbox{width:180px}
-  body{font-size:14px}
+  #filterbar{left:var(--sidebar);top:0}
+  #main{margin-left:var(--sidebar);padding-top:var(--fb)}
+  #cards{padding:14px 20px;max-width:840px}
+  #searchbox{width:185px}
 }
 
-/* ════════ RESPONSIVE: MOBILE ════════ */
+/* ═══════════════════════════════════════════════════════
+   MOBILE
+═══════════════════════════════════════════════════════ */
 @media(max-width:767px){
   #sidebar{display:none}
-  #filterbar{top:calc(var(--topbar) + var(--daytab));left:0;right:0;padding:7px 12px}
-  #main{padding-top:calc(var(--topbar) + var(--daytab) + 96px)}
-  #searchbox{width:140px;font-size:12px;padding:5px 11px}
-  .fbtn{font-size:11px;padding:4px 10px}
+  #filterbar{top:var(--topbar);left:0;right:0}
+  #main{padding-top:calc(var(--topbar) + var(--fb))}
+  #searchbox{width:130px;font-size:12px;padding:4px 10px}
+  .pill{font-size:11px;padding:3px 10px}
 }
-
-/* safe area for notch phones */
 @supports(padding:max(0px)){
-  #mobile-header{padding-left:max(16px,env(safe-area-inset-left));
+  #mobile-hd{padding-left:max(16px,env(safe-area-inset-left));
     padding-right:max(16px,env(safe-area-inset-right))}
-  #cards{padding-bottom:max(30px,env(safe-area-inset-bottom))}
+  #cards{padding-bottom:max(48px,env(safe-area-inset-bottom))}
 }
-
-/* scrollbar */
-#sidebar::-webkit-scrollbar{width:3px}
-#sidebar::-webkit-scrollbar-thumb{background:#333;border-radius:2px}
 </style>
 </head>
 <body>
 
-<!-- Loading -->
-<div id="loading">
-  <div class="spin"></div>
-  <div class="load-txt">載入新聞簡報中…</div>
-</div>
+<div id="loading"><div class="spin"></div><div class="load-txt">載入新聞簡報中…</div></div>
+
+<!-- Tooltip (calendar hover) -->
+<div id="tt"></div>
 
 <!-- Mobile header -->
-<header id="mobile-header">
+<header id="mobile-hd">
   <div class="mh-icon">☕</div>
   <div class="mh-title">SBUX 供應商簡報</div>
-  <div class="mh-updated" id="mh-updated"></div>
+  <div class="mh-date" id="mh-date"></div>
 </header>
 
-<!-- Mobile day tabs -->
-<nav id="mobile-days"></nav>
-
-<!-- Desktop sidebar -->
+<!-- Sidebar -->
 <aside id="sidebar">
   <div class="sb-logo">
-    <div class="sb-logo-row">
-      <div class="sb-icon">☕</div>
-      <div class="sb-name">SBUX 每日簡報</div>
-    </div>
+    <div class="sb-icon">☕</div>
+    <div class="sb-name">SBUX 每日簡報</div>
   </div>
-  <div class="sb-sub" id="sb-updated"></div>
-  <div class="sb-days" id="sb-days"></div>
+  <div class="sb-updated" id="sb-updated"></div>
+  <div id="cal-wrap"></div>
   <div class="sb-stats">
-    <div class="sb-stats-lbl">今日統計</div>
+    <div class="sb-stats-lbl">篩選結果統計</div>
     <div class="sb-stats-grid">
       <div class="sstat h"><div class="sstat-n" id="cnt-h">0</div><div class="sstat-t">🔥 高</div></div>
       <div class="sstat m"><div class="sstat-n" id="cnt-m">0</div><div class="sstat-t">⚠️ 中</div></div>
       <div class="sstat l"><div class="sstat-n" id="cnt-l">0</div><div class="sstat-t">ℹ️ 低</div></div>
     </div>
+    <div class="sb-total" id="sb-total"></div>
   </div>
 </aside>
 
 <!-- Filter bar -->
 <div id="filterbar">
-  <div class="filter-row">
-    <button class="fbtn fa" onclick="setFilter('all',this)">全部</button>
-    <button class="fbtn" onclick="setFilter('high',this)">🔥 高衝擊</button>
-    <button class="fbtn" onclick="setFilter('medium',this)">⚠️ 中衝擊</button>
-    <button class="fbtn" onclick="setFilter('low',this)">ℹ️ 低衝擊</button>
-    <input id="searchbox" type="search" placeholder="🔍 搜尋…" oninput="onSearch(this.value)" style="margin-left:auto">
-  </div>
-  <div class="filter-row" id="market-row"></div>
+  <div class="frow" id="frow1"></div>
+  <div class="frow" id="frow2"></div>
 </div>
 
 <!-- Main -->
-<main id="main">
-  <div id="cards"></div>
-</main>
+<main id="main"><div id="cards"></div></main>
 
 <script>
-// ── Fallback embedded data (used when opened as local file) ──────────────────
-const FALLBACK = {"lastUpdated":"2026-05-14","days":[{"date":"2026-05-14","label":"05/14","items":[{"id":"20260514-1","market":"🇺🇸 美國市場","source":"Bloomberg / Fast Company","pubDate":"2026-05-12","impact":"high","impactLabel":"🔥 高衝擊","impactAreas":["供應鏈管理","採購關係","組織重組"],"headline":"採購團隊被迫遷往納什維爾，拒絕者直接裁員","summary":"星巴克向旗下約 100 人的西雅圖採購（Sourcing）團隊發出最後通牒：遷往田納西州納什維爾並接受薪資至少 5% 降幅，否則離職。$1 億美元的新辦公室預計 2027 年正式啟用，目前員工抵制遷移意願強烈，部分已開始尋找新工作。","whyMatters":"身為全球供應商，您的採購窗口可能在未來 6–18 個月內大規模異動。西雅圖資深採購人員若選擇不遷移，現有合約關係、付款條件與年度框架協議都將需要重新對接。現在是主動確認繼任聯絡人、鞏固關係的關鍵時機。","potentialImpact":["現有採購窗口斷鏈風險高，需立即建立備用聯絡人名單","新負責人可能重新審視現有合約條件與供應商優先序","採購決策中心南移，未來可能需赴納什維爾進行關係維護"],"sourceLinks":[{"label":"Fast Company","url":"https://www.fastcompany.com/91530802/starbucks-is-asking-workers-to-move-to-nashville-its-not-going-well"},{"label":"Bloomberg","url":"https://www.bloomberg.com/news/articles/2026-04-21/starbucks-plots-big-nashville-presence-but-workers-are-resisting-relocation"}]},{"id":"20260514-2","market":"🌍 全球","source":"Supply Chain Dive","pubDate":"2026-05-14","impact":"high","impactLabel":"🔥 高衝擊","impactAreas":["供應鏈技術","AI 自動化","庫存管理"],"headline":"AI 驅動供應鏈全面升級，FY2026 全美加拿大門市上線","summary":"星巴克導入 NomadGo 電腦視覺庫存系統，盤點頻率提高 8 倍、準確率達 99%，盤點時間從 60 分鐘壓縮至 15 分鐘以內。後端以自研 Deep Brew AI 平台整合銷售、天氣、活動等數據，實現自動化補貨決策。全美及加拿大門市於 FY2026 全面部署。","whyMatters":"SBUX 的補貨邏輯已從人工預測轉向 AI 自動化。未能符合新系統數據規格的供應商，將面臨訂單延遲或被系統性排除在自動補貨清單之外的風險，直接影響銷售量。","potentialImpact":["供應商需確認是否已納入 Deep Brew 資料庫並符合數據規格","補貨前置時間（Lead Time）需配合高頻 AI 補貨節奏縮短","EDI / API 接口須升級以對應 SBUX 新供應鏈平台"],"sourceLinks":[{"label":"Supply Chain Dive","url":"https://www.supplychaindive.com/news/starbucks-inventory-counting-ai-out-of-stock/759248/"}]},{"id":"20260514-3","market":"🇨🇳 中國市場","source":"SBUX IR","pubDate":"2026-05-14","impact":"medium","impactLabel":"⚠️ 中衝擊","impactAreas":["APAC 策略","門市擴張","採購架構"],"headline":"中國合資正式完成：博裕資本持股 60%，擴張目標上看 15,000–20,000 家門市","summary":"星巴克與博裕資本完成中國業務合資交割，博裕持股 60%、星巴克保留 40% 及品牌授權。目前中國門市約 8,000 家，長期目標倍增至 15,000–20,000 家。","whyMatters":"中國採購決策主導權已移轉至合資公司。若您目前透過 SBUX 總部服務中國市場，訂單流程與採購聯絡人可能需全面重新確認。","potentialImpact":["中國採購窗口可能由合資公司獨立決策，需建立新的直接聯繫","門市倍增帶來大規模採購量成長機會，尤其對本地化供應商","客單價壓力可能轉嫁為對供應商的持續降價要求"],"sourceLinks":[{"label":"SBUX IR","url":"https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-and-Boyu-Capital-Finalize-Joint-Venture-to-Accelerate-Long-Term-Growth-in-China/default.aspx"}]},{"id":"20260514-4","market":"🌍 全球","source":"CNBC","pubDate":"2026-04-28","impact":"medium","impactLabel":"⚠️ 中衝擊","impactAreas":["財務表現","採購量預測"],"headline":"Q2 業績超預期，全年指引上調至同店銷售至少成長 5%","summary":"Q2 淨營收 $95.3 億（年增 9%），全球同店銷售 +6.2%。全年同店銷售指引從 3% 上調至至少 5%。這是 Niccol 接任以來首次雙線同步成長。","whyMatters":"SBUX 財務動能回升是供應商採購量預測的正面訊號。業績回升意味著對原物料、包裝、設備等各類供應商的需求量將隨之增加。","potentialImpact":["建議依 +5% 同店銷售增速重新調整年度備料與產能規劃","業績回升窗口有利推進新品合作提案，採購方接受度較高","FY2026 全年新增逾 2,000 家門市，帶動設備與耗材需求成長"],"sourceLinks":[{"label":"CNBC","url":"https://www.cnbc.com/2026/04/28/starbucks-sbux-q2-2026-earnings.html"}]},{"id":"20260514-5","market":"🇺🇸 北美 / 🇯🇵 日本","source":"About Starbucks","pubDate":"2026-05-12","impact":"medium","impactLabel":"⚠️ 中衝擊","impactAreas":["飲品趨勢","原料需求","APAC 策略"],"headline":"夏季菜單正式上市：熱帶蝴蝶特飲、墨西哥米漿系列","summary":"北美夏季菜單 5/12 上市，新品含 Tropical Butterfly Refresher 及 Horchata 系列。日本 Starbucks Reserve Roastery 東京同日推出夏季系列飲品與輕食。","whyMatters":"新 SKU 上市代表特定原料需求激增：蝴蝶豌豆花萃取、米漿風味、熱帶水果調味料。若您供應相關成分，需確認是否已列入備料清單。","potentialImpact":["蝴蝶豌豆花、米漿風味原料短期需求激增，供應商需確認備貨量","提前布局秋冬新品提案，把握下季菜單開發窗口","追蹤日本系列是否延伸至台灣、韓國、中國等 APAC 市場"],"sourceLinks":[{"label":"About Starbucks","url":"https://about.starbucks.com/stories/2026/starbucks-summer-menu-arrives-with-new-tropical-butterfly-refresher-and-horchata-inspired-beverages/"}]},{"id":"20260514-6","market":"🇺🇸 美國市場","source":"Axios Nashville","pubDate":"2026-05-12","impact":"low","impactLabel":"ℹ️ 低衝擊","impactAreas":["品牌策略","成本結構","ESG 風險"],"headline":"Schultz 抨擊西雅圖市府，納什維爾遷移獲 3,000 萬美元補貼","summary":"創辦人 Schultz 公開批評西雅圖市長「社會主義」立場。田納西州提供約 3,000 萬美元搬遷補貼，確認納什維爾擴張的長期性。","whyMatters":"此事件確認 SBUX 的成本重組是長期策略。低稅環境將鼓勵 SBUX 持續優化採購成本結構，間接加大對供應商的議價壓力。","potentialImpact":["SBUX 長期成本壓縮意圖明確，合約談判時需預備更強的差異化理由","Schultz 政治表態恐引發消費者分化，短期影響部分市場品牌形象","ESG 敏感度提升，供應商需留意相關合規要求變化"],"sourceLinks":[{"label":"Axios Nashville","url":"https://www.axios.com/local/nashville/2026/05/12/starbucks-state-incentives-nashville-move"}]}]}]};
+// ═══════════════════════════════════════════════════════
+// FALLBACK DATA
+// ═══════════════════════════════════════════════════════
+const FALLBACK={"lastUpdated":"2026-05-26","days":[{"date":"2026-05-26","label":"05/26","items":[{"id":"20260526-1","market":"🇰🇷 韓國市場","source":"CNBC / Al Jazeera","pubDate":"2026-05-19","impact":"high","impactLabel":"🔥 高衝擊","impactAreas":["品牌策略","ESG 風險","APAC 策略"],"headline":"韓國星巴克執行長因「坦克日」促銷踩雷遭解僱，當地抵制潮持續延燒","summary":"韓國星巴克於5月18日光州民主化運動紀念日推出以「Tank Day（坦克日）」為名的促銷活動，遭公眾強烈批評嘲諷歷史悲劇。母公司新世界集團隨即展開調查，宣布解除韓國星巴克執行長孫贞鉉及相關行銷主管職務。星巴克全球總部表示事件「非蓄意，但絕不應發生」。","whyMatters":"此事件引發韓國社會大規模抵制，短期內將衝擊韓國門市客流與銷售額，進而影響本地食材、原料及周邊供應商的採購量。高管解僱後，韓國採購決策可能進入過渡期，合約連續性存在風險。","potentialImpact":["評估韓國市場短期訂單波動風險，抵制效應可能持續數週至數月","針對韓國星巴克供應合約建立應急預案，因管理層更迭可能導致採購策略中斷","主動強化文化敏感度與 ESG 風險管理機制，提升供應商信賴度"],"sourceLinks":[{"label":"CNBC","url":"https://www.cnbc.com/2026/05/19/starbucks-korea-head-fired-after-tank-day-promotion-sparks-public-uproar.html"},{"label":"Al Jazeera","url":"https://www.aljazeera.com/economy/2026/5/19/starbucks-korea-ceo-fired-over-promotion-that-evoked-military-crackdown"}]},{"id":"20260526-2","market":"🇺🇸 美國市場","source":"about.starbucks.com","pubDate":"2026-05-19","impact":"medium","impactLabel":"⚠️ 中衝擊","impactAreas":["包裝創新","品牌策略","採購關係"],"headline":"星巴克 × Miffy 聯名商品5月19日北美正式上市，延續亞太市場熱銷模式","summary":"星巴克於5月19日在美國及加拿大門市推出 Miffy（米飛兔）聯名限量系列，涵蓋馬克杯、冷飲杯、保溫瓶、禮品卡及毛絨玩具。設計主打夏季色系，融合星巴克品牌綠與繽紛配色。","whyMatters":"聯名限量商品系列為馬克杯、保溫瓶、毛絨玩具及禮品包裝供應商帶來短期採購機會。APAC 先行、北美跟進的模式顯示亞太供應商在聯名商品中具優先合作優勢。","potentialImpact":["掌握聯名商品採購窗口，備好快速響應產能爭取核心供應商地位","APAC 供應商可爭取成為聯名系列的優先打樣製造合作方","評估跨市場同步上市的物流需求，提前佈局多市場配送能力"],"sourceLinks":[{"label":"Starbucks Official","url":"https://about.starbucks.com/stories/2026/miffy-starbucks-a-charming-new-merch-collection/"}]},{"id":"20260526-3","market":"🇺🇸 美國市場","source":"CNBC / Restaurant Dive","pubDate":"2026-05-21","impact":"high","impactLabel":"🔥 高衝擊","impactAreas":["供應鏈技術","庫存管理","採購架構"],"headline":"星巴克放棄 AI 庫存管理系統：上線僅9個月即下架，北美門市全面回歸人工盤點","summary":"星巴克宣布終止北美全線門市的 AI 自動盤點系統（NomadGo），因頻繁誤判牛奶類型或漏盤商品，系統於2025年9月上線，僅9個月便宣告停用。","whyMatters":"AI 盤點失敗意味著星巴克短期回歸人工庫存管理，可能導致補貨頻率及訂單節奏出現暫時不穩定，影響乳製品、糖漿等高頻耗材供應商的交貨預測準確性。","potentialImpact":["與採購及營運團隊溝通，了解過渡期間是否需調整安全庫存量或交貨頻率","評估因人工盤點誤差可能導致的短期訂單波動，主動提供靈活交貨方案","若具備相關技術，可向星巴克提案高精準度庫存解決方案"],"sourceLinks":[{"label":"CNBC","url":"https://www.cnbc.com/2026/05/21/starbucks-scraps-ai-inventory-tool-across-north-america.html"},{"label":"Restaurant Dive","url":"https://www.restaurantdive.com/news/Starbucks-eliminates-computer-vision-ai-inventory-system/820934/"}]},{"id":"20260526-4","market":"🇹🇼 台灣市場","source":"Focus Taiwan / Taipei Times","pubDate":"2026-05-24","impact":"medium","impactLabel":"⚠️ 中衝擊","impactAreas":["門市擴張","採購量預測","APAC 策略"],"headline":"台灣星巴克達成第600家門市里程碑，統一超商集團宣示持續擴張計劃","summary":"星巴克台灣於5月24日正式開設第600間門市「愿秀門市」，座落台北市南港區南港車站正對面。統一超商集團董事長羅智先宣示目標再拓「下一個600家」。","whyMatters":"第600家門市標誌著在地市場穩健成長，統一超商明確宣示繼續擴張，顯示台灣市場的原料、食品及包裝採購需求具長期增長潛力。","potentialImpact":["配合擴張目標提前規劃產能及原料長期供應協議","爭取成為新開幕門市或旗艦店的優先供應商","關注聯合採購模式，爭取跨品牌供應合約"],"sourceLinks":[{"label":"Focus Taiwan","url":"https://focustaiwan.tw/business/202605240008"},{"label":"Taipei Times","url":"https://www.taipeitimes.com/News/taiwan/archives/2026/05/25/2003857923"}]}]}]};
 
-// ── State ────────────────────────────────────────────────────────────────────
-let DATA = null, activeDate = '', activeFilter = 'all', activeMarket = 'all', searchQ = '';
+// ═══════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════
+const S = {
+  dateRange: '7d',   // 'today'|'7d'|'30d'|'all'|'day'
+  selDate:   '',     // active when dateRange==='day'
+  impact:    'all',  // 'all'|'high'|'medium'|'low'
+  market:    'all',  // 'all' or market string
+  search:    '',
+  bmOnly:    false,
+};
 
-// ── Boot: try fetch first, fallback to embedded ──────────────────────────────
+// Calendar navigation (0-indexed month)
+let CAL = { y: new Date().getFullYear(), m: new Date().getMonth() };
+
+// Bookmarks: Set of item IDs persisted to localStorage
+const BM = new Set(JSON.parse(localStorage.getItem('sbux_bm') || '[]'));
+const saveBM = () => localStorage.setItem('sbux_bm', JSON.stringify([...BM]));
+
+// Expanded cards: Set of item IDs
+const OPEN = new Set();
+
+let DATA = null;
+
+// ═══════════════════════════════════════════════════════
+// BOOT
+// ═══════════════════════════════════════════════════════
 (function(){
-  function init(data){
-    DATA = data;
-    activeDate = DATA.days[0]?.date || '';
-    document.getElementById('loading').style.display = 'none';
+  function init(d){
+    DATA = d;
+    if (DATA.days.length){
+      const dt = new Date(DATA.days[0].date+'T00:00:00');
+      CAL.y = dt.getFullYear(); CAL.m = dt.getMonth();
+    }
+    document.getElementById('loading').style.display='none';
     renderAll();
   }
-
-  if (location.protocol.startsWith('http')) {
-    fetch('./sbux_news_data.json?v=' + Date.now())
-      .then(r => r.json())
-      .then(init)
-      .catch(() => init(FALLBACK));
+  if(location.protocol.startsWith('http')){
+    fetch('./sbux_news_data.json?v='+Date.now()).then(r=>r.json()).then(init).catch(()=>init(FALLBACK));
   } else {
-    setTimeout(() => init(FALLBACK), 400); // slight delay for nicer UX
+    setTimeout(()=>init(FALLBACK), 350);
   }
 })();
 
-// ── Render all ───────────────────────────────────────────────────────────────
-function renderAll(){
-  renderSidebar();
-  renderMobileHeader();
-  renderMobileDays();
-  renderMarketBar();
-  renderCards();
+// ═══════════════════════════════════════════════════════
+// DATA HELPERS
+// ═══════════════════════════════════════════════════════
+function allItems(){
+  return DATA.days.flatMap(d => d.items.map(it => ({...it, _date: d.date})));
 }
 
-// ── Desktop sidebar ──────────────────────────────────────────────────────────
+function newsDateMap(){
+  const m={};
+  DATA.days.forEach(d=>{
+    m[d.date]={
+      total: d.items.length,
+      high:  d.items.filter(i=>i.impact==='high').length,
+      markets: [...new Set(d.items.map(i=>i.market))]
+    };
+  });
+  return m;
+}
+
+function filteredItems(){
+  const today = DATA.lastUpdated;
+  const todayDt = new Date(today+'T00:00:00');
+
+  return allItems().filter(it=>{
+    // ── Date range ──
+    const itemDt = new Date(it._date+'T00:00:00');
+    const ageDays = (todayDt - itemDt) / 86400000;
+    if(S.dateRange==='today' && it._date!==today) return false;
+    if(S.dateRange==='7d'   && (ageDays<0||ageDays>=7)) return false;
+    if(S.dateRange==='30d'  && (ageDays<0||ageDays>=30)) return false;
+    if(S.dateRange==='day'  && it._date!==S.selDate) return false;
+    // ── Impact ──
+    if(S.impact!=='all' && it.impact!==S.impact) return false;
+    // ── Market ──
+    if(S.market!=='all' && it.market!==S.market) return false;
+    // ── Bookmark ──
+    if(S.bmOnly && !BM.has(it.id)) return false;
+    // ── Search ──
+    if(S.search){
+      const q=S.search.toLowerCase();
+      const hay=[
+        it.headline, it.summary, it.market, it.source,
+        it.impactLabel, it.whyMatters||'',
+        ...(it.impactAreas||[]), ...(it.potentialImpact||[])
+      ].join(' ').toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function weekStart(dateStr){
+  const d=new Date(dateStr+'T00:00:00');
+  const day=d.getDay(); // 0=Sun
+  const diff = day===0 ? -6 : 1-day;
+  const m=new Date(d); m.setDate(d.getDate()+diff);
+  return m.toISOString().slice(0,10);
+}
+
+function topTags(items,n=5){
+  const freq={};
+  items.forEach(it=>(it.impactAreas||[]).forEach(a=>{freq[a]=(freq[a]||0)+1;}));
+  return Object.entries(freq).sort((a,b)=>b[1]-a[1]).slice(0,n).map(e=>e[0]);
+}
+
+// ═══════════════════════════════════════════════════════
+// RENDER ORCHESTRATION
+// ═══════════════════════════════════════════════════════
+function renderAll(){ renderHeader(); renderSidebar(); renderFilterBar(); renderCards(); }
+function refreshFilters(){ renderSidebar(); renderFilterBar(); renderCards(); }
+
+// ═══════════════════════════════════════════════════════
+// HEADER
+// ═══════════════════════════════════════════════════════
+function renderHeader(){
+  document.getElementById('mh-date').textContent = DATA.lastUpdated;
+}
+
+// ═══════════════════════════════════════════════════════
+// SIDEBAR
+// ═══════════════════════════════════════════════════════
 function renderSidebar(){
   document.getElementById('sb-updated').textContent = '最後更新：' + DATA.lastUpdated;
-  const wrap = document.getElementById('sb-days');
-  wrap.innerHTML = DATA.days.map(d => {
-    const active = d.date === activeDate;
-    const label = formatDateLabel(d.date, DATA.lastUpdated);
-    return `<div class="sb-day${active?' active':''}" onclick="setDay('${d.date}')">
-      <div><div class="sb-day-name">${label}</div></div>
-      <span class="sb-day-cnt">${d.items.length}</span>
-    </div>`;
-  }).join('');
+  renderCalendar();
   updateStats();
 }
 
-// ── Mobile header ────────────────────────────────────────────────────────────
-function renderMobileHeader(){
-  document.getElementById('mh-updated').textContent = DATA.lastUpdated;
-}
+function renderCalendar(){
+  const ndm = newsDateMap();
+  const today = DATA.lastUpdated;
+  const {y,m} = CAL;
+  const firstDOW = new Date(y,m,1).getDay(); // 0=Sun
+  const dim = new Date(y,m+1,0).getDate();
+  const MONTHS=['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+  const DOWS=['日','一','二','三','四','五','六'];
 
-// ── Mobile day tabs ──────────────────────────────────────────────────────────
-function renderMobileDays(){
-  const nav = document.getElementById('mobile-days');
-  nav.innerHTML = DATA.days.map(d => {
-    const active = d.date === activeDate;
-    const label = formatDateLabel(d.date, DATA.lastUpdated);
-    return `<div class="mday${active?' active':''}" onclick="setDay('${d.date}')">
-      <div class="mday-lbl">${label}</div>
-      <div class="mday-cnt">${d.items.length}</div>
-    </div>`;
-  }).join('');
-}
+  let h=`<div class="cal-head">
+    <button class="cal-nav" onclick="calPrev()">‹</button>
+    <span class="cal-title">${y}年 ${MONTHS[m]}</span>
+    <button class="cal-nav" onclick="calNext()">›</button>
+  </div>
+  <div class="cal-grid">
+    ${DOWS.map(d=>`<div class="cal-dow">${d}</div>`).join('')}`;
 
-// ── Stats ────────────────────────────────────────────────────────────────────
-function updateStats(){
-  const day = DATA.days.find(d => d.date === activeDate);
-  const items = day ? day.items : [];
-  document.getElementById('cnt-h').textContent = items.filter(i=>i.impact==='high').length;
-  document.getElementById('cnt-m').textContent = items.filter(i=>i.impact==='medium').length;
-  document.getElementById('cnt-l').textContent = items.filter(i=>i.impact==='low').length;
-}
+  for(let i=0;i<firstDOW;i++) h+='<div class="cal-cell"></div>';
 
-// ── Cards ────────────────────────────────────────────────────────────────────
-function renderCards(){
-  const day = DATA.days.find(d => d.date === activeDate);
-  const wrap = document.getElementById('cards');
-  if (!day) { wrap.innerHTML='<div class="empty">暫無資料</div>'; return; }
-
-  let items = day.items;
-  if (activeFilter !== 'all') items = items.filter(i => i.impact === activeFilter);
-  if (activeMarket !== 'all') items = items.filter(i => i.market === activeMarket);
-  if (searchQ) {
-    const q = searchQ.toLowerCase();
-    items = items.filter(i =>
-      i.headline.toLowerCase().includes(q) ||
-      i.summary.toLowerCase().includes(q) ||
-      i.market.toLowerCase().includes(q) ||
-      (i.impactAreas||[]).some(a=>a.toLowerCase().includes(q))
-    );
+  for(let day=1;day<=dim;day++){
+    const mm=String(m+1).padStart(2,'0'), dd=String(day).padStart(2,'0');
+    const ds=`${y}-${mm}-${dd}`;
+    const info=ndm[ds];
+    const isSel=(S.dateRange==='day'&&S.selDate===ds);
+    const isToday=(ds===today);
+    let cls='cal-cell'+(info?' has-news':'')+(isToday?' is-today':'')+(isSel?' is-sel':'');
+    const dot=info?`<span class="cal-dot">${info.total}</span>`:'';
+    const attrs=info
+      ?`data-date="${ds}" onclick="calDay('${ds}')" onmouseenter="showTT(event,'${ds}')" onmouseleave="hideTT()"`
+      :`data-date="${ds}"`;
+    h+=`<div class="${cls}" ${attrs}>${day}${dot}</div>`;
   }
+  h+='</div>';
+  const allActive=(S.dateRange!=='day');
+  h+=`<button class="cal-all-btn${allActive?' active':''}" onclick="calAll()">顯示全部日期</button>`;
+  document.getElementById('cal-wrap').innerHTML=h;
+}
 
-  const dateObj = new Date(day.date+'T00:00:00');
-  const isToday = day.date === DATA.lastUpdated;
-  const m = (dateObj.getMonth()+1).toString().padStart(2,'0');
-  const d2 = dateObj.getDate().toString().padStart(2,'0');
-  const hd = (isToday ? '今天・' : '') + dateObj.getFullYear() + ' / ' + m + ' / ' + d2;
+function updateStats(){
+  const items=filteredItems();
+  document.getElementById('cnt-h').textContent=items.filter(i=>i.impact==='high').length;
+  document.getElementById('cnt-m').textContent=items.filter(i=>i.impact==='medium').length;
+  document.getElementById('cnt-l').textContent=items.filter(i=>i.impact==='low').length;
+  document.getElementById('sb-total').innerHTML=`共 <strong>${items.length}</strong> 則新聞`;
+}
 
-  if (!items.length){
-    wrap.innerHTML = `<div class="day-hd">${hd}</div><div class="empty">此篩選條件下無新聞</div>`;
+// Calendar interactions
+function calPrev(){ CAL.m--; if(CAL.m<0){CAL.m=11;CAL.y--;} renderCalendar(); }
+function calNext(){ CAL.m++; if(CAL.m>11){CAL.m=0;CAL.y++;} renderCalendar(); }
+function calDay(ds){ S.dateRange='day'; S.selDate=ds; refreshFilters(); }
+function calAll(){ S.dateRange='7d'; S.selDate=''; refreshFilters(); }
+
+// Tooltip
+const TTel=document.getElementById('tt');
+function showTT(e,ds){
+  const ndm=newsDateMap(), info=ndm[ds];
+  if(!info) return;
+  const d=new Date(ds+'T00:00:00');
+  TTel.innerHTML=`
+    <div class="tt-date">${d.getMonth()+1}月${d.getDate()}日</div>
+    <div class="tt-r"><span>總計</span><span>${info.total} 則</span></div>
+    <div class="tt-r"><span>🔥 高衝擊</span><span>${info.high} 則</span></div>
+    <div class="tt-mkt">${info.markets.slice(0,4).join('<br>')}</div>`;
+  TTel.classList.add('show');
+  moveTT(e);
+}
+function hideTT(){ TTel.classList.remove('show'); }
+function moveTT(e){
+  TTel.style.left=Math.min(e.clientX+14,window.innerWidth-155)+'px';
+  TTel.style.top=Math.min(e.clientY+10,window.innerHeight-130)+'px';
+}
+document.addEventListener('mousemove',e=>{ if(TTel.classList.contains('show')) moveTT(e); });
+
+// ═══════════════════════════════════════════════════════
+// FILTER BAR
+// ═══════════════════════════════════════════════════════
+// Market map: numeric key → market string (avoids special chars in onclick)
+const MKT={};
+function renderFilterBar(){
+  renderRow1(); renderRow2();
+}
+
+function renderRow1(){
+  const dates=[
+    {k:'today',l:'今天'},{k:'7d',l:'7天內'},{k:'30d',l:'30天'},{k:'all',l:'全部'}
+  ];
+  if(S.dateRange==='day'){
+    const d=new Date(S.selDate+'T00:00:00');
+    dates.push({k:'day',l:`📅 ${d.getMonth()+1}/${d.getDate()}`});
+  }
+  const dPills=dates.map(r=>`<button class="pill pill-date${S.dateRange===r.k?' active':''}" onclick="setDate('${r.k}')">${r.l}</button>`).join('');
+
+  const impacts=[
+    {k:'all',l:'全部衝擊',c:'pill-impact'},
+    {k:'high',l:'🔥 高',c:'pill-high'},
+    {k:'medium',l:'⚠️ 中',c:'pill-med'},
+    {k:'low',l:'ℹ️ 低',c:'pill-low'}
+  ];
+  const iPills=impacts.map(r=>`<button class="pill ${r.c}${S.impact===r.k?' active':''}" onclick="setImpact('${r.k}')">${r.l}</button>`).join('');
+
+  document.getElementById('frow1').innerHTML=`
+    ${dPills}
+    <span class="fdiv">|</span>
+    ${iPills}
+    <span class="fdiv">|</span>
+    <button class="pill pill-bm${S.bmOnly?' active':''}" onclick="toggleBmOnly()">⭐ 收藏</button>
+    <input id="searchbox" type="search" placeholder="🔍 搜尋…" autocomplete="off"
+      value="${esc(S.search)}" oninput="onSearch(this.value)">`;
+}
+
+function renderRow2(){
+  const markets=[...new Set(allItems().map(i=>i.market))].sort();
+  let idx=0;
+  markets.forEach((m,i)=>{ MKT[i]=m; });
+  const allBtn=`<button class="pill pill-mkt${S.market==='all'?' active':''}" onclick="setMkt(-1)">🌐 全部市場</button>`;
+  const mBtns=markets.map((m,i)=>`<button class="pill pill-mkt${S.market===m?' active':''}" onclick="setMkt(${i})">${m}</button>`).join('');
+  document.getElementById('frow2').innerHTML=allBtn+mBtns;
+}
+
+// ═══════════════════════════════════════════════════════
+// CARDS
+// ═══════════════════════════════════════════════════════
+function renderCards(){
+  const items=filteredItems();
+  updateStats();
+  const wrap=document.getElementById('cards');
+
+  if(!items.length){
+    wrap.innerHTML='<div class="empty">☕ 此條件下無相關新聞<br><span style="font-size:12px;color:#d0d0d0">請嘗試調整篩選條件或日期範圍</span></div>';
     return;
   }
-  wrap.innerHTML = `<div class="day-hd">${hd}</div>` + items.map(cardHTML).join('');
-  updateStats();
+
+  // Group by date, sort descending
+  const byDate={};
+  items.forEach(it=>{ (byDate[it._date]||(byDate[it._date]=[])).push(it); });
+  const dates=Object.keys(byDate).sort((a,b)=>b.localeCompare(a));
+  const today=DATA.lastUpdated;
+  const showWeeks=(S.dateRange==='30d'||S.dateRange==='all')&&dates.length>3;
+
+  let html=`<div class="results-hd">篩選結果 <span class="results-cnt">${items.length} 則</span></div>`;
+
+  if(showWeeks){
+    // Group dates by ISO week (Mon-Sun)
+    const byWeek={};
+    dates.forEach(ds=>{ const wk=weekStart(ds); (byWeek[wk]||(byWeek[wk]=[])).push(ds); });
+    const wks=Object.keys(byWeek).sort((a,b)=>b.localeCompare(a));
+    wks.forEach(wk=>{
+      const wDates=byWeek[wk];
+      const wItems=wDates.flatMap(d=>byDate[d]);
+      const wEnd=new Date(wk+'T00:00:00'); wEnd.setDate(wEnd.getDate()+6);
+      const wLbl=`${wk.slice(5)} ~ ${String(wEnd.getMonth()+1).padStart(2,'0')}/${String(wEnd.getDate()).padStart(2,'0')}`;
+      const hi=wItems.filter(i=>i.impact==='high').length;
+      const mkts=[...new Set(wItems.map(i=>i.market))];
+      const tags=topTags(wItems);
+      html+=`<div class="week-sum">
+        <div class="ws-hd">週彙整 · ${wLbl}</div>
+        <div class="ws-row">
+          <div class="ws-stat">共 <strong>${wItems.length}</strong> 則</div>
+          <div class="ws-stat">🔥 <strong>${hi}</strong> 高衝擊</div>
+          <div class="ws-stat" style="color:#aaa">${mkts.slice(0,3).join(' · ')}</div>
+        </div>
+        <div class="ws-tags">${tags.map(t=>`<span class="ws-tag">${t}</span>`).join('')}</div>
+      </div>`;
+      wDates.forEach(ds=>{ html+=dateGroup(ds,byDate[ds],today); });
+    });
+  } else {
+    dates.forEach(ds=>{ html+=dateGroup(ds,byDate[ds],today); });
+  }
+
+  wrap.innerHTML=html;
+}
+
+function dateGroup(ds,items,today){
+  const d=new Date(ds+'T00:00:00');
+  const isToday=(ds===today);
+  const lbl=(isToday?'今天 · ':'')+`${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`;
+  let h=`<div class="dg-hd">${lbl}</div>`;
+  items.forEach(it=>{ h+=cardHTML(it); });
+  return h;
 }
 
 function cardHTML(it){
-  const areas = (it.impactAreas||[]).map(a=>`<span class="atag">${a}</span>`).join('');
-  const impacts = (it.potentialImpact||[]).map(p=>`<li>${p}</li>`).join('');
-  const sources = (it.sourceLinks||[]).map(s=>
-    `<a class="slink" href="${s.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">📰 ${s.label}</a>`
-  ).join('');
-  return `<div class="card" id="c-${it.id}" onclick="toggleCard('${it.id}')">
-  <div class="c-meta">
-    <span class="c-market">${it.market}</span><span class="c-sep">|</span>
-    <span class="c-src">${it.source}</span><span class="c-date">${it.pubDate}</span>
-  </div>
-  <div class="c-impact">
-    <span class="ibadge ${it.impact}">${it.impactLabel}</span>
-    <span class="area-sep">影響範疇：</span>${areas}
-  </div>
-  <div class="c-body">
-    <div class="c-hl-lbl">標題</div>
-    <div class="c-hl">${it.headline}<span class="chevron">▾</span></div>
-    <div class="c-detail">
-      <div class="blbl">摘要</div><div class="btxt">${it.summary}</div>
-      <div class="blbl">為什麼重要</div>
-      <div class="why"><p>${it.whyMatters}</p></div>
-      <div class="blbl">潛在影響</div>
-      <ul class="plist">${impacts}</ul>
-      <div class="slinks">${sources}</div>
+  const isOpen=OPEN.has(it.id);
+  const isBM=BM.has(it.id);
+  const areas=(it.impactAreas||[]).map(a=>`<span class="atag">${a}</span>`).join('');
+  // Detail only rendered if open (lazy)
+  const det=isOpen?detailHTML(it):'';
+  return `<div class="card${isOpen?' open':''}" id="c-${it.id}">
+  <div class="c-bar ${it.impact}"></div>
+  <div class="c-inner">
+    <div class="c-meta">
+      <span class="c-market">${it.market}</span>
+      <span class="c-sep">·</span>
+      <span class="c-src">${it.source}</span>
+      <span class="c-date">${it.pubDate}</span>
+      <button class="c-bm${isBM?' on':''}" onclick="toggleBM(event,'${it.id}')" title="${isBM?'移除收藏':'加入收藏'}">${isBM?'⭐':'☆'}</button>
+    </div>
+    <div class="c-tags">
+      <span class="ibadge ${it.impact}">${it.impactLabel}</span>
+      ${areas}
+    </div>
+    <div class="c-body" onclick="toggleCard('${it.id}')">
+      <div class="c-hl${isOpen?'':' clamped'}">${esc(it.headline)}<span class="chev">▾</span></div>
+      <div class="c-det">${det}</div>
     </div>
   </div>
 </div>`;
 }
 
-// ── Interactions ─────────────────────────────────────────────────────────────
+function detailHTML(it){
+  const impacts=(it.potentialImpact||[]).map(p=>`<li>${p}</li>`).join('');
+  const sources=(it.sourceLinks||[]).map(s=>
+    `<a class="slink" href="${s.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">📰 ${s.label}</a>`
+  ).join('');
+  return `<div class="blbl">摘要</div>
+    <div class="btxt">${it.summary}</div>
+    <div class="blbl">為什麼對供應商重要</div>
+    <div class="why-box"><p>${it.whyMatters}</p></div>
+    <div class="blbl">潛在影響與建議</div>
+    <ul class="plist">${impacts}</ul>
+    <div class="slinks">${sources}</div>`;
+}
+
+// ═══════════════════════════════════════════════════════
+// INTERACTIONS
+// ═══════════════════════════════════════════════════════
 function toggleCard(id){
-  document.getElementById('c-'+id)?.classList.toggle('open');
-}
-function setDay(date){
-  activeDate = date;
-  activeMarket = 'all';
-  renderSidebar();
-  renderMobileDays();
-  renderMarketBar();
-  renderCards();
-  document.getElementById('cards').scrollIntoView({behavior:'smooth',block:'start'});
-}
-function setFilter(f, btn){
-  activeFilter = f;
-  document.querySelectorAll('.fbtn').forEach(b => b.className='fbtn');
-  const cls = {all:'fa',high:'fh',medium:'fm',low:'fl'}[f];
-  btn.className = 'fbtn ' + cls;
-  renderCards();
-}
-function onSearch(v){ searchQ=v.trim(); renderCards(); }
-
-
-function renderMarketBar(){
-  const day = DATA.days.find(d => d.date === activeDate);
-  const row = document.getElementById('market-row');
-  if (!row) return;
-  if (!day) { row.innerHTML = ''; return; }
-  const markets = [...new Set(day.items.map(i => i.market))];
-  const allActive = activeMarket === 'all';
-  const allBtn = `<button class="mfbtn${allActive?' active':''}" data-market="all" onclick="setMarket(this)">🌐 全部市場</button>`;
-  const mBtns = markets.map(m => {
-    const safe = m.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
-    return `<button class="mfbtn${activeMarket===m?' active':''}" data-market="${safe}" onclick="setMarket(this)">${m}</button>`;
-  }).join('');
-  row.innerHTML = allBtn + mBtns;
+  const el=document.getElementById('c-'+id);
+  if(!el) return;
+  if(OPEN.has(id)){
+    OPEN.delete(id);
+    el.classList.remove('open');
+    el.querySelector('.c-hl').classList.add('clamped');
+    el.querySelector('.c-det').style.display='none';
+  } else {
+    OPEN.add(id);
+    el.classList.add('open');
+    el.querySelector('.c-hl').classList.remove('clamped');
+    // Lazy-load detail
+    const det=el.querySelector('.c-det');
+    if(!det.innerHTML.trim()){
+      const it=allItems().find(i=>i.id===id);
+      if(it) det.innerHTML=detailHTML(it);
+    }
+    det.style.display='block';
+    // Smooth scroll into view on mobile
+    if(window.innerWidth<768) setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'nearest'}),100);
+  }
 }
 
-function setMarket(btn){
-  activeMarket = btn.dataset.market || 'all';
-  document.querySelectorAll('.mfbtn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  renderCards();
+function toggleBM(e,id){
+  e.stopPropagation();
+  BM.has(id)?BM.delete(id):BM.add(id);
+  saveBM();
+  const btn=e.currentTarget, on=BM.has(id);
+  btn.textContent=on?'⭐':'☆';
+  btn.classList.toggle('on',on);
+  btn.title=on?'移除收藏':'加入收藏';
+  if(S.bmOnly) renderCards();
 }
 
-// ── Helpers ──────────────────────────────────────────────────────────────────
-function formatDateLabel(date, latest){
-  if (date === latest) return '今天';
-  const d = new Date(date+'T00:00:00');
-  return (d.getMonth()+1).toString().padStart(2,'0') + '/' + d.getDate().toString().padStart(2,'0');
+function toggleBmOnly(){ S.bmOnly=!S.bmOnly; refreshFilters(); }
+function setDate(k){ if(k!=='day') S.selDate=''; S.dateRange=k; refreshFilters(); }
+function setImpact(v){ S.impact=v; refreshFilters(); }
+function setMkt(i){ S.market=(i===-1?'all':MKT[i]||'all'); refreshFilters(); }
+function onSearch(v){ S.search=v.trim(); renderCards(); updateStats(); }
+
+// ═══════════════════════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════════════════════
+function esc(s=''){
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 </script>
 </body>
