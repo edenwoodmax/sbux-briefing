@@ -16,7 +16,7 @@
   --high:#c0392b; --high-bg:#fff0f0; --high-brd:#f5c6cb; --high-bar:#e74c3c;
   --med:#b7770d;  --med-bg:#fffbec;  --med-brd:#fde68a;  --med-bar:#f39c12;
   --low:#1a6fa8;  --low-bg:#eef6fd;  --low-brd:#bee3f8;  --low-bar:#3498db;
-  --sidebar:244px; --topbar:54px; --fb:88px;
+  --sidebar:244px; --topbar:54px; --fb:96px;
   color-scheme:light;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
@@ -106,9 +106,10 @@ button{font-family:inherit}
    FILTER BAR
 ═══════════════════════════════════════════════════════ */
 #filterbar{
-  position:fixed;z-index:290;
-  background:rgba(241,241,235,.97);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
-  border-bottom:1px solid #d8d8d4;
+  position:fixed;z-index:500;
+  background:#f1f1eb;
+  border-bottom:1px solid #c8c8c2;
+  box-shadow:0 2px 8px rgba(0,0,0,.08);
   display:flex;flex-direction:column}
 .frow{
   display:flex;align-items:center;gap:6px;
@@ -140,7 +141,7 @@ button{font-family:inherit}
 /* ═══════════════════════════════════════════════════════
    MAIN
 ═══════════════════════════════════════════════════════ */
-#main{padding-bottom:48px}
+#main{padding-bottom:48px;isolation:isolate}
 #cards{padding:12px 14px}
 
 .results-hd{
@@ -742,3 +743,4 @@ function esc(s=''){
 </script>
 </body>
 </html>
+                  
