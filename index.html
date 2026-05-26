@@ -286,6 +286,11 @@ button{font-family:inherit}
     padding-right:max(16px,env(safe-area-inset-right))}
   #cards{padding-bottom:max(48px,env(safe-area-inset-bottom))}
 }
+
+  /* ── Date-picker ── */
+  #date-picker{border:1.5px solid #00704A;border-radius:20px;padding:3px 12px;font-size:12px;color:#00704A;background:#f0f8f4;cursor:pointer;outline:none;height:28px;vertical-align:middle;flex-shrink:0;}
+  #date-picker:focus{border-color:#005239;box-shadow:0 0 0 2px rgba(0,112,74,.2);}
+  @media(max-width:767px){#date-picker{width:100%;margin-top:6px;box-sizing:border-box;}}
 </style>
 </head>
 <body>
@@ -517,6 +522,12 @@ function updateStats(){
 function calPrev(){ CAL.m--; if(CAL.m<0){CAL.m=11;CAL.y--;} renderCalendar(); }
 function calNext(){ CAL.m++; if(CAL.m>11){CAL.m=0;CAL.y++;} renderCalendar(); }
 function calDay(ds){ S.dateRange='day'; S.selDate=ds; refreshFilters(); }
+function onDatePick(val){
+  if(!val) return;
+  var found = DATA.days.find(function(d){ return d.date===val; });
+  if(found){ calDay(val); }
+  else { alert('\u26a0\ufe0f \u8a72\u65e5\uff08'+val+'\uff09\u7121\u8cc7\u6599\uff0c\u8acb\u9078\u64c7\u5176\u4ed6\u65e5\u671f\u3002'); }
+}
 function calAll(){ S.dateRange='7d'; S.selDate=''; refreshFilters(); }
 
 // Tooltip
@@ -574,7 +585,10 @@ function renderRow1(){
     <span class="fdiv">|</span>
     <button class="pill pill-bm${S.bmOnly?' active':''}" onclick="toggleBmOnly()">⭐ 收藏</button>
     <input id="searchbox" type="search" placeholder="🔍 搜尋…" autocomplete="off"
-      value="${esc(S.search)}" oninput="onSearch(this.value)">`;
+      value="${esc(S.search)}" oninput="onSearch(this.value)">
+    <input type="date" id="date-picker" title="\u8df3\u8f49\u5230\u6307\u5b9a\u65e5\u671f"
+      value="${S.dateRange==='day'?S.selDate:''}"
+      onchange="onDatePick(this.value)">`;
 }
 
 function renderRow2(){
