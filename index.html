@@ -16,17 +16,17 @@
   --high:#c0392b; --high-bg:#fff0f0; --high-brd:#f5c6cb; --high-bar:#e74c3c;
   --med:#b7770d;  --med-bg:#fffbec;  --med-brd:#fde68a;  --med-bar:#f39c12;
   --low:#1a6fa8;  --low-bg:#eef6fd;  --low-brd:#bee3f8;  --low-bar:#3498db;
-  --sidebar:244px; --topbar:54px; --fb:96px;
+  --sidebar:244px; --topbar:60px; --fb:96px; --bottomnav:60px;
   color-scheme:light;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{height:100%}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang TC','Noto Sans TC',sans-serif;
   background:#f0f0ea;color:#1a1a1a;font-size:14px;line-height:1.6;overscroll-behavior:none}
-button{font-family:inherit}
+button{font-family:inherit;cursor:pointer}
 
 /* ═══════════════════════════════════════════════════════
-   SIDEBAR
+   SIDEBAR (desktop)
 ═══════════════════════════════════════════════════════ */
 #sidebar{
   display:none; width:var(--sidebar); background:#141414; color:#fff;
@@ -38,18 +38,15 @@ button{font-family:inherit}
   display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
 .sb-name{font-size:13px;font-weight:700}
 .sb-updated{font-size:10px;color:#555;padding:5px 14px 6px;border-bottom:1px solid #1c1c1c;flex-shrink:0}
-
-/* ── Calendar ── */
 #cal-wrap{padding:11px 10px 8px;border-bottom:1px solid #1c1c1c;flex-shrink:0}
 .cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px}
-.cal-nav{background:none;border:none;color:#666;font-size:17px;cursor:pointer;
+.cal-nav{background:none;border:none;color:#666;font-size:17px;
   padding:1px 5px;border-radius:4px;transition:color .15s;line-height:1}
 .cal-nav:hover{color:#fff}
 .cal-title{font-size:11.5px;font-weight:700;color:#bbb}
 .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
 .cal-dow{text-align:center;font-size:9px;color:#444;font-weight:600;padding:2px 0}
-.cal-cell{
-  position:relative;text-align:center;padding:3px 1px;font-size:11px;
+.cal-cell{position:relative;text-align:center;padding:3px 1px;font-size:11px;
   color:#3a3a3a;border-radius:5px;line-height:1.2;cursor:default}
 .cal-cell.has-news{color:#aaa;cursor:pointer}
 .cal-cell.has-news:hover{background:#232323}
@@ -58,28 +55,23 @@ button{font-family:inherit}
 .cal-cell.is-sel:hover{background:var(--green-dk)!important}
 .cal-dot{display:block;font-size:8.5px;color:var(--green);font-weight:800;line-height:1.1}
 .cal-cell.is-sel .cal-dot{color:rgba(255,255,255,.75)}
-.cal-all-btn{
-  display:block;width:100%;margin-top:7px;background:none;
+.cal-all-btn{display:block;width:100%;margin-top:7px;background:none;
   border:1px solid #252525;color:#555;font-size:11px;padding:5px 8px;
-  border-radius:6px;cursor:pointer;transition:all .15s;text-align:center}
+  border-radius:6px;transition:all .15s;text-align:center}
 .cal-all-btn:hover{border-color:#444;color:#aaa}
 .cal-all-btn.active{background:var(--green);border-color:var(--green);color:#fff}
-
-/* ── Sidebar stats ── */
 .sb-stats{padding:11px 10px 12px;flex-shrink:0}
 .sb-stats-lbl{font-size:9px;color:#444;letter-spacing:.8px;text-transform:uppercase;margin-bottom:6px}
 .sb-stats-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;margin-bottom:7px}
 .sstat{border-radius:6px;padding:6px 3px;text-align:center}
-.sstat.h{background:#1f0d0d} .sstat.m{background:#1f1807} .sstat.l{background:#09182a}
+.sstat.h{background:#1f0d0d}.sstat.m{background:#1f1807}.sstat.l{background:#09182a}
 .sstat-n{font-size:19px;font-weight:800;line-height:1}
-.sstat.h .sstat-n{color:#f87171} .sstat.m .sstat-n{color:#fbbf24} .sstat.l .sstat-n{color:#60a5fa}
+.sstat.h .sstat-n{color:#f87171}.sstat.m .sstat-n{color:#fbbf24}.sstat.l .sstat-n{color:#60a5fa}
 .sstat-t{font-size:9px;color:#555;margin-top:1px}
 .sb-total{text-align:center;font-size:11px;color:#555}
 .sb-total strong{color:#bbb}
 #sidebar::-webkit-scrollbar{width:3px}
 #sidebar::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:2px}
-
-/* ── Tooltip ── */
 #tt{position:fixed;z-index:9999;background:#1c1c1c;border:1px solid #2e2e2e;
   border-radius:9px;padding:9px 12px;font-size:11px;color:#bbb;
   pointer-events:none;opacity:0;transition:opacity .12s;min-width:130px;line-height:1.75}
@@ -90,20 +82,33 @@ button{font-family:inherit}
 .tt-mkt{margin-top:4px;font-size:10px;color:#666;line-height:1.5}
 
 /* ═══════════════════════════════════════════════════════
-   MOBILE HEADER
+   MOBILE HEADER  (improved: 2-row)
 ═══════════════════════════════════════════════════════ */
 #mobile-hd{
-  position:fixed;top:0;left:0;right:0;height:var(--topbar);z-index:300;
+  position:fixed;top:0;left:0;right:0;z-index:300;
   background:var(--green);color:#fff;
-  display:flex;align-items:center;padding:0 16px;gap:10px;
-  box-shadow:0 2px 10px rgba(0,0,0,.2)}
-.mh-icon{width:28px;height:28px;background:rgba(255,255,255,.2);border-radius:50%;
-  display:flex;align-items:center;justify-content:center;font-size:15px}
-.mh-title{font-size:14px;font-weight:700;flex:1}
-.mh-date{font-size:10px;opacity:.75}
+  display:flex;align-items:center;
+  padding:0 16px;
+  padding-top:env(safe-area-inset-top);
+  height:calc(var(--topbar) + env(safe-area-inset-top));
+  gap:11px;
+  box-shadow:0 1px 0 rgba(0,0,0,.12)}
+.mh-icon{
+  width:32px;height:32px;flex-shrink:0;
+  background:rgba(255,255,255,.18);border-radius:50%;
+  display:flex;align-items:center;justify-content:center;font-size:16px}
+.mh-info{flex:1;min-width:0}
+.mh-title{font-size:15px;font-weight:700;letter-spacing:-.2px}
+.mh-sub{font-size:10.5px;opacity:.72;margin-top:1px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mh-badge{
+  flex-shrink:0;
+  background:rgba(255,255,255,.18);
+  border-radius:12px;padding:4px 10px;
+  font-size:12px;font-weight:700;white-space:nowrap}
 
 /* ═══════════════════════════════════════════════════════
-   FILTER BAR
+   DESKTOP FILTER BAR
 ═══════════════════════════════════════════════════════ */
 #filterbar{
   position:fixed;z-index:500;
@@ -117,11 +122,9 @@ button{font-family:inherit}
 .frow::-webkit-scrollbar{display:none}
 .frow+.frow{border-top:1px solid #e4e4df}
 .fdiv{color:#d0d0d0;flex-shrink:0;font-size:13px;user-select:none}
-
-/* pill */
 .pill{
   font-size:11.5px;font-weight:600;padding:4px 12px;border-radius:99px;
-  border:1.5px solid #d8d8d8;background:#fff;cursor:pointer;white-space:nowrap;
+  border:1.5px solid #d8d8d8;background:#fff;white-space:nowrap;
   color:#666;transition:all .15s;flex-shrink:0;line-height:1.4}
 .pill:hover{border-color:#b0b0b0}
 .pill-date.active{background:var(--green-lt);color:var(--green-dk);border-color:var(--green-md)}
@@ -131,28 +134,27 @@ button{font-family:inherit}
 .pill-low.active{background:var(--low-bg);color:var(--low);border-color:var(--low-brd)}
 .pill-bm.active{background:#fff8e1;color:#b45309;border-color:#fde68a}
 .pill-mkt.active{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
-
 #searchbox{
   flex-shrink:0;padding:5px 13px;border-radius:99px;border:1.5px solid #d8d8d8;
   font-size:12px;outline:none;background:#fff;margin-left:auto;
   transition:border .15s;width:170px}
 #searchbox:focus{border-color:var(--green)}
+#date-picker{border:1.5px solid #00704A;border-radius:20px;padding:3px 12px;
+  font-size:12px;color:#00704A;background:#f0f8f4;outline:none;height:28px;
+  vertical-align:middle;flex-shrink:0}
+#date-picker:focus{border-color:#005239;box-shadow:0 0 0 2px rgba(0,112,74,.2)}
 
 /* ═══════════════════════════════════════════════════════
-   MAIN
+   MAIN & CARDS
 ═══════════════════════════════════════════════════════ */
 #main{padding-bottom:48px;isolation:isolate}
 #cards{padding:12px 14px}
-
 .results-hd{
   font-size:10.5px;color:#b0b0b0;font-weight:700;letter-spacing:.5px;
   padding:2px 0 10px;display:flex;align-items:center;gap:7px}
 .results-cnt{background:#e4e4e0;color:#888;font-size:10px;font-weight:700;
   padding:1px 8px;border-radius:99px}
-
-/* Week summary */
-.week-sum{
-  background:#fff;border:1px solid #e4e4e0;border-radius:10px;
+.week-sum{background:#fff;border:1px solid #e4e4e0;border-radius:10px;
   padding:10px 13px;margin-bottom:10px}
 .ws-hd{font-size:9.5px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;
   color:#c0c0c0;margin-bottom:6px}
@@ -161,87 +163,65 @@ button{font-family:inherit}
 .ws-stat strong{color:#333}
 .ws-tags{display:flex;gap:4px;flex-wrap:wrap}
 .ws-tag{font-size:10px;background:#f3f3f0;color:#777;padding:2px 7px;border-radius:4px}
-
-/* Date group header */
 .dg-hd{
   font-size:10.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;
   color:#c0c0c0;margin:14px 0 7px;display:flex;align-items:center;gap:8px}
 .dg-hd::after{content:'';flex:1;height:1px;background:#e4e4e0}
-
-/* Empty */
 .empty{text-align:center;color:#ccc;padding:70px 20px 50px;font-size:14px;line-height:2.2}
 
-/* ═══════════════════════════════════════════════════════
-   CARD
-═══════════════════════════════════════════════════════ */
+/* CARD */
 .card{
-  background:#fff;border-radius:10px;border:1px solid #e4e4e0;
-  margin-bottom:8px;overflow:hidden;
-  transition:box-shadow .18s,border-color .18s;
-  display:flex}
+  background:#fff;border-radius:12px;border:1px solid #e4e4e0;
+  margin-bottom:9px;overflow:hidden;
+  transition:box-shadow .18s,border-color .18s,transform .12s;
+  display:flex;
+  -webkit-user-select:none;user-select:none}
 .card:hover{border-color:#c8c8c4;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.card:active{transform:scale(0.985)}
 .card.open{border-color:#b8b8b4;box-shadow:0 4px 16px rgba(0,0,0,.09)}
-
-/* left color bar */
-.c-bar{width:4px;flex-shrink:0;border-radius:0}
+.c-bar{width:4px;flex-shrink:0}
 .c-bar.high{background:var(--high-bar)}
 .c-bar.medium{background:var(--med-bar)}
 .c-bar.low{background:var(--low-bar)}
-
 .c-inner{flex:1;min-width:0}
-
-/* meta */
-.c-meta{
-  display:flex;align-items:center;gap:5px;
-  padding:8px 11px 5px;font-size:11px}
+.c-meta{display:flex;align-items:center;gap:5px;padding:9px 12px 5px;font-size:11px}
 .c-market{font-weight:700;color:#1a1a1a;font-size:11.5px}
 .c-sep{color:#ddd}
 .c-src{color:#aaa;font-size:10.5px}
 .c-date{margin-left:auto;font-size:10.5px;color:#c0c0c0;flex-shrink:0}
-.c-bm{
-  background:none;border:none;cursor:pointer;font-size:15px;
-  padding:0 0 0 5px;line-height:1;flex-shrink:0;
+.c-bm{background:none;border:none;font-size:16px;
+  padding:0 0 0 6px;line-height:1;flex-shrink:0;
   opacity:.35;transition:opacity .15s,transform .1s}
 .c-bm:hover{opacity:.8;transform:scale(1.15)}
 .c-bm.on{opacity:1}
-
-/* tags */
-.c-tags{
-  display:flex;flex-wrap:wrap;align-items:center;gap:4px;
-  padding:0 11px 7px}
+.c-tags{display:flex;flex-wrap:wrap;align-items:center;gap:4px;padding:0 12px 8px}
 .ibadge{font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;flex-shrink:0}
 .ibadge.high{background:var(--high-bg);color:var(--high)}
 .ibadge.medium{background:var(--med-bg);color:var(--med)}
 .ibadge.low{background:var(--low-bg);color:var(--low)}
 .atag{font-size:10px;background:#f3f3f0;color:#777;padding:2px 6px;border-radius:4px}
-
-/* body */
-.c-body{padding:0 11px 10px;cursor:pointer}
+.c-body{padding:0 12px 11px;cursor:pointer}
 .c-hl{
   font-size:14px;font-weight:700;color:#111;line-height:1.42;
   position:relative;padding-right:20px;
   display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
 .c-hl.clamped{-webkit-line-clamp:2}
 .card.open .c-hl{color:var(--green);display:block}
-.chev{position:absolute;right:0;top:1px;font-size:11px;color:#ccc;transition:transform .2s}
+.chev{position:absolute;right:0;top:1px;font-size:11px;color:#ccc;transition:transform .22s}
 .card.open .chev{transform:rotate(180deg)}
-
-/* detail */
-.c-det{display:none;padding:0 11px 12px;border-top:1px solid #f0f0ec;margin-top:8px}
+.c-det{display:none;padding:0 12px 13px;border-top:1px solid #f0f0ec;margin-top:8px}
 .card.open .c-det{display:block}
 .blbl{font-size:9px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;
   color:#ccc;margin:11px 0 4px}
 .btxt{font-size:13px;color:#333;line-height:1.65}
-.why-box{
-  background:var(--green-lt);border-left:3px solid var(--green);
+.why-box{background:var(--green-lt);border-left:3px solid var(--green);
   border-radius:0 7px 7px 0;padding:9px 12px}
 .why-box p{font-size:13px;color:#1a3d2e;line-height:1.65}
 .plist{list-style:none;padding:0}
 .plist li{font-size:13px;color:#333;padding:3px 0 3px 16px;position:relative;line-height:1.55}
 .plist li::before{content:'›';position:absolute;left:4px;color:var(--green);font-weight:700}
 .slinks{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
-.slink{
-  font-size:11px;color:var(--green);text-decoration:none;
+.slink{font-size:11px;color:var(--green);text-decoration:none;
   background:var(--green-lt);padding:4px 10px;border-radius:5px;
   border:1px solid var(--green-md);transition:background .15s;
   display:inline-flex;align-items:center;gap:4px}
@@ -260,10 +240,11 @@ button{font-family:inherit}
 .load-txt{font-size:12px;color:#b0b0b0}
 
 /* ═══════════════════════════════════════════════════════
-   DESKTOP
+   DESKTOP LAYOUT
 ═══════════════════════════════════════════════════════ */
 @media(min-width:768px){
   #mobile-hd{display:none}
+  #bottomnav,#sheet-bd,#bottom-sheet,#search-overlay{display:none!important}
   #sidebar{display:flex}
   #filterbar{left:var(--sidebar);top:0}
   #main{margin-left:var(--sidebar);padding-top:var(--fb)}
@@ -272,42 +253,197 @@ button{font-family:inherit}
 }
 
 /* ═══════════════════════════════════════════════════════
-   MOBILE
+   MOBILE LAYOUT  (native-app style)
 ═══════════════════════════════════════════════════════ */
 @media(max-width:767px){
   #sidebar{display:none}
-  #filterbar{top:var(--topbar);left:0;right:0}
-  #main{padding-top:calc(var(--topbar) + var(--fb))}
-  #searchbox{width:130px;font-size:12px;padding:4px 10px}
-  .pill{font-size:11px;padding:3px 10px}
-}
-@supports(padding:max(0px)){
-  #mobile-hd{padding-left:max(16px,env(safe-area-inset-left));
-    padding-right:max(16px,env(safe-area-inset-right))}
-  #cards{padding-bottom:max(48px,env(safe-area-inset-bottom))}
+  #filterbar{display:none!important}
+
+  #mobile-hd{display:flex}
+
+  #main{
+    padding-top:calc(var(--topbar) + env(safe-area-inset-top));
+    padding-bottom:calc(var(--bottomnav) + env(safe-area-inset-bottom));
+  }
+  #cards{padding:10px 12px}
+
+  .card{border-radius:14px;margin-bottom:10px}
+  .c-hl{font-size:14.5px}
 }
 
-  /* ── Date-picker ── */
-  #date-picker{border:1.5px solid #00704A;border-radius:20px;padding:3px 12px;font-size:12px;color:#00704A;background:#f0f8f4;cursor:pointer;outline:none;height:28px;vertical-align:middle;flex-shrink:0;}
-  #date-picker:focus{border-color:#005239;box-shadow:0 0 0 2px rgba(0,112,74,.2);}
-  @media(max-width:767px){#date-picker{width:100%;margin-top:6px;box-sizing:border-box;}}
+/* ─────────────────────────────────
+   BOTTOM NAV BAR  (mobile only)
+───────────────────────────────── */
+#bottomnav{
+  display:none;
+  position:fixed;bottom:0;left:0;right:0;
+  height:var(--bottomnav);
+  padding-bottom:env(safe-area-inset-bottom);
+  background:rgba(252,252,252,0.94);
+  -webkit-backdrop-filter:saturate(180%) blur(20px);
+  backdrop-filter:saturate(180%) blur(20px);
+  border-top:1px solid rgba(0,0,0,.1);
+  z-index:400;
+  align-items:stretch;
+  /* shown via media query overriding display on mobile */
+}
+@media(max-width:767px){
+  #bottomnav{display:flex}
+}
+
+.tab{
+  flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:3px;background:none;border:none;
+  padding:6px 4px 2px;position:relative;
+  transition:opacity .1s;
+  -webkit-tap-highlight-color:transparent;
+  min-width:0}
+.tab:active{opacity:.5}
+
+/* top indicator line */
+.tab::before{
+  content:'';
+  position:absolute;top:0;left:25%;right:25%;
+  height:2.5px;background:var(--green);border-radius:0 0 3px 3px;
+  opacity:0;transition:opacity .15s}
+.tab.active::before{opacity:1}
+
+.tab-icon{font-size:22px;line-height:1;transition:transform .15s}
+.tab.active .tab-icon{transform:scale(1.08)}
+.tab-label{font-size:10px;color:#9a9a9a;font-weight:500;letter-spacing:-.2px;
+  white-space:nowrap;transition:color .15s}
+.tab.active .tab-label{color:var(--green);font-weight:700}
+
+/* badge dot */
+.tab-dot{
+  position:absolute;top:4px;right:calc(50% - 15px);
+  width:8px;height:8px;border-radius:50%;
+  background:var(--green);border:2px solid rgba(252,252,252,0.94);
+  display:none}
+.tab-dot.show{display:block}
+/* text badge (for counts) */
+.tab-badge{
+  position:absolute;top:3px;right:calc(50% - 20px);
+  background:var(--high-bar);color:#fff;
+  font-size:9px;font-weight:700;
+  padding:1px 5px;border-radius:99px;min-width:16px;text-align:center;
+  border:1.5px solid rgba(252,252,252,0.94);
+  display:none;line-height:1.4}
+.tab-badge.show{display:block}
+
+/* ─────────────────────────────────
+   SHEET BACKDROP
+───────────────────────────────── */
+#sheet-bd{
+  display:none;position:fixed;inset:0;
+  background:rgba(0,0,0,.42);
+  -webkit-backdrop-filter:blur(3px);
+  backdrop-filter:blur(3px);
+  z-index:600;
+  opacity:0;transition:opacity .28s}
+#sheet-bd.show{display:block;opacity:1}
+
+/* ─────────────────────────────────
+   BOTTOM SHEET
+───────────────────────────────── */
+#bottom-sheet{
+  display:none;
+  position:fixed;bottom:0;left:0;right:0;
+  background:#fff;border-radius:20px 20px 0 0;
+  z-index:700;
+  transform:translateY(100%);
+  transition:transform .32s cubic-bezier(0.4,0,0.2,1);
+  padding-bottom:env(safe-area-inset-bottom);
+  max-height:72vh;overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  /* subtle shadow */
+  box-shadow:0 -4px 32px rgba(0,0,0,.14)}
+#bottom-sheet.show{display:block;transform:translateY(0)}
+
+.sheet-handle-wrap{padding:10px 0 4px;display:flex;justify-content:center;flex-shrink:0}
+.sheet-handle{width:40px;height:4px;background:#e0e0e0;border-radius:2px}
+.sheet-title{
+  font-size:16px;font-weight:700;color:#111;
+  padding:6px 20px 13px;border-bottom:1px solid #f0f0f0}
+.sheet-opt{
+  display:flex;align-items:center;gap:0;
+  padding:0 20px;
+  min-height:52px;
+  border-bottom:1px solid #f5f5f5;
+  cursor:pointer;
+  transition:background .1s;
+  -webkit-tap-highlight-color:transparent}
+.sheet-opt:last-child{border-bottom:none}
+.sheet-opt:active{background:#f5f5f5}
+.so-icon{width:36px;font-size:20px;flex-shrink:0}
+.so-label{flex:1;font-size:15px;color:#1a1a1a}
+.so-sub{font-size:12px;color:#aaa;margin-top:1px}
+.so-check{font-size:20px;color:var(--green);opacity:0;transition:opacity .15s;flex-shrink:0}
+.sheet-opt.selected .so-check{opacity:1}
+.sheet-opt.selected .so-label{color:var(--green);font-weight:600}
+
+/* ─────────────────────────────────
+   SEARCH OVERLAY  (mobile)
+───────────────────────────────── */
+#search-overlay{
+  display:none;
+  position:fixed;top:0;left:0;right:0;
+  z-index:800;
+  background:rgba(245,245,240,0.98);
+  -webkit-backdrop-filter:blur(20px);
+  backdrop-filter:blur(20px);
+  padding-top:env(safe-area-inset-top);
+  transform:translateY(-110%);
+  transition:transform .25s cubic-bezier(0.4,0,0.2,1);
+  box-shadow:0 4px 24px rgba(0,0,0,.14)}
+#search-overlay.open{display:block}
+#search-overlay.visible{transform:translateY(0)}
+
+.so-row{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 16px 12px}
+.so-back{
+  background:none;border:none;
+  font-size:14px;font-weight:600;color:var(--green);
+  padding:6px 0;white-space:nowrap}
+#mob-search-input{
+  flex:1;background:#fff;
+  border:1.5px solid #ddd;border-radius:12px;
+  padding:10px 14px;font-size:15px;
+  outline:none;min-width:0}
+#mob-search-input:focus{border-color:var(--green)}
+.so-clear{
+  background:none;border:none;
+  font-size:16px;color:#bbb;padding:4px;
+  opacity:0;pointer-events:none;transition:opacity .15s}
+.so-clear.show{opacity:1;pointer-events:auto}
+
+/* recent-search hint */
+.so-hint{
+  font-size:12px;color:#bbb;
+  padding:4px 20px 14px;text-align:center}
 </style>
 </head>
 <body>
 
 <div id="loading"><div class="spin"></div><div class="load-txt">載入新聞簡報中…</div></div>
-
-<!-- Tooltip (calendar hover) -->
 <div id="tt"></div>
 
-<!-- Mobile header -->
+<!-- ══════════════════════════════
+     MOBILE HEADER
+══════════════════════════════ -->
 <header id="mobile-hd">
   <div class="mh-icon">☕</div>
-  <div class="mh-title">SBUX 供應商簡報</div>
-  <div class="mh-date" id="mh-date"></div>
+  <div class="mh-info">
+    <div class="mh-title">SBUX 供應商簡報</div>
+    <div class="mh-sub" id="mh-sub">載入中…</div>
+  </div>
+  <div class="mh-badge" id="mh-badge"></div>
 </header>
 
-<!-- Sidebar -->
+<!-- ══════════════════════════════
+     SIDEBAR (desktop)
+══════════════════════════════ -->
 <aside id="sidebar">
   <div class="sb-logo">
     <div class="sb-icon">☕</div>
@@ -326,43 +462,97 @@ button{font-family:inherit}
   </div>
 </aside>
 
-<!-- Filter bar -->
+<!-- ══════════════════════════════
+     DESKTOP FILTER BAR
+══════════════════════════════ -->
 <div id="filterbar">
   <div class="frow" id="frow1"></div>
   <div class="frow" id="frow2"></div>
 </div>
 
-<!-- Main -->
+<!-- ══════════════════════════════
+     MAIN CONTENT
+══════════════════════════════ -->
 <main id="main"><div id="cards"></div></main>
+
+<!-- ══════════════════════════════
+     BOTTOM NAV (mobile)
+══════════════════════════════ -->
+<nav id="bottomnav">
+  <button class="tab" id="tab-date" onclick="openSheet('date')">
+    <span class="tab-icon">📅</span>
+    <span class="tab-label">日期</span>
+    <span class="tab-dot" id="tdot-date"></span>
+  </button>
+  <button class="tab" id="tab-mkt" onclick="openSheet('market')">
+    <span class="tab-icon">🌍</span>
+    <span class="tab-label">市場</span>
+    <span class="tab-dot" id="tdot-mkt"></span>
+  </button>
+  <button class="tab" id="tab-impact" onclick="openSheet('impact')">
+    <span class="tab-icon">⚡</span>
+    <span class="tab-label">衝擊</span>
+    <span class="tab-dot" id="tdot-impact"></span>
+  </button>
+  <button class="tab" id="tab-bm" onclick="toggleBmOnlyMobile()">
+    <span class="tab-icon" id="ticon-bm">☆</span>
+    <span class="tab-label">收藏</span>
+  </button>
+  <button class="tab" id="tab-search" onclick="openSearch()">
+    <span class="tab-icon">🔍</span>
+    <span class="tab-label">搜尋</span>
+    <span class="tab-dot" id="tdot-search"></span>
+  </button>
+</nav>
+
+<!-- ══════════════════════════════
+     SHEET BACKDROP
+══════════════════════════════ -->
+<div id="sheet-bd" onclick="closeSheet()"></div>
+
+<!-- ══════════════════════════════
+     BOTTOM SHEET
+══════════════════════════════ -->
+<div id="bottom-sheet" id="bsheet">
+  <div class="sheet-handle-wrap"><div class="sheet-handle"></div></div>
+  <div id="sheet-content"></div>
+</div>
+
+<!-- ══════════════════════════════
+     SEARCH OVERLAY (mobile)
+══════════════════════════════ -->
+<div id="search-overlay">
+  <div class="so-row">
+    <button class="so-back" onclick="closeSearch()">取消</button>
+    <input id="mob-search-input" type="search" placeholder="搜尋新聞關鍵字…"
+      autocomplete="off" autocorrect="off" spellcheck="false"
+      oninput="onMobSearch(this.value)">
+    <button class="so-clear" id="so-clear" onclick="clearMobSearch()">✕</button>
+  </div>
+  <div class="so-hint" id="so-hint">輸入關鍵字搜尋新聞</div>
+</div>
 
 <script>
 // ═══════════════════════════════════════════════════════
 // FALLBACK DATA
 // ═══════════════════════════════════════════════════════
-const FALLBACK={"lastUpdated":"2026-05-26","days":[{"date":"2026-05-26","label":"05/26","items":[{"id":"20260526-1","market":"🇰🇷 韓國市場","source":"CNBC / Al Jazeera","pubDate":"2026-05-19","impact":"high","impactLabel":"🔥 高衝擊","impactAreas":["品牌策略","ESG 風險","APAC 策略"],"headline":"韓國星巴克執行長因「坦克日」促銷踩雷遭解僱，當地抵制潮持續延燒","summary":"韓國星巴克於5月18日光州民主化運動紀念日推出以「Tank Day（坦克日）」為名的促銷活動，遭公眾強烈批評嘲諷歷史悲劇。母公司新世界集團隨即展開調查，宣布解除韓國星巴克執行長孫贞鉉及相關行銷主管職務。星巴克全球總部表示事件「非蓄意，但絕不應發生」。","whyMatters":"此事件引發韓國社會大規模抵制，短期內將衝擊韓國門市客流與銷售額，進而影響本地食材、原料及周邊供應商的採購量。高管解僱後，韓國採購決策可能進入過渡期，合約連續性存在風險。","potentialImpact":["評估韓國市場短期訂單波動風險，抵制效應可能持續數週至數月","針對韓國星巴克供應合約建立應急預案，因管理層更迭可能導致採購策略中斷","主動強化文化敏感度與 ESG 風險管理機制，提升供應商信賴度"],"sourceLinks":[{"label":"CNBC","url":"https://www.cnbc.com/2026/05/19/starbucks-korea-head-fired-after-tank-day-promotion-sparks-public-uproar.html"},{"label":"Al Jazeera","url":"https://www.aljazeera.com/economy/2026/5/19/starbucks-korea-ceo-fired-over-promotion-that-evoked-military-crackdown"}]},{"id":"20260526-2","market":"🇺🇸 美國市場","source":"about.starbucks.com","pubDate":"2026-05-19","impact":"medium","impactLabel":"⚠️ 中衝擊","impactAreas":["包裝創新","品牌策略","採購關係"],"headline":"星巴克 × Miffy 聯名商品5月19日北美正式上市，延續亞太市場熱銷模式","summary":"星巴克於5月19日在美國及加拿大門市推出 Miffy（米飛兔）聯名限量系列，涵蓋馬克杯、冷飲杯、保溫瓶、禮品卡及毛絨玩具。設計主打夏季色系，融合星巴克品牌綠與繽紛配色。","whyMatters":"聯名限量商品系列為馬克杯、保溫瓶、毛絨玩具及禮品包裝供應商帶來短期採購機會。APAC 先行、北美跟進的模式顯示亞太供應商在聯名商品中具優先合作優勢。","potentialImpact":["掌握聯名商品採購窗口，備好快速響應產能爭取核心供應商地位","APAC 供應商可爭取成為聯名系列的優先打樣製造合作方","評估跨市場同步上市的物流需求，提前佈局多市場配送能力"],"sourceLinks":[{"label":"Starbucks Official","url":"https://about.starbucks.com/stories/2026/miffy-starbucks-a-charming-new-merch-collection/"}]},{"id":"20260526-3","market":"🇺🇸 美國市場","source":"CNBC / Restaurant Dive","pubDate":"2026-05-21","impact":"high","impactLabel":"🔥 高衝擊","impactAreas":["供應鏈技術","庫存管理","採購架構"],"headline":"星巴克放棄 AI 庫存管理系統：上線僅9個月即下架，北美門市全面回歸人工盤點","summary":"星巴克宣布終止北美全線門市的 AI 自動盤點系統（NomadGo），因頻繁誤判牛奶類型或漏盤商品，系統於2025年9月上線，僅9個月便宣告停用。","whyMatters":"AI 盤點失敗意味著星巴克短期回歸人工庫存管理，可能導致補貨頻率及訂單節奏出現暫時不穩定，影響乳製品、糖漿等高頻耗材供應商的交貨預測準確性。","potentialImpact":["與採購及營運團隊溝通，了解過渡期間是否需調整安全庫存量或交貨頻率","評估因人工盤點誤差可能導致的短期訂單波動，主動提供靈活交貨方案","若具備相關技術，可向星巴克提案高精準度庫存解決方案"],"sourceLinks":[{"label":"CNBC","url":"https://www.cnbc.com/2026/05/21/starbucks-scraps-ai-inventory-tool-across-north-america.html"},{"label":"Restaurant Dive","url":"https://www.restaurantdive.com/news/Starbucks-eliminates-computer-vision-ai-inventory-system/820934/"}]},{"id":"20260526-4","market":"🇹🇼 台灣市場","source":"Focus Taiwan / Taipei Times","pubDate":"2026-05-24","impact":"medium","impactLabel":"⚠️ 中衝擊","impactAreas":["門市擴張","採購量預測","APAC 策略"],"headline":"台灣星巴克達成第600家門市里程碑，統一超商集團宣示持續擴張計劃","summary":"星巴克台灣於5月24日正式開設第600間門市「愿秀門市」，座落台北市南港區南港車站正對面。統一超商集團董事長羅智先宣示目標再拓「下一個600家」。","whyMatters":"第600家門市標誌著在地市場穩健成長，統一超商明確宣示繼續擴張，顯示台灣市場的原料、食品及包裝採購需求具長期增長潛力。","potentialImpact":["配合擴張目標提前規劃產能及原料長期供應協議","爭取成為新開幕門市或旗艦店的優先供應商","關注聯合採購模式，爭取跨品牌供應合約"],"sourceLinks":[{"label":"Focus Taiwan","url":"https://focustaiwan.tw/business/202605240008"},{"label":"Taipei Times","url":"https://www.taipeitimes.com/News/taiwan/archives/2026/05/25/2003857923"}]}]}]};
+const FALLBACK={"lastUpdated":"2026-05-28","days":[{"date":"2026-05-28","label":"05/28","items":[{"id":"20260528-1","market":"🇰🇷 韓國市場","source":"ETtoday / Al Jazeera","pubDate":"2026-05-27","impact":"high","impactLabel":"🔥 高衝擊","impactAreas":["採購量預測","零售競爭","消費者行為"],"headline":"韓國星巴克「坦克日」抵制一週慘賠84億韓元，銷售跌幅逾26%","summary":"韓國星巴克因「坦克日」促銷活動觸怒民眾，爭議爆發後短短一週內銷售額驟降84億韓元，跌幅超過26%。抵制浪潮持續延燒，消費者信心嚴重受挫，各主要門市銷量均受波及。","whyMatters":"韓國是星巴克在東北亞的關鍵市場，此次銷量驟降將直接壓縮供應商的訂單規模與採購量。危機若持續發酵，可能導致韓國市場短期採購計劃大幅縮減。","potentialImpact":["韓國市場短期訂單量恐縮減20-30%，供應商應立即評估訂單風險並保持庫存彈性","抵制若持續擴大可能引發門市縮減，建議密切追蹤銷售恢復速度並調整韓國市場備貨計劃","此事件凸顯品牌危機對供應鏈的快速傳導效應，建議在合約中強化不可抗力條款"],"sourceLinks":[{"label":"ETtoday 國際新聞","url":"https://www.ettoday.net/news/20260527/3173006.htm"},{"label":"Al Jazeera","url":"https://www.aljazeera.com/economy/2026/5/26/starbucks-korean-sales-fall-after-backlash-to-tank-day-ad-campaign"}]}]}]};
 
 // ═══════════════════════════════════════════════════════
 // STATE
 // ═══════════════════════════════════════════════════════
 const S = {
-  dateRange: '7d',   // 'today'|'7d'|'30d'|'all'|'day'
-  selDate:   '',     // active when dateRange==='day'
-  impact:    'all',  // 'all'|'high'|'medium'|'low'
-  market:    'all',  // 'all' or market string
+  dateRange: '7d',
+  selDate:   '',
+  impact:    'all',
+  market:    'all',
   search:    '',
   bmOnly:    false,
 };
-
-// Calendar navigation (0-indexed month)
 let CAL = { y: new Date().getFullYear(), m: new Date().getMonth() };
-
-// Bookmarks: Set of item IDs persisted to localStorage
 const BM = new Set(JSON.parse(localStorage.getItem('sbux_bm') || '[]'));
 const saveBM = () => localStorage.setItem('sbux_bm', JSON.stringify([...BM]));
-
-// Expanded cards: Set of item IDs
 const OPEN = new Set();
-
 let DATA = null;
 
 // ═══════════════════════════════════════════════════════
@@ -391,59 +581,43 @@ let DATA = null;
 function allItems(){
   return DATA.days.flatMap(d => d.items.map(it => ({...it, _date: d.date})));
 }
-
 function newsDateMap(){
   const m={};
   DATA.days.forEach(d=>{
-    m[d.date]={
-      total: d.items.length,
-      high:  d.items.filter(i=>i.impact==='high').length,
-      markets: [...new Set(d.items.map(i=>i.market))]
-    };
+    m[d.date]={total:d.items.length,high:d.items.filter(i=>i.impact==='high').length,
+      markets:[...new Set(d.items.map(i=>i.market))]};
   });
   return m;
 }
-
 function filteredItems(){
   const today = DATA.lastUpdated;
   const todayDt = new Date(today+'T00:00:00');
-
   return allItems().filter(it=>{
-    // ── Date range ──
     const itemDt = new Date(it._date+'T00:00:00');
     const ageDays = (todayDt - itemDt) / 86400000;
     if(S.dateRange==='today' && it._date!==today) return false;
     if(S.dateRange==='7d'   && (ageDays<0||ageDays>=7)) return false;
     if(S.dateRange==='30d'  && (ageDays<0||ageDays>=30)) return false;
     if(S.dateRange==='day'  && it._date!==S.selDate) return false;
-    // ── Impact ──
     if(S.impact!=='all' && it.impact!==S.impact) return false;
-    // ── Market ──
     if(S.market!=='all' && it.market!==S.market) return false;
-    // ── Bookmark ──
     if(S.bmOnly && !BM.has(it.id)) return false;
-    // ── Search ──
     if(S.search){
       const q=S.search.toLowerCase();
-      const hay=[
-        it.headline, it.summary, it.market, it.source,
-        it.impactLabel, it.whyMatters||'',
-        ...(it.impactAreas||[]), ...(it.potentialImpact||[])
-      ].join(' ').toLowerCase();
+      const hay=[it.headline,it.summary,it.market,it.source,it.impactLabel,it.whyMatters||'',
+        ...(it.impactAreas||[]),...(it.potentialImpact||[])].join(' ').toLowerCase();
       if(!hay.includes(q)) return false;
     }
     return true;
   });
 }
-
 function weekStart(dateStr){
   const d=new Date(dateStr+'T00:00:00');
-  const day=d.getDay(); // 0=Sun
-  const diff = day===0 ? -6 : 1-day;
+  const day=d.getDay();
+  const diff=day===0?-6:1-day;
   const m=new Date(d); m.setDate(d.getDate()+diff);
   return m.toISOString().slice(0,10);
 }
-
 function topTags(items,n=5){
   const freq={};
   items.forEach(it=>(it.impactAreas||[]).forEach(a=>{freq[a]=(freq[a]||0)+1;}));
@@ -453,14 +627,31 @@ function topTags(items,n=5){
 // ═══════════════════════════════════════════════════════
 // RENDER ORCHESTRATION
 // ═══════════════════════════════════════════════════════
-function renderAll(){ renderHeader(); renderSidebar(); renderFilterBar(); renderCards(); }
-function refreshFilters(){ renderSidebar(); renderFilterBar(); renderCards(); }
+function renderAll(){ renderHeader(); renderSidebar(); renderFilterBar(); renderCards(); updateTabState(); }
+function refreshFilters(){ renderSidebar(); renderFilterBar(); renderCards(); updateTabState(); }
 
 // ═══════════════════════════════════════════════════════
-// HEADER
+// MOBILE HEADER
 // ═══════════════════════════════════════════════════════
 function renderHeader(){
-  document.getElementById('mh-date').textContent = DATA.lastUpdated;
+  updateMobileHeader();
+}
+function updateMobileHeader(){
+  if(!DATA) return;
+  const items = filteredItems();
+  const sub = document.getElementById('mh-sub');
+  const badge = document.getElementById('mh-badge');
+  if(sub){
+    const parts=[];
+    const dl={today:'今天','7d':'7天內','30d':'30天',all:'全部',day:S.selDate?S.selDate.slice(5):''};
+    parts.push(dl[S.dateRange]||'7天內');
+    if(S.impact!=='all') parts.push({high:'🔥 高',medium:'⚠️ 中',low:'ℹ️ 低'}[S.impact]||'');
+    if(S.market!=='all') parts.push(S.market.slice(0,5).trim());
+    if(S.bmOnly) parts.push('⭐ 收藏');
+    if(S.search) parts.push(`"${S.search}"`);
+    sub.textContent = parts.join(' · ');
+  }
+  if(badge) badge.textContent = items.length + ' 則';
 }
 
 // ═══════════════════════════════════════════════════════
@@ -471,37 +662,30 @@ function renderSidebar(){
   renderCalendar();
   updateStats();
 }
-
 function renderCalendar(){
-  const ndm = newsDateMap();
-  const today = DATA.lastUpdated;
-  const {y,m} = CAL;
-  const firstDOW = new Date(y,m,1).getDay(); // 0=Sun
-  const dim = new Date(y,m+1,0).getDate();
+  const ndm=newsDateMap();
+  const today=DATA.lastUpdated;
+  const {y,m}=CAL;
+  const firstDOW=new Date(y,m,1).getDay();
+  const dim=new Date(y,m+1,0).getDate();
   const MONTHS=['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
   const DOWS=['日','一','二','三','四','五','六'];
-
   let h=`<div class="cal-head">
     <button class="cal-nav" onclick="calPrev()">‹</button>
     <span class="cal-title">${y}年 ${MONTHS[m]}</span>
     <button class="cal-nav" onclick="calNext()">›</button>
   </div>
-  <div class="cal-grid">
-    ${DOWS.map(d=>`<div class="cal-dow">${d}</div>`).join('')}`;
-
+  <div class="cal-grid">${DOWS.map(d=>`<div class="cal-dow">${d}</div>`).join('')}`;
   for(let i=0;i<firstDOW;i++) h+='<div class="cal-cell"></div>';
-
   for(let day=1;day<=dim;day++){
-    const mm=String(m+1).padStart(2,'0'), dd=String(day).padStart(2,'0');
+    const mm=String(m+1).padStart(2,'0'),dd=String(day).padStart(2,'0');
     const ds=`${y}-${mm}-${dd}`;
     const info=ndm[ds];
     const isSel=(S.dateRange==='day'&&S.selDate===ds);
     const isToday=(ds===today);
     let cls='cal-cell'+(info?' has-news':'')+(isToday?' is-today':'')+(isSel?' is-sel':'');
     const dot=info?`<span class="cal-dot">${info.total}</span>`:'';
-    const attrs=info
-      ?`data-date="${ds}" onclick="calDay('${ds}')" onmouseenter="showTT(event,'${ds}')" onmouseleave="hideTT()"`
-      :`data-date="${ds}"`;
+    const attrs=info?`data-date="${ds}" onclick="calDay('${ds}')" onmouseenter="showTT(event,'${ds}')" onmouseleave="hideTT()"`:  `data-date="${ds}"`;
     h+=`<div class="${cls}" ${attrs}>${day}${dot}</div>`;
   }
   h+='</div>';
@@ -509,7 +693,6 @@ function renderCalendar(){
   h+=`<button class="cal-all-btn${allActive?' active':''}" onclick="calAll()">顯示全部日期</button>`;
   document.getElementById('cal-wrap').innerHTML=h;
 }
-
 function updateStats(){
   const items=filteredItems();
   document.getElementById('cnt-h').textContent=items.filter(i=>i.impact==='high').length;
@@ -517,84 +700,55 @@ function updateStats(){
   document.getElementById('cnt-l').textContent=items.filter(i=>i.impact==='low').length;
   document.getElementById('sb-total').innerHTML=`共 <strong>${items.length}</strong> 則新聞`;
 }
-
-// Calendar interactions
-function calPrev(){ CAL.m--; if(CAL.m<0){CAL.m=11;CAL.y--;} renderCalendar(); }
-function calNext(){ CAL.m++; if(CAL.m>11){CAL.m=0;CAL.y++;} renderCalendar(); }
-function calDay(ds){ S.dateRange='day'; S.selDate=ds; refreshFilters(); }
+function calPrev(){CAL.m--;if(CAL.m<0){CAL.m=11;CAL.y--;}renderCalendar();}
+function calNext(){CAL.m++;if(CAL.m>11){CAL.m=0;CAL.y++;}renderCalendar();}
+function calDay(ds){S.dateRange='day';S.selDate=ds;refreshFilters();}
 function onDatePick(val){
   if(!val) return;
-  var found = DATA.days.find(function(d){ return d.date===val; });
-  if(found){ calDay(val); }
-  else { alert('\u26a0\ufe0f \u8a72\u65e5\uff08'+val+'\uff09\u7121\u8cc7\u6599\uff0c\u8acb\u9078\u64c7\u5176\u4ed6\u65e5\u671f\u3002'); }
+  if(DATA.days.find(d=>d.date===val)) calDay(val);
+  else alert('⚠️ 該日（'+val+'）無資料，請選擇其他日期。');
 }
-function calAll(){ S.dateRange='7d'; S.selDate=''; refreshFilters(); }
-
-// Tooltip
+function calAll(){S.dateRange='7d';S.selDate='';refreshFilters();}
 const TTel=document.getElementById('tt');
 function showTT(e,ds){
-  const ndm=newsDateMap(), info=ndm[ds];
+  const ndm=newsDateMap(),info=ndm[ds];
   if(!info) return;
   const d=new Date(ds+'T00:00:00');
-  TTel.innerHTML=`
-    <div class="tt-date">${d.getMonth()+1}月${d.getDate()}日</div>
+  TTel.innerHTML=`<div class="tt-date">${d.getMonth()+1}月${d.getDate()}日</div>
     <div class="tt-r"><span>總計</span><span>${info.total} 則</span></div>
     <div class="tt-r"><span>🔥 高衝擊</span><span>${info.high} 則</span></div>
     <div class="tt-mkt">${info.markets.slice(0,4).join('<br>')}</div>`;
-  TTel.classList.add('show');
-  moveTT(e);
+  TTel.classList.add('show');moveTT(e);
 }
-function hideTT(){ TTel.classList.remove('show'); }
+function hideTT(){TTel.classList.remove('show');}
 function moveTT(e){
   TTel.style.left=Math.min(e.clientX+14,window.innerWidth-155)+'px';
   TTel.style.top=Math.min(e.clientY+10,window.innerHeight-130)+'px';
 }
-document.addEventListener('mousemove',e=>{ if(TTel.classList.contains('show')) moveTT(e); });
+document.addEventListener('mousemove',e=>{if(TTel.classList.contains('show'))moveTT(e);});
 
 // ═══════════════════════════════════════════════════════
-// FILTER BAR
+// DESKTOP FILTER BAR
 // ═══════════════════════════════════════════════════════
-// Market map: numeric key → market string (avoids special chars in onclick)
 const MKT={};
-function renderFilterBar(){
-  renderRow1(); renderRow2();
-}
-
+function renderFilterBar(){ renderRow1(); renderRow2(); }
 function renderRow1(){
-  const dates=[
-    {k:'today',l:'今天'},{k:'7d',l:'7天內'},{k:'30d',l:'30天'},{k:'all',l:'全部'}
-  ];
+  const dates=[{k:'today',l:'今天'},{k:'7d',l:'7天內'},{k:'30d',l:'30天'},{k:'all',l:'全部'}];
   if(S.dateRange==='day'){
     const d=new Date(S.selDate+'T00:00:00');
     dates.push({k:'day',l:`📅 ${d.getMonth()+1}/${d.getDate()}`});
   }
   const dPills=dates.map(r=>`<button class="pill pill-date${S.dateRange===r.k?' active':''}" onclick="setDate('${r.k}')">${r.l}</button>`).join('');
-
-  const impacts=[
-    {k:'all',l:'全部衝擊',c:'pill-impact'},
-    {k:'high',l:'🔥 高',c:'pill-high'},
-    {k:'medium',l:'⚠️ 中',c:'pill-med'},
-    {k:'low',l:'ℹ️ 低',c:'pill-low'}
-  ];
+  const impacts=[{k:'all',l:'全部衝擊',c:'pill-impact'},{k:'high',l:'🔥 高',c:'pill-high'},{k:'medium',l:'⚠️ 中',c:'pill-med'},{k:'low',l:'ℹ️ 低',c:'pill-low'}];
   const iPills=impacts.map(r=>`<button class="pill ${r.c}${S.impact===r.k?' active':''}" onclick="setImpact('${r.k}')">${r.l}</button>`).join('');
-
-  document.getElementById('frow1').innerHTML=`
-    ${dPills}
-    <span class="fdiv">|</span>
-    ${iPills}
-    <span class="fdiv">|</span>
+  document.getElementById('frow1').innerHTML=`${dPills}<span class="fdiv">|</span>${iPills}<span class="fdiv">|</span>
     <button class="pill pill-bm${S.bmOnly?' active':''}" onclick="toggleBmOnly()">⭐ 收藏</button>
-    <input id="searchbox" type="search" placeholder="🔍 搜尋…" autocomplete="off"
-      value="${esc(S.search)}" oninput="onSearch(this.value)">
-    <input type="date" id="date-picker" title="\u8df3\u8f49\u5230\u6307\u5b9a\u65e5\u671f"
-      value="${S.dateRange==='day'?S.selDate:''}"
-      onchange="onDatePick(this.value)">`;
+    <input id="searchbox" type="search" placeholder="🔍 搜尋…" autocomplete="off" value="${esc(S.search)}" oninput="onSearch(this.value)">
+    <input type="date" id="date-picker" title="跳轉到指定日期" value="${S.dateRange==='day'?S.selDate:''}" onchange="onDatePick(this.value)">`;
 }
-
 function renderRow2(){
   const markets=[...new Set(allItems().map(i=>i.market))].sort();
-  let idx=0;
-  markets.forEach((m,i)=>{ MKT[i]=m; });
+  markets.forEach((m,i)=>{MKT[i]=m;});
   const allBtn=`<button class="pill pill-mkt${S.market==='all'?' active':''}" onclick="setMkt(-1)">🌐 全部市場</button>`;
   const mBtns=markets.map((m,i)=>`<button class="pill pill-mkt${S.market===m?' active':''}" onclick="setMkt(${i})">${m}</button>`).join('');
   document.getElementById('frow2').innerHTML=allBtn+mBtns;
@@ -606,26 +760,21 @@ function renderRow2(){
 function renderCards(){
   const items=filteredItems();
   updateStats();
+  updateMobileHeader();
   const wrap=document.getElementById('cards');
-
   if(!items.length){
     wrap.innerHTML='<div class="empty">☕ 此條件下無相關新聞<br><span style="font-size:12px;color:#d0d0d0">請嘗試調整篩選條件或日期範圍</span></div>';
     return;
   }
-
-  // Group by date, sort descending
   const byDate={};
-  items.forEach(it=>{ (byDate[it._date]||(byDate[it._date]=[])).push(it); });
+  items.forEach(it=>{(byDate[it._date]||(byDate[it._date]=[])).push(it);});
   const dates=Object.keys(byDate).sort((a,b)=>b.localeCompare(a));
   const today=DATA.lastUpdated;
   const showWeeks=(S.dateRange==='30d'||S.dateRange==='all')&&dates.length>3;
-
   let html=`<div class="results-hd">篩選結果 <span class="results-cnt">${items.length} 則</span></div>`;
-
   if(showWeeks){
-    // Group dates by ISO week (Mon-Sun)
     const byWeek={};
-    dates.forEach(ds=>{ const wk=weekStart(ds); (byWeek[wk]||(byWeek[wk]=[])).push(ds); });
+    dates.forEach(ds=>{const wk=weekStart(ds);(byWeek[wk]||(byWeek[wk]=[])).push(ds);});
     const wks=Object.keys(byWeek).sort((a,b)=>b.localeCompare(a));
     wks.forEach(wk=>{
       const wDates=byWeek[wk];
@@ -644,29 +793,25 @@ function renderCards(){
         </div>
         <div class="ws-tags">${tags.map(t=>`<span class="ws-tag">${t}</span>`).join('')}</div>
       </div>`;
-      wDates.forEach(ds=>{ html+=dateGroup(ds,byDate[ds],today); });
+      wDates.forEach(ds=>{html+=dateGroup(ds,byDate[ds],today);});
     });
   } else {
-    dates.forEach(ds=>{ html+=dateGroup(ds,byDate[ds],today); });
+    dates.forEach(ds=>{html+=dateGroup(ds,byDate[ds],today);});
   }
-
   wrap.innerHTML=html;
 }
-
 function dateGroup(ds,items,today){
   const d=new Date(ds+'T00:00:00');
   const isToday=(ds===today);
   const lbl=(isToday?'今天 · ':'')+`${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`;
   let h=`<div class="dg-hd">${lbl}</div>`;
-  items.forEach(it=>{ h+=cardHTML(it); });
+  items.forEach(it=>{h+=cardHTML(it);});
   return h;
 }
-
 function cardHTML(it){
   const isOpen=OPEN.has(it.id);
   const isBM=BM.has(it.id);
   const areas=(it.impactAreas||[]).map(a=>`<span class="atag">${a}</span>`).join('');
-  // Detail only rendered if open (lazy)
   const det=isOpen?detailHTML(it):'';
   return `<div class="card${isOpen?' open':''}" id="c-${it.id}">
   <div class="c-bar ${it.impact}"></div>
@@ -679,8 +824,7 @@ function cardHTML(it){
       <button class="c-bm${isBM?' on':''}" onclick="toggleBM(event,'${it.id}')" title="${isBM?'移除收藏':'加入收藏'}">${isBM?'⭐':'☆'}</button>
     </div>
     <div class="c-tags">
-      <span class="ibadge ${it.impact}">${it.impactLabel}</span>
-      ${areas}
+      <span class="ibadge ${it.impact}">${it.impactLabel}</span>${areas}
     </div>
     <div class="c-body" onclick="toggleCard('${it.id}')">
       <div class="c-hl${isOpen?'':' clamped'}">${esc(it.headline)}<span class="chev">▾</span></div>
@@ -689,7 +833,6 @@ function cardHTML(it){
   </div>
 </div>`;
 }
-
 function detailHTML(it){
   const impacts=(it.potentialImpact||[]).map(p=>`<li>${p}</li>`).join('');
   const sources=(it.sourceLinks||[]).map(s=>
@@ -705,7 +848,7 @@ function detailHTML(it){
 }
 
 // ═══════════════════════════════════════════════════════
-// INTERACTIONS
+// CARD / BM INTERACTIONS
 // ═══════════════════════════════════════════════════════
 function toggleCard(id){
   const el=document.getElementById('c-'+id);
@@ -719,34 +862,214 @@ function toggleCard(id){
     OPEN.add(id);
     el.classList.add('open');
     el.querySelector('.c-hl').classList.remove('clamped');
-    // Lazy-load detail
     const det=el.querySelector('.c-det');
     if(!det.innerHTML.trim()){
       const it=allItems().find(i=>i.id===id);
       if(it) det.innerHTML=detailHTML(it);
     }
     det.style.display='block';
-    // Smooth scroll into view on mobile
     if(window.innerWidth<768) setTimeout(()=>el.scrollIntoView({behavior:'smooth',block:'nearest'}),100);
   }
 }
-
 function toggleBM(e,id){
   e.stopPropagation();
   BM.has(id)?BM.delete(id):BM.add(id);
   saveBM();
-  const btn=e.currentTarget, on=BM.has(id);
+  const btn=e.currentTarget,on=BM.has(id);
   btn.textContent=on?'⭐':'☆';
   btn.classList.toggle('on',on);
   btn.title=on?'移除收藏':'加入收藏';
   if(S.bmOnly) renderCards();
 }
+function toggleBmOnly(){S.bmOnly=!S.bmOnly;refreshFilters();}
+function setDate(k){if(k!=='day')S.selDate='';S.dateRange=k;refreshFilters();}
+function setImpact(v){S.impact=v;refreshFilters();}
+function setMkt(i){S.market=(i===-1?'all':MKT[i]||'all');refreshFilters();}
+function onSearch(v){S.search=v.trim();renderCards();updateStats();}
 
-function toggleBmOnly(){ S.bmOnly=!S.bmOnly; refreshFilters(); }
-function setDate(k){ if(k!=='day') S.selDate=''; S.dateRange=k; refreshFilters(); }
-function setImpact(v){ S.impact=v; refreshFilters(); }
-function setMkt(i){ S.market=(i===-1?'all':MKT[i]||'all'); refreshFilters(); }
-function onSearch(v){ S.search=v.trim(); renderCards(); updateStats(); }
+// ═══════════════════════════════════════════════════════
+// BOTTOM NAV – TAB STATE
+// ═══════════════════════════════════════════════════════
+function updateTabState(){
+  // Date tab
+  const dateActive = S.dateRange !== '7d';
+  document.getElementById('tab-date').classList.toggle('active', dateActive);
+  document.getElementById('tdot-date').classList.toggle('show', dateActive);
+
+  // Market tab
+  const mktActive = S.market !== 'all';
+  document.getElementById('tab-mkt').classList.toggle('active', mktActive);
+  document.getElementById('tdot-mkt').classList.toggle('show', mktActive);
+
+  // Impact tab
+  const impActive = S.impact !== 'all';
+  document.getElementById('tab-impact').classList.toggle('active', impActive);
+  document.getElementById('tdot-impact').classList.toggle('show', impActive);
+
+  // Bookmark tab
+  document.getElementById('tab-bm').classList.toggle('active', S.bmOnly);
+  document.getElementById('ticon-bm').textContent = S.bmOnly ? '⭐' : '☆';
+
+  // Search tab
+  const srchActive = S.search.length > 0;
+  document.getElementById('tab-search').classList.toggle('active', srchActive);
+  document.getElementById('tdot-search').classList.toggle('show', srchActive);
+}
+
+// ═══════════════════════════════════════════════════════
+// BOTTOM SHEET
+// ═══════════════════════════════════════════════════════
+let _sheetOpen = false;
+
+function openSheet(type){
+  if(window.innerWidth>=768) return; // desktop uses filter bar
+  const content = document.getElementById('sheet-content');
+  if(type==='date') content.innerHTML = buildDateSheet();
+  else if(type==='market') content.innerHTML = buildMarketSheet();
+  else if(type==='impact') content.innerHTML = buildImpactSheet();
+
+  const bd = document.getElementById('sheet-bd');
+  const sh = document.getElementById('bottom-sheet');
+  bd.classList.add('show');
+  sh.classList.add('show');
+  document.body.style.overflow='hidden';
+  _sheetOpen = true;
+}
+
+function closeSheet(){
+  const bd=document.getElementById('sheet-bd');
+  const sh=document.getElementById('bottom-sheet');
+  sh.classList.remove('show');
+  sh.style.transform='';  // reset any swipe offset
+  bd.classList.remove('show');
+  setTimeout(()=>{ if(!_sheetOpen) bd.style.display=''; },300);
+  document.body.style.overflow='';
+  _sheetOpen = false;
+}
+
+// Date sheet content
+function buildDateSheet(){
+  const opts=[
+    {k:'today',icon:'🗓️',l:'今天',sub:'只看今日新聞'},
+    {k:'7d',icon:'📅',l:'最近 7 天',sub:'預設範圍'},
+    {k:'30d',icon:'📆',l:'最近 30 天',sub:'查看近期趨勢'},
+    {k:'all',icon:'🗂️',l:'全部日期',sub:'查看所有資料'},
+  ];
+  if(S.dateRange==='day'){
+    const d=new Date(S.selDate+'T00:00:00');
+    opts.push({k:'day',icon:'📌',l:`指定日期：${d.getMonth()+1}/${d.getDate()}`,sub:S.selDate});
+  }
+  return `<div class="sheet-title">日期範圍</div>`+opts.map(o=>`
+    <div class="sheet-opt${S.dateRange===o.k?' selected':''}" onclick="setDateSh('${o.k}')">
+      <span class="so-icon">${o.icon}</span>
+      <div class="so-label">${o.l}<div class="so-sub">${o.sub}</div></div>
+      <span class="so-check">✓</span>
+    </div>`).join('');
+}
+
+// Market sheet content
+function buildMarketSheet(){
+  const markets=[...new Set(allItems().map(i=>i.market))].sort();
+  const all=`<div class="sheet-opt${S.market==='all'?' selected':''}" onclick="setMktSh('__all__')">
+    <span class="so-icon">🌐</span>
+    <div class="so-label">全部市場</div>
+    <span class="so-check">✓</span>
+  </div>`;
+  return `<div class="sheet-title">選擇市場</div>`+all+markets.map(m=>`
+    <div class="sheet-opt${S.market===m?' selected':''}" onclick="setMktSh(${JSON.stringify(m)})">
+      <span class="so-icon">${m.slice(0,2)}</span>
+      <div class="so-label">${m.slice(2).trim()}</div>
+      <span class="so-check">✓</span>
+    </div>`).join('');
+}
+
+// Impact sheet content
+function buildImpactSheet(){
+  const opts=[
+    {k:'all',icon:'⚡',l:'全部衝擊',sub:'不限程度'},
+    {k:'high',icon:'🔥',l:'高衝擊',sub:'直接影響供應鏈、採購、合約'},
+    {k:'medium',icon:'⚠️',l:'中衝擊',sub:'影響市場機會、策略、採購量'},
+    {k:'low',icon:'ℹ️',l:'低衝擊',sub:'品牌背景、市場動態'},
+  ];
+  return `<div class="sheet-title">衝擊程度</div>`+opts.map(o=>`
+    <div class="sheet-opt${S.impact===o.k?' selected':''}" onclick="setImpactSh('${o.k}')">
+      <span class="so-icon">${o.icon}</span>
+      <div class="so-label">${o.l}<div class="so-sub">${o.sub}</div></div>
+      <span class="so-check">✓</span>
+    </div>`).join('');
+}
+
+function setDateSh(k){setDate(k);closeSheet();}
+function setMktSh(v){S.market=(v==='__all__'?'all':v);refreshFilters();closeSheet();}
+function setImpactSh(v){setImpact(v);closeSheet();}
+
+function toggleBmOnlyMobile(){toggleBmOnly();}
+
+// ── Swipe-down to close sheet ──
+(function(){
+  const sh=document.getElementById('bottom-sheet');
+  let sy=0,dragging=false,lastY=0;
+  sh.addEventListener('touchstart',e=>{
+    // only drag if at top of scroll
+    if(sh.scrollTop===0){ sy=e.touches[0].clientY; dragging=true; }
+  },{passive:true});
+  sh.addEventListener('touchmove',e=>{
+    if(!dragging) return;
+    const dy=e.touches[0].clientY-sy;
+    lastY=dy;
+    if(dy>0) sh.style.transform=`translateY(${dy}px)`;
+  },{passive:true});
+  sh.addEventListener('touchend',()=>{
+    if(!dragging) return;
+    dragging=false;
+    if(lastY>90) closeSheet();
+    else { sh.style.transition='transform .32s cubic-bezier(0.4,0,0.2,1)'; sh.style.transform=''; }
+    lastY=0;
+  });
+})();
+
+// ═══════════════════════════════════════════════════════
+// SEARCH OVERLAY (mobile)
+// ═══════════════════════════════════════════════════════
+function openSearch(){
+  if(window.innerWidth>=768) return;
+  const ov=document.getElementById('search-overlay');
+  ov.classList.add('open');
+  requestAnimationFrame(()=>{
+    requestAnimationFrame(()=>{
+      ov.classList.add('visible');
+      const inp=document.getElementById('mob-search-input');
+      inp.value=S.search;
+      inp.focus();
+      updateClearBtn();
+    });
+  });
+}
+function closeSearch(){
+  const ov=document.getElementById('search-overlay');
+  ov.classList.remove('visible');
+  setTimeout(()=>ov.classList.remove('open'),250);
+  // Keep the search state if there was a query
+  updateTabState();
+}
+function onMobSearch(v){
+  S.search=v.trim();
+  renderCards();
+  updateStats();
+  updateClearBtn();
+  updateTabState();
+  const hint=document.getElementById('so-hint');
+  hint.textContent=v?`搜尋「${v}」的結果`:'輸入關鍵字搜尋新聞';
+}
+function clearMobSearch(){
+  document.getElementById('mob-search-input').value='';
+  onMobSearch('');
+  document.getElementById('mob-search-input').focus();
+}
+function updateClearBtn(){
+  const v=document.getElementById('mob-search-input').value;
+  document.getElementById('so-clear').classList.toggle('show',v.length>0);
+}
 
 // ═══════════════════════════════════════════════════════
 // UTILS
@@ -757,4 +1080,3 @@ function esc(s=''){
 </script>
 </body>
 </html>
-                  
