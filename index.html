@@ -335,30 +335,41 @@ button{font-family:inherit;cursor:pointer}
    SHEET BACKDROP
 ───────────────────────────────── */
 #sheet-bd{
-  display:none;position:fixed;inset:0;
+  position:fixed;inset:0;
   background:rgba(0,0,0,.42);
   -webkit-backdrop-filter:blur(3px);
   backdrop-filter:blur(3px);
   z-index:600;
-  opacity:0;transition:opacity .28s}
-#sheet-bd.show{display:block;opacity:1}
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+  transition:opacity .28s, visibility 0s linear .28s}
+#sheet-bd.show{
+  opacity:1;
+  visibility:visible;
+  pointer-events:auto;
+  transition:opacity .28s, visibility 0s linear 0s}
 
 /* ─────────────────────────────────
    BOTTOM SHEET
 ───────────────────────────────── */
 #bottom-sheet{
-  display:none;
   position:fixed;bottom:0;left:0;right:0;
   background:#fff;border-radius:20px 20px 0 0;
   z-index:700;
-  transform:translateY(100%);
-  transition:transform .32s cubic-bezier(0.4,0,0.2,1);
+  transform:translateY(110%);
+  visibility:hidden;
+  pointer-events:none;
+  transition:transform .32s cubic-bezier(0.4,0,0.2,1), visibility 0s linear .32s;
   padding-bottom:env(safe-area-inset-bottom);
   max-height:72vh;overflow-y:auto;
   -webkit-overflow-scrolling:touch;
-  /* subtle shadow */
   box-shadow:0 -4px 32px rgba(0,0,0,.14)}
-#bottom-sheet.show{display:block;transform:translateY(0)}
+#bottom-sheet.show{
+  transform:translateY(0);
+  visibility:visible;
+  pointer-events:auto;
+  transition:transform .32s cubic-bezier(0.4,0,0.2,1), visibility 0s linear 0s}
 
 .sheet-handle-wrap{padding:10px 0 4px;display:flex;justify-content:center;flex-shrink:0}
 .sheet-handle{width:40px;height:4px;background:#e0e0e0;border-radius:2px}
@@ -513,7 +524,7 @@ button{font-family:inherit;cursor:pointer}
 <!-- ══════════════════════════════
      BOTTOM SHEET
 ══════════════════════════════ -->
-<div id="bottom-sheet" id="bsheet">
+<div id="bottom-sheet">
   <div class="sheet-handle-wrap"><div class="sheet-handle"></div></div>
   <div id="sheet-content"></div>
 </div>
@@ -942,7 +953,6 @@ function closeSheet(){
   sh.classList.remove('show');
   sh.style.transform='';  // reset any swipe offset
   bd.classList.remove('show');
-  setTimeout(()=>{ if(!_sheetOpen) bd.style.display=''; },300);
   document.body.style.overflow='';
   _sheetOpen = false;
 }
@@ -968,15 +978,18 @@ function buildDateSheet(){
 }
 
 // Market sheet content
+const MKTARR = [];
 function buildMarketSheet(){
   const markets=[...new Set(allItems().map(i=>i.market))].sort();
-  const all=`<div class="sheet-opt${S.market==='all'?' selected':''}" onclick="setMktSh('__all__')">
+  MKTARR.length=0;
+  markets.forEach(m=>MKTARR.push(m));
+  const all=`<div class="sheet-opt${S.market==='all'?' selected':''}" onclick="setMktSh(-1)">
     <span class="so-icon">🌐</span>
     <div class="so-label">全部市場</div>
     <span class="so-check">✓</span>
   </div>`;
-  return `<div class="sheet-title">選擇市場</div>`+all+markets.map(m=>`
-    <div class="sheet-opt${S.market===m?' selected':''}" onclick="setMktSh(${JSON.stringify(m)})">
+  return `<div class="sheet-title">選擇市場</div>`+all+markets.map((m,i)=>`
+    <div class="sheet-opt${S.market===m?' selected':''}" onclick="setMktSh(${i})">
       <span class="so-icon">${m.slice(0,2)}</span>
       <div class="so-label">${m.slice(2).trim()}</div>
       <span class="so-check">✓</span>
@@ -1000,7 +1013,7 @@ function buildImpactSheet(){
 }
 
 function setDateSh(k){setDate(k);closeSheet();}
-function setMktSh(v){S.market=(v==='__all__'?'all':v);refreshFilters();closeSheet();}
+function setMktSh(i){S.market=(i===-1?'all':(MKTARR[i]||'all'));refreshFilters();closeSheet();}
 function setImpactSh(v){setImpact(v);closeSheet();}
 
 function toggleBmOnlyMobile(){toggleBmOnly();}
