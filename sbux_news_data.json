@@ -7,6 +7,45 @@
       "items": [
         {
           "id": "20260610-1",
+          "market": "🇯🇵 日本市場",
+          "source": "Reuters / Bloomberg / Japan Times",
+          "pubDate": "2026-06-10",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "供應鏈管理",
+            "採購關係",
+            "APAC 策略"
+          ],
+          "headline": "星巴克考慮出售日本業務股權或 IPO，估值達 4,000–5,000 億日圓（約 25–31 億美元）",
+          "summary": "Bloomberg 6月10日報導，星巴克正評估日本業務的股權出售（Stake Sale）或首次公開發行（IPO）等選項，已開始與投資銀行進行初步接觸。日本星巴克約有 2,100 家門市，多數為直營，是星巴克全球最大市場之一；潛在股權出售估值預計落在 4,000 至 5,000 億日圓（約 25 至 31 億美元），可能吸引業界策略買家或私募股權基金。此舉延續星巴克今年 4 月將中國業務多數股權轉讓給博裕資本（Boyu Capital）的亞太資產輕化策略。",
+          "whyMatters": "日本業務潛在易主是今日最重要的供應鏈事件：新股東（無論是業界買家還是私募股權）通常會在交割後啟動全面的成本審查，日本市場的原料、包裝、設備供應商面臨合約重談或供應商整合的高度風險。繼中國 JV 之後，星巴克正逐步將 APAC 主要市場轉型為特許授權或合資模式，代表全球採購決策將進一步分散至各地合作夥伴，供應商需要重新建立在地化關係。",
+          "potentialImpact": [
+            "日本市場供應商（食品原料、包裝、設備、冷鏈物流）應立即評估現有合約保護條款，確認在股東結構變更時合約的延續性與優先採購權是否有保障",
+            "私募股權或業界買家入主後通常要求大幅降低 COGS（銷售成本），供應商應提前準備成本最佳化方案及多層次報價策略，以應對即將到來的議價壓力",
+            "星巴克 APAC 資產輕化趨勢（中國→日本）恐延伸至其他市場（台灣、韓國、東南亞），全球供應商應重新審視各市場合約架構，建立與本地合作夥伴/被授權方的關係，確保業務延續性"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Japan Times：Starbucks Japan Stake Sale（2026-06-10）",
+              "url": "https://www.japantimes.co.jp/business/2026/06/10/companies/starbucks-japan-stake-sale-options/"
+            },
+            {
+              "label": "Reuters/TradingView：星巴克日本業務選項",
+              "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N42I07T:0-starbucks-mulls-options-for-japan-business-including-stake-sale-bloomberg-reports/"
+            },
+            {
+              "label": "Investing.com：Starbucks Japan Stake Sale or IPO",
+              "url": "https://www.investing.com/news/stock-market-news/starbucks-weighs-stake-sale-ipo-options-for-japan-business--bloomberg-4734310"
+            },
+            {
+              "label": "Inside Retail Asia：Starbucks Japan（2026-06-10）",
+              "url": "https://insideretail.asia/2026/06/10/starbucks-mulls-selling-stake-in-japan-business/"
+            }
+          ]
+        },
+        {
+          "id": "20260610-2",
           "market": "🇺🇸 美國市場",
           "source": "OnLabor / Bloomberg Law",
           "pubDate": "2026-06-09",
@@ -37,7 +76,7 @@
           ]
         },
         {
-          "id": "20260610-2",
+          "id": "20260610-3",
           "market": "🇺🇸 美國市場",
           "source": "RealClearInvestigations / Restaurant Dive",
           "pubDate": "2026-06-10",
@@ -68,7 +107,7 @@
           ]
         },
         {
-          "id": "20260610-3",
+          "id": "20260610-4",
           "market": "🌍 全球",
           "source": "Zacks/TradingView / Yahoo Finance",
           "pubDate": "2026-06-09",
@@ -99,7 +138,7 @@
           ]
         },
         {
-          "id": "20260610-4",
+          "id": "20260610-5",
           "market": "🇺🇸 美國市場",
           "source": "Yahoo Finance / InsiderMonkey / CNBC",
           "pubDate": "2026-06-08",
@@ -130,7 +169,7 @@
           ]
         },
         {
-          "id": "20260610-5",
+          "id": "20260610-6",
           "market": "🌍 全球",
           "source": "Investing.com",
           "pubDate": "2026-06-09",
@@ -157,41 +196,6 @@
             {
               "label": "Comunicaffe：Q2 FY2026成果摘要",
               "url": "https://www.comunicaffe.com/starbucks-reports-strong-q2-2026-results-with-net-revenues-increased-9-to-9-5-billion-raises-full-year-outlook/"
-            }
-          ]
-        },
-        {
-          "id": "20260610-6",
-          "market": "🇯🇵 日本市場",
-          "source": "Bloomberg / Reuters",
-          "pubDate": "2026-06-10",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "採購架構",
-            "APAC 策略",
-            "供應鏈管理"
-          ],
-          "headline": "星巴克考慮出售日本業務股份或 IPO，逾 2,100 間門市採購主體恐面臨重大轉型",
-          "summary": "Bloomberg 報導，星巴克正評估日本業務處置方案，選項包括出售股權（估值約 4,000–5,000 億日圓，合 25–32 億美元）或重新 IPO 上市，並已與投資銀行展開初步洽談。此舉延續中國業務以合資模式移交博裕資本的「輕資產」策略，日本約 2,100 間門市（多數為直營）的採購主體可能由星巴克直接轉為授權經營商。目前仍屬初步評估，尚未作出最終決定。",
-          "whyMatters": "日本是星巴克 APAC 最大直營市場之一，若採購主體從星巴克總公司轉為本地被授權方，現有供應商的合約歸屬、規格標準與採購流程均可能全面重置。這是繼中國合資化之後，第二個重大 APAC 市場結構性變化，供應商必須密切追蹤。",
-          "potentialImpact": [
-            "現有與星巴克日本簽訂供貨合約的供應商應立即確認合約中「公司結構變更」條款，評估所有權轉移是否觸發重新議約或終止條款",
-            "潛在買家（私募股權或業內戰略買家）可能引入新的採購標準或供應商名單，供應商應主動建立與日本業務管理層的直接關係，而非僅依賴總公司採購渠道",
-            "若 IPO 路線成行，日本星巴克上市後將面臨更嚴格的成本管控壓力，供應商需預期價格談判將更趨激烈，應提前準備成本效益分析資料"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Reuters",
-              "url": "https://www.reuters.com/legal/transactional/starbucks-said-weigh-japan-unit-options-including-stake-sale-bloomberg-news-2026-06-10/"
-            },
-            {
-              "label": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-06-10/starbucks-said-to-weigh-japan-unit-options-including-stake-sale"
-            },
-            {
-              "label": "Inside Retail Asia",
-              "url": "https://insideretail.asia/2026/06/10/starbucks-mulls-selling-stake-in-japan-business/"
             }
           ]
         }
