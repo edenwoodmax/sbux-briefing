@@ -1,591 +1,752 @@
 {
-    "lastUpdated":  "2026-06-09",
-    "days":  [
-                 {
-                     "date":  "2026-06-09",
-                     "label":  "06/09",
-                     "items":  [
-                                   {
-                                       "id":  "20260609-1",
-                                       "market":  "🌍 全球",
-                                       "source":  "Starbucks IR / BusinessWire",
-                                       "pubDate":  "2026-06-02",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "財務表現",
-                                                           "採購架構"
-                                                       ],
-                                       "headline":  "星巴克 CEO Brian Niccol 出席 Evercore 消費零售年會，親自闡述「重返星巴克」轉型進展",
-                                       "summary":  "星巴克 CEO Brian Niccol 於 2026 年 6 月 9 日在第六屆 Evercore 消費者暨零售年會發表主題演講，透過直播向市場說明「Back to Starbucks」策略執行現況與未來展望。此次公開露面代表星巴克主動向投資人及利害關係人確認轉型路徑，為近期財務表現（Q2 合併營收年增 9%）提供策略背書。",
-                                       "whyMatters":  "CEO 在投資人會議的公開表態將影響市場對星巴克採購投資力道的預期，採購量及合約條件可能隨轉型進度而調整。若 Niccol 釋出積極訊號，供應商可預期訂單穩定性提升及長期採購合約比重增加。北美門市復甦動能（Q2 可比交易量增 3.8%）亦意味著原料需求持續上升。",
-                                       "potentialImpact":  [
-                                                               "密切追蹤此次演講中釋出的採購架構調整訊號，特別是食材多元化與每日補貨頻率提升的相關計畫",
-                                                               "準備應對訂單量穩定增長：北美門市客流量持續回升，原料（咖啡、乳製品、糖漿）補貨週期可能縮短",
-                                                               "留意 CEO 對中國及 APAC 市場展望的表述，Boyu JV 架構下的採購主導權移轉可能影響區域供應商合約談判"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Starbucks IR 官方公告",
-                                                               "url":  "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-to-Participate-in-the-6th-Annual-Evercore-Consumer-and-Retail-Conference/default.aspx"
-                                                           },
-                                                           {
-                                                               "label":  "BusinessWire 新聞稿",
-                                                               "url":  "https://www.businesswire.com/news/home/20260602473511/en/Starbucks-to-Participate-in-the-6th-Annual-Evercore-Consumer-and-Retail-Conference"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260609-2",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "Bloomberg / Claims Journal",
-                                       "pubDate":  "2026-06-02",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "供應鏈技術",
-                                                           "AI 自動化",
-                                                           "採購架構"
-                                                       ],
-                                       "headline":  "星巴克將 AI 使用率納入科技員工績效獎金考核，25% 獎金與部門 AI 導入目標掛鉤",
-                                       "summary":  "星巴克宣布將大多數科技部門員工獎金的 25% 與 AI 採用率等部門目標掛鉤，藉此加速「Back to Starbucks」策略中 AI 技術的落地應用。此一決策涵蓋應用程式訂單支付功能、庫存管理及門市營運優化等多個面向，半數獎金仍依公司整體財務表現發放。值得注意的是，星巴克甫於上月廢止 AI 庫存盤點工具，顯示其在 AI 應用上採取更具選擇性的推進策略。",
-                                       "whyMatters":  "星巴克強化 AI 整合將加速其採購、庫存管理及訂單預測系統的數位化，對供應商而言意味著 EDI 介接、數位貨架、即時庫存共享等技術對接要求將提升。未能配合數位化升級的供應商可能在合約續約時面臨競爭劣勢。",
-                                       "potentialImpact":  [
-                                                               "評估自身數位化能力，確保能配合星巴克可能提出的 AI 驅動供應鏈整合需求（如 API 對接、即時庫存資料共享）",
-                                                               "關注星巴克 AI 庫存優化工具的後續替代方案，新系統可能帶來不同的訂單補貨頻率與批量模式變化",
-                                                               "廢止舊有 AI 庫存工具的教訓顯示星巴克對採購技術投資採取審慎態度，供應商可把握窗口期提出共同技術試驗提案"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Claims Journal 報導（2026-06-02）",
-                                                               "url":  "https://www.claimsjournal.com/news/national/2026/06/02/337870.htm"
-                                                           },
-                                                           {
-                                                               "label":  "Bloomberg 原報導",
-                                                               "url":  "https://www.bloomberg.com/news/articles/2026-05-28/starbucks-to-take-ai-usage-into-account-in-tech-workers-bonuses"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260609-3",
-                                       "market":  "🌍 全球",
-                                       "source":  "Starbucks / Water.org",
-                                       "pubDate":  "2026-06-09",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "原料需求",
-                                                           "ESG 風險",
-                                                           "永續發展"
-                                                       ],
-                                       "headline":  "星巴克 6 月 16 日推出藍椰子雙品飲品，與 Get Blue 合作支持全球淨水計畫",
-                                       "summary":  "星巴克將於 6 月 16 日起正式在全球門市推出「藍椰子抹茶」與「藍椰子冷泡果飲」兩款新品，以藍色螺旋藻（Blue Spirulina）為天然著色來源，並搭配烤椰子冷泡奶蓋、芒果及草莓巴西莓等風味。星巴克同步宣布與 Water.org 旗下 Get Blue 計畫合作，6 月 16 日至 7 月 7 日期間每售出一杯飲品捐出 0.25 美元，凸顯品牌在飲品創新中融入 ESG 主軸的策略取向。",
-                                       "whyMatters":  "兩款新品對多種原料產生明確的新增需求，包括藍色螺旋藻粉末、椰子相關製品（椰奶、烤椰子）、芒果果漿及草莓巴西莓等。搭配 ESG 公益元素的行銷策略意味著星巴克在採購過程中將更重視永續認證及可溯源性。短期內（6-7 月）相關原料採購量有望顯著上升。",
-                                       "potentialImpact":  [
-                                                               "藍色螺旋藻、椰奶及烤椰子製品供應商應確認是否具備充足產能應對 6 月 16 日起的需求激增，並備妥快速補貨方案",
-                                                               "具備永續認證（有機、公平貿易、可溯源）的原料供應商在此波新品採購中將具備差異化競爭優勢",
-                                                               "密切追蹤 Get Blue ESG 合作模式，星巴克可能將類似社會影響力框架延伸至未來採購標準，提前評估自身 ESG 合規能力"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Starbucks 藍椰子雙品發布公告",
-                                                               "url":  "https://about.starbucks.com/stories/2026/starbucks-introduces-blue-coconut-duo-supporting-clean-water-through-get-blue/"
-                                                           },
-                                                           {
-                                                               "label":  "Starbucks 夏季飲品完整菜單",
-                                                               "url":  "https://www.starbucks.com/menu/featured/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260609-4",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "Starbucks / TheStreet",
-                                       "pubDate":  "2026-06-09",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "原料需求",
-                                                           "飲品趨勢",
-                                                           "消費者行為"
-                                                       ],
-                                       "headline":  "星巴克夏季菜單全面啟動：S\u0027mores 星冰樂回歸、Miffy 聯名及多款新冷泡飲品強化競爭差異化",
-                                       "summary":  "星巴克推出 2026 年夏季菜單，核心亮點包含闊別六年的 S\u0027mores 星冰樂與全新 S\u0027mores 冷泡咖啡（搭配棉花糖冷泡奶蓋），並宣布與荷蘭知名卡通角色 Miffy 聯名合作，強化品牌在年輕消費群及 APAC 市場的吸引力。此外，新款冰沙能量冷萃及冰抹茶檸檬冰沙將於 6 月 30 日正式登場，傳奇獨角獸星冰樂亦將在夏末限時回歸。",
-                                       "whyMatters":  "S\u0027mores 系列回歸意味著焦糖、棉花糖、巧克力及餅乾等原料的季節性需求將明顯拉升，巧克力及乳製品供應商應提前備貨。Miffy 聯名周邊商品的全球同步推出（重點市場包含日本、台灣、韓國等 APAC 地區）也代表包裝材料及周邊商品採購需求的短期增加。",
-                                       "potentialImpact":  [
-                                                               "巧克力、棉花糖及烘烤穀類（餅乾碎）供應商應儘快確認 Q3 備貨計畫，S\u0027mores 系列需求通常集中於夏季旺季且持續至少 8 週",
-                                                               "Miffy 聯名周邊（馬克杯、提袋等）的包裝製造商和 APAC 區域供應商可把握此波商品採購機會",
-                                                               "關注冰沙能量飲系列的原料構成（B 群維生素、咖啡因來源），此類功能性飲品趨勢可能成為未來採購的長期方向"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Starbucks 夏季新品官方發布",
-                                                               "url":  "https://about.starbucks.com/stories/2026/starbucks-launches-new-summer-drinks-brings-back-smores-frappuccino/"
-                                                           },
-                                                           {
-                                                               "label":  "TheStreet：Miffy 聯名及夏季競爭分析",
-                                                               "url":  "https://www.thestreet.com/restaurants/starbucks-drops-another-summer-surprise-as-competition-heats-up-new-drinks-miffy-collab"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260609-5",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "Parade / Starbucks",
-                                       "pubDate":  "2026-06-09",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "飲品趨勢",
-                                                           "品牌策略",
-                                                           "採購量預測"
-                                                       ],
-                                       "headline":  "星巴克確認傳奇獨角獸星冰樂限時回歸，新款冰沙能量冷萃夏末登場，限定品稀缺行銷策略持續推進",
-                                       "summary":  "星巴克正式確認獨角獸星冰樂（Unicorn Frappuccino）將於夏末限時一個週末回歸，同時預告新款冰沙能量冷萃（Blended Energy Refreshers）與冰沙抹茶檸檬（Blended Matcha Lemonade）將於 6 月 30 日供 Rewards 會員搶先體驗，並於 7 月 1 日全面開賣。連番限定新品策略成功拉高客流量並鞏固 Rewards 會員黏著度，是 Niccol 回客策略的核心操作手段。",
-                                       "whyMatters":  "獨角獸星冰樂等限定品對彩色天然食用色素（蝶豆花、甜菜根、薑黃等）及特殊風味糖漿產生短期爆發性需求，供應商需具備快速出貨彈性。能量冷萃系列（含 B 群維生素、咖啡因）持續擴充也顯示功能性飲料原料將成為中長期穩定採購品項。",
-                                       "potentialImpact":  [
-                                                               "天然食用色素及特殊風味糖漿供應商應與星巴克採購確認限定品備料需求，避免在爆發期出現缺貨",
-                                                               "維生素 B 群預混料及功能性咖啡因萃取物供應商可針對能量冷萃系列提出長期供應提案",
-                                                               "Rewards 會員搶先體驗機制顯示消費者對稀缺限定品接受度極高，供應商可藉此評估短單快速出貨能力以爭取優先合作資格"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Unicorn Frappuccino 官方回歸公告",
-                                                               "url":  "https://about.starbucks.com/press/2026/unicorn-frappuccino-blended-beverage-makes-its-magical-return-later-this-summer/"
-                                                           },
-                                                           {
-                                                               "label":  "Parade：夏季新品全覽",
-                                                               "url":  "https://parade.com/food/starbucks-new-blended-energy-refreshers-smores-drinks-summer-2026"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 },
-                 {
-                     "date":  "2026-06-08",
-                     "label":  "06/08",
-                     "items":  [
-                                   {
-                                       "id":  "20260608-1",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "Seattle Times / GeekWire",
-                                       "pubDate":  "2026-06-06",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "組織重組",
-                                                           "採購架構",
-                                                           "供應鏈管理"
-                                                       ],
-                                       "headline":  "星巴克企業重組兩波裁員：科技部61人後再裁300名企業員工，供應鏈部門遷往納什維爾",
-                                       "summary":  "星巴克在6月宣布兩波裁員行動：首波裁撤技術部門61名員工（含網路安全分析師、技術產品經理、Scrum Master等職位），由新任CTO Anand Varadarajan主導科技部門重組。隨後宣布第二波裁員逾300名企業員工，其中252個職位連結西雅圖總部，裁員自7月17日起至2027年2月止。這與星巴克在納什維爾開設新企業辦公室並計劃遷入2,000名員工（含採購與供應鏈部門）的策略密切相關。",
-                                       "whyMatters":  "供應鏈與採購部門的重組和遷移，意味著供應商的聯絡窗口、合約主責人及採購決策流程都可能發生變動。納什維爾辦公室的啟用代表採購中心正在轉移，供應商若未提前建立當地關係，將面臨溝通斷層風險。科技部門裁員同時影響供應商訂單系統、EDI對接及採購技術平台的維護節奏。",
-                                       "potentialImpact":  [
-                                                               "立即更新與星巴克採購部門的聯絡人名冊，確認新的決策責任人，避免重要商務溝通中斷",
-                                                               "提前了解納什維爾辦公室開設進度，主動接觸當地採購與供應鏈主管，建立新關係",
-                                                               "供應鏈技術系統（EDI、訂單平台）整合可能暫緩，供應商應確保現有系統穩定並預備應對過渡期延誤"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Seattle Times",
-                                                               "url":  "https://www.seattletimes.com/business/starbucks/starbucks-lays-off-hundreds-at-seattle-hq/"
-                                                           },
-                                                           {
-                                                               "label":  "GeekWire",
-                                                               "url":  "https://www.geekwire.com/2026/starbucks-to-cut-61-tech-jobs-at-seattle-hq-in-department-reorganization/"
-                                                           },
-                                                           {
-                                                               "label":  "KUOW",
-                                                               "url":  "https://www.kuow.org/stories/starbucks-lays-off-hundreds-at-seattle-hq"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260608-2",
-                                       "market":  "🌍 全球",
-                                       "source":  "Starbucks 官方新聞稿",
-                                       "pubDate":  "2026-06-03",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "包裝創新",
-                                                           "採購架構",
-                                                           "門市擴張"
-                                                       ],
-                                       "headline":  "星巴克米蘭設計週發表Viola休閒椅與全新陶瓷馬克杯，2026年底導入全球改造門市",
-                                       "summary":  "星巴克於米蘭設計週在Reserve Roastery Milano舉辦「Inspired by Italy」展覽，正式發表兩款全新門市設計元素：以1990年代紫色標誌椅為靈感的「Viola休閒椅」（質地柔軟、座感寬廣），以及以義大利咖啡館文化為藍本的新款陶瓷馬克杯（瓷質杯身、寬口設計強化泡沫與香氣呈現，提供白色與深綠兩色）。Viola椅預計於2026年底前進入精選改造及新門市，與星巴克1,000間門市改造計劃緊密結合。",
-                                       "whyMatters":  "Viola椅與新陶瓷馬克杯代表星巴克採購將導入全新規格的家具與餐具產品線，1,000間以上門市的改造計劃意味著大量採購需求即將釋出。此次發表直接指出供應商的具體產品規格方向（軟質休閒椅、特定尺寸陶瓷杯），是少見的官方採購信號，全球家具與餐具供應商應密切追蹤。",
-                                       "potentialImpact":  [
-                                                               "家具/座椅供應商應主動研究Viola椅的設計規格與製造要求，評估自身產品符合星巴克新標準的可能性並接觸全球採購部門",
-                                                               "陶瓷與餐具供應商可針對新款馬克杯（寬口、平衡把手、白色/深綠）提出相容或創新方案，搶先佔位2026至2027年的餐具採購機會",
-                                                               "APAC地區家具及餐具供應商應整合門市改造（1,000間）與新原型測試的需求，主動準備完整的產品線報告供星巴克採購參考"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Starbucks 官方新聞稿 - 米蘭設計週",
-                                                               "url":  "https://about.starbucks.com/press/2026/starbucks-at-milan-design-week-how-coffee-culture-and-creativity-converged/"
-                                                           },
-                                                           {
-                                                               "label":  "Starbucks 官方新聞稿 - Viola椅與陶瓷杯",
-                                                               "url":  "https://about.starbucks.com/press/2026/meet-the-new-starbucks-chair-and-ceramic-mug-designed-for-craft-comfort-and-connection/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260608-3",
-                                       "market":  "🌍 全球",
-                                       "source":  "The Food Institute / TheStreet",
-                                       "pubDate":  "2026-06-02",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "財務表現",
-                                                           "採購量預測",
-                                                           "成本結構"
-                                                       ],
-                                       "headline":  "「重返星巴克」策略見效：Q2全球可比銷售成長6.2%，但原料成本壓縮利潤率引發供應鏈議價壓力",
-                                       "summary":  "星巴克Q2 FY2026財報顯示全球可比門市銷售年增6.2%（北美+7.1%），合併淨營收達95億美元（年增9%），為連續三季正成長。然而EPS僅0.50美元（未調整），營業利潤率下滑1.7個百分點，原因在於咖啡豆成本上漲及通貨膨脹侵蝕利潤。執行長Niccol坦言「成長是真實的，但成本轉化為獲利仍需時間」，同時追求20億美元削減成本目標，高管薪酬將與成本節省績效掛鉤。",
-                                       "whyMatters":  "銷售成長代表門市採購量（原料、包材、食材）有上升趨勢，有利供應商訂單展望；但利潤率下滑使星巴克採購部門面臨更大的降本壓力，高管薪酬與成本節省直接連動，意味著所有供應商都將面臨更嚴格的議價與成本審查。",
-                                       "potentialImpact":  [
-                                                               "原料與包材供應商應主動準備成本優化方案，在維持品質的前提下展示可量化的降本提案，以應對採購議價壓力",
-                                                               "Refreshers飲料（第二大暢銷品類）與抹茶品項強勁成長，對應原料（天然果汁、抹茶粉）供應商應確保產能並主動溝通未來擴量計劃",
-                                                               "咖啡豆成本持續高漲，建議咖啡相關原料供應商評估長期合約鎖價策略，同時關注星巴克C.A.F.E.合規認證對採購決策的影響"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "The Food Institute",
-                                                               "url":  "https://foodinstitute.com/focus/back-to-starbucks-is-working-but-what-is-it-hiding/"
-                                                           },
-                                                           {
-                                                               "label":  "TheStreet",
-                                                               "url":  "https://www.thestreet.com/retail/starbucks-turnaround-plan-hits-costly-snags"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260608-4",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "Retail TouchPoints / Restaurant Dive",
-                                       "pubDate":  "2026-06-01",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "門市擴張",
-                                                           "採購架構",
-                                                           "品牌策略"
-                                                       ],
-                                       "headline":  "星巴克2026年底完成1,000間門市「Coffeehouse Uplift」改造，同步淘汰90間外帶專門店並測試低成本新原型",
-                                       "summary":  "星巴克執行長Niccol確認將在2026年底前完成至少1,000間北美門市的「Coffeehouse Uplift」改造計劃，每間門市投入約15萬美元，聚焦更柔和的照明、軟質座椅、暖色調設計與在地化元素。同時宣布淘汰旗下約80至90間純外帶專門店（2019年起推出），以兩款新原型取代：較大型的獨立店（32個座位、含得來速、建設成本降低約30%）以及小型紐約版本（約10個座位）。早期改造測試已顯示消費者在店停留時間延長、回訪頻率上升。",
-                                       "whyMatters":  "1,000間門市改造與兩款新原型測試代表大規模的座椅、燈具、軟裝、建材採購需求正在快速釋出，採購規格將隨新設計標準確立。外帶專門店的淘汰也意味著星巴克重新配置實體空間，供應商應掌握新原型的建材與設備採購重點。",
-                                       "potentialImpact":  [
-                                                               "座椅、燈具、室內裝飾及建材供應商應積極聯繫星巴克全球商品與設計採購部門，主動提交符合「溫暖、在地化、軟質感」設計方向的產品方案",
-                                                               "新低成本原型（建設成本降30%）代表採購規格將趨向成本效益，供應商在設計提案中應同步展示降本空間與品質保證",
-                                                               "外帶店關閉後的空間改造形成短期密集採購需求，建議掌握星巴克在各地施工時程，爭取在地供應與快速配送的競爭優勢"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Retail TouchPoints",
-                                                               "url":  "https://www.retailtouchpoints.com/features/news-briefs/starbucks-to-complete-1000-store-uplifts-in-2026-plans-to-phase-out-pickup-only-locations"
-                                                           },
-                                                           {
-                                                               "label":  "Restaurant Dive",
-                                                               "url":  "https://www.restaurantdive.com/news/starbucks-cafe-redesign-2026-seating-colors-atmosphere/759376/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260608-5",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "HR Executive / Restaurant Dive",
-                                       "pubDate":  "2026-06-02",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "成本結構",
-                                                           "消費者行為",
-                                                           "品牌策略"
-                                                       ],
-                                       "headline":  "星巴克大幅調整前線員工薪酬：新增咖啡師績效獎金、週薪制與小費範圍擴大",
-                                       "summary":  "星巴克宣布新一輪前線員工薪酬調整，包含績效獎金制度（咖啡師可依門市表現獲得額外獎勵）、導入週薪制（原為雙週薪）以提升財務安全感，以及將小費適用範圍擴大至更多交易場景。此舉被視為「重返星巴克」策略下穩定人力、提升服務品質的一環，也與星巴克持續擴大的工會合約談判背景相關。",
-                                       "whyMatters":  "前線人力成本上升將使星巴克的整體營運費用增加，在利潤率已受壓的情況下，採購部門的降本壓力可能進一步轉向供應商端。另一方面，穩定的門市人力有助於新品試賣、供應商樣品測試及培訓計劃的順利推進。",
-                                       "potentialImpact":  [
-                                                               "供應商應預期採購議價強化，展示具備成本效益的產品方案，以支持星巴克在薪酬成本上升下的整體降本目標",
-                                                               "門市人力穩定性提升有助於新品測試流程（飲品配方、食材創新）的加速，建議有新產品的供應商把握此窗口提出合作提案",
-                                                               "關注星巴克各地工會合約進展，工會協議條款可能影響個別市場的營業時間與採購節奏"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "HR Executive",
-                                                               "url":  "https://hrexecutive.com/starbucks-adds-barista-bonuses-weekly-pay-and-expanded-tips-in-frontline-compensation-push/"
-                                                           },
-                                                           {
-                                                               "label":  "Restaurant Dive",
-                                                               "url":  "https://www.restaurantdive.com/news/starbucks-executive-bonus-cost-reduction-back-to-starbucks-coffeehouse/752442/"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 },
-                 {
-                     "date":  "2026-06-05",
-                     "label":  "06/05",
-                     "items":  [
-                                   {
-                                       "id":  "20260605-1",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "Supply Chain Dive",
-                                       "pubDate":  "2026-06-04",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "供應鏈技術",
-                                                           "庫存管理",
-                                                           "AI 自動化"
-                                                       ],
-                                       "headline":  "星巴克淘汰 AI 庫存系統，重返人工盤點並啟動 2026 年底每日補貨計畫",
-                                       "summary":  "星巴克宣布終止與 NomadGo 合作的 AI 電腦視覺庫存管理系統，原因是系統頻繁誤計與誤標商品（如混淆不同牛奶種類），員工反映系統「不可靠」。星巴克表示將統一門市庫存盤點流程，並計畫在 2026 年底前實現每日補貨，以改善缺貨問題並支援擴大食品菜單。",
-                                       "whyMatters":  "此舉顯示星巴克正重新審視門市供應技術的標準化，每日補貨計畫將大幅提升對短保期原料與食品的訂單需求穩定性。AI 試驗失敗意味著庫存管理仍以人工為主，供應商應留意訂單精準度可能有所波動。",
-                                       "potentialImpact":  [
-                                                               "每日補貨目標將帶動短保期食材（如新鮮食品、乳品、糖漿）的穩定訂單頻率，有配送靈活度的供應商將更具競爭優勢",
-                                                               "AI 庫存試驗失敗顯示人工盤點仍主導補貨決策，供應商應保持充足緩衝庫存以應對訂單精準度不穩定的情況",
-                                                               "星巴克明確表示將「持續投資科技工具」，有能力提供可靠庫存追蹤或補貨自動化方案的供應商可主動洽談合作"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Supply Chain Dive",
-                                                               "url":  "https://www.supplychaindive.com/news/starbucks-ditches-ai-inventory-system-after-just-9-months/821104/"
-                                                           },
-                                                           {
-                                                               "label":  "CNBC",
-                                                               "url":  "https://www.cnbc.com/2026/05/21/starbucks-scraps-ai-inventory-tool-across-north-america.html"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260605-2",
-                                       "market":  "🇰🇷 韓國市場",
-                                       "source":  "Haps Korea / Korea Herald",
-                                       "pubDate":  "2026-06-03",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "APAC 策略",
-                                                           "採購量預測",
-                                                           "品牌策略"
-                                                       ],
-                                       "headline":  "星巴克韓國啟動全額退款潮，4000 億韓元預付金面臨提領，週銷售暴跌 26%",
-                                       "summary":  "因「Tank Day」行銷爭議引發大規模抵制，星巴克韓國宣布 6 月 1 至 14 日提供儲值卡全額退款，涉及約 4000 億韓元（約 3 億美元）預付資金。週銷售額已驟降 26%，公司並暫停高額電子卡與未登記實體卡銷售，以防止套利行為。特許商 Shinsegae 股價重挫，若特許協議遭終止，最高面臨 6400 億韓元回購損失風險。",
-                                       "whyMatters":  "週銷售大跌 26% 直接壓縮韓國市場的採購預算，與星巴克韓國合作的食材、包裝及飲品供應商須預期短期訂單量縮減。若抵制持續延伸或特許協議結構改變，韓國市場的採購主體與規格標準將面臨重大轉型。",
-                                       "potentialImpact":  [
-                                                               "韓國市場 6 月份原料與包材採購量可能縮減 20–30%，供應商應及時調配庫存，避免因訂單驟降造成積壓損失",
-                                                               "持續監控 Shinsegae 財務壓力指標，若特許協議遭終止，星巴克國際直接接管將帶來採購流程與規格標準的重大重置",
-                                                               "建議評估現有合約中的最低採購量條款與違約保護機制，為韓國市場可能的採購結構調整做好法律與商務準備"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Haps Korea",
-                                                               "url":  "https://www.hapskorea.com/starbucks-korea-offers-full-card-balance-refunds-following-marketing-controversy/"
-                                                           },
-                                                           {
-                                                               "label":  "Al Jazeera",
-                                                               "url":  "https://www.aljazeera.com/economy/2026/5/19/starbucks-korea-ceo-fired-over-promotion-that-evoked-military-crackdown"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260605-3",
-                                       "market":  "🌍 全球",
-                                       "source":  "Bloomberg",
-                                       "pubDate":  "2026-06-01",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "原料需求",
-                                                           "採購關係",
-                                                           "成本結構"
-                                                       ],
-                                       "headline":  "星巴克蛋白質飲品需求激增推高全球乳清蛋白價格，部分製造商陷入供應短缺",
-                                       "summary":  "Bloomberg 報導，星巴克與 Mars 等主要食品企業積極在飲品中添加蛋白質（如拿鐵加乳清蛋白），帶動全球乳清蛋白需求大幅增加，導致價格上漲與供應短缺，部分製造商被迫暫停生產或以替代蛋白重新配方。星巴克的蛋白質飲品策略已成為影響全球原料市場的重要推力。",
-                                       "whyMatters":  "身為全球最大咖啡連鎖，星巴克對蛋白質原料的大量採購直接牽動全球市場行情。乳清蛋白漲價將波及所有相關飲品供應商的成本結構，同時也為植物蛋白等替代原料供應商創造切入機會。",
-                                       "potentialImpact":  [
-                                                               "乳清蛋白及替代蛋白（豌豆蛋白、植物蛋白）供應商面臨星巴克擴大採購的機會，建議主動接觸星巴克全球採購部門提案",
-                                                               "現有飲品配方供應商應立即評估乳清蛋白成本上漲對現有合約毛利的衝擊，並提前啟動調價或替代配方協商",
-                                                               "星巴克可能調整蛋白質來源或配方比例以因應市場短缺，具備多元蛋白原料供應與快速配方支援能力的供應商將更具競爭優勢"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Bloomberg",
-                                                               "url":  "https://www.bloomberg.com/news/articles/2026-06-01/starbucks-mars-help-fuel-whey-protein-price-hikes-shortages"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260605-4",
-                                       "market":  "🌍 全球",
-                                       "source":  "Trefis / Investor.Starbucks",
-                                       "pubDate":  "2026-06-01",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "財務表現",
-                                                           "採購量預測",
-                                                           "門市擴張"
-                                                       ],
-                                       "headline":  "星巴克 Q2 合併營收年增 9% 至 95 億美元，美國同店銷售成長 7.1%，採購前景持續正面",
-                                       "summary":  "分析師報告顯示，星巴克 2026 財年第二季（截至 3 月底）合併淨營收達 95 億美元（年增 9%），美國同店銷售成長 7.1%，客流量回升 4.3%。「Back to Starbucks」策略成效顯現，80% 門市尖峰服務時間已達 4 分鐘以下目標，公司上調全年可比較門市銷售展望。",
-                                       "whyMatters":  "持續的客流回升與菜單創新（蛋白質飲品、能量系列、新食品項目）將帶動原材料採購量穩步增長，對飲品原料、包材及設備供應商形成正面支撐。2026 年底每日補貨目標落實後，供應頻率提升將進一步強化雙方合作關係。",
-                                       "potentialImpact":  [
-                                                               "美國市場採購量回升信號明確，建議供應商調高 2026 下半年北美市場的備貨計畫，以支援節假日旺季需求",
-                                                               "冷飲、能量飲品、蛋白質飲品等新品類正快速成長，相關原料供應商（糖漿、乳品、植物蛋白）可積極提案新品配合創新菜單",
-                                                               "每日補貨計畫落實後，補貨頻率大幅提升，供應商應提前優化物流與配送能力，以符合更嚴格的交期與庫存準確性要求"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Trefis",
-                                                               "url":  "https://www.trefis.com/stock/sbux/articles/600906/inside-the-starbucks-turnaround-defying-the-retail-meltdown/2026-06-01"
-                                                           },
-                                                           {
-                                                               "label":  "Starbucks IR - Q2 Results",
-                                                               "url":  "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q2-Fiscal-Year-2026-Results/default.aspx"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 },
-                 {
-                     "date":  "2026-06-04",
-                     "label":  "06/04",
-                     "items":  [
-                                   {
-                                       "id":  "20260604-1",
-                                       "market":  "🇰🇷 韓國市場",
-                                       "source":  "Seoul Economic Daily / Korea Herald",
-                                       "pubDate":  "2026-05-28",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "APAC 策略",
-                                                           "採購關係",
-                                                           "品牌策略"
-                                                       ],
-                                       "headline":  "星巴克韓國因 Tank Day 事件暫停儲值卡銷售，6月1日起啟動全額退款計畫",
-                                       "summary":  "韓國星巴克於5月28日宣布暫停高面額電子儲值卡及實體無記名卡銷售至6月14日，防止消費者在全額退款計畫實施前套利。自6月1日至6月14日，持有預付卡的消費者可申請全額退款，起因為5月18日「Tank Day」行銷活動引發的大規模抵制，韓國執行長與相關行銷主管遭到解職，政府機構亦跟進取消星巴克採購合約。",
-                                       "whyMatters":  "韓國市場的全額退款計畫與政府機構取消採購合約，顯示品牌危機可快速衝擊B2B業務量，韓國供應商需評估訂單縮減風險。此事件若引發抵制蔓延至日本或台灣，將對整個APAC供應鏈帶來不確定性，供應商需持續追蹤事態發展。",
-                                       "potentialImpact":  [
-                                                               "在韓國有業務的供應商應立即與星巴克韓國採購部門確認2026年Q3訂單量，評估消費者抵制與政府機構退出對採購預算的衝擊",
-                                                               "監控抵制風潮是否蔓延至日本、台灣等鄰近APAC市場，及時調整供應計畫與庫存水位",
-                                                               "此事件提醒供應商需將品牌聲譽風險納入供應鏈韌性規劃，避免過度依賴單一APAC市場客戶"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Seoul Economic Daily - e-card halt (May 28)",
-                                                               "url":  "https://en.sedaily.com/finance/2026/05/28/starbucks-korea-halts-e-card-sales-amid-cash-out-fraud"
-                                                           },
-                                                           {
-                                                               "label":  "Korea Herald - refund program",
-                                                               "url":  "https://www.koreaherald.com/article/10756440"
-                                                           },
-                                                           {
-                                                               "label":  "Newtalk 新聞 - 韓國退費新制",
-                                                               "url":  "https://newtalk.tw/news/view/2026-05-30/1038309"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260604-2",
-                                       "market":  "🌍 全球",
-                                       "source":  "AllEars.Net / About Starbucks Official",
-                                       "pubDate":  "2026-05-30",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "飲品趨勢",
-                                                           "原料需求",
-                                                           "採購量預測"
-                                                       ],
-                                       "headline":  "星巴克宣布6月16日推出兩款藍椰子新品，帶動藍螺旋藻、椰子及抹茶原料需求",
-                                       "summary":  "星巴克宣布將於6月16日推出「冰鎮藍椰子抹茶（Iced Blue Coconut Matcha）」及「藍椰子清新飲（Blue Coconut Refresher）」兩款夏季新品，主打藍螺旋藻鮮豔色彩、椰子冷泡奶泡，融合芒果、草莓及巴西莓風味。飲品可以檸檬水或椰奶進行個人化訂製，並含有咖啡因及B群維生素。",
-                                       "whyMatters":  "新品配方大量引入藍螺旋藻、椰子、巴西莓等特殊功能性原料，預計帶動相關供應商的短期採購需求顯著上升。抹茶粉因冰鎮藍椰子抹茶新品上市，預估採購用量同步增加，供應商應把握此波夏季新品帶來的訂單機會。",
-                                       "potentialImpact":  [
-                                                               "藍螺旋藻、椰子原料供應商應主動聯繫星巴克採購部門，確認6月16日新品上市後的採購規格、用量及供應時程",
-                                                               "抹茶粉供應商可預期「冰鎮藍椰子抹茶」帶來的額外訂單，建議提前備貨以應對夏季高峰需求",
-                                                               "飲品包材與冷泡設備供應商應評估新飲品對生產線的影響，確保供應能量足以支撐新品上市後的門市需求"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "AllEars.Net - new drinks announcement (May 30)",
-                                                               "url":  "https://allears.net/2026/05/30/2-new-starbucks-drinks-dropping-in-june/"
-                                                           },
-                                                           {
-                                                               "label":  "About Starbucks - blue coconut preview",
-                                                               "url":  "https://about.starbucks.com/stories/2026/starbucks-previews-a-blue-coconut-duo-for-later-this-summer/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260604-3",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "CBS News / Restaurant Business Online",
-                                       "pubDate":  "2026-06-01",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "採購架構",
-                                                           "成本結構",
-                                                           "消費者行為"
-                                                       ],
-                                       "headline":  "星巴克6月24日起標準化抹茶與糖漿定價，同步推出App即時定價透明功能",
-                                       "summary":  "星巴克宣布將於6月24日起在美國及加拿大所有自營門市實施統一加料定價：任意調味糖漿或醬料組合統一收費80美分，添加一匙抹茶粉收費1美元，乾燥水果加料收費50美分。星巴克應用程式同步新增客製化飲品即時顯示價格功能，提升定價透明度，此為「Back to Starbucks」策略優化顧客體驗的重要一環。",
-                                       "whyMatters":  "定價標準化將改變消費者的點飲習慣與加料偏好，進而影響抹茶粉、調味糖漿等原料的採購量預測。此舉也代表星巴克正積極優化成本結構，供應商需重新評估相關原料的需求預測以調整庫存策略。",
-                                       "potentialImpact":  [
-                                                               "抹茶粉及調味糖漿供應商應與星巴克採購部門確認，新定價制度實施後是否影響原料採購量的預測與合約條件",
-                                                               "關注定價標準化是否影響消費者點飲行為：若加料費用更透明可能降低高複雜度訂單，相關原料需求量需重新評估",
-                                                               "評估星巴克全面推動定價透明化策略的長期影響，適時調整供應計畫以因應需求結構的潛在變化"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "CBS News - matcha syrup pricing",
-                                                               "url":  "https://www.cbsnews.com/news/starbucks-matcha-syrups-cost-fees-changing-new-price/"
-                                                           },
-                                                           {
-                                                               "label":  "Restaurant Business Online - pricing simplification",
-                                                               "url":  "https://www.restaurantbusinessonline.com/operations/starbucks-simplifying-pricing-its-drink-flavorings"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260604-4",
-                                       "market":  "🌍 全球",
-                                       "source":  "The Takeout / Disney Food Blog",
-                                       "pubDate":  "2026-05-30",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "飲品趨勢",
-                                                           "原料需求",
-                                                           "永續發展"
-                                                       ],
-                                       "headline":  "星巴克2026夏季菜單：Horchata、蝶豆花清新飲等植物性新品引領原料多元化趨勢",
-                                       "summary":  "星巴克2026夏季菜單（5月12日上市）主打Horchata Frappuccino、熱帶蝴蝶清新飲（Tropical Butterfly Refresher）等植物性新品，融合肉桂米漿、蝶豆花等天然食材。媒體評測顯示本季菜單創意豐富，非傳統咖啡飲品比重顯著提升，反映星巴克積極向植物基與功能性飲品市場拓展的策略方向。",
-                                       "whyMatters":  "夏季菜單植物性原料（蝶豆花、肉桂、米漿、巴西莓）比重大幅提升，顯示星巴克採購策略正向咖啡豆以外的多元原料擴展，相關供應商有機會進入星巴克採購體系。非咖啡因飲品比重持續成長，意味著傳統咖啡豆供應商需思考業務多元化布局。",
-                                       "potentialImpact":  [
-                                                               "蝶豆花、肉桂、米漿等植物性原料供應商應主動接觸星巴克採購部門，了解2026年下半年夏季菜單延伸的採購計畫",
-                                                               "傳統咖啡原料供應商需留意非咖啡飲品比重上升趨勢，評估是否有機會提供植物基原料或相關加工服務",
-                                                               "季節性新品上市頻率加快，建議供應商建立更靈活的短週期供貨模式，以配合星巴克每季菜單迭代節奏"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "The Takeout - Starbucks Summer 2026 menu review",
-                                                               "url":  "https://www.thetakeout.com/2171214/starbucks-summer-2026-menu-review/"
-                                                           },
-                                                           {
-                                                               "label":  "Disney Food Blog - new summer drinks (May 30)",
-                                                               "url":  "https://www.disneyfoodblog.com/2026/05/30/starbucks-just-announced-2-new-drinks-coming-to-their-summer-menu/"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 }
-             ]
+  "lastUpdated": "2026-06-10",
+  "days": [
+    {
+      "date": "2026-06-10",
+      "label": "06/10",
+      "items": [
+        {
+          "id": "20260610-1",
+          "market": "🇺🇸 美國市場",
+          "source": "OnLabor / Bloomberg Law",
+          "pubDate": "2026-06-09",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "成本結構",
+            "ESG 風險",
+            "採購關係"
+          ],
+          "headline": "NLRB 兩度裁定星巴克違反聯邦勞動法：波特蘭服裝規定爭議與西雅圖工會恐嚇事件",
+          "summary": "美國國家勞工關係委員會（NLRB）6月6日（週五）發布兩項裁決，認定星巴克在太平洋西北地區門市違反聯邦勞動法。第一項裁決涉及波特蘭門市在未事先告知工會、未進行協商下單方面更改服裝規定執行標準；第二項裁決則針對西雅圖兩家門市於2023年4至7月間非法問詢員工是否計畫參與罷工。NLRB命令星巴克撤銷相關紀律記錄並恢復原政策。",
+          "whyMatters": "NLRB裁決要求星巴克取消相關紀律記錄並撤回政策，後續可能引發更大規模的勞動賠償與合規成本，進而影響公司的採購與營運預算分配。星巴克的持續勞資爭議，結合其在全球加速轉型的背景，對供應商意味著客戶端可能強化成本管控措施，影響合約議價空間與付款條件。供應商應警惕，若星巴克為抵消勞工成本增加而向供應鏈施壓降價，相關影響恐在下半年談判期間浮現。",
+          "potentialImpact": [
+            "密切關注星巴克勞動關係成本變化，評估其是否引發公司整體採購預算縮減或延遲採購決策，特別是針對美國市場的食品、包裝及設備供應商",
+            "留意勞工訴訟與合規成本增加（包括法律費用與員工賠償）可能壓縮星巴克對供應商的付款週期，提前安排資金流動規劃",
+            "若星巴克因勞資問題導致美國門市擴張放緩，應預先調整對美供應量預期，並評估是否將資源重新配置至其他成長市場"
+          ],
+          "sourceLinks": [
+            {
+              "label": "OnLabor 新聞評述（2026-06-09）",
+              "url": "https://onlabor.org/june-9-2026/"
+            },
+            {
+              "label": "Bloomberg Law：NLRB 裁決詳情",
+              "url": "https://news.bloomberglaw.com/daily-labor-report"
+            }
+          ]
+        },
+        {
+          "id": "20260610-2",
+          "market": "🇺🇸 美國市場",
+          "source": "RealClearInvestigations / Restaurant Dive",
+          "pubDate": "2026-06-10",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "組織重組",
+            "採購架構",
+            "門市擴張"
+          ],
+          "headline": "田納西州補貼3,000萬美元吸引星巴克設立東南部企業辦公室，引發「企業福利」爭議",
+          "summary": "6月10日報導指出，星巴克獲田納西州政府提供3,000萬美元納稅人資助補貼，用於在納許維爾設立東南部企業辦公室，計畫投資1億美元、數年內創造2,000個工作崗位。保守派倡議團體「美國繁榮」（Americans for Prosperity）批評此舉扭曲自由市場秩序。星巴克表示，納許維爾辦公室將配合東南部門市持續擴張，並與全球總部西雅圖緊密協作。",
+          "whyMatters": "星巴克在美國東南部設立新企業據點，代表其北美採購與供應鏈管理將逐步形成雙中心架構，供應商可能需要在西雅圖以外，另行建立與納許維爾辦公室的對接渠道。新辦公室將直接支援東南部門市擴張，意味著美國東南地區食品、飲品、包裝及設備供應商，將迎來潛在的新採購需求與地理位置優勢機會。",
+          "potentialImpact": [
+            "提前佈局與星巴克納許維爾辦公室的採購聯繫，尤其是服務美國東南部各州（德州、佛羅里達、喬治亞）的物流、食品及冷飲供應商",
+            "關注星巴克雙中心化組織架構對採購決策流程的影響，評估是否需要分別針對西雅圖總部與納許維爾辦公室建立不同的業務發展策略",
+            "考量田納西州的企業友善政策環境，評估是否有在當地設立供應商倉儲或配送中心的機會，以更接近星巴克的新採購決策核心"
+          ],
+          "sourceLinks": [
+            {
+              "label": "RealClearInvestigations：星巴克納許維爾補貼爭議（2026-06-10）",
+              "url": "https://www.realclearinvestigations.com/articles/2026/06/10/waste_of_the_day_welfare_for_starbucks_1186605.html"
+            },
+            {
+              "label": "Restaurant Dive：納許維爾辦公室1億美元計畫詳情",
+              "url": "https://www.restaurantdive.com/news/starbucks-100m-2000-worker-nashville-tennessee-headquarters/818097/"
+            }
+          ]
+        },
+        {
+          "id": "20260610-3",
+          "market": "🌍 全球",
+          "source": "Zacks/TradingView / Yahoo Finance",
+          "pubDate": "2026-06-09",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "財務表現",
+            "採購量預測",
+            "成本結構"
+          ],
+          "headline": "SBUX 股價一個月跌9%：本益比72倍引估值爭議，分析師仍看好長期復甦",
+          "summary": "截至2026年6月9日，SBUX股價約94至95美元，一個月跌幅達9%，本益比高達72.38倍，遠超餐飲產業平均值。DCF分析顯示內在價值介於25至80美元，市場估值分歧擴大。然而，37位華爾街分析師仍給予「買入」評級，平均目標價106美元，認為「Back to Starbucks」策略的執行持續創造正面基本面支撐。",
+          "whyMatters": "SBUX股價承壓反映市場對「Back to Starbucks」策略成效的觀望心態，若股價持續下行可能促使公司加速成本削減，影響供應商合約條件及採購規模。高本益比意味著市場對盈利成長的要求嚴苛，管理層可能更積極推動供應鏈成本優化，對供應商議價談判造成壓力；反之，若下一季財報持續超預期，亦可能加速門市擴張與採購增量。",
+          "potentialImpact": [
+            "密切監控星巴克下一季度財報（預計2026年7月底），評估營收成長是否持續，以判斷採購需求的穩定性及是否有追加訂單機會",
+            "留意星巴克可能啟動的進一步成本削減計畫（如供應商合約重談或採購合併），提前準備具競爭力的成本效益強化方案",
+            "股價下跌期間分析師仍看好長期復甦，供應商可把握此窗口提出中長期戰略合作提案，以鎖定更有利的長期合約條款"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Zacks/TradingView：SBUX跌9%分析（2026-06-09）",
+              "url": "https://www.tradingview.com/news/zacks:4114b6211094b:0-sbux-down-9-in-a-month-is-this-the-right-time-to-buy-the-stock/"
+            },
+            {
+              "label": "Yahoo Finance：SBUX估值與市場展望",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/sbux-down-9-month-time-135700486.html"
+            }
+          ]
+        },
+        {
+          "id": "20260610-4",
+          "market": "🇺🇸 美國市場",
+          "source": "Yahoo Finance / InsiderMonkey / CNBC",
+          "pubDate": "2026-06-08",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "採購量預測",
+            "消費者行為"
+          ],
+          "headline": "星巴克下午3至5點來客量增幅最強，Refreshers躍升第二大銷售品類",
+          "summary": "根據CNBC取得的獨家數據，2026年2月15日至5月16日共90天期間，星巴克美國門市下午2點後流量顯著提升，其中下午3至5點為增幅最強時段。Refreshers飲品平台已成為門市第二大銷售品類，僅次於義式咖啡飲品。星巴克2025財年美國上午11點後銷售額達110億美元，日間分散化客流成為Niccol轉型策略的重要成果之一。",
+          "whyMatters": "Refreshers飲品崛起為第二大品類，直接帶動其核心原材料（果汁原液、水果萃取物、天然色素、包裝材料）的採購需求快速上升，相關供應商應積極把握此趨勢。下午時段客群增長意味著對冷飲、清涼飲品原料、可再生包材（外帶冷飲用）的需求持續擴大，是供應商突破傳統咖啡原料合作框架的策略機會窗口。",
+          "potentialImpact": [
+            "Refreshers平台原料供應商（果汁萃取物、天然色素、植物基原料、椰子萃取物）應積極擴大產能，並主動與星巴克採購團隊深化互動以把握需求成長",
+            "冷飲包材與一次性冷飲容器供應商應評估增量訂單機會，包括提出符合星巴克永續發展目標的可再生材料包裝設計方案",
+            "下午時段客流增長確立星巴克全天候飲品策略，供應商可針對非咖啡清涼飲品品類（茶飲、果汁基底、能量飲品原料）主動提出新品協作開發提案"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Yahoo Finance / InsiderMonkey：星巴克下午流量成長報導（2026-06-08）",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/starbucks-sees-encouraging-growth-beyond-024757945.html"
+            },
+            {
+              "label": "CNBC：Starbucks sees encouraging growth beyond the morning rush",
+              "url": "https://www.cnbc.com/quotes/SBUX"
+            }
+          ]
+        },
+        {
+          "id": "20260610-5",
+          "market": "🌍 全球",
+          "source": "Investing.com",
+          "pubDate": "2026-06-09",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "財務表現",
+            "零售競爭"
+          ],
+          "headline": "星巴克SWOT深度分析：轉型動能強勁，但利潤率壓縮與中國競爭仍是供應商需關注的核心風險",
+          "summary": "Investing.com最新SWOT分析指出，星巴克在Q2 FY2026繳出9%營收成長（95億美元）、全球同店銷售成長6.2%的亮眼成績，顯示「Back to Starbucks」策略初見成效。然而，自轉型啟動以來，營業利潤率已近乎腰斬，重組成本高達1.2億美元（員工遣散費）；中國市場的Luckin Coffee等本土競爭者以33,596家門市形成強大規模優勢，持續對星巴克-Boyu合資公司施壓。",
+          "whyMatters": "星巴克利潤率收縮是當前供應商最需關注的中期風險：公司在快速擴店與提升服務品質的雙重壓力下，勢必啟動更積極的成本結構優化，對供應商的議價壓力將日益升高。中國市場競爭加劇且Boyu合資公司仍在磨合期，相關原料、包裝與設備供應商應重新評估大陸訂單的可預測性。",
+          "potentialImpact": [
+            "星巴克利潤率壓縮風險下，供應商應主動提出成本共優方案（如規模採購折扣、原料替代方案），以維持合作競爭力並降低被替換風險",
+            "針對中國市場，應關注星巴克-Boyu合資公司的整合進度及門市展望，靈活調整大陸端供貨規模，避免因訂單波動造成庫存積壓",
+            "利潤壓力下星巴克可能加快ESG相關採購標準的落實（以提升品牌溢價），供應商可提前取得相關認證（如公平貿易、永續農業），以符合未來資格要求"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Investing.com：Starbucks SWOT Analysis",
+              "url": "https://www.investing.com/news/swot-analysis/starbuckss-swot-analysis-coffee-giants-stock-navigates-turnaround-93CH-4705798"
+            },
+            {
+              "label": "Comunicaffe：Q2 FY2026成果摘要",
+              "url": "https://www.comunicaffe.com/starbucks-reports-strong-q2-2026-results-with-net-revenues-increased-9-to-9-5-billion-raises-full-year-outlook/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "label": "06/09",
+      "items": [
+        {
+          "id": "20260609-1",
+          "market": "🌍 全球",
+          "source": "Starbucks IR / BusinessWire",
+          "pubDate": "2026-06-02",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "財務表現",
+            "採購架構"
+          ],
+          "headline": "星巴克 CEO Brian Niccol 出席 Evercore 消費零售年會，親自闡述「重返星巴克」轉型進展",
+          "summary": "星巴克 CEO Brian Niccol 於 2026 年 6 月 9 日在第六屆 Evercore 消費者暨零售年會發表主題演講，透過直播向市場說明「Back to Starbucks」策略執行現況與未來展望。此次公開露面代表星巴克主動向投資人及利害關係人確認轉型路徑，為近期財務表現（Q2 合併營收年增 9%）提供策略背書。",
+          "whyMatters": "CEO 在投資人會議的公開表態將影響市場對星巴克採購投資力道的預期，採購量及合約條件可能隨轉型進度而調整。若 Niccol 釋出積極訊號，供應商可預期訂單穩定性提升及長期採購合約比重增加。北美門市復甦動能（Q2 可比交易量增 3.8%）亦意味著原料需求持續上升。",
+          "potentialImpact": [
+            "密切追蹤此次演講中釋出的採購架構調整訊號，特別是食材多元化與每日補貨頻率提升的相關計畫",
+            "準備應對訂單量穩定增長：北美門市客流量持續回升，原料（咖啡、乳製品、糖漿）補貨週期可能縮短",
+            "留意 CEO 對中國及 APAC 市場展望的表述，Boyu JV 架構下的採購主導權移轉可能影響區域供應商合約談判"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks IR 官方公告",
+              "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-to-Participate-in-the-6th-Annual-Evercore-Consumer-and-Retail-Conference/default.aspx"
+            },
+            {
+              "label": "BusinessWire 新聞稿",
+              "url": "https://www.businesswire.com/news/home/20260602473511/en/Starbucks-to-Participate-in-the-6th-Annual-Evercore-Consumer-and-Retail-Conference"
+            }
+          ]
+        },
+        {
+          "id": "20260609-2",
+          "market": "🇺🇸 美國市場",
+          "source": "Bloomberg / Claims Journal",
+          "pubDate": "2026-06-02",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "供應鏈技術",
+            "AI 自動化",
+            "採購架構"
+          ],
+          "headline": "星巴克將 AI 使用率納入科技員工績效獎金考核，25% 獎金與部門 AI 導入目標掛鉤",
+          "summary": "星巴克宣布將大多數科技部門員工獎金的 25% 與 AI 採用率等部門目標掛鉤，藉此加速「Back to Starbucks」策略中 AI 技術的落地應用。此一決策涵蓋應用程式訂單支付功能、庫存管理及門市營運優化等多個面向，半數獎金仍依公司整體財務表現發放。值得注意的是，星巴克甫於上月廢止 AI 庫存盤點工具，顯示其在 AI 應用上採取更具選擇性的推進策略。",
+          "whyMatters": "星巴克強化 AI 整合將加速其採購、庫存管理及訂單預測系統的數位化，對供應商而言意味著 EDI 介接、數位貨架、即時庫存共享等技術對接要求將提升。未能配合數位化升級的供應商可能在合約續約時面臨競爭劣勢。",
+          "potentialImpact": [
+            "評估自身數位化能力，確保能配合星巴克可能提出的 AI 驅動供應鏈整合需求（如 API 對接、即時庫存資料共享）",
+            "關注星巴克 AI 庫存優化工具的後續替代方案，新系統可能帶來不同的訂單補貨頻率與批量模式變化",
+            "廢止舊有 AI 庫存工具的教訓顯示星巴克對採購技術投資採取審慎態度，供應商可把握窗口期提出共同技術試驗提案"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Claims Journal 報導（2026-06-02）",
+              "url": "https://www.claimsjournal.com/news/national/2026/06/02/337870.htm"
+            },
+            {
+              "label": "Bloomberg 原報導",
+              "url": "https://www.bloomberg.com/news/articles/2026-05-28/starbucks-to-take-ai-usage-into-account-in-tech-workers-bonuses"
+            }
+          ]
+        },
+        {
+          "id": "20260609-3",
+          "market": "🌍 全球",
+          "source": "Starbucks / Water.org",
+          "pubDate": "2026-06-09",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "原料需求",
+            "ESG 風險",
+            "永續發展"
+          ],
+          "headline": "星巴克 6 月 16 日推出藍椰子雙品飲品，與 Get Blue 合作支持全球淨水計畫",
+          "summary": "星巴克將於 6 月 16 日起正式在全球門市推出「藍椰子抹茶」與「藍椰子冷泡果飲」兩款新品，以藍色螺旋藻（Blue Spirulina）為天然著色來源，並搭配烤椰子冷泡奶蓋、芒果及草莓巴西莓等風味。星巴克同步宣布與 Water.org 旗下 Get Blue 計畫合作，6 月 16 日至 7 月 7 日期間每售出一杯飲品捐出 0.25 美元，凸顯品牌在飲品創新中融入 ESG 主軸的策略取向。",
+          "whyMatters": "兩款新品對多種原料產生明確的新增需求，包括藍色螺旋藻粉末、椰子相關製品（椰奶、烤椰子）、芒果果漿及草莓巴西莓等。搭配 ESG 公益元素的行銷策略意味著星巴克在採購過程中將更重視永續認證及可溯源性。短期內（6-7 月）相關原料採購量有望顯著上升。",
+          "potentialImpact": [
+            "藍色螺旋藻、椰奶及烤椰子製品供應商應確認是否具備充足產能應對 6 月 16 日起的需求激增，並備妥快速補貨方案",
+            "具備永續認證（有機、公平貿易、可溯源）的原料供應商在此波新品採購中將具備差異化競爭優勢",
+            "密切追蹤 Get Blue ESG 合作模式，星巴克可能將類似社會影響力框架延伸至未來採購標準，提前評估自身 ESG 合規能力"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks 藍椰子雙品發布公告",
+              "url": "https://about.starbucks.com/stories/2026/starbucks-introduces-blue-coconut-duo-supporting-clean-water-through-get-blue/"
+            },
+            {
+              "label": "Starbucks 夏季飲品完整菜單",
+              "url": "https://www.starbucks.com/menu/featured/"
+            }
+          ]
+        },
+        {
+          "id": "20260609-4",
+          "market": "🇺🇸 美國市場",
+          "source": "Starbucks / TheStreet",
+          "pubDate": "2026-06-09",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "原料需求",
+            "飲品趨勢",
+            "消費者行為"
+          ],
+          "headline": "星巴克夏季菜單全面啟動：S'mores 星冰樂回歸、Miffy 聯名及多款新冷泡飲品強化競爭差異化",
+          "summary": "星巴克推出 2026 年夏季菜單，核心亮點包含闊別六年的 S'mores 星冰樂與全新 S'mores 冷泡咖啡（搭配棉花糖冷泡奶蓋），並宣布與荷蘭知名卡通角色 Miffy 聯名合作，強化品牌在年輕消費群及 APAC 市場的吸引力。此外，新款冰沙能量冷萃及冰抹茶檸檬冰沙將於 6 月 30 日正式登場，傳奇獨角獸星冰樂亦將在夏末限時回歸。",
+          "whyMatters": "S'mores 系列回歸意味著焦糖、棉花糖、巧克力及餅乾等原料的季節性需求將明顯拉升，巧克力及乳製品供應商應提前備貨。Miffy 聯名周邊商品的全球同步推出（重點市場包含日本、台灣、韓國等 APAC 地區）也代表包裝材料及周邊商品採購需求的短期增加。",
+          "potentialImpact": [
+            "巧克力、棉花糖及烘烤穀類（餅乾碎）供應商應儘快確認 Q3 備貨計畫，S'mores 系列需求通常集中於夏季旺季且持續至少 8 週",
+            "Miffy 聯名周邊（馬克杯、提袋等）的包裝製造商和 APAC 區域供應商可把握此波商品採購機會",
+            "關注冰沙能量飲系列的原料構成（B 群維生素、咖啡因來源），此類功能性飲品趨勢可能成為未來採購的長期方向"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks 夏季新品官方發布",
+              "url": "https://about.starbucks.com/stories/2026/starbucks-launches-new-summer-drinks-brings-back-smores-frappuccino/"
+            },
+            {
+              "label": "TheStreet：Miffy 聯名及夏季競爭分析",
+              "url": "https://www.thestreet.com/restaurants/starbucks-drops-another-summer-surprise-as-competition-heats-up-new-drinks-miffy-collab"
+            }
+          ]
+        },
+        {
+          "id": "20260609-5",
+          "market": "🇺🇸 美國市場",
+          "source": "Parade / Starbucks",
+          "pubDate": "2026-06-09",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "品牌策略",
+            "採購量預測"
+          ],
+          "headline": "星巴克確認傳奇獨角獸星冰樂限時回歸，新款冰沙能量冷萃夏末登場，限定品稀缺行銷策略持續推進",
+          "summary": "星巴克正式確認獨角獸星冰樂（Unicorn Frappuccino）將於夏末限時一個週末回歸，同時預告新款冰沙能量冷萃（Blended Energy Refreshers）與冰沙抹茶檸檬（Blended Matcha Lemonade）將於 6 月 30 日供 Rewards 會員搶先體驗，並於 7 月 1 日全面開賣。連番限定新品策略成功拉高客流量並鞏固 Rewards 會員黏著度，是 Niccol 回客策略的核心操作手段。",
+          "whyMatters": "獨角獸星冰樂等限定品對彩色天然食用色素（蝶豆花、甜菜根、薑黃等）及特殊風味糖漿產生短期爆發性需求，供應商需具備快速出貨彈性。能量冷萃系列（含 B 群維生素、咖啡因）持續擴充也顯示功能性飲料原料將成為中長期穩定採購品項。",
+          "potentialImpact": [
+            "天然食用色素及特殊風味糖漿供應商應與星巴克採購確認限定品備料需求，避免在爆發期出現缺貨",
+            "維生素 B 群預混料及功能性咖啡因萃取物供應商可針對能量冷萃系列提出長期供應提案",
+            "Rewards 會員搶先體驗機制顯示消費者對稀缺限定品接受度極高，供應商可藉此評估短單快速出貨能力以爭取優先合作資格"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Unicorn Frappuccino 官方回歸公告",
+              "url": "https://about.starbucks.com/press/2026/unicorn-frappuccino-blended-beverage-makes-its-magical-return-later-this-summer/"
+            },
+            {
+              "label": "Parade：夏季新品全覽",
+              "url": "https://parade.com/food/starbucks-new-blended-energy-refreshers-smores-drinks-summer-2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "label": "06/08",
+      "items": [
+        {
+          "id": "20260608-1",
+          "market": "🇺🇸 美國市場",
+          "source": "Seattle Times / GeekWire",
+          "pubDate": "2026-06-06",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "組織重組",
+            "採購架構",
+            "供應鏈管理"
+          ],
+          "headline": "星巴克企業重組兩波裁員：科技部61人後再裁300名企業員工，供應鏈部門遷往納什維爾",
+          "summary": "星巴克在6月宣布兩波裁員行動：首波裁撤技術部門61名員工（含網路安全分析師、技術產品經理、Scrum Master等職位），由新任CTO Anand Varadarajan主導科技部門重組。隨後宣布第二波裁員逾300名企業員工，其中252個職位連結西雅圖總部，裁員自7月17日起至2027年2月止。這與星巴克在納什維爾開設新企業辦公室並計劃遷入2,000名員工（含採購與供應鏈部門）的策略密切相關。",
+          "whyMatters": "供應鏈與採購部門的重組和遷移，意味著供應商的聯絡窗口、合約主責人及採購決策流程都可能發生變動。納什維爾辦公室的啟用代表採購中心正在轉移，供應商若未提前建立當地關係，將面臨溝通斷層風險。科技部門裁員同時影響供應商訂單系統、EDI對接及採購技術平台的維護節奏。",
+          "potentialImpact": [
+            "立即更新與星巴克採購部門的聯絡人名冊，確認新的決策責任人，避免重要商務溝通中斷",
+            "提前了解納什維爾辦公室開設進度，主動接觸當地採購與供應鏈主管，建立新關係",
+            "供應鏈技術系統（EDI、訂單平台）整合可能暫緩，供應商應確保現有系統穩定並預備應對過渡期延誤"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Seattle Times",
+              "url": "https://www.seattletimes.com/business/starbucks/starbucks-lays-off-hundreds-at-seattle-hq/"
+            },
+            {
+              "label": "GeekWire",
+              "url": "https://www.geekwire.com/2026/starbucks-to-cut-61-tech-jobs-at-seattle-hq-in-department-reorganization/"
+            },
+            {
+              "label": "KUOW",
+              "url": "https://www.kuow.org/stories/starbucks-lays-off-hundreds-at-seattle-hq"
+            }
+          ]
+        },
+        {
+          "id": "20260608-2",
+          "market": "🌍 全球",
+          "source": "Starbucks 官方新聞稿",
+          "pubDate": "2026-06-03",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "包裝創新",
+            "採購架構",
+            "門市擴張"
+          ],
+          "headline": "星巴克米蘭設計週發表Viola休閒椅與全新陶瓷馬克杯，2026年底導入全球改造門市",
+          "summary": "星巴克於米蘭設計週在Reserve Roastery Milano舉辦「Inspired by Italy」展覽，正式發表兩款全新門市設計元素：以1990年代紫色標誌椅為靈感的「Viola休閒椅」（質地柔軟、座感寬廣），以及以義大利咖啡館文化為藍本的新款陶瓷馬克杯（瓷質杯身、寬口設計強化泡沫與香氣呈現，提供白色與深綠兩色）。Viola椅預計於2026年底前進入精選改造及新門市，與星巴克1,000間門市改造計劃緊密結合。",
+          "whyMatters": "Viola椅與新陶瓷馬克杯代表星巴克採購將導入全新規格的家具與餐具產品線，1,000間以上門市的改造計劃意味著大量採購需求即將釋出。此次發表直接指出供應商的具體產品規格方向（軟質休閒椅、特定尺寸陶瓷杯），是少見的官方採購信號，全球家具與餐具供應商應密切追蹤。",
+          "potentialImpact": [
+            "家具/座椅供應商應主動研究Viola椅的設計規格與製造要求，評估自身產品符合星巴克新標準的可能性並接觸全球採購部門",
+            "陶瓷與餐具供應商可針對新款馬克杯（寬口、平衡把手、白色/深綠）提出相容或創新方案，搶先佔位2026至2027年的餐具採購機會",
+            "APAC地區家具及餐具供應商應整合門市改造（1,000間）與新原型測試的需求，主動準備完整的產品線報告供星巴克採購參考"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks 官方新聞稿 - 米蘭設計週",
+              "url": "https://about.starbucks.com/press/2026/starbucks-at-milan-design-week-how-coffee-culture-and-creativity-converged/"
+            },
+            {
+              "label": "Starbucks 官方新聞稿 - Viola椅與陶瓷杯",
+              "url": "https://about.starbucks.com/press/2026/meet-the-new-starbucks-chair-and-ceramic-mug-designed-for-craft-comfort-and-connection/"
+            }
+          ]
+        },
+        {
+          "id": "20260608-3",
+          "market": "🌍 全球",
+          "source": "The Food Institute / TheStreet",
+          "pubDate": "2026-06-02",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "財務表現",
+            "採購量預測",
+            "成本結構"
+          ],
+          "headline": "「重返星巴克」策略見效：Q2全球可比銷售成長6.2%，但原料成本壓縮利潤率引發供應鏈議價壓力",
+          "summary": "星巴克Q2 FY2026財報顯示全球可比門市銷售年增6.2%（北美+7.1%），合併淨營收達95億美元（年增9%），為連續三季正成長。然而EPS僅0.50美元（未調整），營業利潤率下滑1.7個百分點，原因在於咖啡豆成本上漲及通貨膨脹侵蝕利潤。執行長Niccol坦言「成長是真實的，但成本轉化為獲利仍需時間」，同時追求20億美元削減成本目標，高管薪酬將與成本節省績效掛鉤。",
+          "whyMatters": "銷售成長代表門市採購量（原料、包材、食材）有上升趨勢，有利供應商訂單展望；但利潤率下滑使星巴克採購部門面臨更大的降本壓力，高管薪酬與成本節省直接連動，意味著所有供應商都將面臨更嚴格的議價與成本審查。",
+          "potentialImpact": [
+            "原料與包材供應商應主動準備成本優化方案，在維持品質的前提下展示可量化的降本提案，以應對採購議價壓力",
+            "Refreshers飲料（第二大暢銷品類）與抹茶品項強勁成長，對應原料（天然果汁、抹茶粉）供應商應確保產能並主動溝通未來擴量計劃",
+            "咖啡豆成本持續高漲，建議咖啡相關原料供應商評估長期合約鎖價策略，同時關注星巴克C.A.F.E.合規認證對採購決策的影響"
+          ],
+          "sourceLinks": [
+            {
+              "label": "The Food Institute",
+              "url": "https://foodinstitute.com/focus/back-to-starbucks-is-working-but-what-is-it-hiding/"
+            },
+            {
+              "label": "TheStreet",
+              "url": "https://www.thestreet.com/retail/starbucks-turnaround-plan-hits-costly-snags"
+            }
+          ]
+        },
+        {
+          "id": "20260608-4",
+          "market": "🇺🇸 美國市場",
+          "source": "Retail TouchPoints / Restaurant Dive",
+          "pubDate": "2026-06-01",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "門市擴張",
+            "採購架構",
+            "品牌策略"
+          ],
+          "headline": "星巴克2026年底完成1,000間門市「Coffeehouse Uplift」改造，同步淘汰90間外帶專門店並測試低成本新原型",
+          "summary": "星巴克執行長Niccol確認將在2026年底前完成至少1,000間北美門市的「Coffeehouse Uplift」改造計劃，每間門市投入約15萬美元，聚焦更柔和的照明、軟質座椅、暖色調設計與在地化元素。同時宣布淘汰旗下約80至90間純外帶專門店（2019年起推出），以兩款新原型取代：較大型的獨立店（32個座位、含得來速、建設成本降低約30%）以及小型紐約版本（約10個座位）。早期改造測試已顯示消費者在店停留時間延長、回訪頻率上升。",
+          "whyMatters": "1,000間門市改造與兩款新原型測試代表大規模的座椅、燈具、軟裝、建材採購需求正在快速釋出，採購規格將隨新設計標準確立。外帶專門店的淘汰也意味著星巴克重新配置實體空間，供應商應掌握新原型的建材與設備採購重點。",
+          "potentialImpact": [
+            "座椅、燈具、室內裝飾及建材供應商應積極聯繫星巴克全球商品與設計採購部門，主動提交符合「溫暖、在地化、軟質感」設計方向的產品方案",
+            "新低成本原型（建設成本降30%）代表採購規格將趨向成本效益，供應商在設計提案中應同步展示降本空間與品質保證",
+            "外帶店關閉後的空間改造形成短期密集採購需求，建議掌握星巴克在各地施工時程，爭取在地供應與快速配送的競爭優勢"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Retail TouchPoints",
+              "url": "https://www.retailtouchpoints.com/features/news-briefs/starbucks-to-complete-1000-store-uplifts-in-2026-plans-to-phase-out-pickup-only-locations"
+            },
+            {
+              "label": "Restaurant Dive",
+              "url": "https://www.restaurantdive.com/news/starbucks-cafe-redesign-2026-seating-colors-atmosphere/759376/"
+            }
+          ]
+        },
+        {
+          "id": "20260608-5",
+          "market": "🇺🇸 美國市場",
+          "source": "HR Executive / Restaurant Dive",
+          "pubDate": "2026-06-02",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "成本結構",
+            "消費者行為",
+            "品牌策略"
+          ],
+          "headline": "星巴克大幅調整前線員工薪酬：新增咖啡師績效獎金、週薪制與小費範圍擴大",
+          "summary": "星巴克宣布新一輪前線員工薪酬調整，包含績效獎金制度（咖啡師可依門市表現獲得額外獎勵）、導入週薪制（原為雙週薪）以提升財務安全感，以及將小費適用範圍擴大至更多交易場景。此舉被視為「重返星巴克」策略下穩定人力、提升服務品質的一環，也與星巴克持續擴大的工會合約談判背景相關。",
+          "whyMatters": "前線人力成本上升將使星巴克的整體營運費用增加，在利潤率已受壓的情況下，採購部門的降本壓力可能進一步轉向供應商端。另一方面，穩定的門市人力有助於新品試賣、供應商樣品測試及培訓計劃的順利推進。",
+          "potentialImpact": [
+            "供應商應預期採購議價強化，展示具備成本效益的產品方案，以支持星巴克在薪酬成本上升下的整體降本目標",
+            "門市人力穩定性提升有助於新品測試流程（飲品配方、食材創新）的加速，建議有新產品的供應商把握此窗口提出合作提案",
+            "關注星巴克各地工會合約進展，工會協議條款可能影響個別市場的營業時間與採購節奏"
+          ],
+          "sourceLinks": [
+            {
+              "label": "HR Executive",
+              "url": "https://hrexecutive.com/starbucks-adds-barista-bonuses-weekly-pay-and-expanded-tips-in-frontline-compensation-push/"
+            },
+            {
+              "label": "Restaurant Dive",
+              "url": "https://www.restaurantdive.com/news/starbucks-executive-bonus-cost-reduction-back-to-starbucks-coffeehouse/752442/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-05",
+      "label": "06/05",
+      "items": [
+        {
+          "id": "20260605-1",
+          "market": "🇺🇸 美國市場",
+          "source": "Supply Chain Dive",
+          "pubDate": "2026-06-04",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "供應鏈技術",
+            "庫存管理",
+            "AI 自動化"
+          ],
+          "headline": "星巴克淘汰 AI 庫存系統，重返人工盤點並啟動 2026 年底每日補貨計畫",
+          "summary": "星巴克宣布終止與 NomadGo 合作的 AI 電腦視覺庫存管理系統，原因是系統頻繁誤計與誤標商品（如混淆不同牛奶種類），員工反映系統「不可靠」。星巴克表示將統一門市庫存盤點流程，並計畫在 2026 年底前實現每日補貨，以改善缺貨問題並支援擴大食品菜單。",
+          "whyMatters": "此舉顯示星巴克正重新審視門市供應技術的標準化，每日補貨計畫將大幅提升對短保期原料與食品的訂單需求穩定性。AI 試驗失敗意味著庫存管理仍以人工為主，供應商應留意訂單精準度可能有所波動。",
+          "potentialImpact": [
+            "每日補貨目標將帶動短保期食材（如新鮮食品、乳品、糖漿）的穩定訂單頻率，有配送靈活度的供應商將更具競爭優勢",
+            "AI 庫存試驗失敗顯示人工盤點仍主導補貨決策，供應商應保持充足緩衝庫存以應對訂單精準度不穩定的情況",
+            "星巴克明確表示將「持續投資科技工具」，有能力提供可靠庫存追蹤或補貨自動化方案的供應商可主動洽談合作"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Supply Chain Dive",
+              "url": "https://www.supplychaindive.com/news/starbucks-ditches-ai-inventory-system-after-just-9-months/821104/"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/21/starbucks-scraps-ai-inventory-tool-across-north-america.html"
+            }
+          ]
+        },
+        {
+          "id": "20260605-2",
+          "market": "🇰🇷 韓國市場",
+          "source": "Haps Korea / Korea Herald",
+          "pubDate": "2026-06-03",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "APAC 策略",
+            "採購量預測",
+            "品牌策略"
+          ],
+          "headline": "星巴克韓國啟動全額退款潮，4000 億韓元預付金面臨提領，週銷售暴跌 26%",
+          "summary": "因「Tank Day」行銷爭議引發大規模抵制，星巴克韓國宣布 6 月 1 至 14 日提供儲值卡全額退款，涉及約 4000 億韓元（約 3 億美元）預付資金。週銷售額已驟降 26%，公司並暫停高額電子卡與未登記實體卡銷售，以防止套利行為。特許商 Shinsegae 股價重挫，若特許協議遭終止，最高面臨 6400 億韓元回購損失風險。",
+          "whyMatters": "週銷售大跌 26% 直接壓縮韓國市場的採購預算，與星巴克韓國合作的食材、包裝及飲品供應商須預期短期訂單量縮減。若抵制持續延伸或特許協議結構改變，韓國市場的採購主體與規格標準將面臨重大轉型。",
+          "potentialImpact": [
+            "韓國市場 6 月份原料與包材採購量可能縮減 20–30%，供應商應及時調配庫存，避免因訂單驟降造成積壓損失",
+            "持續監控 Shinsegae 財務壓力指標，若特許協議遭終止，星巴克國際直接接管將帶來採購流程與規格標準的重大重置",
+            "建議評估現有合約中的最低採購量條款與違約保護機制，為韓國市場可能的採購結構調整做好法律與商務準備"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Haps Korea",
+              "url": "https://www.hapskorea.com/starbucks-korea-offers-full-card-balance-refunds-following-marketing-controversy/"
+            },
+            {
+              "label": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/5/19/starbucks-korea-ceo-fired-over-promotion-that-evoked-military-crackdown"
+            }
+          ]
+        },
+        {
+          "id": "20260605-3",
+          "market": "🌍 全球",
+          "source": "Bloomberg",
+          "pubDate": "2026-06-01",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "原料需求",
+            "採購關係",
+            "成本結構"
+          ],
+          "headline": "星巴克蛋白質飲品需求激增推高全球乳清蛋白價格，部分製造商陷入供應短缺",
+          "summary": "Bloomberg 報導，星巴克與 Mars 等主要食品企業積極在飲品中添加蛋白質（如拿鐵加乳清蛋白），帶動全球乳清蛋白需求大幅增加，導致價格上漲與供應短缺，部分製造商被迫暫停生產或以替代蛋白重新配方。星巴克的蛋白質飲品策略已成為影響全球原料市場的重要推力。",
+          "whyMatters": "身為全球最大咖啡連鎖，星巴克對蛋白質原料的大量採購直接牽動全球市場行情。乳清蛋白漲價將波及所有相關飲品供應商的成本結構，同時也為植物蛋白等替代原料供應商創造切入機會。",
+          "potentialImpact": [
+            "乳清蛋白及替代蛋白（豌豆蛋白、植物蛋白）供應商面臨星巴克擴大採購的機會，建議主動接觸星巴克全球採購部門提案",
+            "現有飲品配方供應商應立即評估乳清蛋白成本上漲對現有合約毛利的衝擊，並提前啟動調價或替代配方協商",
+            "星巴克可能調整蛋白質來源或配方比例以因應市場短缺，具備多元蛋白原料供應與快速配方支援能力的供應商將更具競爭優勢"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-01/starbucks-mars-help-fuel-whey-protein-price-hikes-shortages"
+            }
+          ]
+        },
+        {
+          "id": "20260605-4",
+          "market": "🌍 全球",
+          "source": "Trefis / Investor.Starbucks",
+          "pubDate": "2026-06-01",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "財務表現",
+            "採購量預測",
+            "門市擴張"
+          ],
+          "headline": "星巴克 Q2 合併營收年增 9% 至 95 億美元，美國同店銷售成長 7.1%，採購前景持續正面",
+          "summary": "分析師報告顯示，星巴克 2026 財年第二季（截至 3 月底）合併淨營收達 95 億美元（年增 9%），美國同店銷售成長 7.1%，客流量回升 4.3%。「Back to Starbucks」策略成效顯現，80% 門市尖峰服務時間已達 4 分鐘以下目標，公司上調全年可比較門市銷售展望。",
+          "whyMatters": "持續的客流回升與菜單創新（蛋白質飲品、能量系列、新食品項目）將帶動原材料採購量穩步增長，對飲品原料、包材及設備供應商形成正面支撐。2026 年底每日補貨目標落實後，供應頻率提升將進一步強化雙方合作關係。",
+          "potentialImpact": [
+            "美國市場採購量回升信號明確，建議供應商調高 2026 下半年北美市場的備貨計畫，以支援節假日旺季需求",
+            "冷飲、能量飲品、蛋白質飲品等新品類正快速成長，相關原料供應商（糖漿、乳品、植物蛋白）可積極提案新品配合創新菜單",
+            "每日補貨計畫落實後，補貨頻率大幅提升，供應商應提前優化物流與配送能力，以符合更嚴格的交期與庫存準確性要求"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Trefis",
+              "url": "https://www.trefis.com/stock/sbux/articles/600906/inside-the-starbucks-turnaround-defying-the-retail-meltdown/2026-06-01"
+            },
+            {
+              "label": "Starbucks IR - Q2 Results",
+              "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q2-Fiscal-Year-2026-Results/default.aspx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "label": "06/04",
+      "items": [
+        {
+          "id": "20260604-1",
+          "market": "🇰🇷 韓國市場",
+          "source": "Seoul Economic Daily / Korea Herald",
+          "pubDate": "2026-05-28",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "APAC 策略",
+            "採購關係",
+            "品牌策略"
+          ],
+          "headline": "星巴克韓國因 Tank Day 事件暫停儲值卡銷售，6月1日起啟動全額退款計畫",
+          "summary": "韓國星巴克於5月28日宣布暫停高面額電子儲值卡及實體無記名卡銷售至6月14日，防止消費者在全額退款計畫實施前套利。自6月1日至6月14日，持有預付卡的消費者可申請全額退款，起因為5月18日「Tank Day」行銷活動引發的大規模抵制，韓國執行長與相關行銷主管遭到解職，政府機構亦跟進取消星巴克採購合約。",
+          "whyMatters": "韓國市場的全額退款計畫與政府機構取消採購合約，顯示品牌危機可快速衝擊B2B業務量，韓國供應商需評估訂單縮減風險。此事件若引發抵制蔓延至日本或台灣，將對整個APAC供應鏈帶來不確定性，供應商需持續追蹤事態發展。",
+          "potentialImpact": [
+            "在韓國有業務的供應商應立即與星巴克韓國採購部門確認2026年Q3訂單量，評估消費者抵制與政府機構退出對採購預算的衝擊",
+            "監控抵制風潮是否蔓延至日本、台灣等鄰近APAC市場，及時調整供應計畫與庫存水位",
+            "此事件提醒供應商需將品牌聲譽風險納入供應鏈韌性規劃，避免過度依賴單一APAC市場客戶"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Seoul Economic Daily - e-card halt (May 28)",
+              "url": "https://en.sedaily.com/finance/2026/05/28/starbucks-korea-halts-e-card-sales-amid-cash-out-fraud"
+            },
+            {
+              "label": "Korea Herald - refund program",
+              "url": "https://www.koreaherald.com/article/10756440"
+            },
+            {
+              "label": "Newtalk 新聞 - 韓國退費新制",
+              "url": "https://newtalk.tw/news/view/2026-05-30/1038309"
+            }
+          ]
+        },
+        {
+          "id": "20260604-2",
+          "market": "🌍 全球",
+          "source": "AllEars.Net / About Starbucks Official",
+          "pubDate": "2026-05-30",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "原料需求",
+            "採購量預測"
+          ],
+          "headline": "星巴克宣布6月16日推出兩款藍椰子新品，帶動藍螺旋藻、椰子及抹茶原料需求",
+          "summary": "星巴克宣布將於6月16日推出「冰鎮藍椰子抹茶（Iced Blue Coconut Matcha）」及「藍椰子清新飲（Blue Coconut Refresher）」兩款夏季新品，主打藍螺旋藻鮮豔色彩、椰子冷泡奶泡，融合芒果、草莓及巴西莓風味。飲品可以檸檬水或椰奶進行個人化訂製，並含有咖啡因及B群維生素。",
+          "whyMatters": "新品配方大量引入藍螺旋藻、椰子、巴西莓等特殊功能性原料，預計帶動相關供應商的短期採購需求顯著上升。抹茶粉因冰鎮藍椰子抹茶新品上市，預估採購用量同步增加，供應商應把握此波夏季新品帶來的訂單機會。",
+          "potentialImpact": [
+            "藍螺旋藻、椰子原料供應商應主動聯繫星巴克採購部門，確認6月16日新品上市後的採購規格、用量及供應時程",
+            "抹茶粉供應商可預期「冰鎮藍椰子抹茶」帶來的額外訂單，建議提前備貨以應對夏季高峰需求",
+            "飲品包材與冷泡設備供應商應評估新飲品對生產線的影響，確保供應能量足以支撐新品上市後的門市需求"
+          ],
+          "sourceLinks": [
+            {
+              "label": "AllEars.Net - new drinks announcement (May 30)",
+              "url": "https://allears.net/2026/05/30/2-new-starbucks-drinks-dropping-in-june/"
+            },
+            {
+              "label": "About Starbucks - blue coconut preview",
+              "url": "https://about.starbucks.com/stories/2026/starbucks-previews-a-blue-coconut-duo-for-later-this-summer/"
+            }
+          ]
+        },
+        {
+          "id": "20260604-3",
+          "market": "🇺🇸 美國市場",
+          "source": "CBS News / Restaurant Business Online",
+          "pubDate": "2026-06-01",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "採購架構",
+            "成本結構",
+            "消費者行為"
+          ],
+          "headline": "星巴克6月24日起標準化抹茶與糖漿定價，同步推出App即時定價透明功能",
+          "summary": "星巴克宣布將於6月24日起在美國及加拿大所有自營門市實施統一加料定價：任意調味糖漿或醬料組合統一收費80美分，添加一匙抹茶粉收費1美元，乾燥水果加料收費50美分。星巴克應用程式同步新增客製化飲品即時顯示價格功能，提升定價透明度，此為「Back to Starbucks」策略優化顧客體驗的重要一環。",
+          "whyMatters": "定價標準化將改變消費者的點飲習慣與加料偏好，進而影響抹茶粉、調味糖漿等原料的採購量預測。此舉也代表星巴克正積極優化成本結構，供應商需重新評估相關原料的需求預測以調整庫存策略。",
+          "potentialImpact": [
+            "抹茶粉及調味糖漿供應商應與星巴克採購部門確認，新定價制度實施後是否影響原料採購量的預測與合約條件",
+            "關注定價標準化是否影響消費者點飲行為：若加料費用更透明可能降低高複雜度訂單，相關原料需求量需重新評估",
+            "評估星巴克全面推動定價透明化策略的長期影響，適時調整供應計畫以因應需求結構的潛在變化"
+          ],
+          "sourceLinks": [
+            {
+              "label": "CBS News - matcha syrup pricing",
+              "url": "https://www.cbsnews.com/news/starbucks-matcha-syrups-cost-fees-changing-new-price/"
+            },
+            {
+              "label": "Restaurant Business Online - pricing simplification",
+              "url": "https://www.restaurantbusinessonline.com/operations/starbucks-simplifying-pricing-its-drink-flavorings"
+            }
+          ]
+        },
+        {
+          "id": "20260604-4",
+          "market": "🌍 全球",
+          "source": "The Takeout / Disney Food Blog",
+          "pubDate": "2026-05-30",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "原料需求",
+            "永續發展"
+          ],
+          "headline": "星巴克2026夏季菜單：Horchata、蝶豆花清新飲等植物性新品引領原料多元化趨勢",
+          "summary": "星巴克2026夏季菜單（5月12日上市）主打Horchata Frappuccino、熱帶蝴蝶清新飲（Tropical Butterfly Refresher）等植物性新品，融合肉桂米漿、蝶豆花等天然食材。媒體評測顯示本季菜單創意豐富，非傳統咖啡飲品比重顯著提升，反映星巴克積極向植物基與功能性飲品市場拓展的策略方向。",
+          "whyMatters": "夏季菜單植物性原料（蝶豆花、肉桂、米漿、巴西莓）比重大幅提升，顯示星巴克採購策略正向咖啡豆以外的多元原料擴展，相關供應商有機會進入星巴克採購體系。非咖啡因飲品比重持續成長，意味著傳統咖啡豆供應商需思考業務多元化布局。",
+          "potentialImpact": [
+            "蝶豆花、肉桂、米漿等植物性原料供應商應主動接觸星巴克採購部門，了解2026年下半年夏季菜單延伸的採購計畫",
+            "傳統咖啡原料供應商需留意非咖啡飲品比重上升趨勢，評估是否有機會提供植物基原料或相關加工服務",
+            "季節性新品上市頻率加快，建議供應商建立更靈活的短週期供貨模式，以配合星巴克每季菜單迭代節奏"
+          ],
+          "sourceLinks": [
+            {
+              "label": "The Takeout - Starbucks Summer 2026 menu review",
+              "url": "https://www.thetakeout.com/2171214/starbucks-summer-2026-menu-review/"
+            },
+            {
+              "label": "Disney Food Blog - new summer drinks (May 30)",
+              "url": "https://www.disneyfoodblog.com/2026/05/30/starbucks-just-announced-2-new-drinks-coming-to-their-summer-menu/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
