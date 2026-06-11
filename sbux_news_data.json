@@ -1,6 +1,163 @@
 {
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-06-11",
   "days": [
+    {
+      "date": "2026-06-11",
+      "label": "06/11",
+      "items": [
+        {
+          "id": "20260611-1",
+          "market": "🇯🇵 日本市場",
+          "source": "Bloomberg",
+          "pubDate": "2026-06-10",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購架構",
+            "APAC 策略",
+            "組織重組"
+          ],
+          "headline": "星巴克據報考慮出售日本業務股權或 IPO，估值達 25–31 億美元",
+          "summary": "Bloomberg 報導，星巴克正就日本業務探索多項選項，包括出售部分股權或首次公開募股（IPO），已與投資銀行展開初步磋商。日本為星巴克第三大市場，擁有約 2,100 家門市，潛在交易估值達 4,000–5,000 億日圓（約 25–31 億美元）。此舉繼去年 11 月將中國業務多數股權出售後，被視為星巴克加速全球授權模式重組策略的延伸。",
+          "whyMatters": "若日本業務股權易主或進行 IPO，日本市場的採購策略、供應商合約架構可能面臨重大調整，新合作夥伴可能引入不同的本地化偏好。供應商應關注日本市場授權結構變化對訂單量與合約條款的潛在影響，並評估是否需要與新投資方建立關係。",
+          "potentialImpact": [
+            "提前梳理與星巴克日本現有採購合約的條款，評估所有者變更條款（change of control clause）的適用情形",
+            "主動接觸潛在私募股權或策略買家，展示供應商在日本在地化生產與品質符合星巴克標準的能力",
+            "密切追蹤後續談判進展，若達成交易，需準備因新投資方引入不同採購政策或本地化要求而做出的快速調整"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-10/starbucks-said-to-weigh-japan-unit-options-including-stake-sale"
+            },
+            {
+              "label": "World Coffee Portal",
+              "url": "https://www.worldcoffeeportal.com/news/starbucks-is-reportedly-exploring-a-2-5bn-stake-sale-of-its-successful-japanese-business-global-ambitions-could-explain-why/"
+            }
+          ]
+        },
+        {
+          "id": "20260611-2",
+          "market": "🌍 全球",
+          "source": "Yahoo Finance / Zacks",
+          "pubDate": "2026-06-08",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "成本結構",
+            "採購關係",
+            "供應鏈管理"
+          ],
+          "headline": "星巴克 FY2026 Q2 EPS 飆升 22%，至 2028 年 20 億美元成本節省計畫鎖定供應鏈採購",
+          "summary": "星巴克第二財季合併營收年增 9% 至 95 億美元，全球同店銷售成長 6.2%，EPS 年增 22% 至 0.50 美元，為逾兩年來首次年增。公司確認推進至 2028 財年的 20 億美元總成本節省計畫，重點鎖定產品與配銷成本、營業費用及管理費用三大面向，並上調全年 EPS 指引至 2.25–2.45 美元。",
+          "whyMatters": "20 億美元成本節省計畫明確點名「產品與配銷成本」為首要目標，意味著星巴克將對供應商展開更嚴格的成本審查與重新議價，採購條款可能趨緊。供應商在強勁銷售數字背後，面對的是更激烈的成本下壓壓力，需主動展示效率與差異化競爭力以維持合作關係。",
+          "potentialImpact": [
+            "預期星巴克採購團隊將在合約更新期間施壓降低供應成本，建議提前進行內部成本效率審計並準備談判方案",
+            "若能提供替代包裝方案、縮短交期或降低廢料率，可作為保住合約及抵禦降價壓力的有力籌碼",
+            "關注咖啡生豆、奶製品及關稅壓力緩解時機，星巴克在下半年指引中提到此類成本有望改善，可藉此調整原料採購節奏"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Yahoo Finance / Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/starbucks-2-billion-cost-savings-154100234.html"
+            },
+            {
+              "label": "SEC 8-K Q2 FY2026",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000078/sbux-03292026xearningsrele.htm"
+            }
+          ]
+        },
+        {
+          "id": "20260611-3",
+          "market": "🇰🇷 韓國市場",
+          "source": "World Coffee Portal",
+          "pubDate": "2026-06-08",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "APAC 策略",
+            "組織重組"
+          ],
+          "headline": "韓國星巴克換新執行長，內部調查揭 AI 行銷工具肇禍「坦克日」事件",
+          "summary": "操作韓國星巴克的新世界集團任命申東宇接任執行長，三週前因「坦克日」促銷爭議解除前任孫貞鉉職務。內部調查顯示此次問題促銷活動係由 AI 行銷工具生成，相關人員審核機制缺失為主因。此事件導致韓國門市銷量「非常顯著」下滑，星巴克禮品卡在 KakaoTalk 禮品商店排名跌出前 15 名。",
+          "whyMatters": "韓國為星巴克全球第三大市場，銷售顯著下滑直接影響供應商在韓的訂單量；新執行長上任後的品牌重建策略若引入大型促銷活動，可能帶來短期訂單波動。此次 AI 行銷工具失誤也引發全球總部重新審視 AI 應用於行銷決策的風控框架，可能影響未來全球供應商協作流程。",
+          "potentialImpact": [
+            "短期評估韓國門市銷量下滑對當地食材、包裝及商品訂單的實質影響，做好庫存緩衝調度準備",
+            "關注新執行長上任後的品牌復原策略方向——若推出大型促銷活動以拉抬回購，相關供應商可能面臨短期訂單急增",
+            "若您是星巴克韓國授權商（新世界集團）的直接供應商，主動安排拜訪新管理團隊以穩固合作關係"
+          ],
+          "sourceLinks": [
+            {
+              "label": "World Coffee Portal",
+              "url": "https://www.worldcoffeeportal.com/news/starbucks-korea-moves-to-restore-trust-with-new-ceo-following-ai-marketing-blunder/"
+            },
+            {
+              "label": "KED Global",
+              "url": "https://www.kedglobal.com/business-politics/newsView/ked202605220003"
+            }
+          ]
+        },
+        {
+          "id": "20260611-4",
+          "market": "🇨🇳 中國市場",
+          "source": "China Daily",
+          "pubDate": "2026-06-06",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "採購量預測",
+            "零售競爭"
+          ],
+          "headline": "星巴克中國首推服飾品牌線，400 家門市上架「Bearista Town」系列，一年 IP 商品銷破百萬件",
+          "summary": "星巴克中國自 5 月 26 日起在全國逾 400 家門市推出首個服飾系列「Bearista Town」，涵蓋工裝馬甲（399 元）、刺繡 T 恤（279 元）及連帽外套（最高 459 元），並同步上架公仔、盲盒玩具、家居及車用配件。公司披露 Bearista Town IP 商品一年內銷量逾 100 萬件。此舉反映中國咖啡品牌將 IP 周邊商品化列為重要增長引擎的產業趨勢。",
+          "whyMatters": "服飾與周邊商品品類的快速擴張，意味著星巴克中國的採購範疇從傳統飲料原料延伸至紡織品、玩具與消費品，為非食品類供應商開闢新商機。Boyu Capital 主導的 JV 架構加速本地化採購策略，具備中國在地製造能力的供應商更具競爭優勢。",
+          "potentialImpact": [
+            "評估是否具備紡織品、公仔或包裝禮盒供應能力，主動向星巴克中國採購部門提案，把握 IP 周邊商品化帶來的合作機會",
+            "關注 JV 三年擴張計劃（縣級市場從 1,000 個擴至 1,500 個），超前部署在二三線城市的配銷與倉儲能力",
+            "追蹤競品（如瑞幸、喜茶）的 IP 聯名採購動向，以同類訂單規模估算星巴克中國服飾品類的潛在採購量"
+          ],
+          "sourceLinks": [
+            {
+              "label": "China Daily",
+              "url": "https://www.chinadaily.com.cn/a/202606/06/WS6a2375cea310d6866eb4cc08.html"
+            }
+          ]
+        },
+        {
+          "id": "20260611-5",
+          "market": "🇯🇵 日本市場",
+          "source": "星巴克日本官方新聞稿",
+          "pubDate": "2026-06-10",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "原料需求",
+            "門市擴張"
+          ],
+          "headline": "日本「星巴克 Tea & Café」6 月 17 日推出熱帶茶飲新品，7 月大阪新開店擴版圖",
+          "summary": "星巴克日本官方公告，旗下 30 家「星巴克 Tea & Café」專門店將於 2026 年 6 月 17 日起推出夏季第二波新品：「鳳梨椰香冰沙茶浮冰」及「精釀冰茶 鳳梨可娜波普」，主打夏威夷茶葉與熱帶水果風味組合。同時宣布 7 月 6 日在大阪天王寺新開設一家 Tea & Café，持續擴大專門店版圖。",
+          "whyMatters": "星巴克日本持續擴充 Tea & Café 專門店格局，顯示高端茶飲體驗的採購需求長期成長；熱帶風味（鳳梨、椰子）及植物花卉（玫瑰、萬壽菊）茶葉原料需求上升，為相關原料供應商提供提案切入點。Tea & Café 業態的擴張直接影響茶葉、特殊包裝容器及飲品設備的採購量。",
+          "potentialImpact": [
+            "若供應茶葉、水果果泥或植物花卉食材，可針對 Tea & Café 的熱帶風味趨勢開發符合採購規格的新品並提案",
+            "Tea & Café 門市持續增加，帶動杯具、吸管及包裝材料採購量成長，建議提前準備相應產能",
+            "關注大阪新店的消費者反應，若銷售強勁可預期快速展店，並據此預測採購量增長節奏"
+          ],
+          "sourceLinks": [
+            {
+              "label": "星巴克日本官方新聞稿（Tea & Café 夏季新品）",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr2026-0610/"
+            },
+            {
+              "label": "星巴克日本官方新聞稿（FRUITY CHEERS TORORI）",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr2026-06-09/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-10",
       "label": "06/10",
@@ -648,140 +805,6 @@
             {
               "label": "Starbucks IR - Q2 Results",
               "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q2-Fiscal-Year-2026-Results/default.aspx"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-04",
-      "label": "06/04",
-      "items": [
-        {
-          "id": "20260604-1",
-          "market": "🇰🇷 韓國市場",
-          "source": "Seoul Economic Daily / Korea Herald",
-          "pubDate": "2026-05-28",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "APAC 策略",
-            "採購關係",
-            "品牌策略"
-          ],
-          "headline": "星巴克韓國因 Tank Day 事件暫停儲值卡銷售，6月1日起啟動全額退款計畫",
-          "summary": "韓國星巴克於5月28日宣布暫停高面額電子儲值卡及實體無記名卡銷售至6月14日，防止消費者在全額退款計畫實施前套利。自6月1日至6月14日，持有預付卡的消費者可申請全額退款，起因為5月18日「Tank Day」行銷活動引發的大規模抵制，韓國執行長與相關行銷主管遭到解職，政府機構亦跟進取消星巴克採購合約。",
-          "whyMatters": "韓國市場的全額退款計畫與政府機構取消採購合約，顯示品牌危機可快速衝擊B2B業務量，韓國供應商需評估訂單縮減風險。此事件若引發抵制蔓延至日本或台灣，將對整個APAC供應鏈帶來不確定性，供應商需持續追蹤事態發展。",
-          "potentialImpact": [
-            "在韓國有業務的供應商應立即與星巴克韓國採購部門確認2026年Q3訂單量，評估消費者抵制與政府機構退出對採購預算的衝擊",
-            "監控抵制風潮是否蔓延至日本、台灣等鄰近APAC市場，及時調整供應計畫與庫存水位",
-            "此事件提醒供應商需將品牌聲譽風險納入供應鏈韌性規劃，避免過度依賴單一APAC市場客戶"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Seoul Economic Daily - e-card halt (May 28)",
-              "url": "https://en.sedaily.com/finance/2026/05/28/starbucks-korea-halts-e-card-sales-amid-cash-out-fraud"
-            },
-            {
-              "label": "Korea Herald - refund program",
-              "url": "https://www.koreaherald.com/article/10756440"
-            },
-            {
-              "label": "Newtalk 新聞 - 韓國退費新制",
-              "url": "https://newtalk.tw/news/view/2026-05-30/1038309"
-            }
-          ]
-        },
-        {
-          "id": "20260604-2",
-          "market": "🌍 全球",
-          "source": "AllEars.Net / About Starbucks Official",
-          "pubDate": "2026-05-30",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "飲品趨勢",
-            "原料需求",
-            "採購量預測"
-          ],
-          "headline": "星巴克宣布6月16日推出兩款藍椰子新品，帶動藍螺旋藻、椰子及抹茶原料需求",
-          "summary": "星巴克宣布將於6月16日推出「冰鎮藍椰子抹茶（Iced Blue Coconut Matcha）」及「藍椰子清新飲（Blue Coconut Refresher）」兩款夏季新品，主打藍螺旋藻鮮豔色彩、椰子冷泡奶泡，融合芒果、草莓及巴西莓風味。飲品可以檸檬水或椰奶進行個人化訂製，並含有咖啡因及B群維生素。",
-          "whyMatters": "新品配方大量引入藍螺旋藻、椰子、巴西莓等特殊功能性原料，預計帶動相關供應商的短期採購需求顯著上升。抹茶粉因冰鎮藍椰子抹茶新品上市，預估採購用量同步增加，供應商應把握此波夏季新品帶來的訂單機會。",
-          "potentialImpact": [
-            "藍螺旋藻、椰子原料供應商應主動聯繫星巴克採購部門，確認6月16日新品上市後的採購規格、用量及供應時程",
-            "抹茶粉供應商可預期「冰鎮藍椰子抹茶」帶來的額外訂單，建議提前備貨以應對夏季高峰需求",
-            "飲品包材與冷泡設備供應商應評估新飲品對生產線的影響，確保供應能量足以支撐新品上市後的門市需求"
-          ],
-          "sourceLinks": [
-            {
-              "label": "AllEars.Net - new drinks announcement (May 30)",
-              "url": "https://allears.net/2026/05/30/2-new-starbucks-drinks-dropping-in-june/"
-            },
-            {
-              "label": "About Starbucks - blue coconut preview",
-              "url": "https://about.starbucks.com/stories/2026/starbucks-previews-a-blue-coconut-duo-for-later-this-summer/"
-            }
-          ]
-        },
-        {
-          "id": "20260604-3",
-          "market": "🇺🇸 美國市場",
-          "source": "CBS News / Restaurant Business Online",
-          "pubDate": "2026-06-01",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "採購架構",
-            "成本結構",
-            "消費者行為"
-          ],
-          "headline": "星巴克6月24日起標準化抹茶與糖漿定價，同步推出App即時定價透明功能",
-          "summary": "星巴克宣布將於6月24日起在美國及加拿大所有自營門市實施統一加料定價：任意調味糖漿或醬料組合統一收費80美分，添加一匙抹茶粉收費1美元，乾燥水果加料收費50美分。星巴克應用程式同步新增客製化飲品即時顯示價格功能，提升定價透明度，此為「Back to Starbucks」策略優化顧客體驗的重要一環。",
-          "whyMatters": "定價標準化將改變消費者的點飲習慣與加料偏好，進而影響抹茶粉、調味糖漿等原料的採購量預測。此舉也代表星巴克正積極優化成本結構，供應商需重新評估相關原料的需求預測以調整庫存策略。",
-          "potentialImpact": [
-            "抹茶粉及調味糖漿供應商應與星巴克採購部門確認，新定價制度實施後是否影響原料採購量的預測與合約條件",
-            "關注定價標準化是否影響消費者點飲行為：若加料費用更透明可能降低高複雜度訂單，相關原料需求量需重新評估",
-            "評估星巴克全面推動定價透明化策略的長期影響，適時調整供應計畫以因應需求結構的潛在變化"
-          ],
-          "sourceLinks": [
-            {
-              "label": "CBS News - matcha syrup pricing",
-              "url": "https://www.cbsnews.com/news/starbucks-matcha-syrups-cost-fees-changing-new-price/"
-            },
-            {
-              "label": "Restaurant Business Online - pricing simplification",
-              "url": "https://www.restaurantbusinessonline.com/operations/starbucks-simplifying-pricing-its-drink-flavorings"
-            }
-          ]
-        },
-        {
-          "id": "20260604-4",
-          "market": "🌍 全球",
-          "source": "The Takeout / Disney Food Blog",
-          "pubDate": "2026-05-30",
-          "impact": "low",
-          "impactLabel": "ℹ️ 低衝擊",
-          "impactAreas": [
-            "飲品趨勢",
-            "原料需求",
-            "永續發展"
-          ],
-          "headline": "星巴克2026夏季菜單：Horchata、蝶豆花清新飲等植物性新品引領原料多元化趨勢",
-          "summary": "星巴克2026夏季菜單（5月12日上市）主打Horchata Frappuccino、熱帶蝴蝶清新飲（Tropical Butterfly Refresher）等植物性新品，融合肉桂米漿、蝶豆花等天然食材。媒體評測顯示本季菜單創意豐富，非傳統咖啡飲品比重顯著提升，反映星巴克積極向植物基與功能性飲品市場拓展的策略方向。",
-          "whyMatters": "夏季菜單植物性原料（蝶豆花、肉桂、米漿、巴西莓）比重大幅提升，顯示星巴克採購策略正向咖啡豆以外的多元原料擴展，相關供應商有機會進入星巴克採購體系。非咖啡因飲品比重持續成長，意味著傳統咖啡豆供應商需思考業務多元化布局。",
-          "potentialImpact": [
-            "蝶豆花、肉桂、米漿等植物性原料供應商應主動接觸星巴克採購部門，了解2026年下半年夏季菜單延伸的採購計畫",
-            "傳統咖啡原料供應商需留意非咖啡飲品比重上升趨勢，評估是否有機會提供植物基原料或相關加工服務",
-            "季節性新品上市頻率加快，建議供應商建立更靈活的短週期供貨模式，以配合星巴克每季菜單迭代節奏"
-          ],
-          "sourceLinks": [
-            {
-              "label": "The Takeout - Starbucks Summer 2026 menu review",
-              "url": "https://www.thetakeout.com/2171214/starbucks-summer-2026-menu-review/"
-            },
-            {
-              "label": "Disney Food Blog - new summer drinks (May 30)",
-              "url": "https://www.disneyfoodblog.com/2026/05/30/starbucks-just-announced-2-new-drinks-coming-to-their-summer-menu/"
             }
           ]
         }
