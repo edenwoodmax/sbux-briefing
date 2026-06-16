@@ -1,6 +1,151 @@
 {
-  "lastUpdated": "2026-06-15",
+  "lastUpdated": "2026-06-16",
   "days": [
+    {
+      "date": "2026-06-16",
+      "label": "06/16",
+      "items": [
+        {
+          "id": "20260616-1",
+          "market": "🌍 全球",
+          "source": "About Starbucks",
+          "pubDate": "2026-06-09",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "原料需求",
+            "ESG風險",
+            "飲品趨勢"
+          ],
+          "headline": "星巴克「藍椰子」雙新品今日上市，攜手 Water.org Get Blue 計畫捐助全球淨水行動",
+          "summary": "星巴克自2026年6月16日起推出「藍椰子清新飲」與「冰藍椰子抹茶」兩款夏季限定飲品，以藍色螺旋藻賦予自然鮮豔色澤，搭配椰子奶泡、芒果、草莓及阿薩伊果等天然原料。活動期間（至7月7日），每售出一杯捐贈美金0.25元予 Water.org 的 Get Blue™ 計畫，最高捐款上限達97.5萬美元，預估幫助多達19.5萬人獲得乾淨飲水或衛生設施。",
+          "whyMatters": "藍色螺旋藻（blue spirulina）、椰子奶泡、芒果、草莓及阿薩伊等天然功能性原料需求同步提升，對相關食材供應商而言是進入星巴克季節性採購鏈的重要窗口。此次與 Water.org 的 ESG 公益聯名模式，也顯示星巴克採購策略更加重視永續供應鏈認證，具備此類背景的供應商在合作提案上將具備差異化優勢。",
+          "potentialImpact": [
+            "藍色螺旋藻、天然食用色素供應商應把握此次季節性需求高峰（6/16–7/7），積極與星巴克採購部門建立聯繫並確認備貨量",
+            "椰子衍生物、芒果及草莓原料供應商可依據夏季促銷期預備額外庫存，預期訂單需求在促銷期間將明顯放量",
+            "具備 ESG 或水資源永續認證的供應商，可借助星巴克此次品牌方向，強化合作提案的吸引力，契合其長期採購偏好"
+          ],
+          "sourceLinks": [
+            {
+              "label": "About Starbucks 官方",
+              "url": "https://about.starbucks.com/stories/2026/starbucks-introduces-blue-coconut-duo-supporting-clean-water-through-get-blue/"
+            }
+          ]
+        },
+        {
+          "id": "20260616-2",
+          "market": "🇰🇷 韓國市場",
+          "source": "Seoul Economic Daily",
+          "pubDate": "2026-06-15",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "零售競爭",
+            "採購架構"
+          ],
+          "headline": "韓國星巴克宣布6月22日全國門市提早下午3時關閉，進行歷史意識與社會敏感度員工培訓",
+          "summary": "韓國星巴克（由新世界集團 E-Mart 旗下管理）宣布將於6月22日（週一）全國門市提早至下午3時關閉，集中進行員工歷史認知與社會敏感度培訓。此舉為今年5月「坦克紀念日」AI 行銷爭議的後續危機應對，彼時事件引發輿論強烈反彈，董事長鄭溶鎮公開道歉，韓國門市銷售量大幅下滑。",
+          "whyMatters": "全韓門市單日全面提早關閉，直接導致6月22日當日訂單量急遽縮減，影響食材、烘焙品及包材供應商的當週配送節奏。更深層而言，新世界集團啟動系統性文化培訓，反映品牌危機對運營採購決策的連帶效應，此類風險事件往往使採購決策趨於保守謹慎，供應商應密切觀察。",
+          "potentialImpact": [
+            "韓國市場供應商應預估6月22日當日訂貨量大幅減少，提前調整配送排程及生產計劃以降低損耗",
+            "長期關注新世界集團的品牌重整動向，危機後期可能涉及供應鏈環節的重新審查及廠商資格評估",
+            "韓國今年預計新增至少100家門市的計畫能否如期推進，品牌聲譽風險或影響展店時程，進而延遲相關採購規劃"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Seoul Economic Daily",
+              "url": "https://en.sedaily.com/finance/2026/06/15/breaking-news-starbucks-to-close-all-korea-stores-at-3-pm"
+            }
+          ]
+        },
+        {
+          "id": "20260616-3",
+          "market": "🇯🇵 日本市場",
+          "source": "SoraNews24",
+          "pubDate": "2026-06-11",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "原料需求",
+            "APAC策略",
+            "飲品趨勢"
+          ],
+          "headline": "日本星巴克推出「FRUITY CHEERS™ TORORI」RTD 新系列，今日起限定在全國 7-Eleven 上市",
+          "summary": "日本星巴克今日起（6月16日）在全國 7-Eleven 便利商店限定發售「FRUITY CHEERS™ TORORI」PET 瓶裝新飲品，涵蓋「草莓佛手柑茉莉茶」與「芒果百香果紅茶」兩款口味，售價214日圓（約1.33美元）。飲品融合果汁、牛奶與茶葉三重層次，強調柔滑醇厚口感，為 7-Eleven 獨家通路，現有星巴克門市並無同款商品。",
+          "whyMatters": "此次 RTD 便利商店獨家合作代表日本星巴克積極拓展門市以外的新通路，對果汁原料（芒果、百香果、草莓）、茉莉花茶葉、佛手柑萃取物及 PET 包材供應商而言，是高能見度的季節性採購機會。便利商店通路的規模化需求通常遠大於單一門市，對供應量預測具有重要參考價值。",
+          "potentialImpact": [
+            "PET 瓶裝包材供應商應評估 7-Eleven 全國鋪貨所帶來的大量訂單需求，主動與星巴克日本包材採購部門進行備貨協調",
+            "熱帶水果及花香茶葉（芒果、百香果、茉莉、佛手柑）原料供應商可密切追蹤此系列市場銷售反應，作為預判未來門市新品原料趨勢的先行指標",
+            "評估類似 RTD 便利商店合作模式在其他 APAC 市場（台灣全家、韓國 GS25、泰國 7-Eleven）的複製可能性，提早佈局各市場供應能力"
+          ],
+          "sourceLinks": [
+            {
+              "label": "SoraNews24",
+              "url": "https://soranews24.com/2026/06/11/starbucks-japan-releases-new-torori-drinks-exclusive-to-7-eleven-convenience-stores/"
+            }
+          ]
+        },
+        {
+          "id": "20260616-4",
+          "market": "🇯🇵 日本市場",
+          "source": "Bloomberg / Eastern Herald",
+          "pubDate": "2026-06-10",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購架構",
+            "APAC策略",
+            "組織重組"
+          ],
+          "headline": "星巴克考慮出售日本業務股份或 IPO，延續「亞洲資產輕量化」戰略，規模上看5000億日圓",
+          "summary": "Bloomberg 報導星巴克正評估日本業務的股份出售或重新上市選項，潛在交易規模達4000億至5000億日圓（約25億至31億美元），已與投資銀行展開初步洽談。日本擁有約2100家門市，為星巴克全球最大海外市場之一。此舉被分析師解讀為繼今年4月完成中國業務60%股份出售（Boyu Capital，44億美元）後，星巴克第二步亞洲資本結構調整。",
+          "whyMatters": "若日本業務股份易主，採購決策鏈將隨之重組——新股東可能導入不同的供應商偏好或採購標準，現有供應商面臨合約重新談判風險。此外，「資產輕量化」模式意味著星巴克未來在各市場傾向採用特許授權架構，供應商須重新評估在此架構下的合作關係定位，以免被排除在新採購鏈之外。",
+          "potentialImpact": [
+            "密切追蹤日本業務潛在新股東（私募基金或策略型買家）的供應商偏好，提前評估現有合約延續性及重新談判的可能風險",
+            "星巴克「資產輕量化」策略若擴展至其他 APAC 市場，供應商應提前了解特許授權架構下的採購運作模式，評估在新架構中的定位",
+            "現有日本市場供應商建議強化與在地營運管理團隊的關係，並追蹤潛在競標方動向，以應對交易完成後的供應鏈變動"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Eastern Herald",
+              "url": "https://easternherald.com/2026/06/10/starbucks-japan-stake-sale-ipo-asia-retreat/"
+            },
+            {
+              "label": "Investing.com (Bloomberg)",
+              "url": "https://ca.investing.com/news/stock-market-news/starbucks-weighs-stake-sale-ipo-options-for-japan-business--bloomberg-4683350"
+            }
+          ]
+        },
+        {
+          "id": "20260616-5",
+          "market": "🌍 全球",
+          "source": "Starbucks IR / 德意志銀行全球消費者大會",
+          "pubDate": "2026-06-09",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購量預測",
+            "門市擴張",
+            "財務表現"
+          ],
+          "headline": "星巴克CEO宣告重回成長軌道：Q2全球同店銷售年增6.2%，確認美國外市場仍有翻倍成長空間",
+          "summary": "星巴克執行長 Brian Niccol 在德意志銀行全球消費者大會（巴黎）上宣告公司「Back to Starbucks」轉型計畫取得成效：Q2全球同店銷售額年增6.2%（美國市場+7.1%、客流量+4.3%），為近年最強勁表現。CEO 指出美國境外門市目前佔總數不及三成，具備翻倍成長空間；公司上調全年調整後EPS預測至2.25–2.45美元，並確認全年節省成本20億美元目標。",
+          "whyMatters": "全球同店銷售及客流量全線轉正，意味著門市採購量正從緊縮轉向擴張，供應商年度訂單預測應相應向上修正。CEO 明確提出美國境外門市翻倍目標，直接預示著 APAC 及全球各地未來數年大量新門市落地，對咖啡豆、包材及設備供應商而言是調升供貨規模的關鍵訊號。",
+          "potentialImpact": [
+            "根據Q2同店銷售及客流雙轉正趨勢，供應商應重新上調美國及全球市場年度採購量預測，核心原物料（咖啡豆、乳製品、糖漿）庫存規劃應同步調整",
+            "國際門市翻倍戰略預示 APAC 區域未來3–5年將有大量新門市落地，具備多市場供應能力的供應商應提前佈局各地倉儲及物流網絡",
+            "成本節約20億美元目標顯示採購端將持續承受降本壓力，供應商宜主動提出創新型定價方案或長期框架合約，以鞏固在採購鏈中的競爭地位"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks IR 官方",
+              "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Is-Back-Turning-Momentum-Into-Long-Term-Sustainable-Growth/default.aspx"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-15",
       "label": "06/15",
@@ -663,167 +808,6 @@
             {
               "label": "Comunicaffe：Q2 FY2026成果摘要",
               "url": "https://www.comunicaffe.com/starbucks-reports-strong-q2-2026-results-with-net-revenues-increased-9-to-9-5-billion-raises-full-year-outlook/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-09",
-      "label": "06/09",
-      "items": [
-        {
-          "id": "20260609-1",
-          "market": "🌍 全球",
-          "source": "Starbucks IR / BusinessWire",
-          "pubDate": "2026-06-02",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "品牌策略",
-            "財務表現",
-            "採購架構"
-          ],
-          "headline": "星巴克 CEO Brian Niccol 出席 Evercore 消費零售年會，親自闡述「重返星巴克」轉型進展",
-          "summary": "星巴克 CEO Brian Niccol 於 2026 年 6 月 9 日在第六屆 Evercore 消費者暨零售年會發表主題演講，透過直播向市場說明「Back to Starbucks」策略執行現況與未來展望。此次公開露面代表星巴克主動向投資人及利害關係人確認轉型路徑，為近期財務表現（Q2 合併營收年增 9%）提供策略背書。",
-          "whyMatters": "CEO 在投資人會議的公開表態將影響市場對星巴克採購投資力道的預期，採購量及合約條件可能隨轉型進度而調整。若 Niccol 釋出積極訊號，供應商可預期訂單穩定性提升及長期採購合約比重增加。北美門市復甦動能（Q2 可比交易量增 3.8%）亦意味著原料需求持續上升。",
-          "potentialImpact": [
-            "密切追蹤此次演講中釋出的採購架構調整訊號，特別是食材多元化與每日補貨頻率提升的相關計畫",
-            "準備應對訂單量穩定增長：北美門市客流量持續回升，原料（咖啡、乳製品、糖漿）補貨週期可能縮短",
-            "留意 CEO 對中國及 APAC 市場展望的表述，Boyu JV 架構下的採購主導權移轉可能影響區域供應商合約談判"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Starbucks IR 官方公告",
-              "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-to-Participate-in-the-6th-Annual-Evercore-Consumer-and-Retail-Conference/default.aspx"
-            },
-            {
-              "label": "BusinessWire 新聞稿",
-              "url": "https://www.businesswire.com/news/home/20260602473511/en/Starbucks-to-Participate-in-the-6th-Annual-Evercore-Consumer-and-Retail-Conference"
-            }
-          ]
-        },
-        {
-          "id": "20260609-2",
-          "market": "🇺🇸 美國市場",
-          "source": "Bloomberg / Claims Journal",
-          "pubDate": "2026-06-02",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "供應鏈技術",
-            "AI 自動化",
-            "採購架構"
-          ],
-          "headline": "星巴克將 AI 使用率納入科技員工績效獎金考核，25% 獎金與部門 AI 導入目標掛鉤",
-          "summary": "星巴克宣布將大多數科技部門員工獎金的 25% 與 AI 採用率等部門目標掛鉤，藉此加速「Back to Starbucks」策略中 AI 技術的落地應用。此一決策涵蓋應用程式訂單支付功能、庫存管理及門市營運優化等多個面向，半數獎金仍依公司整體財務表現發放。值得注意的是，星巴克甫於上月廢止 AI 庫存盤點工具，顯示其在 AI 應用上採取更具選擇性的推進策略。",
-          "whyMatters": "星巴克強化 AI 整合將加速其採購、庫存管理及訂單預測系統的數位化，對供應商而言意味著 EDI 介接、數位貨架、即時庫存共享等技術對接要求將提升。未能配合數位化升級的供應商可能在合約續約時面臨競爭劣勢。",
-          "potentialImpact": [
-            "評估自身數位化能力，確保能配合星巴克可能提出的 AI 驅動供應鏈整合需求（如 API 對接、即時庫存資料共享）",
-            "關注星巴克 AI 庫存優化工具的後續替代方案，新系統可能帶來不同的訂單補貨頻率與批量模式變化",
-            "廢止舊有 AI 庫存工具的教訓顯示星巴克對採購技術投資採取審慎態度，供應商可把握窗口期提出共同技術試驗提案"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Claims Journal 報導（2026-06-02）",
-              "url": "https://www.claimsjournal.com/news/national/2026/06/02/337870.htm"
-            },
-            {
-              "label": "Bloomberg 原報導",
-              "url": "https://www.bloomberg.com/news/articles/2026-05-28/starbucks-to-take-ai-usage-into-account-in-tech-workers-bonuses"
-            }
-          ]
-        },
-        {
-          "id": "20260609-3",
-          "market": "🌍 全球",
-          "source": "Starbucks / Water.org",
-          "pubDate": "2026-06-09",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "原料需求",
-            "ESG 風險",
-            "永續發展"
-          ],
-          "headline": "星巴克 6 月 16 日推出藍椰子雙品飲品，與 Get Blue 合作支持全球淨水計畫",
-          "summary": "星巴克將於 6 月 16 日起正式在全球門市推出「藍椰子抹茶」與「藍椰子冷泡果飲」兩款新品，以藍色螺旋藻（Blue Spirulina）為天然著色來源，並搭配烤椰子冷泡奶蓋、芒果及草莓巴西莓等風味。星巴克同步宣布與 Water.org 旗下 Get Blue 計畫合作，6 月 16 日至 7 月 7 日期間每售出一杯飲品捐出 0.25 美元，凸顯品牌在飲品創新中融入 ESG 主軸的策略取向。",
-          "whyMatters": "兩款新品對多種原料產生明確的新增需求，包括藍色螺旋藻粉末、椰子相關製品（椰奶、烤椰子）、芒果果漿及草莓巴西莓等。搭配 ESG 公益元素的行銷策略意味著星巴克在採購過程中將更重視永續認證及可溯源性。短期內（6-7 月）相關原料採購量有望顯著上升。",
-          "potentialImpact": [
-            "藍色螺旋藻、椰奶及烤椰子製品供應商應確認是否具備充足產能應對 6 月 16 日起的需求激增，並備妥快速補貨方案",
-            "具備永續認證（有機、公平貿易、可溯源）的原料供應商在此波新品採購中將具備差異化競爭優勢",
-            "密切追蹤 Get Blue ESG 合作模式，星巴克可能將類似社會影響力框架延伸至未來採購標準，提前評估自身 ESG 合規能力"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Starbucks 藍椰子雙品發布公告",
-              "url": "https://about.starbucks.com/stories/2026/starbucks-introduces-blue-coconut-duo-supporting-clean-water-through-get-blue/"
-            },
-            {
-              "label": "Starbucks 夏季飲品完整菜單",
-              "url": "https://www.starbucks.com/menu/featured/"
-            }
-          ]
-        },
-        {
-          "id": "20260609-4",
-          "market": "🇺🇸 美國市場",
-          "source": "Starbucks / TheStreet",
-          "pubDate": "2026-06-09",
-          "impact": "low",
-          "impactLabel": "ℹ️ 低衝擊",
-          "impactAreas": [
-            "原料需求",
-            "飲品趨勢",
-            "消費者行為"
-          ],
-          "headline": "星巴克夏季菜單全面啟動：S'mores 星冰樂回歸、Miffy 聯名及多款新冷泡飲品強化競爭差異化",
-          "summary": "星巴克推出 2026 年夏季菜單，核心亮點包含闊別六年的 S'mores 星冰樂與全新 S'mores 冷泡咖啡（搭配棉花糖冷泡奶蓋），並宣布與荷蘭知名卡通角色 Miffy 聯名合作，強化品牌在年輕消費群及 APAC 市場的吸引力。此外，新款冰沙能量冷萃及冰抹茶檸檬冰沙將於 6 月 30 日正式登場，傳奇獨角獸星冰樂亦將在夏末限時回歸。",
-          "whyMatters": "S'mores 系列回歸意味著焦糖、棉花糖、巧克力及餅乾等原料的季節性需求將明顯拉升，巧克力及乳製品供應商應提前備貨。Miffy 聯名周邊商品的全球同步推出（重點市場包含日本、台灣、韓國等 APAC 地區）也代表包裝材料及周邊商品採購需求的短期增加。",
-          "potentialImpact": [
-            "巧克力、棉花糖及烘烤穀類（餅乾碎）供應商應儘快確認 Q3 備貨計畫，S'mores 系列需求通常集中於夏季旺季且持續至少 8 週",
-            "Miffy 聯名周邊（馬克杯、提袋等）的包裝製造商和 APAC 區域供應商可把握此波商品採購機會",
-            "關注冰沙能量飲系列的原料構成（B 群維生素、咖啡因來源），此類功能性飲品趨勢可能成為未來採購的長期方向"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Starbucks 夏季新品官方發布",
-              "url": "https://about.starbucks.com/stories/2026/starbucks-launches-new-summer-drinks-brings-back-smores-frappuccino/"
-            },
-            {
-              "label": "TheStreet：Miffy 聯名及夏季競爭分析",
-              "url": "https://www.thestreet.com/restaurants/starbucks-drops-another-summer-surprise-as-competition-heats-up-new-drinks-miffy-collab"
-            }
-          ]
-        },
-        {
-          "id": "20260609-5",
-          "market": "🇺🇸 美國市場",
-          "source": "Parade / Starbucks",
-          "pubDate": "2026-06-09",
-          "impact": "low",
-          "impactLabel": "ℹ️ 低衝擊",
-          "impactAreas": [
-            "飲品趨勢",
-            "品牌策略",
-            "採購量預測"
-          ],
-          "headline": "星巴克確認傳奇獨角獸星冰樂限時回歸，新款冰沙能量冷萃夏末登場，限定品稀缺行銷策略持續推進",
-          "summary": "星巴克正式確認獨角獸星冰樂（Unicorn Frappuccino）將於夏末限時一個週末回歸，同時預告新款冰沙能量冷萃（Blended Energy Refreshers）與冰沙抹茶檸檬（Blended Matcha Lemonade）將於 6 月 30 日供 Rewards 會員搶先體驗，並於 7 月 1 日全面開賣。連番限定新品策略成功拉高客流量並鞏固 Rewards 會員黏著度，是 Niccol 回客策略的核心操作手段。",
-          "whyMatters": "獨角獸星冰樂等限定品對彩色天然食用色素（蝶豆花、甜菜根、薑黃等）及特殊風味糖漿產生短期爆發性需求，供應商需具備快速出貨彈性。能量冷萃系列（含 B 群維生素、咖啡因）持續擴充也顯示功能性飲料原料將成為中長期穩定採購品項。",
-          "potentialImpact": [
-            "天然食用色素及特殊風味糖漿供應商應與星巴克採購確認限定品備料需求，避免在爆發期出現缺貨",
-            "維生素 B 群預混料及功能性咖啡因萃取物供應商可針對能量冷萃系列提出長期供應提案",
-            "Rewards 會員搶先體驗機制顯示消費者對稀缺限定品接受度極高，供應商可藉此評估短單快速出貨能力以爭取優先合作資格"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Unicorn Frappuccino 官方回歸公告",
-              "url": "https://about.starbucks.com/press/2026/unicorn-frappuccino-blended-beverage-makes-its-magical-return-later-this-summer/"
-            },
-            {
-              "label": "Parade：夏季新品全覽",
-              "url": "https://parade.com/food/starbucks-new-blended-energy-refreshers-smores-drinks-summer-2026"
             }
           ]
         }
