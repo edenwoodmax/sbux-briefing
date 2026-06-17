@@ -1,817 +1,762 @@
 {
-    "lastUpdated":  "2026-06-16",
-    "days":  [
-                 {
-                     "date":  "2026-06-16",
-                     "label":  "06/16",
-                     "items":  [
-                                   {
-                                       "id":  "20260616-1",
-                                       "market":  "🌍 全球",
-                                       "source":  "About Starbucks",
-                                       "pubDate":  "2026-06-09",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "原料需求",
-                                                           "ESG風險",
-                                                           "飲品趨勢"
-                                                       ],
-                                       "headline":  "星巴克「藍椰子」雙新品今日上市，攜手 Water.org Get Blue 計畫捐助全球淨水行動",
-                                       "summary":  "星巴克自2026年6月16日起推出「藍椰子清新飲」與「冰藍椰子抹茶」兩款夏季限定飲品，以藍色螺旋藻賦予自然鮮豔色澤，搭配椰子奶泡、芒果、草莓及阿薩伊果等天然原料。活動期間（至7月7日），每售出一杯捐贈美金0.25元予 Water.org 的 Get Blue™ 計畫，最高捐款上限達97.5萬美元，預估幫助多達19.5萬人獲得乾淨飲水或衛生設施。",
-                                       "whyMatters":  "藍色螺旋藻（blue spirulina）、椰子奶泡、芒果、草莓及阿薩伊等天然功能性原料需求同步提升，對相關食材供應商而言是進入星巴克季節性採購鏈的重要窗口。此次與 Water.org 的 ESG 公益聯名模式，也顯示星巴克採購策略更加重視永續供應鏈認證，具備此類背景的供應商在合作提案上將具備差異化優勢。",
-                                       "potentialImpact":  [
-                                                               "藍色螺旋藻、天然食用色素供應商應把握此次季節性需求高峰（6/16–7/7），積極與星巴克採購部門建立聯繫並確認備貨量",
-                                                               "椰子衍生物、芒果及草莓原料供應商可依據夏季促銷期預備額外庫存，預期訂單需求在促銷期間將明顯放量",
-                                                               "具備 ESG 或水資源永續認證的供應商，可借助星巴克此次品牌方向，強化合作提案的吸引力，契合其長期採購偏好"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "About Starbucks 官方",
-                                                               "url":  "https://about.starbucks.com/stories/2026/starbucks-introduces-blue-coconut-duo-supporting-clean-water-through-get-blue/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260616-2",
-                                       "market":  "🇰🇷 韓國市場",
-                                       "source":  "Seoul Economic Daily",
-                                       "pubDate":  "2026-06-15",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "零售競爭",
-                                                           "採購架構"
-                                                       ],
-                                       "headline":  "韓國星巴克宣布6月22日全國門市提早下午3時關閉，進行歷史意識與社會敏感度員工培訓",
-                                       "summary":  "韓國星巴克（由新世界集團 E-Mart 旗下管理）宣布將於6月22日（週一）全國門市提早至下午3時關閉，集中進行員工歷史認知與社會敏感度培訓。此舉為今年5月「坦克紀念日」AI 行銷爭議的後續危機應對，彼時事件引發輿論強烈反彈，董事長鄭溶鎮公開道歉，韓國門市銷售量大幅下滑。",
-                                       "whyMatters":  "全韓門市單日全面提早關閉，直接導致6月22日當日訂單量急遽縮減，影響食材、烘焙品及包材供應商的當週配送節奏。更深層而言，新世界集團啟動系統性文化培訓，反映品牌危機對運營採購決策的連帶效應，此類風險事件往往使採購決策趨於保守謹慎，供應商應密切觀察。",
-                                       "potentialImpact":  [
-                                                               "韓國市場供應商應預估6月22日當日訂貨量大幅減少，提前調整配送排程及生產計劃以降低損耗",
-                                                               "長期關注新世界集團的品牌重整動向，危機後期可能涉及供應鏈環節的重新審查及廠商資格評估",
-                                                               "韓國今年預計新增至少100家門市的計畫能否如期推進，品牌聲譽風險或影響展店時程，進而延遲相關採購規劃"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Seoul Economic Daily",
-                                                               "url":  "https://en.sedaily.com/finance/2026/06/15/breaking-news-starbucks-to-close-all-korea-stores-at-3-pm"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260616-3",
-                                       "market":  "🇯🇵 日本市場",
-                                       "source":  "SoraNews24",
-                                       "pubDate":  "2026-06-11",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "原料需求",
-                                                           "APAC策略",
-                                                           "飲品趨勢"
-                                                       ],
-                                       "headline":  "日本星巴克推出「FRUITY CHEERS™ TORORI」RTD 新系列，今日起限定在全國 7-Eleven 上市",
-                                       "summary":  "日本星巴克今日起（6月16日）在全國 7-Eleven 便利商店限定發售「FRUITY CHEERS™ TORORI」PET 瓶裝新飲品，涵蓋「草莓佛手柑茉莉茶」與「芒果百香果紅茶」兩款口味，售價214日圓（約1.33美元）。飲品融合果汁、牛奶與茶葉三重層次，強調柔滑醇厚口感，為 7-Eleven 獨家通路，現有星巴克門市並無同款商品。",
-                                       "whyMatters":  "此次 RTD 便利商店獨家合作代表日本星巴克積極拓展門市以外的新通路，對果汁原料（芒果、百香果、草莓）、茉莉花茶葉、佛手柑萃取物及 PET 包材供應商而言，是高能見度的季節性採購機會。便利商店通路的規模化需求通常遠大於單一門市，對供應量預測具有重要參考價值。",
-                                       "potentialImpact":  [
-                                                               "PET 瓶裝包材供應商應評估 7-Eleven 全國鋪貨所帶來的大量訂單需求，主動與星巴克日本包材採購部門進行備貨協調",
-                                                               "熱帶水果及花香茶葉（芒果、百香果、茉莉、佛手柑）原料供應商可密切追蹤此系列市場銷售反應，作為預判未來門市新品原料趨勢的先行指標",
-                                                               "評估類似 RTD 便利商店合作模式在其他 APAC 市場（台灣全家、韓國 GS25、泰國 7-Eleven）的複製可能性，提早佈局各市場供應能力"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "SoraNews24",
-                                                               "url":  "https://soranews24.com/2026/06/11/starbucks-japan-releases-new-torori-drinks-exclusive-to-7-eleven-convenience-stores/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260616-4",
-                                       "market":  "🇯🇵 日本市場",
-                                       "source":  "Bloomberg / Eastern Herald",
-                                       "pubDate":  "2026-06-10",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "採購架構",
-                                                           "APAC策略",
-                                                           "組織重組"
-                                                       ],
-                                       "headline":  "星巴克考慮出售日本業務股份或 IPO，延續「亞洲資產輕量化」戰略，規模上看5000億日圓",
-                                       "summary":  "Bloomberg 報導星巴克正評估日本業務的股份出售或重新上市選項，潛在交易規模達4000億至5000億日圓（約25億至31億美元），已與投資銀行展開初步洽談。日本擁有約2100家門市，為星巴克全球最大海外市場之一。此舉被分析師解讀為繼今年4月完成中國業務60%股份出售（Boyu Capital，44億美元）後，星巴克第二步亞洲資本結構調整。",
-                                       "whyMatters":  "若日本業務股份易主，採購決策鏈將隨之重組——新股東可能導入不同的供應商偏好或採購標準，現有供應商面臨合約重新談判風險。此外，「資產輕量化」模式意味著星巴克未來在各市場傾向採用特許授權架構，供應商須重新評估在此架構下的合作關係定位，以免被排除在新採購鏈之外。",
-                                       "potentialImpact":  [
-                                                               "密切追蹤日本業務潛在新股東（私募基金或策略型買家）的供應商偏好，提前評估現有合約延續性及重新談判的可能風險",
-                                                               "星巴克「資產輕量化」策略若擴展至其他 APAC 市場，供應商應提前了解特許授權架構下的採購運作模式，評估在新架構中的定位",
-                                                               "現有日本市場供應商建議強化與在地營運管理團隊的關係，並追蹤潛在競標方動向，以應對交易完成後的供應鏈變動"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Eastern Herald",
-                                                               "url":  "https://easternherald.com/2026/06/10/starbucks-japan-stake-sale-ipo-asia-retreat/"
-                                                           },
-                                                           {
-                                                               "label":  "Investing.com (Bloomberg)",
-                                                               "url":  "https://ca.investing.com/news/stock-market-news/starbucks-weighs-stake-sale-ipo-options-for-japan-business--bloomberg-4683350"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260616-5",
-                                       "market":  "🌍 全球",
-                                       "source":  "Starbucks IR / 德意志銀行全球消費者大會",
-                                       "pubDate":  "2026-06-09",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "採購量預測",
-                                                           "門市擴張",
-                                                           "財務表現"
-                                                       ],
-                                       "headline":  "星巴克CEO宣告重回成長軌道：Q2全球同店銷售年增6.2%，確認美國外市場仍有翻倍成長空間",
-                                       "summary":  "星巴克執行長 Brian Niccol 在德意志銀行全球消費者大會（巴黎）上宣告公司「Back to Starbucks」轉型計畫取得成效：Q2全球同店銷售額年增6.2%（美國市場+7.1%、客流量+4.3%），為近年最強勁表現。CEO 指出美國境外門市目前佔總數不及三成，具備翻倍成長空間；公司上調全年調整後EPS預測至2.25–2.45美元，並確認全年節省成本20億美元目標。",
-                                       "whyMatters":  "全球同店銷售及客流量全線轉正，意味著門市採購量正從緊縮轉向擴張，供應商年度訂單預測應相應向上修正。CEO 明確提出美國境外門市翻倍目標，直接預示著 APAC 及全球各地未來數年大量新門市落地，對咖啡豆、包材及設備供應商而言是調升供貨規模的關鍵訊號。",
-                                       "potentialImpact":  [
-                                                               "根據Q2同店銷售及客流雙轉正趨勢，供應商應重新上調美國及全球市場年度採購量預測，核心原物料（咖啡豆、乳製品、糖漿）庫存規劃應同步調整",
-                                                               "國際門市翻倍戰略預示 APAC 區域未來3–5年將有大量新門市落地，具備多市場供應能力的供應商應提前佈局各地倉儲及物流網絡",
-                                                               "成本節約20億美元目標顯示採購端將持續承受降本壓力，供應商宜主動提出創新型定價方案或長期框架合約，以鞏固在採購鏈中的競爭地位"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Starbucks IR 官方",
-                                                               "url":  "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Is-Back-Turning-Momentum-Into-Long-Term-Sustainable-Growth/default.aspx"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 },
-                 {
-                     "date":  "2026-06-15",
-                     "label":  "06/15",
-                     "items":  [
-                                   {
-                                       "id":  "20260615-1",
-                                       "market":  "🇯🇵 日本市場",
-                                       "source":  "Nippon.com / Yahoo Finance / GuruFocus",
-                                       "pubDate":  "2026-06-10",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "採購架構",
-                                                           "供應鏈管理",
-                                                           "財務表現"
-                                                       ],
-                                       "headline":  "星巴克評估出售日本業務股份或 IPO，交易規模估達 5000 億日圓",
-                                       "summary":  "據彭博社報導，星巴克正與投資銀行洽商，評估日本業務的策略選項，包括出售部分股權或重新上市（IPO），交易規模估計落在 4000 至 5000 億日圓（約 25 億至 31 億美元）之間。日本為星巴克最重要的國際市場之一，擁有約 2,100 間門市，多數為直營店。此次評估是繼今年初完成中國業務股份出售後，星巴克全球資本配置策略的進一步延伸。",
-                                       "whyMatters":  "若日本業務股權易主，新股東可能重新審視供應鏈架構與在地採購策略，現有供應商合約可能面臨重談風險。日本市場直營店比例高，代表當前供應商直接受星巴克總部採購政策管轄，股權結構變動後採購鏈主導權恐轉移。供應商應提前建立與潛在買方（私募或策略投資者）的關係，以維護長期合作地位。",
-                                       "potentialImpact":  [
-                                                               "立即盤點日本業務相關合約條款，確認股權轉讓時的合約延續性與優先採購條款。",
-                                                               "與星巴克日本採購團隊加強溝通，了解現行供應策略是否因評估過程而出現變動。",
-                                                               "關注潛在買家背景（PE 或策略投資者），預先研究其供應鏈偏好以提前佈局。"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Nippon.com",
-                                                               "url":  "https://www.nippon.com/en/news/yjj2026061100193/starbucks-mulls-sale-of-japan-business-report.html"
-                                                           },
-                                                           {
-                                                               "label":  "Yahoo Finance",
-                                                               "url":  "https://finance.yahoo.com/markets/stocks/articles/starbucks-weighs-japan-stake-sale-145612767.html"
-                                                           },
-                                                           {
-                                                               "label":  "GuruFocus",
-                                                               "url":  "https://www.gurufocus.com/news/8910311/starbucks-weighs-500-billion-japan-stake-sale"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260615-2",
-                                       "market":  "🇰🇷 韓國市場",
-                                       "source":  "Seoul Economic Daily / Reuters / Provoke Media",
-                                       "pubDate":  "2026-06-15",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "APAC 策略",
-                                                           "零售競爭"
-                                                       ],
-                                       "headline":  "星巴克韓國 AI 行銷事件持續發酵，6 月 22 日全線門市閉店進行歷史教育訓練",
-                                       "summary":  "受 5 月「坦克日」AI 行銷爭議重創後，新世界集團（Shinsegae）會長鄭溶鎮宣布集團管理層及全體韓國星巴克員工將接受歷史教育訓練。韓國全國門市將於 6 月 22 日下午 3 點提前閉門，總部高管訓練訂於 6 月 17 日進行。事件已導致銷售「嚴重下滑」，並引發大量國際媒體負面報導，為星巴克韓國帶來重大品牌危機。",
-                                       "whyMatters":  "韓國市場銷售重挫將影響星巴克韓國整體採購量，短期原料及包裝訂單量可能下修，供應商需做好庫存彈性調整準備。全線閉店行動代表重大營運中斷，物流排程與補貨計劃需即時因應。AI 行銷失誤揭示全球連鎖品牌在地化風險管理的脆弱性，供應商宜評估合作品牌的聲譽風險對供應鏈穩定性的潛在衝擊。",
-                                       "potentialImpact":  [
-                                                               "評估韓國市場訂單量短期縮減的風險，適時調整供應計劃與庫存水位，避免囤積損失。",
-                                                               "追蹤事件對星巴克韓國銷售恢復的影響，以研判未來季度採購量趨勢。",
-                                                               "強化與星巴克合作的 ESG 及品牌風險評估機制，確保自身供應鏈不受客戶聲譽事件波及。"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Seoul Economic Daily（今日報導）",
-                                                               "url":  "https://en.sedaily.com/finance/2026/06/15/shinsegae-chairman-starbucks-staff-to-take-history"
-                                                           },
-                                                           {
-                                                               "label":  "Reuters via TradingView",
-                                                               "url":  "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N41D04M:0-starbucks-korea-to-shut-stores-early-on-june-22-for-history-training-yonhap-says/"
-                                                           },
-                                                           {
-                                                               "label":  "Provoke Media 深度分析",
-                                                               "url":  "https://www.provokemedia.com/long-reads/article/starbucks-koreas-tank-day-firestorm-did-speed-outrun-common-sense"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260615-3",
-                                       "market":  "🌍 全球",
-                                       "source":  "SEC EDGAR",
-                                       "pubDate":  "2026-06-11",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "組織重組",
-                                                           "採購架構",
-                                                           "APAC 策略"
-                                                       ],
-                                       "headline":  "星巴克 SEC 8-K 揭露任命企業財務暨發展資深副總裁，M\u0026A 能力於 APAC 重組高峰期獲強化",
-                                       "summary":  "星巴克於 2026 年 6 月 11 日向 SEC 提交 8-K，揭露一名高管被正式任命為企業財務暨發展資深副總裁（SVP of Corporate Finance and Development），並被指定為公司高級主管（executive officer）。此職位在星巴克積極推進資產輕型化策略的背景下具高度戰略意義，負責統籌 M\u0026A、策略合作及全球資本配置等核心職能，正值日本業務評估及全球市場重組最關鍵時期。",
-                                       "whyMatters":  "企業財務暨發展高層職位的強化，直接關係到星巴克日後資產出售、JV 架構與授權模式轉換的節奏，供應商需持續追蹤相關組織動向。在星巴克推進 asset-light 模式的過程中，採購主導權可能隨合作架構調整而轉移至在地合資方，現有供應商需更新風險評估框架。此類高層任命往往預示未來 6 至 18 個月內的重大策略行動，是供應商預判布局方向的重要指標。",
-                                       "potentialImpact":  [
-                                                               "研究新任 SVP 的過往資歷與策略偏好，預判星巴克下一步可能目標市場（如東南亞或台灣）。",
-                                                               "注意星巴克是否進一步公告其他 APAC 市場的所有權結構調整計畫，提前進行供應合約審查。",
-                                                               "確保現有供應合約在企業所有權異動時具備明確的繼承條款，降低合約中斷風險。"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "SEC EDGAR 8-K（2026-06-11）",
-                                                               "url":  "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000106/sbux-20260611.htm"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260615-4",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "About Starbucks（官方新聞稿）",
-                                       "pubDate":  "2026-06-11",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "飲品趨勢",
-                                                           "消費者行為"
-                                                       ],
-                                       "headline":  "星巴克全面翻新傳奇創始 Pike Place 門市，重新定義沉浸式精品咖啡零售體驗",
-                                       "summary":  "星巴克於 6 月 11 日正式宣布西雅圖 Pike Place 創始門市翻新重新開幕，定位為一個沉浸式咖啡體驗空間，彰顯品牌對精品咖啡工藝的長期承諾。Pike Place 店是星巴克 1971 年的發源地，此次翻新作為旗艦體驗概念的先行試驗，有機會影響星巴克未來旗艦店設計方向與產品組合，以及全球 Reserve 系列的發展路徑。",
-                                       "whyMatters":  "旗艦店的精品化翻新彰顯星巴克強化高端咖啡體驗的戰略方向，可能帶動特殊原料（稀有咖啡豆、特色茶品）及精品包裝的採購需求上升。精品體驗模式若向其他旗艦店複製，將擴大對高端原料及客製化設備供應商的採購機會。沉浸式門市設計趨勢反映消費者對差異化體驗的需求，供應商可藉此機會開發符合精品定位的創新產品。",
-                                       "potentialImpact":  [
-                                                               "評估能否提供旗艦店所需的精品原料或特色食材，主動接觸星巴克 Reserve 採購團隊。",
-                                                               "研究 Pike Place 概念是否將擴展至 APAC 旗艦店，提前了解相應採購規格與認證要求。",
-                                                               "密切追蹤星巴克精品化戰略方向，提早佈局高附加價值原料與包裝的供應資格認定。"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "About Starbucks（官方新聞稿）",
-                                                               "url":  "https://about.starbucks.com/press/2026/starbucks-reopens-its-historic-pike-place-store-reimagined-as-an-immersive-coffee-experience/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260615-5",
-                                       "market":  "🌏 APAC",
-                                       "source":  "Simply Wall St / QZ",
-                                       "pubDate":  "2026-06-10",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "APAC 策略",
-                                                           "採購架構",
-                                                           "供應鏈管理"
-                                                       ],
-                                       "headline":  "分析師解讀星巴克中日市場接連重組：資產輕型化全球戰略加速，APAC 供應商需重新評估合作架構",
-                                       "summary":  "繼今年 4 月完成中國業務 60% 股份出售給博裕資本（Boyu Capital）後，星巴克又傳出評估日本業務選項，分析師指出此為星巴克「asset-light」（資產輕型化）全球成長模式的系統性佈局。透過將核心市場控股轉予在地合作夥伴，星巴克得以降低資本支出，聚焦品牌、供應鏈授權與技術輸出，但 APAC 市場供應商的採購對接主體將出現結構性轉移。",
-                                       "whyMatters":  "資產輕型化轉型意味著 APAC 市場採購決策的主導者可能從星巴克總部轉移至在地合資方或授權商，供應商需同步維護與雙方的關係以確保合約連續性。中國模式（博裕接手）已顯示在地採購優先化趨勢，日本若複製此模式，在地供應商的競爭優勢將提升，跨國供應商需強化在地化服務能力。此波重組趨勢若進一步延伸至東南亞、台灣或韓國，將對整個 APAC 供應鏈帶來深遠影響。",
-                                       "potentialImpact":  [
-                                                               "繪製各 APAC 市場的採購決策鏈圖，識別在直營轉 JV 或授權模式下，哪些採購決策層級將產生結構性變化。",
-                                                               "強化在 APAC 各市場在地合作方的人脈佈局，確保在股權結構調整後仍能維持優先供應商地位。",
-                                                               "評估星巴克東南亞市場未來可能的 asset-light 轉型，提前進行合規認定、在地化佈局及關鍵人脈建立。"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Simply Wall St 分析",
-                                                               "url":  "https://simplywall.st/stocks/us/consumer-services/nasdaq-sbux/starbucks/news/starbucks-japan-review-signals-shift-toward-asset-light-glob"
-                                                           },
-                                                           {
-                                                               "label":  "QZ",
-                                                               "url":  "https://qz.com/starbucks-japan-stake-sale-ipo-061026"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 },
-                 {
-                     "date":  "2026-06-12",
-                     "label":  "06/12",
-                     "items":  [
-                                   {
-                                       "id":  "20260612-1",
-                                       "market":  "🇨🇳 中國市場",
-                                       "source":  "MacaoNews",
-                                       "pubDate":  "2026-06-07",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "採購架構",
-                                                           "供應鏈管理",
-                                                           "APAC 策略"
-                                                       ],
-                                       "headline":  "星巴克中國博裕合資公司公布三年擴張計劃：縣級市場從1,000個增至1,500個",
-                                       "summary":  "星巴克中國與博裕資本成立的合資公司（4月2日正式運作）公布三年擴張藍圖，目標將縣級市場門市從約1,000個擴至1,500個，新門市主打在地化格式與口味。博裕資本持有60%股份，強調與中國本土市場深度融合的戰略方向。",
-                                       "whyMatters":  "縣級市場新增500個門市代表中國供應鏈需求將大幅擴張，原料、包裝、設備採購規模均可能顯著成長。新股東博裕資本主導的採購決策機制可能調整現有供應商合約結構，影響外資供應商的市場進入條件。",
-                                       "potentialImpact":  [
-                                                               "中國本地原料供應商（咖啡豆、乳製品、糖漿）應評估未來三年擴產計劃，提前鎖定產能以對應縣級市場新增需求",
-                                                               "倉儲與冷鏈物流供應商需評估縣級配送網絡覆蓋能力，這些市場與既有一線城市的物流需求存在結構性差異",
-                                                               "外資供應商應主動與博裕資本新管理層建立關係，瞭解合資後採購偏好是否轉向本土供應商優先"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "MacaoNews",
-                                                               "url":  "https://macaonews.org/news/greater-china/starbucks-china-performance/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260612-2",
-                                       "market":  "🌍 全球",
-                                       "source":  "About Starbucks（官方）",
-                                       "pubDate":  "2026-06-10",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "飲品趨勢",
-                                                           "原料需求",
-                                                           "採購量預測"
-                                                       ],
-                                       "headline":  "星巴克2026夏季菜單：Blended Refreshers 7月14日全面上市，熱帶風味與賀恰達靈感新品搶先曝光",
-                                       "summary":  "星巴克公布2026夏季菜單，7月14日起全美門市所有Refreshers飲品均可選擇Blended（調和/冰沙）選項，擴大這個數十億美元飲品平台。新品包含熱帶風味系列、賀恰達（horchata）靈感飲品及S\u0027mores Cold Brew回歸，搭配Blended Energy Refreshers與Blended Matcha Lemonade限時推出。",
-                                       "whyMatters":  "Refreshers平台全面開放Blended選項代表此系列的原料用量（果汁基底、植物性成分、藍色螺旋藻粉等）可能大幅提升，帶動供應鏈整體採購量。新口味（熱帶、賀恰達）也意味著新食材的採購機會。",
-                                       "potentialImpact":  [
-                                                               "Refreshers系列食材供應商（芒果、草莓、椰子、藍色螺旋藻等）應預備7月14日起訂單量顯著增加，建議提前備貨並確認物流排程",
-                                                               "冷飲設備與調和機器供應商可評估夏季擴充需求，特別是新增Blended選項可能需要門市設備升級或補充",
-                                                               "熱帶與賀恰達風味原料商（玉米、肉桂、植物性奶類）應主動接洽採購團隊，掌握新品量產後的採購規模"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "About Starbucks 官方",
-                                                               "url":  "https://about.starbucks.com/stories/2026/starbucks-previews-2026-summer-menu-with-tropical-flavors-and-horchata-inspired-drinks/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260612-3",
-                                       "market":  "🌍 全球",
-                                       "source":  "About Starbucks（官方）",
-                                       "pubDate":  "2026-06-11",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "採購量預測",
-                                                           "消費者行為"
-                                                       ],
-                                       "headline":  "2026 FIFA世界盃：星巴克全球門市推出限量隊長臂章杯套，飲品銷量預期衝高",
-                                       "summary":  "星巴克於2026年6月11日（FIFA世界盃開幕前夕）在全美參與門市舉辦限量活動，購買任何飲品即贈限量版「隊長臂章」設計杯套，同步公布全球各地球迷同慶計劃。CEO Brian Niccol於同週出席Evercore消費零售論壇，強調夏季飲品創新是推動同店銷售成長的核心驅動力。",
-                                       "whyMatters":  "FIFA世界盃橫跨整個夏季（2026年6-7月），全球門市的飲品促銷將持續帶動原料採購量走高。杯套等限量包材的額外採購也是短期供應鏈需求的重要訊號。",
-                                       "potentialImpact":  [
-                                                               "紙材與包材供應商應確認世界盃期間限量包裝的生產排程，此類活動採購時程通常壓縮，需提前溝通交期",
-                                                               "飲品原料供應商（咖啡豆、乳製品、糖漿、果汁）應將夏季世界盃活動納入6-7月採購量預測模型",
-                                                               "全球供應鏈廠商可參考2026 Q2財報（全球可比銷售成長6.2%）作為下一季需求預測的基準，評估夏季旺季可能進一步推升訂單規模"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "About Starbucks 官方",
-                                                               "url":  "https://about.starbucks.com/press/2026/starbucks-limited-edition-cup-sleeve-giveaway/"
-                                                           },
-                                                           {
-                                                               "label":  "Quiver Quant",
-                                                               "url":  "https://www.quiverquant.com/news/Starbucks+shares+rise+as+investors+focus+on+summer+beverage+innovation+and+CEO+conference+appearance"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260612-4",
-                                       "market":  "🇹🇼 台灣市場",
-                                       "source":  "聯合新聞網",
-                                       "pubDate":  "2026-06-11",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "供應鏈管理",
-                                                           "消費者行為"
-                                                       ],
-                                       "headline":  "星巴克台灣 × 星宇航空首次聯名系列6月17日登場：11款限定旅行主題商品全面開賣",
-                                       "summary":  "星宇航空（STARLUX Airlines）與星巴克台灣於2026年6月11日宣布首次品牌聯名，推出11款以飛行儀式感為核心的限定商品，包含換上機師制服的Bearista熊系列、STARLUX迷你餐車收納盒、集裝箱收納套等旅行周邊。6月17日起限星宇會員優先購買，6月18日起全面開賣。",
-                                       "whyMatters":  "星巴克台灣跨業聯名航空品牌，顯示其在台灣市場積極開拓生活風格周邊商品的採購需求。聯名活動期間的飲品搭配促銷也可能帶動短期採購量提升。",
-                                       "potentialImpact":  [
-                                                               "台灣周邊商品製造商（陶瓷、不鏽鋼杯、布製品等）可從此聯名模式中瞭解星巴克台灣對跨業合作供應商的需求規格與交期要求",
-                                                               "台灣飲品原料供應商需注意聯名商品發售期間（6月17-18日）可能帶動門市客流與飲品採購量短期衝刺",
-                                                               "跨業供應商（航空周邊、旅行用品製造商）可借鑑此合作模式，主動評估與台灣零售餐飲品牌的聯名供應機會"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "聯合新聞網",
-                                                               "url":  "https://udn.com/news/story/7270/9560660"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260612-5",
-                                       "market":  "🇹🇼 台灣市場",
-                                       "source":  "NOWnews今日新聞",
-                                       "pubDate":  "2026-06-12",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "消費者行為",
-                                                           "採購量預測",
-                                                           "飲品趨勢"
-                                                       ],
-                                       "headline":  "星巴克台灣6月世界盃主題「盛夏歡聚派對」85折優惠搭配買一送一，端午限定星冰粽同步熱賣",
-                                       "summary":  "星巴克台灣6月11-12日連續推出促銷活動：6月11日全品項買一送一（大杯55元起、星冰樂62.5元），6月12日推出全品項85折「盛夏歡聚派對」。同步發售2026 FIFA世界盃主題「足球小熊玻璃TOGO冷水杯」及端午節限定星冰粽，預計本週台灣市場銷量大幅走高。",
-                                       "whyMatters":  "密集促銷活動代表台灣門市本週庫存消耗速度加快，採購補貨週期縮短。供應商需掌握此類活動規律，以利制定彈性供貨計劃。",
-                                       "potentialImpact":  [
-                                                               "台灣飲品原料與食品供應商應確認本週補貨計劃，避免促銷期間因庫存不足影響供貨",
-                                                               "端午節粽子食材供應商（糯米、豆類、糖漿等）可從星冰粽熱賣趨勢評估下一年端午季的採購規模與時程",
-                                                               "杯具與周邊商品廠商可持續追蹤世界盃主題商品的銷售表現，作為下一季限定商品採購量規劃的參考依據"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "NOWnews今日新聞（6月12日）",
-                                                               "url":  "https://www.nownews.com/news/6845436"
-                                                           },
-                                                           {
-                                                               "label":  "NOWnews今日新聞（6月11日）",
-                                                               "url":  "https://www.nownews.com/news/6844184"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 },
-                 {
-                     "date":  "2026-06-11",
-                     "label":  "06/11",
-                     "items":  [
-                                   {
-                                       "id":  "20260611-1",
-                                       "market":  "🇯🇵 日本市場",
-                                       "source":  "Bloomberg",
-                                       "pubDate":  "2026-06-10",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "採購架構",
-                                                           "APAC 策略",
-                                                           "組織重組"
-                                                       ],
-                                       "headline":  "星巴克據報考慮出售日本業務股權或 IPO，估值達 25–31 億美元",
-                                       "summary":  "Bloomberg 報導，星巴克正就日本業務探索多項選項，包括出售部分股權或首次公開募股（IPO），已與投資銀行展開初步磋商。日本為星巴克第三大市場，擁有約 2,100 家門市，潛在交易估值達 4,000–5,000 億日圓（約 25–31 億美元）。此舉繼去年 11 月將中國業務多數股權出售後，被視為星巴克加速全球授權模式重組策略的延伸。",
-                                       "whyMatters":  "若日本業務股權易主或進行 IPO，日本市場的採購策略、供應商合約架構可能面臨重大調整，新合作夥伴可能引入不同的本地化偏好。供應商應關注日本市場授權結構變化對訂單量與合約條款的潛在影響，並評估是否需要與新投資方建立關係。",
-                                       "potentialImpact":  [
-                                                               "提前梳理與星巴克日本現有採購合約的條款，評估所有者變更條款（change of control clause）的適用情形",
-                                                               "主動接觸潛在私募股權或策略買家，展示供應商在日本在地化生產與品質符合星巴克標準的能力",
-                                                               "密切追蹤後續談判進展，若達成交易，需準備因新投資方引入不同採購政策或本地化要求而做出的快速調整"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Bloomberg",
-                                                               "url":  "https://www.bloomberg.com/news/articles/2026-06-10/starbucks-said-to-weigh-japan-unit-options-including-stake-sale"
-                                                           },
-                                                           {
-                                                               "label":  "World Coffee Portal",
-                                                               "url":  "https://www.worldcoffeeportal.com/news/starbucks-is-reportedly-exploring-a-2-5bn-stake-sale-of-its-successful-japanese-business-global-ambitions-could-explain-why/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260611-2",
-                                       "market":  "🌍 全球",
-                                       "source":  "Yahoo Finance / Zacks",
-                                       "pubDate":  "2026-06-08",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "成本結構",
-                                                           "採購關係",
-                                                           "供應鏈管理"
-                                                       ],
-                                       "headline":  "星巴克 FY2026 Q2 EPS 飆升 22%，至 2028 年 20 億美元成本節省計畫鎖定供應鏈採購",
-                                       "summary":  "星巴克第二財季合併營收年增 9% 至 95 億美元，全球同店銷售成長 6.2%，EPS 年增 22% 至 0.50 美元，為逾兩年來首次年增。公司確認推進至 2028 財年的 20 億美元總成本節省計畫，重點鎖定產品與配銷成本、營業費用及管理費用三大面向，並上調全年 EPS 指引至 2.25–2.45 美元。",
-                                       "whyMatters":  "20 億美元成本節省計畫明確點名「產品與配銷成本」為首要目標，意味著星巴克將對供應商展開更嚴格的成本審查與重新議價，採購條款可能趨緊。供應商在強勁銷售數字背後，面對的是更激烈的成本下壓壓力，需主動展示效率與差異化競爭力以維持合作關係。",
-                                       "potentialImpact":  [
-                                                               "預期星巴克採購團隊將在合約更新期間施壓降低供應成本，建議提前進行內部成本效率審計並準備談判方案",
-                                                               "若能提供替代包裝方案、縮短交期或降低廢料率，可作為保住合約及抵禦降價壓力的有力籌碼",
-                                                               "關注咖啡生豆、奶製品及關稅壓力緩解時機，星巴克在下半年指引中提到此類成本有望改善，可藉此調整原料採購節奏"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Yahoo Finance / Zacks",
-                                                               "url":  "https://finance.yahoo.com/markets/stocks/articles/starbucks-2-billion-cost-savings-154100234.html"
-                                                           },
-                                                           {
-                                                               "label":  "SEC 8-K Q2 FY2026",
-                                                               "url":  "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000078/sbux-03292026xearningsrele.htm"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260611-3",
-                                       "market":  "🇰🇷 韓國市場",
-                                       "source":  "World Coffee Portal",
-                                       "pubDate":  "2026-06-08",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "APAC 策略",
-                                                           "組織重組"
-                                                       ],
-                                       "headline":  "韓國星巴克換新執行長，內部調查揭 AI 行銷工具肇禍「坦克日」事件",
-                                       "summary":  "操作韓國星巴克的新世界集團任命申東宇接任執行長，三週前因「坦克日」促銷爭議解除前任孫貞鉉職務。內部調查顯示此次問題促銷活動係由 AI 行銷工具生成，相關人員審核機制缺失為主因。此事件導致韓國門市銷量「非常顯著」下滑，星巴克禮品卡在 KakaoTalk 禮品商店排名跌出前 15 名。",
-                                       "whyMatters":  "韓國為星巴克全球第三大市場，銷售顯著下滑直接影響供應商在韓的訂單量；新執行長上任後的品牌重建策略若引入大型促銷活動，可能帶來短期訂單波動。此次 AI 行銷工具失誤也引發全球總部重新審視 AI 應用於行銷決策的風控框架，可能影響未來全球供應商協作流程。",
-                                       "potentialImpact":  [
-                                                               "短期評估韓國門市銷量下滑對當地食材、包裝及商品訂單的實質影響，做好庫存緩衝調度準備",
-                                                               "關注新執行長上任後的品牌復原策略方向——若推出大型促銷活動以拉抬回購，相關供應商可能面臨短期訂單急增",
-                                                               "若您是星巴克韓國授權商（新世界集團）的直接供應商，主動安排拜訪新管理團隊以穩固合作關係"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "World Coffee Portal",
-                                                               "url":  "https://www.worldcoffeeportal.com/news/starbucks-korea-moves-to-restore-trust-with-new-ceo-following-ai-marketing-blunder/"
-                                                           },
-                                                           {
-                                                               "label":  "KED Global",
-                                                               "url":  "https://www.kedglobal.com/business-politics/newsView/ked202605220003"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260611-4",
-                                       "market":  "🇨🇳 中國市場",
-                                       "source":  "China Daily",
-                                       "pubDate":  "2026-06-06",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "採購量預測",
-                                                           "零售競爭"
-                                                       ],
-                                       "headline":  "星巴克中國首推服飾品牌線，400 家門市上架「Bearista Town」系列，一年 IP 商品銷破百萬件",
-                                       "summary":  "星巴克中國自 5 月 26 日起在全國逾 400 家門市推出首個服飾系列「Bearista Town」，涵蓋工裝馬甲（399 元）、刺繡 T 恤（279 元）及連帽外套（最高 459 元），並同步上架公仔、盲盒玩具、家居及車用配件。公司披露 Bearista Town IP 商品一年內銷量逾 100 萬件。此舉反映中國咖啡品牌將 IP 周邊商品化列為重要增長引擎的產業趨勢。",
-                                       "whyMatters":  "服飾與周邊商品品類的快速擴張，意味著星巴克中國的採購範疇從傳統飲料原料延伸至紡織品、玩具與消費品，為非食品類供應商開闢新商機。Boyu Capital 主導的 JV 架構加速本地化採購策略，具備中國在地製造能力的供應商更具競爭優勢。",
-                                       "potentialImpact":  [
-                                                               "評估是否具備紡織品、公仔或包裝禮盒供應能力，主動向星巴克中國採購部門提案，把握 IP 周邊商品化帶來的合作機會",
-                                                               "關注 JV 三年擴張計劃（縣級市場從 1,000 個擴至 1,500 個），超前部署在二三線城市的配銷與倉儲能力",
-                                                               "追蹤競品（如瑞幸、喜茶）的 IP 聯名採購動向，以同類訂單規模估算星巴克中國服飾品類的潛在採購量"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "China Daily",
-                                                               "url":  "https://www.chinadaily.com.cn/a/202606/06/WS6a2375cea310d6866eb4cc08.html"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260611-5",
-                                       "market":  "🇯🇵 日本市場",
-                                       "source":  "星巴克日本官方新聞稿",
-                                       "pubDate":  "2026-06-10",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "飲品趨勢",
-                                                           "原料需求",
-                                                           "門市擴張"
-                                                       ],
-                                       "headline":  "日本「星巴克 Tea \u0026 Café」6 月 17 日推出熱帶茶飲新品，7 月大阪新開店擴版圖",
-                                       "summary":  "星巴克日本官方公告，旗下 30 家「星巴克 Tea \u0026 Café」專門店將於 2026 年 6 月 17 日起推出夏季第二波新品：「鳳梨椰香冰沙茶浮冰」及「精釀冰茶 鳳梨可娜波普」，主打夏威夷茶葉與熱帶水果風味組合。同時宣布 7 月 6 日在大阪天王寺新開設一家 Tea \u0026 Café，持續擴大專門店版圖。",
-                                       "whyMatters":  "星巴克日本持續擴充 Tea \u0026 Café 專門店格局，顯示高端茶飲體驗的採購需求長期成長；熱帶風味（鳳梨、椰子）及植物花卉（玫瑰、萬壽菊）茶葉原料需求上升，為相關原料供應商提供提案切入點。Tea \u0026 Café 業態的擴張直接影響茶葉、特殊包裝容器及飲品設備的採購量。",
-                                       "potentialImpact":  [
-                                                               "若供應茶葉、水果果泥或植物花卉食材，可針對 Tea \u0026 Café 的熱帶風味趨勢開發符合採購規格的新品並提案",
-                                                               "Tea \u0026 Café 門市持續增加，帶動杯具、吸管及包裝材料採購量成長，建議提前準備相應產能",
-                                                               "關注大阪新店的消費者反應，若銷售強勁可預期快速展店，並據此預測採購量增長節奏"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "星巴克日本官方新聞稿（Tea \u0026 Café 夏季新品）",
-                                                               "url":  "https://stories.starbucks.co.jp/press/2026/pr2026-0610/"
-                                                           },
-                                                           {
-                                                               "label":  "星巴克日本官方新聞稿（FRUITY CHEERS TORORI）",
-                                                               "url":  "https://stories.starbucks.co.jp/press/2026/pr2026-06-09/"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 },
-                 {
-                     "date":  "2026-06-10",
-                     "label":  "06/10",
-                     "items":  [
-                                   {
-                                       "id":  "20260610-1",
-                                       "market":  "🇯🇵 日本市場",
-                                       "source":  "Reuters / Bloomberg / Japan Times",
-                                       "pubDate":  "2026-06-10",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "供應鏈管理",
-                                                           "採購關係",
-                                                           "APAC 策略"
-                                                       ],
-                                       "headline":  "星巴克考慮出售日本業務股權或 IPO，估值達 4,000–5,000 億日圓（約 25–31 億美元）",
-                                       "summary":  "Bloomberg 6月10日報導，星巴克正評估日本業務的股權出售（Stake Sale）或首次公開發行（IPO）等選項，已開始與投資銀行進行初步接觸。日本星巴克約有 2,100 家門市，多數為直營，是星巴克全球最大市場之一；潛在股權出售估值預計落在 4,000 至 5,000 億日圓（約 25 至 31 億美元），可能吸引業界策略買家或私募股權基金。此舉延續星巴克今年 4 月將中國業務多數股權轉讓給博裕資本（Boyu Capital）的亞太資產輕化策略。",
-                                       "whyMatters":  "日本業務潛在易主是今日最重要的供應鏈事件：新股東（無論是業界買家還是私募股權）通常會在交割後啟動全面的成本審查，日本市場的原料、包裝、設備供應商面臨合約重談或供應商整合的高度風險。繼中國 JV 之後，星巴克正逐步將 APAC 主要市場轉型為特許授權或合資模式，代表全球採購決策將進一步分散至各地合作夥伴，供應商需要重新建立在地化關係。",
-                                       "potentialImpact":  [
-                                                               "日本市場供應商（食品原料、包裝、設備、冷鏈物流）應立即評估現有合約保護條款，確認在股東結構變更時合約的延續性與優先採購權是否有保障",
-                                                               "私募股權或業界買家入主後通常要求大幅降低 COGS（銷售成本），供應商應提前準備成本最佳化方案及多層次報價策略，以應對即將到來的議價壓力",
-                                                               "星巴克 APAC 資產輕化趨勢（中國→日本）恐延伸至其他市場（台灣、韓國、東南亞），全球供應商應重新審視各市場合約架構，建立與本地合作夥伴/被授權方的關係，確保業務延續性"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Japan Times：Starbucks Japan Stake Sale（2026-06-10）",
-                                                               "url":  "https://www.japantimes.co.jp/business/2026/06/10/companies/starbucks-japan-stake-sale-options/"
-                                                           },
-                                                           {
-                                                               "label":  "Reuters/TradingView：星巴克日本業務選項",
-                                                               "url":  "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N42I07T:0-starbucks-mulls-options-for-japan-business-including-stake-sale-bloomberg-reports/"
-                                                           },
-                                                           {
-                                                               "label":  "Investing.com：Starbucks Japan Stake Sale or IPO",
-                                                               "url":  "https://www.investing.com/news/stock-market-news/starbucks-weighs-stake-sale-ipo-options-for-japan-business--bloomberg-4734310"
-                                                           },
-                                                           {
-                                                               "label":  "Inside Retail Asia：Starbucks Japan（2026-06-10）",
-                                                               "url":  "https://insideretail.asia/2026/06/10/starbucks-mulls-selling-stake-in-japan-business/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260610-2",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "OnLabor / Bloomberg Law",
-                                       "pubDate":  "2026-06-09",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "成本結構",
-                                                           "ESG 風險",
-                                                           "採購關係"
-                                                       ],
-                                       "headline":  "NLRB 兩度裁定星巴克違反聯邦勞動法：波特蘭服裝規定爭議與西雅圖工會恐嚇事件",
-                                       "summary":  "美國國家勞工關係委員會（NLRB）6月6日（週五）發布兩項裁決，認定星巴克在太平洋西北地區門市違反聯邦勞動法。第一項裁決涉及波特蘭門市在未事先告知工會、未進行協商下單方面更改服裝規定執行標準；第二項裁決則針對西雅圖兩家門市於2023年4至7月間非法問詢員工是否計畫參與罷工。NLRB命令星巴克撤銷相關紀律記錄並恢復原政策。",
-                                       "whyMatters":  "NLRB裁決要求星巴克取消相關紀律記錄並撤回政策，後續可能引發更大規模的勞動賠償與合規成本，進而影響公司的採購與營運預算分配。星巴克的持續勞資爭議，結合其在全球加速轉型的背景，對供應商意味著客戶端可能強化成本管控措施，影響合約議價空間與付款條件。供應商應警惕，若星巴克為抵消勞工成本增加而向供應鏈施壓降價，相關影響恐在下半年談判期間浮現。",
-                                       "potentialImpact":  [
-                                                               "密切關注星巴克勞動關係成本變化，評估其是否引發公司整體採購預算縮減或延遲採購決策，特別是針對美國市場的食品、包裝及設備供應商",
-                                                               "留意勞工訴訟與合規成本增加（包括法律費用與員工賠償）可能壓縮星巴克對供應商的付款週期，提前安排資金流動規劃",
-                                                               "若星巴克因勞資問題導致美國門市擴張放緩，應預先調整對美供應量預期，並評估是否將資源重新配置至其他成長市場"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "OnLabor 新聞評述（2026-06-09）",
-                                                               "url":  "https://onlabor.org/june-9-2026/"
-                                                           },
-                                                           {
-                                                               "label":  "Bloomberg Law：NLRB 裁決詳情",
-                                                               "url":  "https://news.bloomberglaw.com/daily-labor-report"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260610-3",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "RealClearInvestigations / Restaurant Dive",
-                                       "pubDate":  "2026-06-10",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "組織重組",
-                                                           "採購架構",
-                                                           "門市擴張"
-                                                       ],
-                                       "headline":  "田納西州補貼3,000萬美元吸引星巴克設立東南部企業辦公室，引發「企業福利」爭議",
-                                       "summary":  "6月10日報導指出，星巴克獲田納西州政府提供3,000萬美元納稅人資助補貼，用於在納許維爾設立東南部企業辦公室，計畫投資1億美元、數年內創造2,000個工作崗位。保守派倡議團體「美國繁榮」（Americans for Prosperity）批評此舉扭曲自由市場秩序。星巴克表示，納許維爾辦公室將配合東南部門市持續擴張，並與全球總部西雅圖緊密協作。",
-                                       "whyMatters":  "星巴克在美國東南部設立新企業據點，代表其北美採購與供應鏈管理將逐步形成雙中心架構，供應商可能需要在西雅圖以外，另行建立與納許維爾辦公室的對接渠道。新辦公室將直接支援東南部門市擴張，意味著美國東南地區食品、飲品、包裝及設備供應商，將迎來潛在的新採購需求與地理位置優勢機會。",
-                                       "potentialImpact":  [
-                                                               "提前佈局與星巴克納許維爾辦公室的採購聯繫，尤其是服務美國東南部各州（德州、佛羅里達、喬治亞）的物流、食品及冷飲供應商",
-                                                               "關注星巴克雙中心化組織架構對採購決策流程的影響，評估是否需要分別針對西雅圖總部與納許維爾辦公室建立不同的業務發展策略",
-                                                               "考量田納西州的企業友善政策環境，評估是否有在當地設立供應商倉儲或配送中心的機會，以更接近星巴克的新採購決策核心"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "RealClearInvestigations：星巴克納許維爾補貼爭議（2026-06-10）",
-                                                               "url":  "https://www.realclearinvestigations.com/articles/2026/06/10/waste_of_the_day_welfare_for_starbucks_1186605.html"
-                                                           },
-                                                           {
-                                                               "label":  "Restaurant Dive：納許維爾辦公室1億美元計畫詳情",
-                                                               "url":  "https://www.restaurantdive.com/news/starbucks-100m-2000-worker-nashville-tennessee-headquarters/818097/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260610-4",
-                                       "market":  "🌍 全球",
-                                       "source":  "Zacks/TradingView / Yahoo Finance",
-                                       "pubDate":  "2026-06-09",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "財務表現",
-                                                           "採購量預測",
-                                                           "成本結構"
-                                                       ],
-                                       "headline":  "SBUX 股價一個月跌9%：本益比72倍引估值爭議，分析師仍看好長期復甦",
-                                       "summary":  "截至2026年6月9日，SBUX股價約94至95美元，一個月跌幅達9%，本益比高達72.38倍，遠超餐飲產業平均值。DCF分析顯示內在價值介於25至80美元，市場估值分歧擴大。然而，37位華爾街分析師仍給予「買入」評級，平均目標價106美元，認為「Back to Starbucks」策略的執行持續創造正面基本面支撐。",
-                                       "whyMatters":  "SBUX股價承壓反映市場對「Back to Starbucks」策略成效的觀望心態，若股價持續下行可能促使公司加速成本削減，影響供應商合約條件及採購規模。高本益比意味著市場對盈利成長的要求嚴苛，管理層可能更積極推動供應鏈成本優化，對供應商議價談判造成壓力；反之，若下一季財報持續超預期，亦可能加速門市擴張與採購增量。",
-                                       "potentialImpact":  [
-                                                               "密切監控星巴克下一季度財報（預計2026年7月底），評估營收成長是否持續，以判斷採購需求的穩定性及是否有追加訂單機會",
-                                                               "留意星巴克可能啟動的進一步成本削減計畫（如供應商合約重談或採購合併），提前準備具競爭力的成本效益強化方案",
-                                                               "股價下跌期間分析師仍看好長期復甦，供應商可把握此窗口提出中長期戰略合作提案，以鎖定更有利的長期合約條款"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Zacks/TradingView：SBUX跌9%分析（2026-06-09）",
-                                                               "url":  "https://www.tradingview.com/news/zacks:4114b6211094b:0-sbux-down-9-in-a-month-is-this-the-right-time-to-buy-the-stock/"
-                                                           },
-                                                           {
-                                                               "label":  "Yahoo Finance：SBUX估值與市場展望",
-                                                               "url":  "https://finance.yahoo.com/markets/stocks/articles/sbux-down-9-month-time-135700486.html"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260610-5",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "Yahoo Finance / InsiderMonkey / CNBC",
-                                       "pubDate":  "2026-06-08",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "飲品趨勢",
-                                                           "採購量預測",
-                                                           "消費者行為"
-                                                       ],
-                                       "headline":  "星巴克下午3至5點來客量增幅最強，Refreshers躍升第二大銷售品類",
-                                       "summary":  "根據CNBC取得的獨家數據，2026年2月15日至5月16日共90天期間，星巴克美國門市下午2點後流量顯著提升，其中下午3至5點為增幅最強時段。Refreshers飲品平台已成為門市第二大銷售品類，僅次於義式咖啡飲品。星巴克2025財年美國上午11點後銷售額達110億美元，日間分散化客流成為Niccol轉型策略的重要成果之一。",
-                                       "whyMatters":  "Refreshers飲品崛起為第二大品類，直接帶動其核心原材料（果汁原液、水果萃取物、天然色素、包裝材料）的採購需求快速上升，相關供應商應積極把握此趨勢。下午時段客群增長意味著對冷飲、清涼飲品原料、可再生包材（外帶冷飲用）的需求持續擴大，是供應商突破傳統咖啡原料合作框架的策略機會窗口。",
-                                       "potentialImpact":  [
-                                                               "Refreshers平台原料供應商（果汁萃取物、天然色素、植物基原料、椰子萃取物）應積極擴大產能，並主動與星巴克採購團隊深化互動以把握需求成長",
-                                                               "冷飲包材與一次性冷飲容器供應商應評估增量訂單機會，包括提出符合星巴克永續發展目標的可再生材料包裝設計方案",
-                                                               "下午時段客流增長確立星巴克全天候飲品策略，供應商可針對非咖啡清涼飲品品類（茶飲、果汁基底、能量飲品原料）主動提出新品協作開發提案"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Yahoo Finance / InsiderMonkey：星巴克下午流量成長報導（2026-06-08）",
-                                                               "url":  "https://finance.yahoo.com/markets/stocks/articles/starbucks-sees-encouraging-growth-beyond-024757945.html"
-                                                           },
-                                                           {
-                                                               "label":  "CNBC：Starbucks sees encouraging growth beyond the morning rush",
-                                                               "url":  "https://www.cnbc.com/quotes/SBUX"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260610-6",
-                                       "market":  "🌍 全球",
-                                       "source":  "Investing.com",
-                                       "pubDate":  "2026-06-09",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "財務表現",
-                                                           "零售競爭"
-                                                       ],
-                                       "headline":  "星巴克SWOT深度分析：轉型動能強勁，但利潤率壓縮與中國競爭仍是供應商需關注的核心風險",
-                                       "summary":  "Investing.com最新SWOT分析指出，星巴克在Q2 FY2026繳出9%營收成長（95億美元）、全球同店銷售成長6.2%的亮眼成績，顯示「Back to Starbucks」策略初見成效。然而，自轉型啟動以來，營業利潤率已近乎腰斬，重組成本高達1.2億美元（員工遣散費）；中國市場的Luckin Coffee等本土競爭者以33,596家門市形成強大規模優勢，持續對星巴克-Boyu合資公司施壓。",
-                                       "whyMatters":  "星巴克利潤率收縮是當前供應商最需關注的中期風險：公司在快速擴店與提升服務品質的雙重壓力下，勢必啟動更積極的成本結構優化，對供應商的議價壓力將日益升高。中國市場競爭加劇且Boyu合資公司仍在磨合期，相關原料、包裝與設備供應商應重新評估大陸訂單的可預測性。",
-                                       "potentialImpact":  [
-                                                               "星巴克利潤率壓縮風險下，供應商應主動提出成本共優方案（如規模採購折扣、原料替代方案），以維持合作競爭力並降低被替換風險",
-                                                               "針對中國市場，應關注星巴克-Boyu合資公司的整合進度及門市展望，靈活調整大陸端供貨規模，避免因訂單波動造成庫存積壓",
-                                                               "利潤壓力下星巴克可能加快ESG相關採購標準的落實（以提升品牌溢價），供應商可提前取得相關認證（如公平貿易、永續農業），以符合未來資格要求"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Investing.com：Starbucks SWOT Analysis",
-                                                               "url":  "https://www.investing.com/news/swot-analysis/starbuckss-swot-analysis-coffee-giants-stock-navigates-turnaround-93CH-4705798"
-                                                           },
-                                                           {
-                                                               "label":  "Comunicaffe：Q2 FY2026成果摘要",
-                                                               "url":  "https://www.comunicaffe.com/starbucks-reports-strong-q2-2026-results-with-net-revenues-increased-9-to-9-5-billion-raises-full-year-outlook/"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 }
-             ]
+  "lastUpdated": "2026-06-17",
+  "days": [
+    {
+      "date": "2026-06-17",
+      "label": "06/17",
+      "items": [
+        {
+          "id": "20260617-1",
+          "market": "🇯🇵 日本市場",
+          "source": "Inside Retail Asia",
+          "pubDate": "2026-06-10",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購架構",
+            "APAC策略",
+            "組織重組"
+          ],
+          "headline": "星巴克評估日本業務出售股份或重新上市，潛在交易規模達4,000至5,000億日圓",
+          "summary": "星巴克正評估日本業務的策略選項，包括部分股份出售給私募股權或策略投資方，以及重新公開上市，潛在交易規模達4,000至5,000億日圓（約25至31億美元）。日本為星巴克最重要的海外市場之一，擁有約2,100家直營門市。此評估繼中國業務以合資方式出售60%股權給博裕資本後出現，被視為星巴克加速全球資產輕量化策略的一環。",
+          "whyMatters": "若日本業務所有權結構改變，新的策略投資方可能重新評估供應鏈合作夥伴，進而影響原物料、設備、包裝等供應商的合約與訂單量。2,100家門市的採購需求集中於日本市場，股權易主可能帶來採購政策調整的風險或機會。現有日本本地供應商與國際供應商均需留意潛在的合約重談情況。",
+          "potentialImpact": [
+            "密切追蹤日本業務股份交易進展，提前評估新投資方可能帶來的採購政策轉變，並建立與潛在新投資方的溝通管道",
+            "與現有日本市場採購窗口確認合約續約週期，降低所有權過渡期間的訂單不確定性",
+            "參考星巴克中國合資後的採購集中化案例，預研日本市場可能的類似走向，提前評估成本結構調整壓力"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Inside Retail Asia",
+              "url": "https://insideretail.asia/2026/06/10/starbucks-mulls-selling-stake-in-japan-business/"
+            }
+          ]
+        },
+        {
+          "id": "20260617-2",
+          "market": "🇰🇷 韓國市場",
+          "source": "Bloomberg",
+          "pubDate": "2026-06-15",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "採購量預測",
+            "消費者行為",
+            "品牌策略"
+          ],
+          "headline": "星巴克韓國宣布6月22日全面提早閉店，對全體員工實施歷史敏感性培訓",
+          "summary": "繼「坦克日」（Tank Day）行銷活動引發爭議、韓國消費者抵制、業績「非常顯著」下滑後，星巴克韓國宣布將於6月22日下午3時全面提前閉店，對全體員工進行歷史意識與敏感性培訓。Shinsegae集團董事長鄭溶鎮已就此爭議公開道歉，並宣布星巴克韓國新任執行長接任以重建消費者信任。",
+          "whyMatters": "韓國市場銷售急劇下滑直接影響門市採購量，包括咖啡豆、牛奶、包裝材料等日常耗材的訂單需求可能短期萎縮。形象危機若持續延燒，可能影響品牌在韓未來的市場投資節奏，進而壓縮本地供應商的訂單能見度與合約穩定性。",
+          "potentialImpact": [
+            "短期內下調韓國市場耗材與食材訂單預測，關注抵制效應的持續時間與範圍",
+            "與韓國採購窗口保持溝通，確認6月22日閉店對週耗材需求的實際影響，並評估補單可能性",
+            "評估Shinsegae集團聲譽管理措施（新CEO任命、全員培訓）的有效性，以判斷是否影響中長期市場擴張計劃及對應採購量"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-15/starbucks-korea-to-close-all-stores-early-for-history-training"
+            }
+          ]
+        },
+        {
+          "id": "20260617-3",
+          "market": "🇯🇵 日本市場",
+          "source": "星巴克日本官方",
+          "pubDate": "2026-06-16",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "原料需求",
+            "飲品趨勢",
+            "門市擴張"
+          ],
+          "headline": "星巴克日本「Reserve Café」推出夏季檸檬咖啡新飲品及新口味義式可頌捲，導入「夏日沾食」體驗",
+          "summary": "星巴克日本精品咖啡館「スターバックス リザーブ® カフェ」於2026年6月16日發布夏季新品，推出以檸檬與咖啡爽快風味為主題的夏季飲品，並推出新口味義式可頌捲（Cornetti），同時提案以冰飲搭配「夏日沾食（サマーディップスタイル）」的全新品飲體驗。此為Reserve系列夏季旗艦菜單更新，即日起在各Reserve Café門市供應。",
+          "whyMatters": "Reserve Café夏季新品的推出代表日本高端市場對精品咖啡與歐式烘焙的需求信號，檸檬風味飲品的推出帶動天然檸檬萃取物、柑橘香料等特色原料的採購需求。義式可頌捲系列的擴充也意味著高品質麵粉、奶油及義式烘焙食材訂單的持續增加，且Reserve系列毛利率較高，採購品質要求相對嚴格。",
+          "potentialImpact": [
+            "供應天然檸檬萃取物、柑橘類香料或夏季風味配料的供應商，可積極接洽日本Reserve市場的夏季採購需求",
+            "義式烘焙（Cornetti）系列的持續推出顯示星巴克日本對高端食品品質的重視，建議提早確認下季烘焙原料供應量及品質規格",
+            "關注Reserve Café系列的季節新品發布週期（通常每季更新），據此規劃高端原料備貨節奏以避免缺貨"
+          ],
+          "sourceLinks": [
+            {
+              "label": "星巴克日本官方新聞稿",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr2026-0616/"
+            }
+          ]
+        },
+        {
+          "id": "20260617-4",
+          "market": "🇯🇵 日本市場",
+          "source": "SoraNews24",
+          "pubDate": "2026-06-13",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "採購量預測",
+            "飲品趨勢",
+            "品牌策略"
+          ],
+          "headline": "星巴克日本30周年限定：夏季特別飲品僅限30間指定門市供應，稀缺行銷策略引發話題",
+          "summary": "星巴克日本於2026年6月13日宣布，在全日本僅限30間特定門市推出夏季限定特別飲品，採取高度稀缺的限量供應策略，旨在強化消費者對特定門市的造訪動機並創造話題。此系列是繼日本上陸30周年紀念系列後，星巴克日本今夏的又一波限定行銷動作。",
+          "whyMatters": "限定供應策略意味著特定原物料的採購高度集中於少數區域倉庫，對負責供應指定30間門市的原料供應商形成短期且集中的訂單需求。若此策略銷售反應良好，星巴克日本可能於下一季擴大至更多門市，帶動大規模採購機會。",
+          "potentialImpact": [
+            "確認哪些原材料用於此限定系列，若為現有供應商應提前為潛在的供應範圍擴大做好備貨準備",
+            "追蹤此30間限定門市的銷售反應與消費者迴響，以評估原料採購訂單是否可能在下一季擴大規模",
+            "了解星巴克日本「稀缺感」行銷策略走向，作為全球其他市場類似限定供應需求規劃的參考依據"
+          ],
+          "sourceLinks": [
+            {
+              "label": "SoraNews24",
+              "url": "https://soranews24.com/2026/06/13/starbucks-japan-releases-special-limited-edition-summer-drinks-at-only-30-stores/"
+            }
+          ]
+        },
+        {
+          "id": "20260617-5",
+          "market": "🌍 全球",
+          "source": "StockTitan（SEC 8-K）",
+          "pubDate": "2026-06-11",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "組織重組",
+            "採購架構",
+            "APAC策略"
+          ],
+          "headline": "星巴克任命新任「企業財務與企業發展」高級副總裁，與全球資產輕量化時程高度吻合",
+          "summary": "星巴克於2026年6月11日透過SEC 8-K申報披露，Bauduin（前北美財務高級副總裁）晉升為「企業財務與企業發展」高級副總裁（SVP of Corporate Finance and Development）。此人事異動發生在星巴克日本業務策略評估正式啟動、中國合資完成後不久，被市場分析師視為星巴克進一步推動資本行動的前置佈局。",
+          "whyMatters": "企業財務與發展部門直接負責監督併購、股份交易、合資架構等重大資本行動，此任命與日本業務評估的時間線高度吻合。若後續有新市場重組行動落地，採購合約與供應商結構可能隨之調整，供應商宜及早建立與新決策層的溝通管道。",
+          "potentialImpact": [
+            "關注未來60天內星巴克是否有新的資本行動公告（如日本業務相關8-K、13D/G等SEC文件），作為採購策略調整的預警信號",
+            "與星巴克各地區採購主管確認重大決策的審批流程是否因組織調整而改變，避免合約推進受阻",
+            "星巴克企業發展新團隊的優先任務可能是完成日本業務評估，建議現有日本及全球供應商提早評估在新所有權結構下的合約地位"
+          ],
+          "sourceLinks": [
+            {
+              "label": "StockTitan（SEC 8-K）",
+              "url": "https://www.stocktitan.net/sec-filings/SBUX/8-k-starbucks-corp-reports-material-event-5797bdb22b00.html"
+            },
+            {
+              "label": "SEC EDGAR 8-K（2026-06-11）",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000106/sbux-20260611.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "label": "06/16",
+      "items": [
+        {
+          "id": "20260616-1",
+          "market": "🌍 全球",
+          "source": "About Starbucks",
+          "pubDate": "2026-06-09",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "原料需求",
+            "ESG風險",
+            "飲品趨勢"
+          ],
+          "headline": "星巴克「藍椰子」雙新品今日上市，攜手 Water.org Get Blue 計畫捐助全球淨水行動",
+          "summary": "星巴克自2026年6月16日起推出「藍椰子清新飲」與「冰藍椰子抹茶」兩款夏季限定飲品，以藍色螺旋藻賦予自然鮮豔色澤，搭配椰子奶泡、芒果、草莓及阿薩伊果等天然原料。活動期間（至7月7日），每售出一杯捐贈美金0.25元予 Water.org 的 Get Blue™ 計畫，最高捐款上限達97.5萬美元，預估幫助多達19.5萬人獲得乾淨飲水或衛生設施。",
+          "whyMatters": "藍色螺旋藻（blue spirulina）、椰子奶泡、芒果、草莓及阿薩伊等天然功能性原料需求同步提升，對相關食材供應商而言是進入星巴克季節性採購鏈的重要窗口。此次與 Water.org 的 ESG 公益聯名模式，也顯示星巴克採購策略更加重視永續供應鏈認證，具備此類背景的供應商在合作提案上將具備差異化優勢。",
+          "potentialImpact": [
+            "藍色螺旋藻、天然食用色素供應商應把握此次季節性需求高峰（6/16–7/7），積極與星巴克採購部門建立聯繫並確認備貨量",
+            "椰子衍生物、芒果及草莓原料供應商可依據夏季促銷期預備額外庫存，預期訂單需求在促銷期間將明顯放量",
+            "具備 ESG 或水資源永續認證的供應商，可借助星巴克此次品牌方向，強化合作提案的吸引力，契合其長期採購偏好"
+          ],
+          "sourceLinks": [
+            {
+              "label": "About Starbucks 官方",
+              "url": "https://about.starbucks.com/stories/2026/starbucks-introduces-blue-coconut-duo-supporting-clean-water-through-get-blue/"
+            }
+          ]
+        },
+        {
+          "id": "20260616-2",
+          "market": "🇰🇷 韓國市場",
+          "source": "Seoul Economic Daily",
+          "pubDate": "2026-06-15",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "零售競爭",
+            "採購架構"
+          ],
+          "headline": "韓國星巴克宣布6月22日全國門市提早下午3時關閉，進行歷史意識與社會敏感度員工培訓",
+          "summary": "韓國星巴克（由新世界集團 E-Mart 旗下管理）宣布將於6月22日（週一）全國門市提早至下午3時關閉，集中進行員工歷史認知與社會敏感度培訓。此舉為今年5月「坦克紀念日」AI 行銷爭議的後續危機應對，彼時事件引發輿論強烈反彈，董事長鄭溶鎮公開道歉，韓國門市銷售量大幅下滑。",
+          "whyMatters": "全韓門市單日全面提早關閉，直接導致6月22日當日訂單量急遽縮減，影響食材、烘焙品及包材供應商的當週配送節奏。更深層而言，新世界集團啟動系統性文化培訓，反映品牌危機對運營採購決策的連帶效應，此類風險事件往往使採購決策趨於保守謹慎，供應商應密切觀察。",
+          "potentialImpact": [
+            "韓國市場供應商應預估6月22日當日訂貨量大幅減少，提前調整配送排程及生產計劃以降低損耗",
+            "長期關注新世界集團的品牌重整動向，危機後期可能涉及供應鏈環節的重新審查及廠商資格評估",
+            "韓國今年預計新增至少100家門市的計畫能否如期推進，品牌聲譽風險或影響展店時程，進而延遲相關採購規劃"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Seoul Economic Daily",
+              "url": "https://en.sedaily.com/finance/2026/06/15/breaking-news-starbucks-to-close-all-korea-stores-at-3-pm"
+            }
+          ]
+        },
+        {
+          "id": "20260616-3",
+          "market": "🇯🇵 日本市場",
+          "source": "SoraNews24",
+          "pubDate": "2026-06-11",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "原料需求",
+            "APAC策略",
+            "飲品趨勢"
+          ],
+          "headline": "日本星巴克推出「FRUITY CHEERS™ TORORI」RTD 新系列，今日起限定在全國 7-Eleven 上市",
+          "summary": "日本星巴克今日起（6月16日）在全國 7-Eleven 便利商店限定發售「FRUITY CHEERS™ TORORI」PET 瓶裝新飲品，涵蓋「草莓佛手柑茉莉茶」與「芒果百香果紅茶」兩款口味，售價214日圓（約1.33美元）。飲品融合果汁、牛奶與茶葉三重層次，強調柔滑醇厚口感，為 7-Eleven 獨家通路，現有星巴克門市並無同款商品。",
+          "whyMatters": "此次 RTD 便利商店獨家合作代表日本星巴克積極拓展門市以外的新通路，對果汁原料（芒果、百香果、草莓）、茉莉花茶葉、佛手柑萃取物及 PET 包材供應商而言，是高能見度的季節性採購機會。便利商店通路的規模化需求通常遠大於單一門市，對供應量預測具有重要參考價值。",
+          "potentialImpact": [
+            "PET 瓶裝包材供應商應評估 7-Eleven 全國鋪貨所帶來的大量訂單需求，主動與星巴克日本包材採購部門進行備貨協調",
+            "熱帶水果及花香茶葉（芒果、百香果、茉莉、佛手柑）原料供應商可密切追蹤此系列市場銷售反應，作為預判未來門市新品原料趨勢的先行指標",
+            "評估類似 RTD 便利商店合作模式在其他 APAC 市場（台灣全家、韓國 GS25、泰國 7-Eleven）的複製可能性，提早佈局各市場供應能力"
+          ],
+          "sourceLinks": [
+            {
+              "label": "SoraNews24",
+              "url": "https://soranews24.com/2026/06/11/starbucks-japan-releases-new-torori-drinks-exclusive-to-7-eleven-convenience-stores/"
+            }
+          ]
+        },
+        {
+          "id": "20260616-4",
+          "market": "🇯🇵 日本市場",
+          "source": "Bloomberg / Eastern Herald",
+          "pubDate": "2026-06-10",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購架構",
+            "APAC策略",
+            "組織重組"
+          ],
+          "headline": "星巴克考慮出售日本業務股份或 IPO，延續「亞洲資產輕量化」戰略，規模上看5000億日圓",
+          "summary": "Bloomberg 報導星巴克正評估日本業務的股份出售或重新上市選項，潛在交易規模達4000億至5000億日圓（約25億至31億美元），已與投資銀行展開初步洽談。日本擁有約2100家門市，為星巴克全球最大海外市場之一。此舉被分析師解讀為繼今年4月完成中國業務60%股份出售（Boyu Capital，44億美元）後，星巴克第二步亞洲資本結構調整。",
+          "whyMatters": "若日本業務股份易主，採購決策鏈將隨之重組——新股東可能導入不同的供應商偏好或採購標準，現有供應商面臨合約重新談判風險。此外，「資產輕量化」模式意味著星巴克未來在各市場傾向採用特許授權架構，供應商須重新評估在此架構下的合作關係定位，以免被排除在新採購鏈之外。",
+          "potentialImpact": [
+            "密切追蹤日本業務潛在新股東（私募基金或策略型買家）的供應商偏好，提前評估現有合約延續性及重新談判的可能風險",
+            "星巴克「資產輕量化」策略若擴展至其他 APAC 市場，供應商應提前了解特許授權架構下的採購運作模式，評估在新架構中的定位",
+            "現有日本市場供應商建議強化與在地營運管理團隊的關係，並追蹤潛在競標方動向，以應對交易完成後的供應鏈變動"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Eastern Herald",
+              "url": "https://easternherald.com/2026/06/10/starbucks-japan-stake-sale-ipo-asia-retreat/"
+            },
+            {
+              "label": "Investing.com (Bloomberg)",
+              "url": "https://ca.investing.com/news/stock-market-news/starbucks-weighs-stake-sale-ipo-options-for-japan-business--bloomberg-4683350"
+            }
+          ]
+        },
+        {
+          "id": "20260616-5",
+          "market": "🌍 全球",
+          "source": "Starbucks IR / 德意志銀行全球消費者大會",
+          "pubDate": "2026-06-09",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購量預測",
+            "門市擴張",
+            "財務表現"
+          ],
+          "headline": "星巴克CEO宣告重回成長軌道：Q2全球同店銷售年增6.2%，確認美國外市場仍有翻倍成長空間",
+          "summary": "星巴克執行長 Brian Niccol 在德意志銀行全球消費者大會（巴黎）上宣告公司「Back to Starbucks」轉型計畫取得成效：Q2全球同店銷售額年增6.2%（美國市場+7.1%、客流量+4.3%），為近年最強勁表現。CEO 指出美國境外門市目前佔總數不及三成，具備翻倍成長空間；公司上調全年調整後EPS預測至2.25–2.45美元，並確認全年節省成本20億美元目標。",
+          "whyMatters": "全球同店銷售及客流量全線轉正，意味著門市採購量正從緊縮轉向擴張，供應商年度訂單預測應相應向上修正。CEO 明確提出美國境外門市翻倍目標，直接預示著 APAC 及全球各地未來數年大量新門市落地，對咖啡豆、包材及設備供應商而言是調升供貨規模的關鍵訊號。",
+          "potentialImpact": [
+            "根據Q2同店銷售及客流雙轉正趨勢，供應商應重新上調美國及全球市場年度採購量預測，核心原物料（咖啡豆、乳製品、糖漿）庫存規劃應同步調整",
+            "國際門市翻倍戰略預示 APAC 區域未來3–5年將有大量新門市落地，具備多市場供應能力的供應商應提前佈局各地倉儲及物流網絡",
+            "成本節約20億美元目標顯示採購端將持續承受降本壓力，供應商宜主動提出創新型定價方案或長期框架合約，以鞏固在採購鏈中的競爭地位"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks IR 官方",
+              "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Is-Back-Turning-Momentum-Into-Long-Term-Sustainable-Growth/default.aspx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "label": "06/15",
+      "items": [
+        {
+          "id": "20260615-1",
+          "market": "🇯🇵 日本市場",
+          "source": "Nippon.com / Yahoo Finance / GuruFocus",
+          "pubDate": "2026-06-10",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購架構",
+            "供應鏈管理",
+            "財務表現"
+          ],
+          "headline": "星巴克評估出售日本業務股份或 IPO，交易規模估達 5000 億日圓",
+          "summary": "據彭博社報導，星巴克正與投資銀行洽商，評估日本業務的策略選項，包括出售部分股權或重新上市（IPO），交易規模估計落在 4000 至 5000 億日圓（約 25 億至 31 億美元）之間。日本為星巴克最重要的國際市場之一，擁有約 2,100 間門市，多數為直營店。此次評估是繼今年初完成中國業務股份出售後，星巴克全球資本配置策略的進一步延伸。",
+          "whyMatters": "若日本業務股權易主，新股東可能重新審視供應鏈架構與在地採購策略，現有供應商合約可能面臨重談風險。日本市場直營店比例高，代表當前供應商直接受星巴克總部採購政策管轄，股權結構變動後採購鏈主導權恐轉移。供應商應提前建立與潛在買方（私募或策略投資者）的關係，以維護長期合作地位。",
+          "potentialImpact": [
+            "立即盤點日本業務相關合約條款，確認股權轉讓時的合約延續性與優先採購條款。",
+            "與星巴克日本採購團隊加強溝通，了解現行供應策略是否因評估過程而出現變動。",
+            "關注潛在買家背景（PE 或策略投資者），預先研究其供應鏈偏好以提前佈局。"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Nippon.com",
+              "url": "https://www.nippon.com/en/news/yjj2026061100193/starbucks-mulls-sale-of-japan-business-report.html"
+            },
+            {
+              "label": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/starbucks-weighs-japan-stake-sale-145612767.html"
+            },
+            {
+              "label": "GuruFocus",
+              "url": "https://www.gurufocus.com/news/8910311/starbucks-weighs-500-billion-japan-stake-sale"
+            }
+          ]
+        },
+        {
+          "id": "20260615-2",
+          "market": "🇰🇷 韓國市場",
+          "source": "Seoul Economic Daily / Reuters / Provoke Media",
+          "pubDate": "2026-06-15",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "APAC 策略",
+            "零售競爭"
+          ],
+          "headline": "星巴克韓國 AI 行銷事件持續發酵，6 月 22 日全線門市閉店進行歷史教育訓練",
+          "summary": "受 5 月「坦克日」AI 行銷爭議重創後，新世界集團（Shinsegae）會長鄭溶鎮宣布集團管理層及全體韓國星巴克員工將接受歷史教育訓練。韓國全國門市將於 6 月 22 日下午 3 點提前閉門，總部高管訓練訂於 6 月 17 日進行。事件已導致銷售「嚴重下滑」，並引發大量國際媒體負面報導，為星巴克韓國帶來重大品牌危機。",
+          "whyMatters": "韓國市場銷售重挫將影響星巴克韓國整體採購量，短期原料及包裝訂單量可能下修，供應商需做好庫存彈性調整準備。全線閉店行動代表重大營運中斷，物流排程與補貨計劃需即時因應。AI 行銷失誤揭示全球連鎖品牌在地化風險管理的脆弱性，供應商宜評估合作品牌的聲譽風險對供應鏈穩定性的潛在衝擊。",
+          "potentialImpact": [
+            "評估韓國市場訂單量短期縮減的風險，適時調整供應計劃與庫存水位，避免囤積損失。",
+            "追蹤事件對星巴克韓國銷售恢復的影響，以研判未來季度採購量趨勢。",
+            "強化與星巴克合作的 ESG 及品牌風險評估機制，確保自身供應鏈不受客戶聲譽事件波及。"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Seoul Economic Daily（今日報導）",
+              "url": "https://en.sedaily.com/finance/2026/06/15/shinsegae-chairman-starbucks-staff-to-take-history"
+            },
+            {
+              "label": "Reuters via TradingView",
+              "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_P8N41D04M:0-starbucks-korea-to-shut-stores-early-on-june-22-for-history-training-yonhap-says/"
+            },
+            {
+              "label": "Provoke Media 深度分析",
+              "url": "https://www.provokemedia.com/long-reads/article/starbucks-koreas-tank-day-firestorm-did-speed-outrun-common-sense"
+            }
+          ]
+        },
+        {
+          "id": "20260615-3",
+          "market": "🌍 全球",
+          "source": "SEC EDGAR",
+          "pubDate": "2026-06-11",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "組織重組",
+            "採購架構",
+            "APAC 策略"
+          ],
+          "headline": "星巴克 SEC 8-K 揭露任命企業財務暨發展資深副總裁，M&A 能力於 APAC 重組高峰期獲強化",
+          "summary": "星巴克於 2026 年 6 月 11 日向 SEC 提交 8-K，揭露一名高管被正式任命為企業財務暨發展資深副總裁（SVP of Corporate Finance and Development），並被指定為公司高級主管（executive officer）。此職位在星巴克積極推進資產輕型化策略的背景下具高度戰略意義，負責統籌 M&A、策略合作及全球資本配置等核心職能，正值日本業務評估及全球市場重組最關鍵時期。",
+          "whyMatters": "企業財務暨發展高層職位的強化，直接關係到星巴克日後資產出售、JV 架構與授權模式轉換的節奏，供應商需持續追蹤相關組織動向。在星巴克推進 asset-light 模式的過程中，採購主導權可能隨合作架構調整而轉移至在地合資方，現有供應商需更新風險評估框架。此類高層任命往往預示未來 6 至 18 個月內的重大策略行動，是供應商預判布局方向的重要指標。",
+          "potentialImpact": [
+            "研究新任 SVP 的過往資歷與策略偏好，預判星巴克下一步可能目標市場（如東南亞或台灣）。",
+            "注意星巴克是否進一步公告其他 APAC 市場的所有權結構調整計畫，提前進行供應合約審查。",
+            "確保現有供應合約在企業所有權異動時具備明確的繼承條款，降低合約中斷風險。"
+          ],
+          "sourceLinks": [
+            {
+              "label": "SEC EDGAR 8-K（2026-06-11）",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000106/sbux-20260611.htm"
+            }
+          ]
+        },
+        {
+          "id": "20260615-4",
+          "market": "🇺🇸 美國市場",
+          "source": "About Starbucks（官方新聞稿）",
+          "pubDate": "2026-06-11",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "飲品趨勢",
+            "消費者行為"
+          ],
+          "headline": "星巴克全面翻新傳奇創始 Pike Place 門市，重新定義沉浸式精品咖啡零售體驗",
+          "summary": "星巴克於 6 月 11 日正式宣布西雅圖 Pike Place 創始門市翻新重新開幕，定位為一個沉浸式咖啡體驗空間，彰顯品牌對精品咖啡工藝的長期承諾。Pike Place 店是星巴克 1971 年的發源地，此次翻新作為旗艦體驗概念的先行試驗，有機會影響星巴克未來旗艦店設計方向與產品組合，以及全球 Reserve 系列的發展路徑。",
+          "whyMatters": "旗艦店的精品化翻新彰顯星巴克強化高端咖啡體驗的戰略方向，可能帶動特殊原料（稀有咖啡豆、特色茶品）及精品包裝的採購需求上升。精品體驗模式若向其他旗艦店複製，將擴大對高端原料及客製化設備供應商的採購機會。沉浸式門市設計趨勢反映消費者對差異化體驗的需求，供應商可藉此機會開發符合精品定位的創新產品。",
+          "potentialImpact": [
+            "評估能否提供旗艦店所需的精品原料或特色食材，主動接觸星巴克 Reserve 採購團隊。",
+            "研究 Pike Place 概念是否將擴展至 APAC 旗艦店，提前了解相應採購規格與認證要求。",
+            "密切追蹤星巴克精品化戰略方向，提早佈局高附加價值原料與包裝的供應資格認定。"
+          ],
+          "sourceLinks": [
+            {
+              "label": "About Starbucks（官方新聞稿）",
+              "url": "https://about.starbucks.com/press/2026/starbucks-reopens-its-historic-pike-place-store-reimagined-as-an-immersive-coffee-experience/"
+            }
+          ]
+        },
+        {
+          "id": "20260615-5",
+          "market": "🌏 APAC",
+          "source": "Simply Wall St / QZ",
+          "pubDate": "2026-06-10",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "APAC 策略",
+            "採購架構",
+            "供應鏈管理"
+          ],
+          "headline": "分析師解讀星巴克中日市場接連重組：資產輕型化全球戰略加速，APAC 供應商需重新評估合作架構",
+          "summary": "繼今年 4 月完成中國業務 60% 股份出售給博裕資本（Boyu Capital）後，星巴克又傳出評估日本業務選項，分析師指出此為星巴克「asset-light」（資產輕型化）全球成長模式的系統性佈局。透過將核心市場控股轉予在地合作夥伴，星巴克得以降低資本支出，聚焦品牌、供應鏈授權與技術輸出，但 APAC 市場供應商的採購對接主體將出現結構性轉移。",
+          "whyMatters": "資產輕型化轉型意味著 APAC 市場採購決策的主導者可能從星巴克總部轉移至在地合資方或授權商，供應商需同步維護與雙方的關係以確保合約連續性。中國模式（博裕接手）已顯示在地採購優先化趨勢，日本若複製此模式，在地供應商的競爭優勢將提升，跨國供應商需強化在地化服務能力。此波重組趨勢若進一步延伸至東南亞、台灣或韓國，將對整個 APAC 供應鏈帶來深遠影響。",
+          "potentialImpact": [
+            "繪製各 APAC 市場的採購決策鏈圖，識別在直營轉 JV 或授權模式下，哪些採購決策層級將產生結構性變化。",
+            "強化在 APAC 各市場在地合作方的人脈佈局，確保在股權結構調整後仍能維持優先供應商地位。",
+            "評估星巴克東南亞市場未來可能的 asset-light 轉型，提前進行合規認定、在地化佈局及關鍵人脈建立。"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Simply Wall St 分析",
+              "url": "https://simplywall.st/stocks/us/consumer-services/nasdaq-sbux/starbucks/news/starbucks-japan-review-signals-shift-toward-asset-light-glob"
+            },
+            {
+              "label": "QZ",
+              "url": "https://qz.com/starbucks-japan-stake-sale-ipo-061026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "label": "06/12",
+      "items": [
+        {
+          "id": "20260612-1",
+          "market": "🇨🇳 中國市場",
+          "source": "MacaoNews",
+          "pubDate": "2026-06-07",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購架構",
+            "供應鏈管理",
+            "APAC 策略"
+          ],
+          "headline": "星巴克中國博裕合資公司公布三年擴張計劃：縣級市場從1,000個增至1,500個",
+          "summary": "星巴克中國與博裕資本成立的合資公司（4月2日正式運作）公布三年擴張藍圖，目標將縣級市場門市從約1,000個擴至1,500個，新門市主打在地化格式與口味。博裕資本持有60%股份，強調與中國本土市場深度融合的戰略方向。",
+          "whyMatters": "縣級市場新增500個門市代表中國供應鏈需求將大幅擴張，原料、包裝、設備採購規模均可能顯著成長。新股東博裕資本主導的採購決策機制可能調整現有供應商合約結構，影響外資供應商的市場進入條件。",
+          "potentialImpact": [
+            "中國本地原料供應商（咖啡豆、乳製品、糖漿）應評估未來三年擴產計劃，提前鎖定產能以對應縣級市場新增需求",
+            "倉儲與冷鏈物流供應商需評估縣級配送網絡覆蓋能力，這些市場與既有一線城市的物流需求存在結構性差異",
+            "外資供應商應主動與博裕資本新管理層建立關係，瞭解合資後採購偏好是否轉向本土供應商優先"
+          ],
+          "sourceLinks": [
+            {
+              "label": "MacaoNews",
+              "url": "https://macaonews.org/news/greater-china/starbucks-china-performance/"
+            }
+          ]
+        },
+        {
+          "id": "20260612-2",
+          "market": "🌍 全球",
+          "source": "About Starbucks（官方）",
+          "pubDate": "2026-06-10",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "原料需求",
+            "採購量預測"
+          ],
+          "headline": "星巴克2026夏季菜單：Blended Refreshers 7月14日全面上市，熱帶風味與賀恰達靈感新品搶先曝光",
+          "summary": "星巴克公布2026夏季菜單，7月14日起全美門市所有Refreshers飲品均可選擇Blended（調和/冰沙）選項，擴大這個數十億美元飲品平台。新品包含熱帶風味系列、賀恰達（horchata）靈感飲品及S'mores Cold Brew回歸，搭配Blended Energy Refreshers與Blended Matcha Lemonade限時推出。",
+          "whyMatters": "Refreshers平台全面開放Blended選項代表此系列的原料用量（果汁基底、植物性成分、藍色螺旋藻粉等）可能大幅提升，帶動供應鏈整體採購量。新口味（熱帶、賀恰達）也意味著新食材的採購機會。",
+          "potentialImpact": [
+            "Refreshers系列食材供應商（芒果、草莓、椰子、藍色螺旋藻等）應預備7月14日起訂單量顯著增加，建議提前備貨並確認物流排程",
+            "冷飲設備與調和機器供應商可評估夏季擴充需求，特別是新增Blended選項可能需要門市設備升級或補充",
+            "熱帶與賀恰達風味原料商（玉米、肉桂、植物性奶類）應主動接洽採購團隊，掌握新品量產後的採購規模"
+          ],
+          "sourceLinks": [
+            {
+              "label": "About Starbucks 官方",
+              "url": "https://about.starbucks.com/stories/2026/starbucks-previews-2026-summer-menu-with-tropical-flavors-and-horchata-inspired-drinks/"
+            }
+          ]
+        },
+        {
+          "id": "20260612-3",
+          "market": "🌍 全球",
+          "source": "About Starbucks（官方）",
+          "pubDate": "2026-06-11",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "採購量預測",
+            "消費者行為"
+          ],
+          "headline": "2026 FIFA世界盃：星巴克全球門市推出限量隊長臂章杯套，飲品銷量預期衝高",
+          "summary": "星巴克於2026年6月11日（FIFA世界盃開幕前夕）在全美參與門市舉辦限量活動，購買任何飲品即贈限量版「隊長臂章」設計杯套，同步公布全球各地球迷同慶計劃。CEO Brian Niccol於同週出席Evercore消費零售論壇，強調夏季飲品創新是推動同店銷售成長的核心驅動力。",
+          "whyMatters": "FIFA世界盃橫跨整個夏季（2026年6-7月），全球門市的飲品促銷將持續帶動原料採購量走高。杯套等限量包材的額外採購也是短期供應鏈需求的重要訊號。",
+          "potentialImpact": [
+            "紙材與包材供應商應確認世界盃期間限量包裝的生產排程，此類活動採購時程通常壓縮，需提前溝通交期",
+            "飲品原料供應商（咖啡豆、乳製品、糖漿、果汁）應將夏季世界盃活動納入6-7月採購量預測模型",
+            "全球供應鏈廠商可參考2026 Q2財報（全球可比銷售成長6.2%）作為下一季需求預測的基準，評估夏季旺季可能進一步推升訂單規模"
+          ],
+          "sourceLinks": [
+            {
+              "label": "About Starbucks 官方",
+              "url": "https://about.starbucks.com/press/2026/starbucks-limited-edition-cup-sleeve-giveaway/"
+            },
+            {
+              "label": "Quiver Quant",
+              "url": "https://www.quiverquant.com/news/Starbucks+shares+rise+as+investors+focus+on+summer+beverage+innovation+and+CEO+conference+appearance"
+            }
+          ]
+        },
+        {
+          "id": "20260612-4",
+          "market": "🇹🇼 台灣市場",
+          "source": "聯合新聞網",
+          "pubDate": "2026-06-11",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "供應鏈管理",
+            "消費者行為"
+          ],
+          "headline": "星巴克台灣 × 星宇航空首次聯名系列6月17日登場：11款限定旅行主題商品全面開賣",
+          "summary": "星宇航空（STARLUX Airlines）與星巴克台灣於2026年6月11日宣布首次品牌聯名，推出11款以飛行儀式感為核心的限定商品，包含換上機師制服的Bearista熊系列、STARLUX迷你餐車收納盒、集裝箱收納套等旅行周邊。6月17日起限星宇會員優先購買，6月18日起全面開賣。",
+          "whyMatters": "星巴克台灣跨業聯名航空品牌，顯示其在台灣市場積極開拓生活風格周邊商品的採購需求。聯名活動期間的飲品搭配促銷也可能帶動短期採購量提升。",
+          "potentialImpact": [
+            "台灣周邊商品製造商（陶瓷、不鏽鋼杯、布製品等）可從此聯名模式中瞭解星巴克台灣對跨業合作供應商的需求規格與交期要求",
+            "台灣飲品原料供應商需注意聯名商品發售期間（6月17-18日）可能帶動門市客流與飲品採購量短期衝刺",
+            "跨業供應商（航空周邊、旅行用品製造商）可借鑑此合作模式，主動評估與台灣零售餐飲品牌的聯名供應機會"
+          ],
+          "sourceLinks": [
+            {
+              "label": "聯合新聞網",
+              "url": "https://udn.com/news/story/7270/9560660"
+            }
+          ]
+        },
+        {
+          "id": "20260612-5",
+          "market": "🇹🇼 台灣市場",
+          "source": "NOWnews今日新聞",
+          "pubDate": "2026-06-12",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "消費者行為",
+            "採購量預測",
+            "飲品趨勢"
+          ],
+          "headline": "星巴克台灣6月世界盃主題「盛夏歡聚派對」85折優惠搭配買一送一，端午限定星冰粽同步熱賣",
+          "summary": "星巴克台灣6月11-12日連續推出促銷活動：6月11日全品項買一送一（大杯55元起、星冰樂62.5元），6月12日推出全品項85折「盛夏歡聚派對」。同步發售2026 FIFA世界盃主題「足球小熊玻璃TOGO冷水杯」及端午節限定星冰粽，預計本週台灣市場銷量大幅走高。",
+          "whyMatters": "密集促銷活動代表台灣門市本週庫存消耗速度加快，採購補貨週期縮短。供應商需掌握此類活動規律，以利制定彈性供貨計劃。",
+          "potentialImpact": [
+            "台灣飲品原料與食品供應商應確認本週補貨計劃，避免促銷期間因庫存不足影響供貨",
+            "端午節粽子食材供應商（糯米、豆類、糖漿等）可從星冰粽熱賣趨勢評估下一年端午季的採購規模與時程",
+            "杯具與周邊商品廠商可持續追蹤世界盃主題商品的銷售表現，作為下一季限定商品採購量規劃的參考依據"
+          ],
+          "sourceLinks": [
+            {
+              "label": "NOWnews今日新聞（6月12日）",
+              "url": "https://www.nownews.com/news/6845436"
+            },
+            {
+              "label": "NOWnews今日新聞（6月11日）",
+              "url": "https://www.nownews.com/news/6844184"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-11",
+      "label": "06/11",
+      "items": [
+        {
+          "id": "20260611-1",
+          "market": "🇯🇵 日本市場",
+          "source": "Bloomberg",
+          "pubDate": "2026-06-10",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購架構",
+            "APAC 策略",
+            "組織重組"
+          ],
+          "headline": "星巴克據報考慮出售日本業務股權或 IPO，估值達 25–31 億美元",
+          "summary": "Bloomberg 報導，星巴克正就日本業務探索多項選項，包括出售部分股權或首次公開募股（IPO），已與投資銀行展開初步磋商。日本為星巴克第三大市場，擁有約 2,100 家門市，潛在交易估值達 4,000–5,000 億日圓（約 25–31 億美元）。此舉繼去年 11 月將中國業務多數股權出售後，被視為星巴克加速全球授權模式重組策略的延伸。",
+          "whyMatters": "若日本業務股權易主或進行 IPO，日本市場的採購策略、供應商合約架構可能面臨重大調整，新合作夥伴可能引入不同的本地化偏好。供應商應關注日本市場授權結構變化對訂單量與合約條款的潛在影響，並評估是否需要與新投資方建立關係。",
+          "potentialImpact": [
+            "提前梳理與星巴克日本現有採購合約的條款，評估所有者變更條款（change of control clause）的適用情形",
+            "主動接觸潛在私募股權或策略買家，展示供應商在日本在地化生產與品質符合星巴克標準的能力",
+            "密切追蹤後續談判進展，若達成交易，需準備因新投資方引入不同採購政策或本地化要求而做出的快速調整"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-10/starbucks-said-to-weigh-japan-unit-options-including-stake-sale"
+            },
+            {
+              "label": "World Coffee Portal",
+              "url": "https://www.worldcoffeeportal.com/news/starbucks-is-reportedly-exploring-a-2-5bn-stake-sale-of-its-successful-japanese-business-global-ambitions-could-explain-why/"
+            }
+          ]
+        },
+        {
+          "id": "20260611-2",
+          "market": "🌍 全球",
+          "source": "Yahoo Finance / Zacks",
+          "pubDate": "2026-06-08",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "成本結構",
+            "採購關係",
+            "供應鏈管理"
+          ],
+          "headline": "星巴克 FY2026 Q2 EPS 飆升 22%，至 2028 年 20 億美元成本節省計畫鎖定供應鏈採購",
+          "summary": "星巴克第二財季合併營收年增 9% 至 95 億美元，全球同店銷售成長 6.2%，EPS 年增 22% 至 0.50 美元，為逾兩年來首次年增。公司確認推進至 2028 財年的 20 億美元總成本節省計畫，重點鎖定產品與配銷成本、營業費用及管理費用三大面向，並上調全年 EPS 指引至 2.25–2.45 美元。",
+          "whyMatters": "20 億美元成本節省計畫明確點名「產品與配銷成本」為首要目標，意味著星巴克將對供應商展開更嚴格的成本審查與重新議價，採購條款可能趨緊。供應商在強勁銷售數字背後，面對的是更激烈的成本下壓壓力，需主動展示效率與差異化競爭力以維持合作關係。",
+          "potentialImpact": [
+            "預期星巴克採購團隊將在合約更新期間施壓降低供應成本，建議提前進行內部成本效率審計並準備談判方案",
+            "若能提供替代包裝方案、縮短交期或降低廢料率，可作為保住合約及抵禦降價壓力的有力籌碼",
+            "關注咖啡生豆、奶製品及關稅壓力緩解時機，星巴克在下半年指引中提到此類成本有望改善，可藉此調整原料採購節奏"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Yahoo Finance / Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/starbucks-2-billion-cost-savings-154100234.html"
+            },
+            {
+              "label": "SEC 8-K Q2 FY2026",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000078/sbux-03292026xearningsrele.htm"
+            }
+          ]
+        },
+        {
+          "id": "20260611-3",
+          "market": "🇰🇷 韓國市場",
+          "source": "World Coffee Portal",
+          "pubDate": "2026-06-08",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "APAC 策略",
+            "組織重組"
+          ],
+          "headline": "韓國星巴克換新執行長，內部調查揭 AI 行銷工具肇禍「坦克日」事件",
+          "summary": "操作韓國星巴克的新世界集團任命申東宇接任執行長，三週前因「坦克日」促銷爭議解除前任孫貞鉉職務。內部調查顯示此次問題促銷活動係由 AI 行銷工具生成，相關人員審核機制缺失為主因。此事件導致韓國門市銷量「非常顯著」下滑，星巴克禮品卡在 KakaoTalk 禮品商店排名跌出前 15 名。",
+          "whyMatters": "韓國為星巴克全球第三大市場，銷售顯著下滑直接影響供應商在韓的訂單量；新執行長上任後的品牌重建策略若引入大型促銷活動，可能帶來短期訂單波動。此次 AI 行銷工具失誤也引發全球總部重新審視 AI 應用於行銷決策的風控框架，可能影響未來全球供應商協作流程。",
+          "potentialImpact": [
+            "短期評估韓國門市銷量下滑對當地食材、包裝及商品訂單的實質影響，做好庫存緩衝調度準備",
+            "關注新執行長上任後的品牌復原策略方向——若推出大型促銷活動以拉抬回購，相關供應商可能面臨短期訂單急增",
+            "若您是星巴克韓國授權商（新世界集團）的直接供應商，主動安排拜訪新管理團隊以穩固合作關係"
+          ],
+          "sourceLinks": [
+            {
+              "label": "World Coffee Portal",
+              "url": "https://www.worldcoffeeportal.com/news/starbucks-korea-moves-to-restore-trust-with-new-ceo-following-ai-marketing-blunder/"
+            },
+            {
+              "label": "KED Global",
+              "url": "https://www.kedglobal.com/business-politics/newsView/ked202605220003"
+            }
+          ]
+        },
+        {
+          "id": "20260611-4",
+          "market": "🇨🇳 中國市場",
+          "source": "China Daily",
+          "pubDate": "2026-06-06",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "採購量預測",
+            "零售競爭"
+          ],
+          "headline": "星巴克中國首推服飾品牌線，400 家門市上架「Bearista Town」系列，一年 IP 商品銷破百萬件",
+          "summary": "星巴克中國自 5 月 26 日起在全國逾 400 家門市推出首個服飾系列「Bearista Town」，涵蓋工裝馬甲（399 元）、刺繡 T 恤（279 元）及連帽外套（最高 459 元），並同步上架公仔、盲盒玩具、家居及車用配件。公司披露 Bearista Town IP 商品一年內銷量逾 100 萬件。此舉反映中國咖啡品牌將 IP 周邊商品化列為重要增長引擎的產業趨勢。",
+          "whyMatters": "服飾與周邊商品品類的快速擴張，意味著星巴克中國的採購範疇從傳統飲料原料延伸至紡織品、玩具與消費品，為非食品類供應商開闢新商機。Boyu Capital 主導的 JV 架構加速本地化採購策略，具備中國在地製造能力的供應商更具競爭優勢。",
+          "potentialImpact": [
+            "評估是否具備紡織品、公仔或包裝禮盒供應能力，主動向星巴克中國採購部門提案，把握 IP 周邊商品化帶來的合作機會",
+            "關注 JV 三年擴張計劃（縣級市場從 1,000 個擴至 1,500 個），超前部署在二三線城市的配銷與倉儲能力",
+            "追蹤競品（如瑞幸、喜茶）的 IP 聯名採購動向，以同類訂單規模估算星巴克中國服飾品類的潛在採購量"
+          ],
+          "sourceLinks": [
+            {
+              "label": "China Daily",
+              "url": "https://www.chinadaily.com.cn/a/202606/06/WS6a2375cea310d6866eb4cc08.html"
+            }
+          ]
+        },
+        {
+          "id": "20260611-5",
+          "market": "🇯🇵 日本市場",
+          "source": "星巴克日本官方新聞稿",
+          "pubDate": "2026-06-10",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "原料需求",
+            "門市擴張"
+          ],
+          "headline": "日本「星巴克 Tea & Café」6 月 17 日推出熱帶茶飲新品，7 月大阪新開店擴版圖",
+          "summary": "星巴克日本官方公告，旗下 30 家「星巴克 Tea & Café」專門店將於 2026 年 6 月 17 日起推出夏季第二波新品：「鳳梨椰香冰沙茶浮冰」及「精釀冰茶 鳳梨可娜波普」，主打夏威夷茶葉與熱帶水果風味組合。同時宣布 7 月 6 日在大阪天王寺新開設一家 Tea & Café，持續擴大專門店版圖。",
+          "whyMatters": "星巴克日本持續擴充 Tea & Café 專門店格局，顯示高端茶飲體驗的採購需求長期成長；熱帶風味（鳳梨、椰子）及植物花卉（玫瑰、萬壽菊）茶葉原料需求上升，為相關原料供應商提供提案切入點。Tea & Café 業態的擴張直接影響茶葉、特殊包裝容器及飲品設備的採購量。",
+          "potentialImpact": [
+            "若供應茶葉、水果果泥或植物花卉食材，可針對 Tea & Café 的熱帶風味趨勢開發符合採購規格的新品並提案",
+            "Tea & Café 門市持續增加，帶動杯具、吸管及包裝材料採購量成長，建議提前準備相應產能",
+            "關注大阪新店的消費者反應，若銷售強勁可預期快速展店，並據此預測採購量增長節奏"
+          ],
+          "sourceLinks": [
+            {
+              "label": "星巴克日本官方新聞稿（Tea & Café 夏季新品）",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr2026-0610/"
+            },
+            {
+              "label": "星巴克日本官方新聞稿（FRUITY CHEERS TORORI）",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr2026-06-09/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
