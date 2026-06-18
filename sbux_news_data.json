@@ -1,6 +1,159 @@
 {
-  "lastUpdated": "2026-06-17",
+  "lastUpdated": "2026-06-18",
   "days": [
+    {
+      "date": "2026-06-18",
+      "label": "06/18",
+      "items": [
+        {
+          "id": "20260618-1",
+          "market": "🇰🇷 韓國市場",
+          "source": "Yahoo Finance / Seoul Economic Daily",
+          "pubDate": "2026-06-15",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "組織重組",
+            "採購架構",
+            "APAC 策略"
+          ],
+          "headline": "星巴克韓國任命新執行長申東宇，全國逾2,000家門市6月22日提早關閉進行歷史教育培訓",
+          "summary": "繼「坦克日」促銷風波引發全國抗議後，新世界集團解僱韓國星巴克前執行長孫正炫，並任命前新世界地產部門主管申東宇接任，以重建品牌形象。6月22日，韓國全體星巴克門市將史上首次全面提早關閉，讓員工接受歷史及社會敏感度培訓，銷售已「非常顯著下滑」。",
+          "whyMatters": "韓國星巴克由新世界集團獨家授權經營，高層人事更迭與大規模公關危機可能導致韓國採購計劃短期凍結或重新評估。全國門市提早關閉顯示品牌承受高度輿論壓力，供應商應密切追蹤後續訂單量變化。韓國為亞太重要市場，業務穩定性直接影響相關食品、飲品及包裝供應鏈。",
+          "potentialImpact": [
+            "韓國星巴克短期採購節奏可能因管理層更替而放緩，供應商應提前確認訂單交期與庫存備貨計劃",
+            "新執行長上任後可能調整採購優先順序或本地化策略，現有供應商應主動溝通以確保合作關係延續",
+            "若韓國銷售持續低迷，下半年補貨量與季度採購規模恐受壓縮，建議評估對韓國業務的曝險比例"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/media-advertising/articles/more-2-000-starbucks-stores-184500474.html"
+            },
+            {
+              "label": "Seoul Economic Daily",
+              "url": "https://en.sedaily.com/finance/2026/05/27/foreign-media-spotlight-starbucks-koreas-tank-day-backlash"
+            }
+          ]
+        },
+        {
+          "id": "20260618-2",
+          "market": "🇨🇳 中國市場",
+          "source": "China Daily / Seoul Economic Daily",
+          "pubDate": "2026-06-06",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "採購關係",
+            "消費者行為"
+          ],
+          "headline": "星巴克中國首推服裝系列「貝瑞斯塔小鎮」，逾400家門市販售工裝背心、刺繡T恤等生活方式商品",
+          "summary": "星巴克中國自5月26日起，在全國逾400家門市推出首個服裝系列「Bearista Town（貝瑞斯塔小鎮）」，涵蓋工裝背心（399元）、刺繡T恤（279元）及連帽外套（最高459元），另有公仔、盲盒及家居用品，透過星巴克小程序上市。此舉呼應中國飲品品牌積極布局生活方式周邊的整體趨勢，瑞幸2025年已執行23次IP聯名。",
+          "whyMatters": "星巴克中國在新合資架構（Boyu JV）下積極嘗試服裝及生活方式商品，代表採購類別正式擴展至非傳統飲食領域。這對現有供應商構成既是機會也是壓力，服裝、紡織、印刷及盲盒製造商可能成為新採購目標，而傳統食品飲品供應商的份額則不受直接影響。",
+          "potentialImpact": [
+            "紡織品、印刷品及IP授權相關供應商應主動接觸星巴克中國合資企業採購部門，探索非傳統品類供應機會",
+            "若Bearista Town系列市場反應良好，後續可能快速擴大SKU數量及門市覆蓋，帶動相關原材料及包裝採購量增長",
+            "此策略調整顯示星巴克中國採購視野超出傳統飲食範疇，現有供應商可評估是否能提供互補品類以擴大合作範圍"
+          ],
+          "sourceLinks": [
+            {
+              "label": "China Daily",
+              "url": "https://www.chinadaily.com.cn/a/202606/06/WS6a2375cea310d6866eb4cc08.html"
+            },
+            {
+              "label": "Seoul Economic Daily",
+              "url": "https://en.sedaily.com/international/2026/06/07/starbucks-china-launches-first-apparel-line-as-fb-brands"
+            }
+          ]
+        },
+        {
+          "id": "20260618-3",
+          "market": "🇨🇳 中國市場",
+          "source": "Macau News / WARC",
+          "pubDate": "2026-06-12",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購量預測",
+            "供應鏈管理",
+            "APAC 策略"
+          ],
+          "headline": "星巴克中國寶域合資企業啟動三年擴張：縣域市場目標從1,000個擴至1,500個",
+          "summary": "星巴克與寶域資本合資企業正式於2026年4月2日生效後，已制定三年擴張計劃，目標將縣域市場覆蓋率從約1,000個提升至1,500個。新合資架構強調因地制宜的門市格式與本地化產品，以適應中國各地消費者需求，並鞏固在中國這一第二大市場的競爭地位。",
+          "whyMatters": "三年內新增500個縣域市場代表大幅度的採購規模擴張，涵蓋咖啡豆、乳製品、包裝材料及門市設備等多類採購需求。本地化產品策略可能進一步推動中國本土採購，對國際供應商形成競爭壓力；具備全國物流配送能力的供應商將在此擴張浪潮中佔據優勢。",
+          "potentialImpact": [
+            "未來三年中國縣域市場採購需求將持續增長，具備全國配送能力的供應商應提前評估並佈局相應產能",
+            "Boyu JV的本地化採購傾向可能提高中國本土供應商佔比，國際供應商應積極展示本地化服務能力與價格競爭力",
+            "包裝材料、冷鏈設備及乳製品等品類需求增量可觀，建議供應商主動與中國業務採購團隊進行戰略對話"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Macau News",
+              "url": "https://macaonews.org/news/greater-china/starbucks-china-performance/"
+            },
+            {
+              "label": "WARC",
+              "url": "https://www.warc.com/content/feed/starbucks-takes-its-brand-in-a-new-direction-in-china/en-GB/11096"
+            }
+          ]
+        },
+        {
+          "id": "20260618-4",
+          "market": "🇯🇵 日本市場",
+          "source": "Starbucks Japan Official",
+          "pubDate": "2026-06-09",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "原料需求",
+            "品牌策略"
+          ],
+          "headline": "星巴克日本推出全新「FRUITY CHEERS TORORI」飲品系列，水果×茶×牛奶三重組合6月16日上市",
+          "summary": "星巴克日本於6月16日（二）起正式推出全新飲品系列「スターバックス® FRUITY CHEERS™ TORORI」，以水果、茶與牛奶的創新組合打造獨特的「濃郁絲滑」口感，持續深化日本市場的夏季飲品創新策略。日本業務目前正值潛在IPO或股權出售評估期間，仍積極推進新品上市。",
+          "whyMatters": "日本市場一向是星巴克飲品創新的領先試驗場，FRUITY CHEERS系列採用多重原料組合，顯示熱帶水果萃取物、茶基底及乳製品的採購需求持續增長。在日本業務潛在分拆背景下，新品積極上市顯示業務運營正常，對相關原料供應商而言為穩定信號。",
+          "potentialImpact": [
+            "熱帶水果萃取物、茶類原料及乳製品供應商可密切追蹤此系列銷售表現，評估擴大供應規模的可行性",
+            "日本市場飲品創新往往引領亞太其他市場跟進，若FRUITY CHEERS系列廣受歡迎，相關原料需求可能擴及其他APAC市場",
+            "在日本業務潛在重組期間，供應商應確認合約條款能適應未來所有權結構可能的調整"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks Japan Official",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr2026-06-09/"
+            }
+          ]
+        },
+        {
+          "id": "20260618-5",
+          "market": "🇯🇵 日本市場",
+          "source": "Starbucks Japan Tea & Cafe",
+          "pubDate": "2026-06-10",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "原料需求",
+            "門市擴張"
+          ],
+          "headline": "星巴克日本「Tea & Cafe」茶飲業態推出熱帶風味夏季新品，6月17日起上市",
+          "summary": "星巴克日本「スターバックス ティー & カフェ」茶飲專門業態於6月17日（三）起推出夏季新品，以熱帶風味為核心設計，強調清爽心神的茶飲體驗，呼應日本消費者在夏季對清涼、風味豐富飲品的高度需求。Tea & Cafe業態持續穩步擴展，成為日本市場茶飲創新的重要推力。",
+          "whyMatters": "星巴克日本Tea & Cafe業態的持續擴展，代表茶類原料採購量將穩步增長，尤其是熱帶水果及花草茶領域。日本市場是星巴克茶飲創新的重要指標市場，其採購規格往往成為其他APAC市場的參考標準，對茶葉及天然萃取物供應商具有指標意義。",
+          "potentialImpact": [
+            "茶葉、熱帶水果萃取物及天然香草類原料供應商可關注Tea & Cafe業態的擴張節奏，適時提交新規格樣品",
+            "夏季茶飲新品的定期推出顯示日本具備穩定的季節性採購節奏，有助供應商進行精準產能規劃",
+            "在日本業務潛在IPO或股權出售評估期間，Tea & Cafe業態的持續投資是業務穩定運營的重要正面訊號"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks Japan Tea & Cafe Press",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr2026-0610/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-17",
       "label": "06/17",
@@ -596,163 +749,6 @@
             {
               "label": "NOWnews今日新聞（6月11日）",
               "url": "https://www.nownews.com/news/6844184"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-11",
-      "label": "06/11",
-      "items": [
-        {
-          "id": "20260611-1",
-          "market": "🇯🇵 日本市場",
-          "source": "Bloomberg",
-          "pubDate": "2026-06-10",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "採購架構",
-            "APAC 策略",
-            "組織重組"
-          ],
-          "headline": "星巴克據報考慮出售日本業務股權或 IPO，估值達 25–31 億美元",
-          "summary": "Bloomberg 報導，星巴克正就日本業務探索多項選項，包括出售部分股權或首次公開募股（IPO），已與投資銀行展開初步磋商。日本為星巴克第三大市場，擁有約 2,100 家門市，潛在交易估值達 4,000–5,000 億日圓（約 25–31 億美元）。此舉繼去年 11 月將中國業務多數股權出售後，被視為星巴克加速全球授權模式重組策略的延伸。",
-          "whyMatters": "若日本業務股權易主或進行 IPO，日本市場的採購策略、供應商合約架構可能面臨重大調整，新合作夥伴可能引入不同的本地化偏好。供應商應關注日本市場授權結構變化對訂單量與合約條款的潛在影響，並評估是否需要與新投資方建立關係。",
-          "potentialImpact": [
-            "提前梳理與星巴克日本現有採購合約的條款，評估所有者變更條款（change of control clause）的適用情形",
-            "主動接觸潛在私募股權或策略買家，展示供應商在日本在地化生產與品質符合星巴克標準的能力",
-            "密切追蹤後續談判進展，若達成交易，需準備因新投資方引入不同採購政策或本地化要求而做出的快速調整"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-06-10/starbucks-said-to-weigh-japan-unit-options-including-stake-sale"
-            },
-            {
-              "label": "World Coffee Portal",
-              "url": "https://www.worldcoffeeportal.com/news/starbucks-is-reportedly-exploring-a-2-5bn-stake-sale-of-its-successful-japanese-business-global-ambitions-could-explain-why/"
-            }
-          ]
-        },
-        {
-          "id": "20260611-2",
-          "market": "🌍 全球",
-          "source": "Yahoo Finance / Zacks",
-          "pubDate": "2026-06-08",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "成本結構",
-            "採購關係",
-            "供應鏈管理"
-          ],
-          "headline": "星巴克 FY2026 Q2 EPS 飆升 22%，至 2028 年 20 億美元成本節省計畫鎖定供應鏈採購",
-          "summary": "星巴克第二財季合併營收年增 9% 至 95 億美元，全球同店銷售成長 6.2%，EPS 年增 22% 至 0.50 美元，為逾兩年來首次年增。公司確認推進至 2028 財年的 20 億美元總成本節省計畫，重點鎖定產品與配銷成本、營業費用及管理費用三大面向，並上調全年 EPS 指引至 2.25–2.45 美元。",
-          "whyMatters": "20 億美元成本節省計畫明確點名「產品與配銷成本」為首要目標，意味著星巴克將對供應商展開更嚴格的成本審查與重新議價，採購條款可能趨緊。供應商在強勁銷售數字背後，面對的是更激烈的成本下壓壓力，需主動展示效率與差異化競爭力以維持合作關係。",
-          "potentialImpact": [
-            "預期星巴克採購團隊將在合約更新期間施壓降低供應成本，建議提前進行內部成本效率審計並準備談判方案",
-            "若能提供替代包裝方案、縮短交期或降低廢料率，可作為保住合約及抵禦降價壓力的有力籌碼",
-            "關注咖啡生豆、奶製品及關稅壓力緩解時機，星巴克在下半年指引中提到此類成本有望改善，可藉此調整原料採購節奏"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Yahoo Finance / Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/starbucks-2-billion-cost-savings-154100234.html"
-            },
-            {
-              "label": "SEC 8-K Q2 FY2026",
-              "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000078/sbux-03292026xearningsrele.htm"
-            }
-          ]
-        },
-        {
-          "id": "20260611-3",
-          "market": "🇰🇷 韓國市場",
-          "source": "World Coffee Portal",
-          "pubDate": "2026-06-08",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "品牌策略",
-            "APAC 策略",
-            "組織重組"
-          ],
-          "headline": "韓國星巴克換新執行長，內部調查揭 AI 行銷工具肇禍「坦克日」事件",
-          "summary": "操作韓國星巴克的新世界集團任命申東宇接任執行長，三週前因「坦克日」促銷爭議解除前任孫貞鉉職務。內部調查顯示此次問題促銷活動係由 AI 行銷工具生成，相關人員審核機制缺失為主因。此事件導致韓國門市銷量「非常顯著」下滑，星巴克禮品卡在 KakaoTalk 禮品商店排名跌出前 15 名。",
-          "whyMatters": "韓國為星巴克全球第三大市場，銷售顯著下滑直接影響供應商在韓的訂單量；新執行長上任後的品牌重建策略若引入大型促銷活動，可能帶來短期訂單波動。此次 AI 行銷工具失誤也引發全球總部重新審視 AI 應用於行銷決策的風控框架，可能影響未來全球供應商協作流程。",
-          "potentialImpact": [
-            "短期評估韓國門市銷量下滑對當地食材、包裝及商品訂單的實質影響，做好庫存緩衝調度準備",
-            "關注新執行長上任後的品牌復原策略方向——若推出大型促銷活動以拉抬回購，相關供應商可能面臨短期訂單急增",
-            "若您是星巴克韓國授權商（新世界集團）的直接供應商，主動安排拜訪新管理團隊以穩固合作關係"
-          ],
-          "sourceLinks": [
-            {
-              "label": "World Coffee Portal",
-              "url": "https://www.worldcoffeeportal.com/news/starbucks-korea-moves-to-restore-trust-with-new-ceo-following-ai-marketing-blunder/"
-            },
-            {
-              "label": "KED Global",
-              "url": "https://www.kedglobal.com/business-politics/newsView/ked202605220003"
-            }
-          ]
-        },
-        {
-          "id": "20260611-4",
-          "market": "🇨🇳 中國市場",
-          "source": "China Daily",
-          "pubDate": "2026-06-06",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "品牌策略",
-            "採購量預測",
-            "零售競爭"
-          ],
-          "headline": "星巴克中國首推服飾品牌線，400 家門市上架「Bearista Town」系列，一年 IP 商品銷破百萬件",
-          "summary": "星巴克中國自 5 月 26 日起在全國逾 400 家門市推出首個服飾系列「Bearista Town」，涵蓋工裝馬甲（399 元）、刺繡 T 恤（279 元）及連帽外套（最高 459 元），並同步上架公仔、盲盒玩具、家居及車用配件。公司披露 Bearista Town IP 商品一年內銷量逾 100 萬件。此舉反映中國咖啡品牌將 IP 周邊商品化列為重要增長引擎的產業趨勢。",
-          "whyMatters": "服飾與周邊商品品類的快速擴張，意味著星巴克中國的採購範疇從傳統飲料原料延伸至紡織品、玩具與消費品，為非食品類供應商開闢新商機。Boyu Capital 主導的 JV 架構加速本地化採購策略，具備中國在地製造能力的供應商更具競爭優勢。",
-          "potentialImpact": [
-            "評估是否具備紡織品、公仔或包裝禮盒供應能力，主動向星巴克中國採購部門提案，把握 IP 周邊商品化帶來的合作機會",
-            "關注 JV 三年擴張計劃（縣級市場從 1,000 個擴至 1,500 個），超前部署在二三線城市的配銷與倉儲能力",
-            "追蹤競品（如瑞幸、喜茶）的 IP 聯名採購動向，以同類訂單規模估算星巴克中國服飾品類的潛在採購量"
-          ],
-          "sourceLinks": [
-            {
-              "label": "China Daily",
-              "url": "https://www.chinadaily.com.cn/a/202606/06/WS6a2375cea310d6866eb4cc08.html"
-            }
-          ]
-        },
-        {
-          "id": "20260611-5",
-          "market": "🇯🇵 日本市場",
-          "source": "星巴克日本官方新聞稿",
-          "pubDate": "2026-06-10",
-          "impact": "low",
-          "impactLabel": "ℹ️ 低衝擊",
-          "impactAreas": [
-            "飲品趨勢",
-            "原料需求",
-            "門市擴張"
-          ],
-          "headline": "日本「星巴克 Tea & Café」6 月 17 日推出熱帶茶飲新品，7 月大阪新開店擴版圖",
-          "summary": "星巴克日本官方公告，旗下 30 家「星巴克 Tea & Café」專門店將於 2026 年 6 月 17 日起推出夏季第二波新品：「鳳梨椰香冰沙茶浮冰」及「精釀冰茶 鳳梨可娜波普」，主打夏威夷茶葉與熱帶水果風味組合。同時宣布 7 月 6 日在大阪天王寺新開設一家 Tea & Café，持續擴大專門店版圖。",
-          "whyMatters": "星巴克日本持續擴充 Tea & Café 專門店格局，顯示高端茶飲體驗的採購需求長期成長；熱帶風味（鳳梨、椰子）及植物花卉（玫瑰、萬壽菊）茶葉原料需求上升，為相關原料供應商提供提案切入點。Tea & Café 業態的擴張直接影響茶葉、特殊包裝容器及飲品設備的採購量。",
-          "potentialImpact": [
-            "若供應茶葉、水果果泥或植物花卉食材，可針對 Tea & Café 的熱帶風味趨勢開發符合採購規格的新品並提案",
-            "Tea & Café 門市持續增加，帶動杯具、吸管及包裝材料採購量成長，建議提前準備相應產能",
-            "關注大阪新店的消費者反應，若銷售強勁可預期快速展店，並據此預測採購量增長節奏"
-          ],
-          "sourceLinks": [
-            {
-              "label": "星巴克日本官方新聞稿（Tea & Café 夏季新品）",
-              "url": "https://stories.starbucks.co.jp/press/2026/pr2026-0610/"
-            },
-            {
-              "label": "星巴克日本官方新聞稿（FRUITY CHEERS TORORI）",
-              "url": "https://stories.starbucks.co.jp/press/2026/pr2026-06-09/"
             }
           ]
         }
