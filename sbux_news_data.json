@@ -8,143 +8,120 @@
         {
           "id": "20260622-1",
           "market": "🇰🇷 韓國市場",
-          "source": "Korea Herald / Korea Times",
+          "source": "Fast Company / ABC News",
           "pubDate": "2026-06-22",
           "impact": "high",
           "impactLabel": "🔥 高衝擊",
           "impactAreas": [
-            "品牌採購架構",
             "供應鏈管理",
-            "ESG風險"
+            "採購關係",
+            "品牌策略"
           ],
-          "headline": "韓國星巴克「坦克日」事件後續：今日全國2,160門市下午3時強制停業，全員接受歷史教育訓練",
-          "summary": "星巴克韓國今日（6月22日）執行全國性門市早閉政策，下午3時起全部2,160家門市停業，讓員工觀看歷史與社會敏感度教育訓練影片。此次停業源於5月18日「坦克日（Tank Day）」行銷爭議——星巴克韓國以「坦克」命名不鏽鋼杯促銷，日期與光州民主化運動週年重疊，引發嚴重輿論反彈。事後CEO遭解任，新世界集團會長鄭溶鎮親上全國電視台公開道歉，警方亦就受害者家屬申訴展開調查。",
-          "whyMatters": "韓國為星巴克重要授權市場，此次全國門市強制停業直接壓縮6月22日當日採購消耗量，更可能促使新任管理層調整未來採購與供應商合作模式。管理層真空期間，合約延續與採購決策可能出現不確定性，對在韓供應商構成短期風險。此事件亦可能引發星巴克總部對APAC授權市場加強監管，影響整體採購架構。",
+          "headline": "韓國星巴克今日全面關閉 2,160 家門市，執行首次全國性歷史教育培訓",
+          "summary": "韓國星巴克今日（6月22日）下午 3 時起全面停止營業，對全體 2,160 家門市員工執行歷史與社會敏感度教育培訓。此次關閉源於「坦克日」促銷事件——相關活動因疑似影射 1980 年光州民主運動而引發全國抵制，星巴克韓國 CEO 亦已遭解雇。此為星巴克韓國 1999 年開業以來首次全國性提早關閉。",
+          "whyMatters": "韓國為星巴克繼美國、中國之後的第三大市場，本次全面關閉直接影響當日採購訂單執行與物流排程，所有 2,160 家門市下午 3 時後停止原料消耗。管理層易主（CEO 去職）意味著採購決策鏈可能短期出現不確定性，供應商應主動確認合作窗口異動，並評估短期訂單量波動的庫存風險。",
           "potentialImpact": [
-            "在韓供應商應立即確認合約狀態與續簽時程，管理層更迭後往往觸發供應商資質重新審核，建議主動備妥合規文件",
-            "全天早閉造成單日飲品與食材消耗量驟減，需評估對6月份整體訂單量的影響，並追蹤後續是否有補償性促銷活動帶動回補需求",
-            "此次危機可能加速星巴克總部對韓國授權模式的治理改革，供應商需密切追蹤是否出現進一步高層人事異動或採購策略調整"
+            "今日（6/22）下午 3 時後韓國全部門市停業，涉及當日原料補貨與包裝配送的供應商應立即確認訂單狀態，並與採購窗口溝通影響範圍",
+            "新任 CEO 與管理層確認後，韓國市場採購策略與供應商偏好可能調整，建議現有韓國供應商主動重新建立採購合作關係確認",
+            "品牌抵制效應導致韓國門市客流短期下滑，建議供應商評估 Q3 韓國市場原料消耗量是否需下調，避免庫存積壓風險"
           ],
           "sourceLinks": [
             {
-              "label": "Korea Herald",
-              "url": "https://www.koreaherald.com/article/10783311"
+              "label": "Fast Company",
+              "url": "https://www.fastcompany.com/91559653/more-than-2000-starbucks-stores-are-closing-early-on-june-22-after-a-promotion-sparked-national-outrage"
             },
             {
-              "label": "Korea Times (June 22)",
-              "url": "https://www.koreatimes.co.kr/business/companies/20260622/starbucks-korea-to-close-all-stores-early-to-carry-out-history-training-after-tank-day-promotion-backlash"
-            },
-            {
-              "label": "Korea JoongAng Daily",
-              "url": "https://www.koreajoongangdaily.com/business/starbucks-korea-to-close-stores-early-launch-companywide-historical-social-awareness-training-after-tank-day-controversy/12722991"
+              "label": "ABC News",
+              "url": "https://abcnews.com/Business/wireStory/starbucks-korea-close-stores-early-mandatory-history-training-133880226"
             }
           ]
         },
         {
           "id": "20260622-2",
           "market": "🇯🇵 日本市場",
-          "source": "スターバックス コーヒー ジャパン",
-          "pubDate": "2026-06-17",
+          "source": "Starbucks Japan / Fun Japan",
+          "pubDate": "2026-06-22",
           "impact": "medium",
           "impactLabel": "⚠️ 中衝擊",
           "impactAreas": [
-            "飲品趨勢",
             "原料需求",
+            "飲品趨勢",
             "採購量預測"
           ],
-          "headline": "星巴克日本夏季「桃づくし」三款限定飲品6月24日上市，含桃果肉星冰樂、桃茶及桃氣泡飲",
-          "summary": "星巴克日本於6月17日公告，將於2026年6月24日（三）推出夏季限定「桃づくし」系列共三款飲品：含桃果肉的星冰樂、爽桃茶飲及桃氣泡飲，並於6月22日起開放Starbucks Rewards會員透過手機App提前點購。系列延續日本市場高度重視季節性鮮果原料的品牌策略，以盛夏時節強化鮮桃風味產品線，亦有星巴克Reserve Café限定的檸檬咖啡融合款。",
-          "whyMatters": "日本市場約有2,100家直營門市，季節限定飲品通常帶動原料採購量在短期內顯著攀升。本次桃系列涵蓋鮮果風味濃縮液、桃果肉顆粒及天然茶葉等多種原料，是相關供應商夏季訂單的重要機會窗口；同時也確認了日本市場持續的鮮果飲品偏好趨勢，為亞太區其他市場採購決策提供參考信號。",
+          "headline": "日本星巴克「桃づくしの夏」三款限定飲品今日 Rewards 會員搶先體驗，6/24 正式全面上市",
+          "summary": "日本星巴克今日（6/22）起對 Starbucks Rewards 會員開放「工藝水蜜桃茶」行動點餐搶先體驗，三款桃季限定飲品（工藝水蜜桃茶、桃凍飲、桃沙瓦）將於 6 月 24 日在全國門市正式上架。此系列為 2026 年日本夏季主打飲品線，主打不同質地口感——「とろける（滑潤）」「シュワッと（氣泡爽口）」「ごろっと（大塊果肉）」三種體驗。",
+          "whyMatters": "日本市場夏季限定飲品通常帶動水果原料、茶葉及氣泡飲料基底的短期爆量採購。桃季主題飲品強調「工藝感」與真實果肉口感，顯示日本採購方對水蜜桃果泥、果粒及高品質茶葉的規格要求提升。供應商需掌握此類限定飲品的快速上市節奏（會員早鳥→全面上市兩天差距），以應對緊急補貨需求。",
           "potentialImpact": [
-            "桃風味濃縮液、果肉顆粒及天然茶基底供應商可密切追蹤此系列的初期銷售數據，評估進一步合作及擴大採購量的機會",
-            "日本夏季限定策略確認鮮果原料採購在6月下旬至8月的高峰期，供應商應提前確認庫存備貨水位以因應訂單波動",
-            "日本市場若此系列熱銷，可能帶動亞洲其他市場（台灣、韓國、東南亞）跟進推出類似鮮桃飲品，具區域連鎖採購機會"
+            "水蜜桃果泥/果粒、水蜜桃風味糖漿及茶葉（用於工藝茶款）需求短期爆量，相關原料供應商應確認 6-7 月庫存水位與交貨能力",
+            "日本夏季限定飲品週轉快（4-6 週生命週期），建議供應商與日本採購窗口提前確認分批補貨節奏，避免上市初期缺貨損失銷售機會",
+            "「工藝感」與真實果肉質地的定位趨勢，代表日本市場偏向高品質、低加工的原料方向，可藉此機會向採購方提案天然果泥替代方案"
           ],
           "sourceLinks": [
             {
-              "label": "スターバックス ジャパン公式プレスリリース",
+              "label": "Fun Japan - 2026 New Menu Guide",
+              "url": "https://www.fun-japan.jp/en/articles/14486"
+            },
+            {
+              "label": "Starbucks Japan Press Release",
               "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0617/"
             }
           ]
         },
         {
           "id": "20260622-3",
-          "market": "🇺🇸 美國市場",
-          "source": "About Starbucks",
-          "pubDate": "2026-06-22",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
+          "market": "🇰🇷 韓國市場",
+          "source": "ProvokeMedia",
+          "pubDate": "2026-06-16",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
           "impactAreas": [
-            "飲品趨勢",
-            "採購量預測",
+            "採購架構",
+            "ESG 風險",
             "品牌策略"
           ],
-          "headline": "星巴克美國宣布S'mores星冰樂時隔六年回歸，並推出全新能量星冰樂系列，6月30日正式上市",
-          "summary": "星巴克美國宣布經典S'mores Frappuccino（棉花糖巧克力星冰樂）將於6月30日限時回歸，Starbucks Rewards會員可提前享受早鳥點購。同步推出全新Blended Energy Refresher（能量星冰樂）及Blended Matcha Lemonade（抹茶檸檬星冰樂）系列，以及傳奇Unicorn Frappuccino（獨角獸星冰樂）將在夏季尾聲限定回歸。此次發布與星巴克「Back to Starbucks」品牌復甦策略高度連動，持續強化下午時段消費吸引力。",
-          "whyMatters": "S'mores系列時隔六年回歸通常伴隨爆發性初期需求，可可脂、棉花糖及焦糖原料供應商面臨短期訂單高峰；能量星冰樂新線則為天然咖啡因萃取及果汁濃縮液供應商開啟新採購管道。Back to Starbucks策略持續聚焦核心飲品，確認美國市場夏季菜單將以星冰樂類別為採購主軸。",
+          "headline": "深度剖析：星巴克韓國「坦克日」危機源於內部審批機制全面失靈，跨部門審核重建恐拖慢新品上市節奏",
+          "summary": "ProvokeMedia 深度報導指出，星巴克韓國「坦克日」危機的核心問題並非歷史知識不足，而是內部問責文化、跨部門把關及決策審批機制的全面崩潰。Shinsegae 集團已宣布將建立「社會敏感度清單」並要求法律與品管部門聯合簽核所有促銷活動，此舉將顯著延長新品審批週期。危機期間韓國門市銷售「大幅下滑」，CEO 去職，企業形象受重創。",
+          "whyMatters": "促銷審核流程加嚴意味著韓國市場聯名新品、限定商品的推出速度將放慢，供應商備料與打樣交期需配合延長。管理層更迭（CEO 去職）代表採購窗口與決策鏈出現短期真空，現有合作協議的執行可能面臨延遲或重新確認的需求。此危機也強化了 ESG 與社會敏感度議題對星巴克全球供應鏈合作夥伴的品牌共責要求。",
           "potentialImpact": [
-            "可可、棉花糖及焦糖風味成分供應商應立即評估庫存備貨，S'mores系列六年回歸通常帶來超預期的初期訂單量",
-            "能量星冰樂新系列對天然咖啡因萃取液及熱帶果汁濃縮液供應商構成新的長期採購機會，建議主動接洽北美飲料採購團隊",
-            "Back to Starbucks策略持續推進菜單精簡化，供應商需追蹤自身原料是否被列入核心SKU，及早確認長期合約保障"
+            "韓國市場新品促銷審核週期將明顯延長（新加入法律與品管聯合簽核），供應商應在合約交期規劃中為審核環節預留額外緩衝時間",
+            "Shinsegae 新管理層正式就任前，韓國採購決策可能處於觀望期，建議供應商主動聯繫確認現有訂單與合約狀態，避免資訊落差",
+            "此事件凸顯品牌合作夥伴的 ESG 風險管理能力日益重要，供應商應主動準備社會責任相關文件（如供應鏈透明度報告、ESG 認證），強化長期合作競爭力"
           ],
           "sourceLinks": [
             {
-              "label": "About Starbucks",
-              "url": "https://about.starbucks.com/stories/2026/starbucks-launches-new-summer-drinks-brings-back-smores-frappuccino/"
+              "label": "ProvokeMedia Long Read",
+              "url": "https://www.provokemedia.com/long-reads/article/starbucks-korea's-tank-day-firestorm-did-speed-outrun-common-sense"
             }
           ]
         },
         {
           "id": "20260622-4",
-          "market": "🇹🇼 台灣市場",
-          "source": "NOWnews 今日新聞",
-          "pubDate": "2026-06-22",
-          "impact": "low",
-          "impactLabel": "ℹ️ 低衝擊",
+          "market": "🌍 全球",
+          "source": "Starbucks Official / Brit+Co",
+          "pubDate": "2026-06-16",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
           "impactAreas": [
-            "消費者行為",
-            "採購量預測",
-            "品牌策略"
+            "原料需求",
+            "永續發展",
+            "飲品趨勢"
           ],
-          "headline": "台灣星巴克6月26日全品項85折優惠，附贈好友分享買一送一券延伸至7月，配合600家門市里程碑持續活化會員",
-          "summary": "台灣星巴克宣布6月26日（四）全台門市推出單日全品項85折優惠，消費滿500元加贈「買一送一」好友分享優惠券，使用期限延伸至7月；另有每週一使用聯名卡購買兩杯以上指定飲品享優惠。台灣市場已於2026年5月達成第600家門市里程碑，促銷活動密度持續攀升，顯示品牌以高頻率優惠活化成熟市場的消費黏著度。",
-          "whyMatters": "台灣市場進入成熟擴張後的穩定維護階段，促銷活動短期內對原料消耗量有正向帶動效果。6月下旬至7月的訂單量可能高於正常水位，對台灣本地及亞太區供應商而言需預先調整短期備貨計劃；同時也需關注若未來促銷活動頻率縮減，基礎訂單量可能出現修正。",
+          "headline": "星巴克藍椰子雙拼飲品 6/16 正式上架，聯手 Water.org 推動全球淨水公益，每杯捐出 25 美分",
+          "summary": "星巴克於 6 月 16 日正式推出「藍椰子爽飲（Blue Coconut Refresher）」與「冰藍椰子抹茶（Iced Blue Coconut Matcha）」兩款夏季新品，均採用藍色螺旋藻（blue spirulina）呈現鮮豔藍色外觀，並與 Water.org 的 Get Blue 倡議合作，每杯銷售捐出 25 美分支持全球安全飲水計畫。此為星巴克首度推出藍色主題飲品系列，市場反應受到高度關注。",
+          "whyMatters": "螺旋藻（blue spirulina）作為天然藍色素的採購需求將因此次夏季新品持續放量；椰子風味原料（椰奶、椰子糖漿）與抹茶粉的備料需求同步提升。此次與 Water.org 的永續合作模式也為供應商提供可參考的 ESG 合作標竿，星巴克透過飲品本身整合社會責任的趨勢，將逐步成為供應商合作提案的重要參考方向。",
           "potentialImpact": [
-            "台灣供應商應預期6月26日至7月間訂單量短期拉升，提前協調物流與倉儲應對促銷期需求高峰",
-            "600家門市里程碑後，台灣市場採購模式將逐步從擴張型轉向穩定維護型，供應商應評估長期合作架構的調整需求",
-            "台灣高頻促銷策略若轉為結構性縮減，未來訂單基數可能出現修正，建議持續追蹤台灣行銷策略走向並與採購團隊保持密切溝通"
+            "螺旋藻天然藍色素（blue spirulina）需求短期爆量，相關原料供應商應確認產能與食品安全認證，並評估是否能配合星巴克全球供應需求規模",
+            "椰子風味系列（椰奶、椰子糖漿）與抹茶粉的夏季採購量預計持續走高至 8 月，建議提前鎖定原料供應合約與安全庫存水位",
+            "Water.org 公益合作模式顯示星巴克傾向將永續元素整合進核心產品，供應商可主動提案具有永續認證（如有機認證、Rainforest Alliance）的替代原料方案，提升合作附加值"
           ],
           "sourceLinks": [
             {
-              "label": "NOWnews 今日新聞",
-              "url": "https://www.nownews.com/news/6848693"
-            }
-          ]
-        },
-        {
-          "id": "20260622-5",
-          "market": "🇰🇷 韓國市場",
-          "source": "Provoke Media",
-          "pubDate": "2026-06-22",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "採購架構",
-            "ESG風險",
-            "組織重組"
-          ],
-          "headline": "業界深度分析：韓國「坦克日」危機暴露治理缺失，停業訓練是表象而非根治——供應商應警惕授權市場管理重組風險",
-          "summary": "業界媒體Provoke Media發表深度分析，指出星巴克韓國的停業歷史訓練雖顯示責任擔當，但危機核心原因在於審批流程失靈、內部問責文化薄弱及決策挑戰機制缺失，而非單純員工歷史認識不足。分析指企業必須強化治理架構與聲譽風險審查機制。此事件被視為新世界集團被授權運營模式存在系統性管理隱患，對APAC授權市場供應商生態具廣泛警示意義。",
-          "whyMatters": "授權市場（如韓國新世界集團）在管理層更替與治理重整過程中，往往連帶觸發供應商合約全面審查、採購策略調整甚至品牌標準重設。此次危機後，Shinsegae管理層可能進行全面內部審計（含供應鏈合規性審查），對現有供應商的合作模式構成中期不確定性，需密切追蹤後續人事動向與採購政策變化。",
-          "potentialImpact": [
-            "在韓供應商需提前備妥ESG合規文件與品牌標準符合聲明，因管理層更迭後往往觸發供應商資質重新審核流程",
-            "此事件可能加速星巴克總部對APAC授權市場設置更嚴格的治理KPI與品牌保護條款，未來供應商評估標準將同步提高",
-            "韓國授權結構若因危機面臨重組壓力，採購決策鏈路可能改變（如更多決策權回收至星巴克總部），供應商應預先建立與不同層級採購窗口的溝通管道"
-          ],
-          "sourceLinks": [
+              "label": "Brit+Co",
+              "url": "https://www.brit.co/starbucks-summer-2026/"
+            },
             {
-              "label": "Provoke Media",
-              "url": "https://www.provokemedia.com/latest/article/starbucks-korea's-tank-day-crisis-is-its-training-shutdown-solving-the-wrong-problem"
+              "label": "Starbucks Official",
+              "url": "https://about.starbucks.com/stories/2026/starbucks-introduces-blue-coconut-duo-supporting-clean-water-through-get-blue/"
             }
           ]
         }
