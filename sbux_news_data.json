@@ -66,37 +66,6 @@
       "label": "06/22",
       "items": [
         {
-          "id": "20260622-1",
-          "market": "🇰🇷 韓國市場",
-          "source": "Fast Company / ABC News",
-          "pubDate": "2026-06-22",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "供應鏈管理",
-            "採購關係",
-            "品牌策略"
-          ],
-          "headline": "韓國星巴克今日全面關閉 2,160 家門市，執行首次全國性歷史教育培訓",
-          "summary": "韓國星巴克今日（6月22日）下午 3 時起全面停止營業，對全體 2,160 家門市員工執行歷史與社會敏感度教育培訓。此次關閉源於「坦克日」促銷事件——相關活動因疑似影射 1980 年光州民主運動而引發全國抵制，星巴克韓國 CEO 亦已遭解雇。此為星巴克韓國 1999 年開業以來首次全國性提早關閉。",
-          "whyMatters": "韓國為星巴克繼美國、中國之後的第三大市場，本次全面關閉直接影響當日採購訂單執行與物流排程，所有 2,160 家門市下午 3 時後停止原料消耗。管理層易主（CEO 去職）意味著採購決策鏈可能短期出現不確定性，供應商應主動確認合作窗口異動，並評估短期訂單量波動的庫存風險。",
-          "potentialImpact": [
-            "今日（6/22）下午 3 時後韓國全部門市停業，涉及當日原料補貨與包裝配送的供應商應立即確認訂單狀態，並與採購窗口溝通影響範圍",
-            "新任 CEO 與管理層確認後，韓國市場採購策略與供應商偏好可能調整，建議現有韓國供應商主動重新建立採購合作關係確認",
-            "品牌抵制效應導致韓國門市客流短期下滑，建議供應商評估 Q3 韓國市場原料消耗量是否需下調，避免庫存積壓風險"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Fast Company",
-              "url": "https://www.fastcompany.com/91559653/more-than-2000-starbucks-stores-are-closing-early-on-june-22-after-a-promotion-sparked-national-outrage"
-            },
-            {
-              "label": "ABC News",
-              "url": "https://abcnews.com/Business/wireStory/starbucks-korea-close-stores-early-mandatory-history-training-133880226"
-            }
-          ]
-        },
-        {
           "id": "20260622-2",
           "market": "🇯🇵 日本市場",
           "source": "Starbucks Japan / Fun Japan",
@@ -124,39 +93,6 @@
             {
               "label": "Starbucks Japan Press Release",
               "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0617/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-19",
-      "label": "06/19",
-      "items": [
-        {
-          "id": "20260619-1",
-          "market": "🇯🇵 日本市場",
-          "source": "SoraNews24",
-          "pubDate": "2026-06-19",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "飲品趨勢",
-            "原料需求",
-            "消費者行為"
-          ],
-          "headline": "星巴克日本推出夏季三款水蜜桃系列飲品：星冰樂、Chillax汽水、工藝茶6月24日全店登場",
-          "summary": "星巴克日本今日（6月19日）宣布將於6月24日正式推出三款水蜜桃限定飲品：水蜜桃雙享星冰樂（含白桃果粒與脫脂奶基底）、Chillax汽水水蜜桃新口味（延續去年人氣系列加入桃汁醬與柑橘風味）、工藝多汁水蜜桃茶（含大量桃肉果粒的紅茶基底），並同步推出白桃伯爵茶塔甜點。忠誠度會員可於6月22日率先透過行動訂購提早取得桃茶。",
-          "whyMatters": "日本市場年度夏季水蜜桃系列是星巴克日本採購量最集中的季節性品項之一，3款飲品同步上市代表短期原料採購高峰即將到來。Chillax汽水持續擴增口味，代表日本碳酸飲料通路在星巴克體系中的採購需求穩定成長。",
-          "potentialImpact": [
-            "水蜜桃香精、桃汁醬與果粒供應商應確認6月22日前完成備貨，應對Rewards會員早鳥期上市需求",
-            "黑茶茶葉及茶萃取物供應商需注意工藝茶系列擴充帶來的茶葉採購量上升預期",
-            "甜點烘焙供應商可把握白桃伯爵茶塔同步上市機會，評估下半年日本食品原料採購合約空間"
-          ],
-          "sourceLinks": [
-            {
-              "label": "SoraNews24",
-              "url": "https://soranews24.com/2026/06/19/starbucks-japan-releases-new-frappuccino-tea-and-soda-drinks-for-summer/"
             }
           ]
         }
