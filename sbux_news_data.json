@@ -1,6 +1,171 @@
 {
-  "lastUpdated": "2026-06-27",
+  "lastUpdated": "2026-06-29",
   "days": [
+    {
+      "date": "2026-06-29",
+      "label": "06/29",
+      "items": [
+        {
+          "id": "20260629-1",
+          "market": "🌍 全球",
+          "source": "World Coffee Portal / Bloomberg",
+          "pubDate": "2026-06-22",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "組織重組",
+            "採購架構",
+            "供應鏈管理"
+          ],
+          "headline": "星巴克全球企業架構調整：倫敦、香港及西雅圖相繼精簡支援職能",
+          "summary": "星巴克確認最新一波裁員，涉及倫敦約120人及香港約60名企業支援職員，以及西雅圖總部61名技術崗位（含資安分析師、系統管理員等），首批離職從6月20日開始，預計8月28日完成。此輪裁員是星巴克宣布4億美元重組計畫（含2.8億美元非現金資產損耗及1.2億美元現金費用）的一部分，為CEO Niccol上任以來第三度裁員行動。",
+          "whyMatters": "國際採購決策鏈核心的倫敦、香港辦公室裁員，代表全球供應商的主要聯繫窗口正在縮減，採購流程可能出現空窗期與重新分配。西雅圖技術職能重組影響星巴克AI供應鏈工具（Deep Brew）的維運與升級進度，技術供應商需密切追蹤後續採購動向。",
+          "potentialImpact": [
+            "立即確認倫敦、香港合約對口人員是否受影響，更新聯繫資料並建立備用溝通管道",
+            "重組期間（至8月底）新採購決策可能放緩，供應商需調整報價有效期與交貨計劃",
+            "AI供應鏈系統（Deep Brew等）投資方向可能重新評估，技術設備供應商應留意新一輪招標機會"
+          ],
+          "sourceLinks": [
+            {
+              "label": "World Coffee Portal：確認最新裁員",
+              "url": "https://www.worldcoffeeportal.com/news/starbucks-confirms-latest-round-of-job-cuts/"
+            },
+            {
+              "label": "Bloomberg：倫敦香港辦公室裁員",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-19/starbucks-cuts-uk-hong-kong-office-jobs-in-restructuring-effort"
+            },
+            {
+              "label": "GeekWire：西雅圖61名技術崗位裁減",
+              "url": "https://www.geekwire.com/2026/starbucks-to-cut-61-tech-jobs-at-seattle-hq-in-department-reorganization/"
+            }
+          ]
+        },
+        {
+          "id": "20260629-2",
+          "market": "🇯🇵 日本市場",
+          "source": "Bloomberg / Japan Times",
+          "pubDate": "2026-06-10",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購架構",
+            "APAC 策略",
+            "財務表現"
+          ],
+          "headline": "星巴克日本股權出售評估持續發酵：最高估值5000億日圓，資本輕量化戰略重塑供應架構",
+          "summary": "彭博社報導星巴克正委託投資銀行評估日本事業的股權出售或IPO選項，交易規模估算達4000億至5000億日圓（約25至31億美元）。日本市場擁有約2,100家直營門市，是星巴克最重要的國際市場之一。此舉緊接4月完成的中國業務60%股權40億美元出售（博裕資本），凸顯星巴克加速推進全球資產輕量化策略。相關評估仍在初步階段，尚未作出最終決定。",
+          "whyMatters": "日本供應商面臨採購主體潛在更替的重大風險：若股權易主，現有供應合約、採購偏好及付款條件可能全面重新談判。星巴克連續完成中國、評估日本的資本輕化操作，顯示APAC供應商需重新審視其在授權加盟模式下的合作條件。",
+          "potentialImpact": [
+            "日本供應商應立即盤點現有合約到期日，評估股權易主後的合約延續風險並預備談判策略",
+            "新股東（私募股權或策略投資者）接手後可能導入新供應商或重議採購標準，本地供應商需準備應標材料",
+            "供應商應追蹤後續股權談判進度，並評估授權加盟模式（如中國案例）下的訂單規模與付款條件變化"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Bloomberg：日本股權出售評估報導",
+              "url": "https://www.bloomberg.com/news/articles/2026-06-10/starbucks-said-to-weigh-japan-unit-options-including-stake-sale"
+            },
+            {
+              "label": "Japan Times：日本業務戰略分析",
+              "url": "https://www.japantimes.co.jp/business/2026/06/10/companies/starbucks-japan-stake-sale-options/"
+            },
+            {
+              "label": "Yahoo Finance：APAC資產輕量化影響分析",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/starbucks-evaluates-sale-ipo-options-095103345.html"
+            }
+          ]
+        },
+        {
+          "id": "20260629-3",
+          "market": "🇹🇼 台灣市場",
+          "source": "NOWnews今日新聞",
+          "pubDate": "2026-06-28",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "包裝創新",
+            "消費者行為"
+          ],
+          "headline": "台灣星巴克×foodpanda世界盃外送優惠上線至7/21，可頌Bearista法式盲盒6月30日限量開搶",
+          "summary": "台灣星巴克與外送平台foodpanda攜手，即日起至2026年7月21日推出7大世界盃外送優惠組合（大杯美式雙杯均價80元起、星沁爽系列99元起），藉2026 FIFA世界盃熱度拉升外送業務量。同步宣布6月30日限量首賣「法式風情可頌裝扮MINI熊寶寶」盲盒，6款隨機造型，每人限購兩個，需現場排隊取號。",
+          "whyMatters": "外送平台深度合作代表台灣市場飲品外送訂單量短期明顯攀升，帶動咖啡豆、糖漿及一次性包材需求增加。Bearista盲盒的限量設計帶動精裝盲盒包裝短期爆量需求，顯示台灣市場對周邊商品供應鏈靈活反應能力的高度依賴。",
+          "potentialImpact": [
+            "飲品材料供應商（咖啡豆、抹茶粉、巧克力醬）應預估7月21日前台灣市場訂單量上升並備足庫存",
+            "包裝及周邊商品供應商應評估限量盲盒熱銷後的追加訂單潛力，預留彈性產能",
+            "外送場景優惠模式若在台灣奏效，可能複製至其他亞太市場，供應商可提前布局多市場供應策略"
+          ],
+          "sourceLinks": [
+            {
+              "label": "NOWnews今日新聞：世界盃優惠與盲盒詳情",
+              "url": "https://www.nownews.com/news/6851184"
+            }
+          ]
+        },
+        {
+          "id": "20260629-4",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン",
+          "pubDate": "2026-06-24",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "門市擴張",
+            "消費者行為",
+            "品牌策略"
+          ],
+          "headline": "日本星巴克新橫濱新幹線月台店6月24日翻新重開，雙螢幕點餐優化旅途服務效率",
+          "summary": "星巴克日本位於JR新橫濱站新幹線下行月台（11號店）的門市，歷經約兩個月翻新後於2026年6月24日重新開業，以「Brewed to Go」為核心概念，觸控螢幕點餐機從一台擴充為兩台，提升高峰時段旅客服務吞吐量。此為日本新幹線月台店的重要營運升級里程碑。",
+          "whyMatters": "此案例反映星巴克日本在潛在股權出售評估期間仍持續優化門市基礎建設，顯示日本事業體的資本投入計畫短期未停擺。交通場景智慧點餐設備升級，可能帶動後續類似改造的設備採購需求。",
+          "potentialImpact": [
+            "數位點餐設備與維護服務供應商可關注日本高流量交通場景門市的擴展計畫",
+            "若日本股權出售完成，新股東可能評估現有設備投資方向，供應商應追蹤股權談判進度並保持聯繫",
+            "通勤快取飲品需求增溫，快速出餐包裝（隨行杯蓋、熱飲杯套）供應商可預先規劃日本市場布局"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン 公式プレスリリース",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr2026-06-24/"
+            },
+            {
+              "label": "SoraNews24：英語報導（已參考）",
+              "url": "https://soranews24.com/2026/06/26/starbucks-japan-reopens-shinkansen-platform-store-after-redesigning-it-for-speed/"
+            }
+          ]
+        },
+        {
+          "id": "20260629-5",
+          "market": "🌍 全球",
+          "source": "GeekWire / Starbucks Menus",
+          "pubDate": "2026-06-22",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "供應鏈技術",
+            "AI 自動化",
+            "成本結構"
+          ],
+          "headline": "星巴克西雅圖總部科技部門裁員61人，供應鏈AI系統Deep Brew開發動向受關注",
+          "summary": "星巴克向華盛頓州申報的WARN通知顯示，西雅圖總部將裁減61名技術崗位，涉及資安分析師、技術產品經理、系統分析師、Scrum Master及架構師等職能，首批離職自6月20日起，最終完成日為2026年8月28日。此波技術人才縮減是星巴克4億美元重組計畫的一環，與倫敦、香港國際業務支援裁員同步進行。",
+          "whyMatters": "西雅圖技術職能精簡直接影響星巴克核心供應鏈科技平台（包含Deep Brew智慧預測系統）的維運能量與未來升級路線圖，與供應商EDI介面、採購系統整合相關的技術計畫可能面臨延遲或重新規劃。",
+          "potentialImpact": [
+            "與星巴克供應鏈技術系統（Deep Brew、採購平台）有整合合約的供應商，應確認系統維護聯繫窗口與支援時效",
+            "技術人才縮減期間，可能出現供應鏈系統功能暫緩升級或採購流程人工化，供應商應預備對應方案",
+            "星巴克重組完成後可能外包更多技術功能，相關技術服務供應商可關注潛在的新合作機會"
+          ],
+          "sourceLinks": [
+            {
+              "label": "GeekWire：西雅圖技術崗位裁減詳情",
+              "url": "https://www.geekwire.com/2026/starbucks-to-cut-61-tech-jobs-at-seattle-hq-in-department-reorganization/"
+            },
+            {
+              "label": "Starbucks Menus CA：2026裁員彙整",
+              "url": "https://starbucks-menus.ca/starbucks-layoffs/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-06-27",
       "label": "06/27",
@@ -370,43 +535,6 @@
             {
               "label": "NOWnews 今日新聞",
               "url": "https://www.nownews.com/news/6848693"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-22",
-      "label": "06/22",
-      "items": [
-        {
-          "id": "20260622-2",
-          "market": "🇯🇵 日本市場",
-          "source": "Starbucks Japan / Fun Japan",
-          "pubDate": "2026-06-22",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "原料需求",
-            "飲品趨勢",
-            "採購量預測"
-          ],
-          "headline": "日本星巴克「桃づくしの夏」三款限定飲品今日 Rewards 會員搶先體驗，6/24 正式全面上市",
-          "summary": "日本星巴克今日（6/22）起對 Starbucks Rewards 會員開放「工藝水蜜桃茶」行動點餐搶先體驗，三款桃季限定飲品（工藝水蜜桃茶、桃凍飲、桃沙瓦）將於 6 月 24 日在全國門市正式上架。此系列為 2026 年日本夏季主打飲品線，主打不同質地口感——「とろける（滑潤）」「シュワッと（氣泡爽口）」「ごろっと（大塊果肉）」三種體驗。",
-          "whyMatters": "日本市場夏季限定飲品通常帶動水果原料、茶葉及氣泡飲料基底的短期爆量採購。桃季主題飲品強調「工藝感」與真實果肉口感，顯示日本採購方對水蜜桃果泥、果粒及高品質茶葉的規格要求提升。供應商需掌握此類限定飲品的快速上市節奏（會員早鳥→全面上市兩天差距），以應對緊急補貨需求。",
-          "potentialImpact": [
-            "水蜜桃果泥/果粒、水蜜桃風味糖漿及茶葉（用於工藝茶款）需求短期爆量，相關原料供應商應確認 6-7 月庫存水位與交貨能力",
-            "日本夏季限定飲品週轉快（4-6 週生命週期），建議供應商與日本採購窗口提前確認分批補貨節奏，避免上市初期缺貨損失銷售機會",
-            "「工藝感」與真實果肉質地的定位趨勢，代表日本市場偏向高品質、低加工的原料方向，可藉此機會向採購方提案天然果泥替代方案"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Fun Japan - 2026 New Menu Guide",
-              "url": "https://www.fun-japan.jp/en/articles/14486"
-            },
-            {
-              "label": "Starbucks Japan Press Release",
-              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0617/"
             }
           ]
         }
