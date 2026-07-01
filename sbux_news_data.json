@@ -1,161 +1,120 @@
 {
+  "lastUpdated": "2026-07-01",
   "days": [
     {
-      "date": "2026-06-24",
-      "label": "06/24",
+      "date": "2026-07-01",
+      "label": "07/01",
       "items": [
         {
-          "id": "20260624-1",
-          "market": "🇰🇷 韓國市場",
-          "source": "Korea Herald / NBC News / ProvokeMedia",
-          "pubDate": "2026-06-22",
+          "id": "20260701-1",
+          "market": "🌍 全球",
+          "source": "Barchart",
+          "pubDate": "2026-06-29",
           "impact": "high",
           "impactLabel": "🔥 高衝擊",
           "impactAreas": [
+            "原料需求",
             "採購量預測",
-            "品牌策略",
-            "供應鏈管理"
+            "成本結構"
           ],
-          "headline": "Starbucks 韓國「Tank Day」危機持續：全國 2,160 家門市 6/22 提前關閉，Shinsegae 董事長 6/24 接受培訓",
-          "summary": "Starbucks 韓國因 5 月「Tank Day」促銷觸犯光州事件 46 周年紀念，引發全國性抵制與銷售「非常顯著下滑」。6 月 22 日全韓 2,160 家門市史上首次全面提前 15:00 關閉，員工進行歷史與社會敏感度培訓；Shinsegae 董事長鄭溶珍與各子公司 CEO 則於 6 月 24 日（今日）另行接受專場培訓。社群媒體數據顯示，閉店培訓後負面情緒實際上升，危機能否根本解決仍有疑問。",
-          "whyMatters": "韓國由 Shinsegae 集團全權授權運營（約 2,160 家門市），CEO 遭解任加上全面閉店培訓表明管理層正進行重大重組，短期採購決策流程將受衝擊。持續的銷售下滑對訂單量形成直接壓力，且 Starbucks 全球總部正強化對授權運營商的合規監管，供應鏈審核標準可能隨之提高。",
+          "headline": "巴西降雨延遲咖啡採收 阿拉比卡咖啡期貨單日大漲逾5%",
+          "summary": "巴西主要咖啡產區米納斯吉拉斯州近期出現異常強降雨（達歷史均值的1956%），拖延2026/27年度咖啡採收進度；市場同時憂心聖嬰現象恐衝擊巴西今年9至10月的開花期。阿拉比卡咖啡期貨當日大漲5.2%，收在每磅2.728美元，創近一個半月新高。",
+          "whyMatters": "星巴克為全球最大咖啡採購商之一，阿拉比卡咖啡為其核心原料，期貨價格大漲將直接推升採購成本，並可能透過供應鏈傳導至各地區供應商的報價與合約條件。ICE認證阿拉比卡庫存已跌至2.25年低點，緩衝空間有限，短期波動風險升高。",
           "potentialImpact": [
-            "韓國市場銷售持續下滑，供應商應下調短期訂單量預測，準備彈性調整對韓備貨計畫，尤其是飲品食材與季節性包材。",
-            "Shinsegae 管理重組期間採購聯繫窗口可能異動，建議主動確認關鍵採購負責人員是否更替，避免溝通斷層影響合約執行。",
-            "本次危機引發 Starbucks 全球總部加強對授權運營商合規監管，供應商應預期未來供應鏈稽核要求提高，提前完善相關文件與認證。"
+            "密切關注巴西2026/27產季採收進度與後續降雨預報，提前評估合約避險與鎖價策略",
+            "檢視現有咖啡豆採購合約的價格調整條款，因應原料成本上升壓力",
+            "留意聖嬰現象對下半年巴西花期的潛在影響，及早規劃替代產地或庫存緩衝"
           ],
           "sourceLinks": [
             {
-              "label": "Korea Herald - 全韓門市 6/22 提前關閉",
-              "url": "https://www.koreaherald.com/article/10784046"
-            },
-            {
-              "label": "NBC News - 韓國閉店歷史培訓報導",
-              "url": "https://www.nbcnews.com/world/asia/starbucks-close-stores-south-korea-early-mandatory-history-training-rcna350094"
-            },
-            {
-              "label": "ProvokeMedia - 培訓能否解決根本問題分析",
-              "url": "https://www.provokemedia.com/latest/article/starbucks-korea-s-tank-day-crisis-is-its-training-shutdown-solving-the-wrong-problem"
+              "label": "Barchart",
+              "url": "https://www.barchart.com/story/news/3038441/delayed-brazil-coffee-harvest-lifts-arabica-prices"
             }
           ]
         },
         {
-          "id": "20260624-2",
-          "market": "🇯🇵 日本市場",
-          "source": "SoraNews24",
-          "pubDate": "2026-06-24",
+          "id": "20260701-2",
+          "market": "🇹🇼 台灣市場",
+          "source": "NOWnews / LINE TODAY",
+          "pubDate": "2026-07-01",
           "impact": "medium",
           "impactLabel": "⚠️ 中衝擊",
           "impactAreas": [
             "原料需求",
-            "飲品趨勢",
-            "採購量預測"
+            "飲品趨勢"
           ],
-          "headline": "Starbucks 日本夏季「桃子三部曲」今日正式上市：Frappuccino、氣泡飲、果肉飲品三種口感同步亮相",
-          "summary": "Starbucks 日本於 6 月 24 日正式推出三款桃子主題夏季飲品，分別以「綿密入口」、「氣泡爽快」、「大顆果肉滿足感」為訴求，橫跨 Frappuccino、氣泡飲與茶飲三種品類。Rewards 會員自 6 月 22 日起可透過 Mobile Order & Pay 提前體驗，顯示 Starbucks Japan 在數位通路的促銷力度持續加大。此系列搭配 Reserve Cafe 夏季新品同步推出，構成完整的夏季飲品矩陣。",
-          "whyMatters": "日本為 Starbucks 全球前幾大市場（約 2,100 家門市），三款不同品類的桃子飲品同步上市，代表桃子果泥、果肉及相關食材的採購需求大規模啟動。三品類並進的策略顯示 Starbucks Japan 意圖覆蓋不同消費場合，對應供應商可針對各品類口感需求精準對接。",
+          "headline": "星巴克台灣「哈密瓜季」限定飲品7月1日起登場，日本人氣哈密瓜風味延燒",
+          "summary": "星巴克台灣自7月1日起推出夏季限定「哈密瓜吉利星冰樂」與「哈密瓜伯爵茶那堤」兩款新飲品，取材自近期在日本市場爆紅的哈密瓜風味趨勢，同步搭配芒果生乳捲等新品上市。",
+          "whyMatters": "限定季節性飲品快速跨市場複製（日本到台灣）顯示星巴克在區域間對熱門原料與口味趨勢的快速複製與供應鏈調度能力，對哈密瓜果醬、哈密瓜吉利等特殊原料供應商而言是短期採購訊號，也反映區域供應鏈需具備更高彈性以配合限時商品開發節奏。",
           "potentialImpact": [
-            "桃子果泥、果肉及天然果味香料供應商應把握夏季需求高峰，確認日本在地庫存水位並預留追加供貨產能。",
-            "三種口感對應不同配方與包材規格，具備多元產品線的供應商在此波採購中具有優勢，建議主動確認 Starbucks Japan 各品類的規格需求。",
-            "Mobile Order 首周銷售數據若優於預期，Starbucks Japan 可能觸發快速追加訂單，供應商須建立緊急應變的彈性交期機制。"
+            "提供哈密瓜相關風味原料（果醬、吉利丁、糖漿）的供應商可評估台灣及其他亞太市場的短期加單需求",
+            "觀察此類日本試點成功商品未來擴散至其他亞太市場（韓國、中國）的可能性，提前備貨",
+            "留意星巴克限定商品上市週期縮短的趨勢，強化快速打樣與小批量供貨能力"
           ],
           "sourceLinks": [
             {
-              "label": "SoraNews24 - Starbucks Japan 夏季新飲品報導",
-              "url": "https://soranews24.com/2026/06/19/starbucks-japan-releases-new-frappuccino-tea-and-soda-drinks-for-summer/"
+              "label": "NOWnews今日新聞",
+              "url": "https://www.nownews.com/news/6851714"
+            },
+            {
+              "label": "LINE TODAY",
+              "url": "https://today.line.me/tw/v3/article/BEJJ5l2"
             }
           ]
         },
         {
-          "id": "20260624-3",
-          "market": "🇯🇵 日本市場",
-          "source": "SoraNews24",
-          "pubDate": "2026-06-23",
+          "id": "20260701-3",
+          "market": "🇹🇼 台灣市場",
+          "source": "NOWnews / 今周刊",
+          "pubDate": "2026-06-30",
           "impact": "medium",
           "impactLabel": "⚠️ 中衝擊",
           "impactAreas": [
             "包裝創新",
-            "品牌策略",
-            "APAC 策略"
+            "品牌策略"
           ],
-          "headline": "Starbucks 日本推出 47 都道府縣限定「Day Trip」飲料瓶提袋與貼紙，6/24 起分縣限售",
-          "summary": "Starbucks 日本於 6 月 24 日起在全日本各縣市對應門市，獨家販售融合當地名稱與特色色彩設計的「Day Trip」飲料瓶提袋組合與貼紙，每款設計僅在對應縣市的星巴克門市供應。此波共推出 47 款獨立設計，是近年規模最大的地區限定商品計畫，代表 Starbucks Japan 深化在地化行銷策略的重要里程碑。",
-          "whyMatters": "47 款獨立區域限定設計代表高客製化的包裝採購需求，涉及印刷、包材容器與設計工程等多個供應鏈層次。此策略若獲正面市場反響，Starbucks Japan 或將持續擴大地域限定商品規模，甚至複製至台灣、韓國等 APAC 市場，為區域包材供應商帶來跨市場商機。",
+          "headline": "星巴克台灣推出法式可頌造型熊寶寶盲盒，搭配世足應援優惠與買一送一活動",
+          "summary": "星巴克台灣於6月30日開賣6款「法式風情Bearista熊寶寶」盲盒周邊，並搭配世界盃足球賽應援優惠（透過foodpanda平台，最長至7月21日）及全品項買一送一等促銷活動衝刺夏季買氣。",
+          "whyMatters": "熊寶寶周邊等限定收藏品是星巴克重要的非飲品營收來源，其盲盒與造型設計對玩具／公仔代工與包裝供應商而言是穩定訂單來源；密集促銷檔期也代表物流與門市備貨供應鏈短期壓力上升。",
           "potentialImpact": [
-            "47 款設計的少量多樣生產模式對包材供應商的彈性生產能力要求甚高，具備快速換版印刷能力的廠商可主動接觸 Starbucks Japan 採購部門。",
-            "地域限定商品若供不應求（特別是熱門縣市款），可能觸發追加生產，建議供應商事先與 Starbucks Japan 確認加急補單的流程與 lead time。",
-            "此模式若成功，APAC 其他市場（如台灣、韓國）可能跟進推出類似計畫，具跨市場服務能力的包材供應商宜提前布局。"
+            "玩具／公仔代工廠商可留意星巴克周邊商品開發頻率提升的趨勢，評估產能配置",
+            "包裝與禮盒供應商可關注限定商品搭售包裝需求",
+            "物流供應商應留意促銷檔期（買一送一、外送優惠）帶來的短期訂單波動，提前調度運能"
           ],
           "sourceLinks": [
             {
-              "label": "SoraNews24 - 47 都道府縣限定系列完整報導",
-              "url": "https://soranews24.com/2026/06/23/starbucks-japan-creates-special-drink-bottle-bags-adorable-stickers-for-all-47-prefecturespics/"
+              "label": "NOWnews今日新聞",
+              "url": "https://www.nownews.com/news/6851361"
+            },
+            {
+              "label": "今周刊",
+              "url": "https://www.businesstoday.com.tw/article/category/183030/post/202606290046/"
             }
           ]
         },
         {
-          "id": "20260624-4",
-          "market": "🇺🇸 美國市場",
-          "source": "About Starbucks / Restaurant Business Online / QSR Magazine",
-          "pubDate": "2026-06-20",
+          "id": "20260701-4",
+          "market": "🌍 全球",
+          "source": "TheStreet",
+          "pubDate": "2026-07-01",
           "impact": "medium",
           "impactLabel": "⚠️ 中衝擊",
           "impactAreas": [
-            "採購架構",
-            "供應鏈管理",
-            "門市擴張"
-          ],
-          "headline": "Starbucks 美國正式啟動「咖啡館教練」全國招募：一個月內招募 300+ 人，年底目標數千名",
-          "summary": "Starbucks 在 62 家門市試點成功後，正式於全美啟動「Coffeehouse Coach（咖啡館教練）」的全國招募，預計一個月內填補逾 300 個職位，年底前達數千名規模。此職位聚焦全天候門市運營管理與即時夥伴培訓，是原助理店長功能的升級版，目標是明年實現大多數美國門市管理層人數翻倍。超過 90% 職缺優先由內部晉升填補，90% 以上試點職位已透過內部晉升完成招募。",
-          "whyMatters": "管理層翻倍計畫代表 Starbucks 美國門市的服務一致性與執行效率將系統性提升，尤其強化下午時段（Refreshers 等旺銷品類）的服務能量。門市穩定性增強意味著訂單週期更加可預測，對所有供應商的備貨計畫精準度均有正面影響。",
-          "potentialImpact": [
-            "門市管理強化後，多時段（尤其下午）客流量預計提升，飲品食材與包材供應商應評估是否需要調增對美月度供貨量預測。",
-            "數千名新增管理人員的培訓物資、制服與設備採購需求值得相關供應商留意，可在招募高峰期主動探詢相關採購需求。",
-            "此舉是 Starbucks「Back to Starbucks」復甦策略的核心人力投資，顯示企業整體採購信心持續回溫，供應商可趁勢爭取更長期合約。"
-          ],
-          "sourceLinks": [
-            {
-              "label": "About Starbucks - 咖啡館教練全國招募官方公告",
-              "url": "https://about.starbucks.com/press/2026/starbucks-launches-nationwide-hiring-of-coffeehouse-coaches-to-strengthen-u-s-retail-leadership/"
-            },
-            {
-              "label": "Restaurant Business Online - 數千名招募計畫",
-              "url": "https://www.restaurantbusinessonline.com/workforce/starbucks-plans-hire-thousands-new-coffeehouse-coach-roles"
-            },
-            {
-              "label": "QSR Magazine - 全國推廣計畫詳情",
-              "url": "https://www.qsrmagazine.com/story/starbucks-to-roll-out-new-coffeehouse-coach-role-nationwide-after-successful-pilot/"
-            }
-          ]
-        },
-        {
-          "id": "20260624-5",
-          "market": "🇯🇵 日本市場",
-          "source": "SoraNews24 / Starbucks Japan Reserve Cafe",
-          "pubDate": "2026-06-17",
-          "impact": "low",
-          "impactLabel": "ℹ️ 低衝擊",
-          "impactAreas": [
-            "飲品趨勢",
             "原料需求",
-            "品牌策略"
+            "飲品趨勢"
           ],
-          "headline": "Starbucks Japan Reserve Cafe 推出夏季限定新品：檸檬咖啡冰飲、義式可頌新口味與「夏日沾飲體驗」",
-          "summary": "Starbucks Japan 旗下高端業態「Reserve Cafe」於 6 月 17 日推出夏季新品，包含結合清爽檸檬與咖啡香氣的冰飲、義式傳統糕點可頌（Cornetti）新口味，以及主打飲品搭配烘焙品沾食的「Summer Dip Style」全新飲食體驗。系列在精選 Reserve Cafe 門市限定供應，針對追求差異化高端體驗的消費者，配合 6 月 24 日起的夏季主力系列同步拉抬聲量。",
-          "whyMatters": "Reserve Cafe 是 Starbucks Japan 的高端旗艦業態，其食材採購標準遠高於一般門市，包含精品咖啡豆、進口烘焙原料與特色配料。此系列的推出顯示 Starbucks Japan 正積極投資高端品類，為精品食材供應商提供差異化合作切入機會。",
+          "headline": "睽違六年！S'mores星冰樂回歸美國市場，同步推出全新調味思樂冰系列",
+          "summary": "星巴克美國市場自6月30日起提供會員搶先體驗、7月1日全面開賣「S'mores星冰樂」與「S'mores冷萃咖啡佐棉花糖冷萃奶泡」，為該產品六年來首度回歸；同時推出可自訂能量的全新「調味思樂冰」系列飲品。",
+          "whyMatters": "限定商品回歸與新品同步上市，代表星巴克對棉花糖、全麥餅乾風味糖漿、巧克力醬等特殊原料及水果風味濃縮液的短期需求提升，也反映星巴克近期積極以話題性商品刺激夏季買氣的策略方向，供應商可預期類似「限時回歸」商品未來仍會持續作為行銷手法。",
           "potentialImpact": [
-            "義式可頌麵團、精品咖啡豆與特色調味料供應商可研究 Reserve Cafe 的高端食材規格，評估是否符合其採購標準並尋求合作洽詢。",
-            "「Summer Dip Style」的飲食搭配體驗若廣受消費者好評，Starbucks Japan 可能在秋冬季複製此概念並擴大烘焙品採購量，烘焙供應商宜提前布局。",
-            "Reserve Cafe 業態正在大阪、東京等核心城市持續擴張（含今年新開大阪心齋橋、大丸梅田兩家），了解其採購偏好有助於供應商規劃日本高端市場進入策略。"
+            "風味糖漿與特殊原料（棉花糖風味、全麥餅乾）供應商可評估美國市場短期加單可能性",
+            "留意此類限定商品未來是否比照台灣模式擴散至其他市場，提前規劃跨區域供貨",
+            "觀察思樂冰系列使用之水果原料（芒果、草莓、檸檬）採購需求變化"
           ],
           "sourceLinks": [
             {
-              "label": "SoraNews24 - Reserve Cafe 夏季新品報導",
-              "url": "https://soranews24.com/2026/06/17/starbucks-japan-releases-new-limited-edition-summer-drinksand-a-pastry-for-dunking/"
-            },
-            {
-              "label": "Starbucks Japan Reserve Cafe 官方新聞稿",
-              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0616/"
+              "label": "TheStreet",
+              "url": "https://www.thestreet.com/restaurants/starbucks-brings-back-viral-drink-after-7-years-adds-new-item-smores-frappuccino"
             }
           ]
         }
