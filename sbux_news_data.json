@@ -1,6 +1,145 @@
 {
-  "lastUpdated": "2026-07-06",
+  "lastUpdated": "2026-07-07",
   "days": [
+    {
+      "date": "2026-07-07",
+      "label": "07/07",
+      "items": [
+        {
+          "id": "20260707-1",
+          "market": "🌍 全球",
+          "source": "Perfect Daily Grind",
+          "pubDate": "2026-07-03",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "原料需求",
+            "採購量預測"
+          ],
+          "headline": "巴西暴雨衝擊咖啡產區　阿拉比卡期貨創四年最大單日漲幅",
+          "summary": "巴西最大咖啡產區米納斯吉拉斯降雨量達歷史均值近20倍，收穫作業被迫中斷，品質疑慮升溫；阿拉比卡期貨單日暴漲6.71%，創2022年以來最大漲幅，ICE阿拉比卡庫存跌至2.25年低點。市場並密切關注可能延遲巴西下一產季開花雨的「哥吉拉級」聖嬰現象。",
+          "whyMatters": "星巴克全球每年採購約6.5億磅咖啡豆，原料成本直接受阿拉比卡期貨價格影響；巴西供應中斷與庫存緊縮意味著採購成本上升壓力將延伸至下一財年，供應商可能面臨交期與品質雙重挑戰。",
+          "potentialImpact": [
+            "建議供應商提前鎖定未來3-6個月的採購合約價格，降低期貨波動風險",
+            "密切追蹤巴西降雨與聖嬰現象發展，預先調整交貨排程與庫存緩衝",
+            "評估品質分級標準是否需因應巴西收穫延遲而調整驗收條件"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Perfect Daily Grind",
+              "url": "https://perfectdailygrind.com/2026/07/coffee-news-recap-3-july-2026/"
+            }
+          ]
+        },
+        {
+          "id": "20260707-2",
+          "market": "🇨🇳 中國市場",
+          "source": "IndexBox（引用南華早報）",
+          "pubDate": "2026-07-05",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "APAC策略",
+            "門市擴張",
+            "消費者行為"
+          ],
+          "headline": "星巴克中國策略轉型：從咖啡零售轉向「社區生活樞紐」",
+          "summary": "分析師指出，星巴克中國正深化本地化策略，門店定位從單純咖啡外帶點轉型為承載社交與文化活動的社區空間，明顯有別於美國市場的快速外帶模式。市場研究機構CTR指出，中國咖啡市場已從教育期轉為競爭期，消費者不再單純因「外國品牌」光顧星巴克。",
+          "whyMatters": "此轉型意味著星巴克中國門店坪效、空間設計與在地化產品組合將持續調整，對門店設備、在地食材與空間相關供應商而言，需求結構可能出現變化；此消息發生於博裕資本合資交易後，顯示星巴克在華發展模式正加速調整。",
+          "potentialImpact": [
+            "供應商應留意星巴克中國門店空間設計與設備採購需求是否轉向社區化配置",
+            "評估在地化食品與飲品原料供應機會是否因本土消費者導向策略而增加",
+            "追蹤博裕資本主導下的採購決策權與供應商准入流程是否有變化"
+          ],
+          "sourceLinks": [
+            {
+              "label": "IndexBox",
+              "url": "https://www.indexbox.io/blog/starbucks-deepens-localization-in-china-to-become-part-of-everyday-life/"
+            }
+          ]
+        },
+        {
+          "id": "20260707-3",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン（官方新聞稿）",
+          "pubDate": "2026-07-06",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "永續發展",
+            "包裝創新",
+            "ESG風險"
+          ],
+          "headline": "星巴克日本啟動「森林星巴克計畫」　挑戰間伐材再利用於群馬縣水上町",
+          "summary": "星巴克咖啡日本宣布在群馬縣水上町啟動「森のスターバックス プロジェクト」，挑戰獨創性的間伐材（疏伐木材）再利用方式，並在水上町森林推動員工環境教育與對外宣傳活動。",
+          "whyMatters": "此計畫顯示星巴克持續投資木材與包裝相關的永續原料開發，木製品、店裝與周邊供應商可留意間伐材應用技術是否延伸至店面裝潢或商品包裝的新規格需求；同時也反映星巴克在ESG供應鏈揭露方面的持續動作。",
+          "potentialImpact": [
+            "木材與包裝供應商可評估間伐材利用技術是否有合作或供貨機會",
+            "留意此類永續計畫日後是否擴大至日本以外市場，形成新的原料規格要求",
+            "供應商可主動準備ESG與永續採購相關認證文件，以符合星巴克日益提高的永續門檻"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0706-mori/"
+            }
+          ]
+        },
+        {
+          "id": "20260707-4",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン（官方新聞稿）",
+          "pubDate": "2026-07-06",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "APAC策略",
+            "消費者行為",
+            "品牌策略"
+          ],
+          "headline": "星巴克日本首推U24世代新服務「マイスターバックスストアU24」　7月7日上線",
+          "summary": "星巴克咖啡日本宣布推出首個針對24歲以下世代的星巴克®リワード新服務「マイスターバックスストアU24」，將於2026年7月7日（週二）正式開始，鎖定年輕會員族群強化忠誠度經營。",
+          "whyMatters": "此舉顯示星巴克持續針對年輕客群強化會員生態系與訂購黏著度，可能帶動限定商品、聯名周邊及行動點餐相關需求量增加，對周邊商品與行動支付/會員系統供應商而言是潛在採購訊號。",
+          "potentialImpact": [
+            "周邊商品供應商可留意U24專屬商品或限定贈品的開發與供貨機會",
+            "行動點餐與會員系統技術供應商可評估是否有系統整合或擴充需求",
+            "觀察此計畫成效，評估是否可能複製至其他亞太市場，形成跨區域採購規劃"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0706-2/"
+            }
+          ]
+        },
+        {
+          "id": "20260707-5",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン（官方新聞稿）",
+          "pubDate": "2026-07-02",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "消費者行為"
+          ],
+          "headline": "谷中御殿坂咖啡藝廊開業後第二檔展覽　13組新銳藝術家聯合展出",
+          "summary": "位於東京谷中的「スターバックス カフェ ＆ アートギャラリー 谷中御殿坂」於開業後推出第二檔展覽，邀集13組新銳藝術家展出作品，展期自7月3日起，延續咖啡與藝術結合的第三空間體驗。",
+          "whyMatters": "屬品牌形象與在地文化連結策略的一環，對供應商而言直接採購意義有限，但反映星巴克持續投資特色門店與策展型空間，周邊裝置、展示物料供應商可留意類似特色店型未來是否擴大複製。",
+          "potentialImpact": [
+            "展示裝置與空間物料供應商可留意特色概念店擴張時的採購機會",
+            "文創周邊供應商可評估藝術聯名商品開發合作可能性",
+            "持續關注此類文化型門店是否成為星巴克日本展店策略的常態模式"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0702-2/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-06",
       "label": "07/06",
@@ -484,171 +623,6 @@
             {
               "label": "TheStreet",
               "url": "https://www.thestreet.com/restaurants/starbucks-brings-back-viral-drink-after-7-years-adds-new-item-smores-frappuccino"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-30",
-      "label": "06/30",
-      "items": [
-        {
-          "id": "20260630-1",
-          "market": "🇺🇸 美國市場",
-          "source": "About Starbucks",
-          "pubDate": "2026-06-30",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "飲品趨勢",
-            "原料需求",
-            "採購量預測"
-          ],
-          "headline": "S'mores 星冰樂回歸＋夏季新飲系列今日正式開放早鳥點購",
-          "summary": "睽違六年，S'mores 星冰樂今（6/30）起對星享卡會員提前開放，7/1 起全面上市；同步推出 S'mores 冷萃咖啡搭配棉花糖冷奶泡。7/14 起再推出全新「混合能量 Refresher」系列（芒果龍果、芒果草莓口味），以及混合抹茶檸檬水，鞏固全日飲品陣容。",
-          "whyMatters": "S'mores 系列帶動巧克力醬、棉花糖風味糖漿、香草、可可粉等原料需求同步升溫，為相關成份供應商提供明確採購信號。能量 Refresher 新系列新增水果果肉（芒果、草莓、龍果）、檸檬汁及椰奶配方需求，採購規模可觀。抹茶新品亦反映星巴克持續深化抹茶原料採購布局。",
-          "potentialImpact": [
-            "巧克力/可可供應商：S'mores 系列重新啟動可可醬及牛奶巧克力淋醬採購訂單，建議確認 Q3 供貨量與交期",
-            "果汁與水果萃取供應商：能量 Refresher 新品採用真實果肉顆粒，應提前評估芒果、草莓、龍果果漿的供應能力",
-            "抹茶原料供應商：混合抹茶檸檬水上市意味著抹茶粉需求進一步擴增，可主動聯繫採購部門確認規格與數量"
-          ],
-          "sourceLinks": [
-            {
-              "label": "About Starbucks – S'mores 夏季飲品上線",
-              "url": "https://about.starbucks.com/stories/2026/starbucks-launches-new-summer-drinks-brings-back-smores-frappuccino/"
-            },
-            {
-              "label": "About Starbucks – S'mores 星冰樂回歸",
-              "url": "https://about.starbucks.com/stories/2026/starbucks-smores-frappuccino-returns-after-six-years-with-new-a-new-smores-cold-brew/"
-            }
-          ]
-        },
-        {
-          "id": "20260630-2",
-          "market": "🇺🇸 美國市場",
-          "source": "TradingKey",
-          "pubDate": "2026-06-24",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "財務表現",
-            "採購量預測",
-            "外送通路成長"
-          ],
-          "headline": "星巴克 6/24 股價漲 3.3%：外送業績年增逾 30%，可比門市銷售成長 7%，管理層上調全年財測",
-          "summary": "6 月 24 日，SBUX 股價單日上漲 3.3%，超越整體消費類股表現。主要驅動因素為：美國自營門市外送業績年增率突破 30%，已成為顯著的增量收入來源；可比門市銷售同比成長 7%，交易筆數成長 4%；管理層在 Q2 財報超預期（EPS 及營收雙雙優於市場共識）後，正式上調 2026 財年全年財測。分析師共識已調升至「強烈買進」，多家機構上調目標價至 122 美元。",
-          "whyMatters": "外送通路快速成長（年增 30%+）帶動包材、外送專用杯蓋、保溫袋等配套產品的採購需求顯著提升；可比門市銷售持續上升代表整體原料消耗量正回歸成長軌道。管理層上調財測意味著星巴克對下半年採購量具有更高信心，供應商可藉此信號鎖定更積極的供貨計畫。",
-          "potentialImpact": [
-            "外送包材供應商：外送業績年增 30% 以上代表外帶杯、密封蓋、外送保溫袋需求同步激增，建議主動確認 Q3/Q4 訂單規模與交期",
-            "原料供應商（全線）：可比門市銷售+7% 的連續成長意味著全線原料（咖啡豆、牛奶、糖漿）採購量同步擴增，可積極提報增量供貨方案",
-            "對星巴克採購佔比高的供應商：財測上調後，H2 訂單預測的可視性提升，建議趁此窗口與採購部門確認年度合約餘量或洽談增補訂單"
-          ],
-          "sourceLinks": [
-            {
-              "label": "TradingKey – SBUX 6/24 股價動態分析",
-              "url": "https://www.tradingkey.com/news/market-movers/261988664-market-movers-sbux-20260624"
-            },
-            {
-              "label": "About Starbucks – 星巴克轉型成長報告",
-              "url": "https://about.starbucks.com/press/2026/starbucks-is-back-turning-momentum-into-long-term-sustainable-growth/"
-            }
-          ]
-        },
-        {
-          "id": "20260630-3",
-          "market": "🇰🇷 韓國市場",
-          "source": "NBC News / Korea JoongAng Daily",
-          "pubDate": "2026-06-23",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "品牌危機",
-            "韓國市場採購量",
-            "營運中斷"
-          ],
-          "headline": "韓國星巴克史上首次全國同步停業：6/22 逾 2,000 家門市提前關店 3 小時進行強制歷史培訓，負評情緒卻逆升至 55%",
-          "summary": "為回應「Tank Day」行銷爭議持續發酵，新世界集團旗下韓國星巴克宣布於 2026 年 6 月 22 日下午 3 時起，全國超過 2,000 家門市同步停業 3 小時，全員接受強制歷史與文化敏感性培訓——此為品牌 1999 年進入韓國市場以來首次全國性同步關店。此前公司已解雇韓國執行長，全球總部亦正式致歉。然而停業培訓後的民調顯示，消費者負評情緒不降反升，從 34.8% 攀升至 55.1%，顯示短期措施難以挽回品牌信任。",
-          "whyMatters": "全國同步停業直接影響當日所有冷鏈配送、食品補貨與一次性包材的配送排程，對韓國在地供應商的當日訂單物流形成干擾。更重要的是，持續惡化的消費者負評情緒（55%）意味著韓國門市銷售低迷可能延續數月，對本地原料、飲品成份、促銷物料等採購量構成持續下行壓力。此外，本次全國停業模式若成為危機應對標準操作，未來類似事件發生時供應商應預留彈性排程。",
-          "potentialImpact": [
-            "韓國在地供應商：銷售負評情緒持續上升（55%），建議下調 Q3 韓國業務訂單預測，保守評估 H2 供貨量，避免庫存積壓",
-            "冷鏈及食品配送供應商：全國同步停業已造成單日配送時間窗口壓縮，未來危機應對若再次啟動，應提前建立彈性排程機制",
-            "包材與促銷物料供應商：韓國市場品牌信心尚未回復，限定款周邊及促銷活動採購可能延後，建議關注採購部門下半年計畫進展"
-          ],
-          "sourceLinks": [
-            {
-              "label": "NBC News – 韓國全店停業強制歷史培訓報導",
-              "url": "https://www.nbcnews.com/world/asia/starbucks-close-stores-south-korea-early-mandatory-history-training-rcna350094"
-            },
-            {
-              "label": "Korea JoongAng Daily – 停業培訓詳細報導",
-              "url": "https://www.koreajoongangdaily.com/business/starbucks-korea-to-close-stores-early-launch-companywide-historical-social-awareness-training-after-tank-day-controversy/12722991"
-            }
-          ]
-        },
-        {
-          "id": "20260630-4",
-          "market": "🇺🇸 美國市場",
-          "source": "About Starbucks / Food Business News",
-          "pubDate": "2026-06-26",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "飲品趨勢",
-            "原料需求",
-            "採購量預測"
-          ],
-          "headline": "星巴克下午「第二高峰」戰略全面推進：新增蛋白質零食、捲餅、燕麥棒搶攻午後 2–5 點客流",
-          "summary": "星巴克公開數據顯示下午 2–5 點的門市客流成長速度已超越其他時段，公司正以此為核心推動「下午重置」（Afternoon Reset）計畫。新食物品項包括雞肉凱薩捲餅、芝麻薑汁雞肉捲餅、蛋白質爆米花，目前先在加州與華盛頓州門市試點，數位菜單將於下午時段自動切換推薦午後飲品與輕食。此策略直接呼應 2026 年 Investor Day 揭示的「全日段獲客」目標。",
-          "whyMatters": "午後食品菜單擴充是星巴克近年採購量變化最大的領域之一：蛋白質零食、烘焙類捲餅及佐餐輕食的原料需求正從零散試點轉向全國規模採購。此舉同時帶動特殊飲品原料（能量萃取物、電解質、碳水化合物）的規模化需求，與下午 Refresher 系列協同推進。",
-          "potentialImpact": [
-            "食品供應商（即食/熟食）：捲餅與蛋白質零食試點範圍擴大，建議主動接洽詢問全國鋪貨的資格認證流程與產能要求",
-            "燕麥、堅果、蛋白質原料供應商：蛋白質爆米花與蛋白質能量球等新品需求量可能在 Q3-Q4 大幅提升，應提前鎖定供貨能力",
-            "包材供應商：午後食品採用獨立包裝/即抓即走設計，需要符合星巴克永續包裝標準的新包材規格，應儘早了解規格需求"
-          ],
-          "sourceLinks": [
-            {
-              "label": "About Starbucks – 下午客流成長報告",
-              "url": "https://about.starbucks.com/press/2026/starbucks-sees-growth-in-afternoon-visits-fueled-by-refreshers-and-new-menu-items/"
-            },
-            {
-              "label": "Food Business News – 星巴克午後食品擴充策略",
-              "url": "https://www.foodbusinessnews.net/articles/30481-starbucks-tackles-afternoon-food"
-            },
-            {
-              "label": "About Starbucks – 下午重置計畫",
-              "url": "https://about.starbucks.com/press/2026/an-afternoon-reset-the-starbucks-way/"
-            }
-          ]
-        },
-        {
-          "id": "20260630-5",
-          "market": "🇺🇸/🇨🇳 中美市場",
-          "source": "investor.starbucks.com / About Starbucks",
-          "pubDate": "2026-06-24",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "採購架構",
-            "財務表現",
-            "採購量預測"
-          ],
-          "headline": "星巴克中國合資企業正式完成：博裕持 60%、目標 20,000 家門市，採購主體正式轉移",
-          "summary": "星巴克與博裕資本的中國零售合資企業已完成正式交割，博裕持有 60% 股權，星巴克保留 40% 並繼續持有品牌及 IP 授權。現有約 8,000 家中國門市正式轉入授權模式運營，雙方共同設定長期目標為擴展至 20,000 家。星巴克在中國的採購架構將隨之調整，博裕資本的本地化採購策略可能帶來供應商關係重組。",
-          "whyMatters": "此次交割標誌著中國市場採購決策鏈的根本性轉變：原本由星巴克總部統籌的中國採購事務，未來將由合資企業（博裕主導）在更大程度上自主決策。這對中國在地原料、包材及設備供應商而言，可能帶來採購主體、合約形式、付款條件的全面更新，而全球統一供應商的准入資格也需與新的合資管理團隊重新確認。",
-          "potentialImpact": [
-            "中國在地供應商：應盡快與新合資企業採購團隊確認現有供應合約的延續性，並了解博裕資本的採購偏好與本地化政策",
-            "全球供應商（中國業務佔比高者）：博裕主導後可能引進更多本地供應鏈，建議評估中國業務採購份額的潛在變化並制定因應方案",
-            "有意進入中國市場的供應商：合資完成後，博裕的本地採購網絡將擴大，建議透過合資企業採購管道重新評估市場進入路徑"
-          ],
-          "sourceLinks": [
-            {
-              "label": "investor.starbucks.com – 中國合資企業完成公告",
-              "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-and-Boyu-Capital-Finalize-Joint-Venture-to-Accelerate-Long-Term-Growth-in-China/default.aspx"
-            },
-            {
-              "label": "About Starbucks – 中國合資完成聲明",
-              "url": "https://about.starbucks.com/press/2026/starbucks-and-boyu-capital-finalize-long-term-growth-in-china/"
             }
           ]
         }
