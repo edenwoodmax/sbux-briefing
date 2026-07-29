@@ -1,6 +1,146 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-29",
   "days": [
+    {
+      "date": "2026-07-29",
+      "label": "07/29",
+      "items": [
+        {
+          "id": "20260729-1",
+          "market": "🌍 全球",
+          "source": "Starbucks Investor Relations",
+          "pubDate": "2026-07-29",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "財務表現",
+            "採購量預測"
+          ],
+          "headline": "星巴克將於今日盤後公布2026財年第三季財報",
+          "summary": "星巴克預計於美國東部時間7月29日盤後公布第三季財報，分析師預期每股盈餘0.66美元（年增32%），營收約94.4億美元。第二季財報顯示營收93億美元、淨利5.09億美元，「Back to Starbucks」轉型計畫已見成效。",
+          "whyMatters": "財報數據將直接反映星巴克全球門市營運狀況與同店銷售趨勢，是供應商評估未來訂單量、原料需求與採購合約規模的重要依據；若營收優於預期，可能加速門市擴張與採購投入。",
+          "potentialImpact": [
+            "密切關注財報電話會議中管理層對北美與中國市場的展望，調整供貨排程",
+            "留意公司是否釋出關於供應鏈成本控制或永續採購策略的新表態",
+            "若財報顯示同店銷售疲弱，提前準備彈性產能因應可能的採購量調整"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks Investor Relations",
+              "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Announces-Q3-Fiscal-Year-2026-Results-Conference-Call/default.aspx"
+            },
+            {
+              "label": "The Motley Fool",
+              "url": "https://www.fool.com/investing/2026/07/28/is-starbuckss-stock-a-buy-ahead-of-its-q3-earnings-report-tomorrow/"
+            }
+          ]
+        },
+        {
+          "id": "20260729-2",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン",
+          "pubDate": "2026-07-22",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "APAC策略",
+            "永續發展"
+          ],
+          "headline": "星巴克日本上陸30週年推出「STARBUCKS JIMOTO PROGRAM」，青森、群馬、沖繩三縣率先啟動",
+          "summary": "為慶祝進軍日本30週年，星巴克日本宣布啟動「STARBUCKS JIMOTO PROGRAM」，攜手青森縣、群馬縣、沖繩縣推動地方共創計畫，將於2026年8月5日起展開，內容涵蓋地方限定商品開發、在地資源循環與社區永續發展。",
+          "whyMatters": "該計畫顯示星巴克日本正加強與地方政府、在地供應商的長期合作模式，可能帶動區域限定原料、包裝與周邊商品的採購需求；對於有意切入日本區域市場的供應商，是建立在地合作關係的具體機會。",
+          "potentialImpact": [
+            "評估是否具備參與地方限定商品原料或包裝供應的資格與產能",
+            "留意其他縣市後續是否跟進類似地方共創模式，及早卡位",
+            "關注計畫中永續採購與資源循環相關規範，預先調整供應鏈認證"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン",
+              "url": "https://stories.starbucks.co.jp/press/2026/jbcc20260722/"
+            }
+          ]
+        },
+        {
+          "id": "20260729-3",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン",
+          "pubDate": "2026-07-27",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "原料需求"
+          ],
+          "headline": "星巴克日本首度與年輕世代共創新品「クリア コーヒー」低苦味咖啡7月31日起開賣",
+          "summary": "星巴克日本推出首款與年輕消費者共同開發的低苦味咖啡飲品「クリア コーヒー」及「シトラス クリア コーヒー」，將於7月31日起在日本門市販售，鎖定過去對咖啡苦味有疑慮的年輕族群。",
+          "whyMatters": "此產品反映星巴克正嘗試以年輕世代喜好調整咖啡萃取與調味配方，可能牽動特定咖啡豆烘焙曲線、風味添加物與柑橘類原料的採購需求；若市場反應良好，不排除擴大至其他市場推出類似產品線。",
+          "potentialImpact": [
+            "提前準備低苦味咖啡豆或特殊烘焙規格的供貨能力",
+            "關注柑橘風味添加物（如シトラス系列）的原料供應穩定性",
+            "追蹤此系列在日本的銷售表現，評估是否有機會擴展至其他亞太市場"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0727/"
+            }
+          ]
+        },
+        {
+          "id": "20260729-4",
+          "market": "🌍 全球",
+          "source": "About Starbucks",
+          "pubDate": "2026-07-28",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "包裝創新"
+          ],
+          "headline": "星巴克推出「Orange Cream」系列飲品攜手Dandy Worldwide推出限定周邊，7月28日起於美國門市開賣",
+          "summary": "星巴克於7月28日起在美國門市推出以柳橙奶油口味為主題的夏季飲品系列，橫跨冷萃咖啡、濃縮咖啡、抹茶及奶茶等品項，並與生活風格品牌Dandy Worldwide合作推出限定周邊商品。",
+          "whyMatters": "新口味系列的推出將帶動柳橙、香草風味糖漿與相關調味原料的短期採購需求，同時限定周邊商品也牽涉包裝與物流供應鏈的季節性調整。",
+          "potentialImpact": [
+            "確認柳橙奶油風味相關糖漿與香精原料的供貨排程與庫存水位",
+            "評估限定周邊商品的包裝材料供應是否能配合快速上市節奏",
+            "觀察此系列於美國市場的銷售表現，作為未來全球擴展的採購量預測參考"
+          ],
+          "sourceLinks": [
+            {
+              "label": "About Starbucks",
+              "url": "https://about.starbucks.com/stories/2026/enjoy-peak-summer-nostalgia-with-orange-cream-drinks-and-new-dandy-merch-collab/"
+            }
+          ]
+        },
+        {
+          "id": "20260729-5",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン",
+          "pubDate": "2026-07-24",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "APAC策略"
+          ],
+          "headline": "Spotify×星巴克聯名企劃「Brew to the Beat Fest」8月28日於東京烘焙工坊登場",
+          "summary": "星巴克日本宣布與Spotify合作推出結合咖啡與音樂的體驗活動「Brew to the Beat Fest」，將於2026年8月28日在星巴克臻選®烘焙工坊東京舉行，邀請8組新生代音樂人發表以咖啡為靈感的新曲。",
+          "whyMatters": "此類品牌聯名活動屬於行銷投資而非直接供應鏈事件，但反映星巴克持續加碼日本旗艦門市的體驗行銷預算，可作為觀察其對高階市場（如臻選門市）原料與周邊商品採購投入趨勢的參考指標。",
+          "potentialImpact": [
+            "關注烘焙工坊限定商品或聯名飲品是否釋出新的原料或包裝採購需求",
+            "評估是否有機會參與大型體驗活動的周邊商品或現場物資供應",
+            "留意此類跨界行銷模式是否複製至其他亞太旗艦門市"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0724/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-24",
       "label": "07/24",
