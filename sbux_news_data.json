@@ -1,6 +1,146 @@
 {
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-07-30",
   "days": [
+    {
+      "date": "2026-07-30",
+      "label": "07/30",
+      "items": [
+        {
+          "id": "20260730-1",
+          "market": "🌍 全球",
+          "source": "The Motley Fool",
+          "pubDate": "2026-07-29",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "財務表現",
+            "採購量預測"
+          ],
+          "headline": "星巴克公布2026財年第三季財報，同店銷售大增7.9%，全年展望上修",
+          "summary": "星巴克第三季營收93.2億美元，調整後每股盈餘0.85美元，均超市場預期；全球同店銷售成長7.9%，為連續第四季正成長。公司上修全年展望，預期全年同店銷售成長近6%，每股盈餘介於2.55至2.65美元。",
+          "whyMatters": "同店銷售與展望雙雙上修，意味著門市翻新（目標全年至少1,500家）與新品需求將持續帶動採購量成長；供應商可預期訂單能見度提升，但也需留意中國業務出售後全球約90%國際據點轉為授權模式，可能改變部分採購決策權歸屬。",
+          "potentialImpact": [
+            "密切關注星巴克上修後的全年同店銷售目標，提前規劃第四季及明年產能",
+            "留意授權模式擴大對直接採購關係的影響，確認訂單窗口與付款流程是否隨授權夥伴調整",
+            "門市翻新計畫加速，可留意店裝修相關物料（家具、器材）採購機會"
+          ],
+          "sourceLinks": [
+            {
+              "label": "The Motley Fool",
+              "url": "https://www.fool.com/investing/2026/07/29/starbucks-raises-its-full-year-guidance-as-comparable-store-sales-jump-79-heres-what-investors-need-to-know/"
+            },
+            {
+              "label": "News4Jax/AP",
+              "url": "https://www.news4jax.com/business/2026/07/29/starbucks-reports-strong-quarterly-sales-and-raises-annual-outlook/"
+            }
+          ]
+        },
+        {
+          "id": "20260730-2",
+          "market": "🇯🇵 日本市場",
+          "source": "SoraNews24",
+          "pubDate": "2026-07-29",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "永續發展",
+            "包裝創新"
+          ],
+          "headline": "星巴克日本推出「Afterword」回收咖啡渣周邊系列，賦予咖啡廢棄物第二生命",
+          "summary": "星巴克日本7月31日起於門市、7月30日晚間8點起於線上販售全新「Afterword」系列，商品包含咖啡渣回收保溫杯、咖啡渣收納罐、植物盆栽套、筆記本與咖啡染色手拭巾，皆使用門店咖啡渣及稻稈等廢棄物再製而成。",
+          "whyMatters": "此系列展現星巴克將咖啡渣、稻稈等副產物轉化為零售商品的循環經濟策略，凸顯對再生材料供應商與客製化包裝／文具代工廠的需求；隨永續商品線擴大，具備回收材料處理能力的供應商可能獲得更多合作機會。",
+          "potentialImpact": [
+            "評估自身是否具備咖啡渣、農業副產物再利用的加工能力，主動對接星巴克永續採購窗口",
+            "關注FSC認證紙張與再生材料的供應穩定度，因應星巴克筆記本等紙製品需求",
+            "留意此類限量永續商品若銷售反應良好，可能複製到其他市場，及早布局跨市場產能"
+          ],
+          "sourceLinks": [
+            {
+              "label": "SoraNews24",
+              "url": "https://soranews24.com/2026/07/29/starbucks-japan-releases-new-afterword-collection-that-gives-coffee-waste-a-second-life/"
+            }
+          ]
+        },
+        {
+          "id": "20260730-3",
+          "market": "🇯🇵 日本市場",
+          "source": "SoraNews24",
+          "pubDate": "2026-07-28",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "APAC策略",
+            "原料需求"
+          ],
+          "headline": "星巴克日本30週年推出「Jimoto Program」地區限定飲品，青森、群馬、沖繩8月5日起開賣",
+          "summary": "為慶祝日本上陸30週年，星巴克宣布「STARBUCKS JIMOTO PROGRAM」，8月5日起於青森（蘋果）、群馬（在地優格＋間伐材周邊）、沖繩（黑糖／扁實檸檬）三縣推出僅限當地販售、且將列入常態菜單的地區專屬飲品與食品。",
+          "whyMatters": "此計畫需長期採購當地農產原料（蘋果、優格、黑糖、柑橘）並轉為常態供應鏈，而非短期限定，代表星巴克正加大在地食材採購與區域供應商合作深度；群馬門市更使用間伐材製作周邊商品，顯示木材／林業副產物供應商亦有合作空間。",
+          "potentialImpact": [
+            "具在地農產或乳製品供應能力的廠商可評估與星巴克日本建立長期區域採購合約",
+            "關注此模式是否複製到其他都道府縣，及早布局多區域供應網絡",
+            "留意間伐材等永續林業材料在周邊商品的應用，木製品加工廠可主動接洽"
+          ],
+          "sourceLinks": [
+            {
+              "label": "SoraNews24",
+              "url": "https://soranews24.com/2026/07/28/starbucks-japan-unveils-exclusive-new-frappuccinos-limited-to-three-regional-areas/"
+            }
+          ]
+        },
+        {
+          "id": "20260730-4",
+          "market": "🇯🇵 日本市場",
+          "source": "Starbucks Stories Japan",
+          "pubDate": "2026-07-28",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "零售競爭"
+          ],
+          "headline": "星巴克日本首推扭蛋周邊「Joyful Capsule」，8月2日日本上陸紀念日開賣",
+          "summary": "星巴克咖啡日本首度跨足扭蛋（capsule toy）品類，推出以人氣飲品、食物為造型的「スターバックス ジョイフル カプセル」吊飾玩偶，一般款5種、東京烘焙工坊限定款4種，單顆880～1,100日圓，8月2日於東京都內19家門市開賣。",
+          "whyMatters": "此為星巴克首次進軍扭蛋機通路，反映品牌持續拓展零售周邊品類以刺激客單價與集點誘因；對玩具／公仔代工廠及扭蛋機營運商而言，是潛在的新合作管道，也顯示星巴克願意嘗試非傳統飲品周邊的授權商品線。",
+          "potentialImpact": [
+            "玩具或塑膠射出成型供應商可留意星巴克是否擴大扭蛋品類至其他市場",
+            "扭蛋機台營運商可評估與星巴克門市通路合作的可能性",
+            "觀察此類低單價周邊商品的銷售表現，作為評估未來授權商品開發方向的參考"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks Stories Japan",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0728/"
+            }
+          ]
+        },
+        {
+          "id": "20260730-5",
+          "market": "🇹🇼 台灣市場",
+          "source": "遠見雜誌",
+          "pubDate": "2026-07-27",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "採購關係"
+          ],
+          "headline": "星巴克台灣攜手周杰倫推出「JAY合作收藏系列」，典藏DREAM PLAZA門市首發",
+          "summary": "星巴克典藏DREAM PLAZA台北門市7月27日搶先首發與歌手周杰倫合作的「JAY合作收藏系列」，推出黑、粉不鏽鋼TOGO冷水杯（各2,480元），星禮程會員優先搶購；第二波不鏽鋼杯款及把手杯預計8月於全台門市同步上市。",
+          "whyMatters": "名人聯名商品通常帶動限量周邊短期爆量生產需求，對不鏽鋼杯具、包裝印刷供應商而言是明確的短期加單訊號；分階段（台北首發→全台上市）的鋪貨模式也顯示星巴克傾向先小規模測試買氣，再決定後續備貨規模。",
+          "potentialImpact": [
+            "不鏽鋼餐具／保溫杯供應商可留意第二波全台上市的備貨規模與交期要求",
+            "包裝與周邊印刷廠商可評估名人聯名限定商品的短期加單機會",
+            "觀察會員搶購熱度，作為判斷是否會有第三波聯名或加開產能的依據"
+          ],
+          "sourceLinks": [
+            {
+              "label": "遠見雜誌",
+              "url": "https://www.gvm.com.tw/article/131870"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-29",
       "label": "07/29",
