@@ -1,6 +1,142 @@
 {
-  "lastUpdated": "2026-08-06",
+  "lastUpdated": "2026-08-07",
   "days": [
+    {
+      "date": "2026-08-07",
+      "label": "08/07",
+      "items": [
+        {
+          "id": "20260807-1",
+          "market": "🌍 全球",
+          "source": "American Market News (MarketBeat)",
+          "pubDate": "2026-08-02",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "財務表現",
+            "採購量預測"
+          ],
+          "headline": "星巴克Q3財報優於預期，多家分析師上調目標價、全年財測同步調高",
+          "summary": "星巴克公布2026財年第三季財報，調整後每股盈餘0.85美元優於市場預期的0.66美元，營收93.2億美元，全球同店銷售成長7.9%。公司將全年調整後每股盈餘財測上調至2.55–2.65美元，DA Davidson等多家機構同步上調目標價至110美元。",
+          "whyMatters": "財報顯示星巴克全球客流與交易量回升動能強勁，同店銷售連續四季成長，意味著門市採購量與原料需求可能隨之擴大。財測上調也反映管理層對「Back to Starbucks」轉型計畫的信心，供應商可預期訂單規模將隨美國市場復甦而回升。",
+          "potentialImpact": [
+            "密切關注星巴克第四季及全年實際採購量變化，提前評估產能配置",
+            "留意美國市場服務效率提升相關投資（新設備、耗材）可能帶動的採購需求",
+            "評估股價與財測上調對星巴克資本支出與供應鏈投資意願的正向影響"
+          ],
+          "sourceLinks": [
+            {
+              "label": "American Market News",
+              "url": "https://www.americanbankingnews.com/2026/08/02/starbucks-nasdaqsbux-price-target-raised-to-110-00.html"
+            }
+          ]
+        },
+        {
+          "id": "20260807-2",
+          "market": "🇨🇳 中國市場",
+          "source": "新浪新聞（封面新聞）",
+          "pubDate": "2026-08-04",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "消費者行為"
+          ],
+          "headline": "南昌星巴克員工侮辱周杰倫海報事件延燒，涉事員工遭辭退",
+          "summary": "南昌一家星巴克臻選門市員工於社群平台發布對品牌代言人周杰倫海報做出翻白眼、捏鼻子等冒犯動作及不當言論的影片，引發網路熱議。星巴克於8月4日確認已將涉事員工辭退，並表示將加強員工培訓。",
+          "whyMatters": "此事件雖非直接影響供應鏈，但凸顯星巴克在中國市場對品牌代言合作與員工行為規範的重視程度，牽涉品牌形象維護成本與公關風險管理，可能促使星巴克中國（Boyu Capital合資公司）加強門市營運與人員培訓相關採購。",
+          "potentialImpact": [
+            "關注星巴克中國後續是否加強門市培訓或合規相關採購需求",
+            "評估品牌代言合作（如周杰倫聯名商品）後續行銷物料需求是否受影響",
+            "留意類似事件對星巴克中國消費者信心與客流的短期影響"
+          ],
+          "sourceLinks": [
+            {
+              "label": "新浪新聞",
+              "url": "https://www.sina.cn/news/detail/5328164003776755.html"
+            }
+          ]
+        },
+        {
+          "id": "20260807-3",
+          "market": "🇯🇵 日本市場",
+          "source": "SoraNews24",
+          "pubDate": "2026-08-07",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "採購關係",
+            "包裝創新"
+          ],
+          "headline": "星巴克日本攜手Traveler's Company推出全新文具聯名商品",
+          "summary": "星巴克儲備烘焙工坊東京（Starbucks Reserve Roastery Tokyo）與日本文具品牌Traveler's Company自2019年起幾乎每年推出聯名商品，本次以「像旅行一樣享受每一天」為主題推出五款新品，8月6日起限定於東京烘焙工坊門市販售。",
+          "whyMatters": "此類聯名周邊商品涉及第三方品牌授權製造與限量商品的物流配送，對文具、皮革及印刷包裝供應商而言是穩定的短期訂單來源，也顯示星巴克持續透過異業合作維持品牌新鮮感與周邊商品銷售動能。",
+          "potentialImpact": [
+            "文具、皮革製品及包裝供應商可留意星巴克日本後續聯名周邊的打樣與生產需求",
+            "評估限量商品生產排期對供應商產能規劃的影響",
+            "觀察此類聯名模式是否複製至其他市場，帶來跨區域訂單機會"
+          ],
+          "sourceLinks": [
+            {
+              "label": "SoraNews24",
+              "url": "https://soranews24.com/2026/08/07/starbucks-japan-teams-up-with-travelers-company-for-new-stationery-and-goods-collection/"
+            }
+          ]
+        },
+        {
+          "id": "20260807-4",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン 官方新聞稿",
+          "pubDate": "2026-08-06",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "原料需求",
+            "包裝創新"
+          ],
+          "headline": "星巴克日本推出新版即飲咖啡「COFFEE OF THE DAY 咖啡摩卡」，8月18日上市",
+          "summary": "星巴克咖啡日本官方宣布，瓶裝即飲咖啡系列「スターバックス® COFFEE OF THE DAY」將於8月18日推出新口味「カフェモカ」（咖啡摩卡），主打帶苦甜韻味的成熟風味。",
+          "whyMatters": "即飲（RTD）產品線的新品上市代表星巴克日本對瓶裝咖啡原料（可可／摩卡風味劑、乳製品）與包材（PET瓶、標籤）需求增加，對飲料代工廠與包材供應商而言是明確的訂單訊號。",
+          "potentialImpact": [
+            "飲料代工與原料供應商可提前確認新口味所需摩卡風味劑、乳製品供應排程",
+            "包材供應商留意新品標籤與瓶身設計變更對印刷與模具的影響",
+            "觀察此RTD新品銷售表現，評估是否有後續加單或擴大市場機會"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-08-05/"
+            }
+          ]
+        },
+        {
+          "id": "20260807-5",
+          "market": "🇹🇼 台灣市場",
+          "source": "美麗佳人（Marie Claire Taiwan）",
+          "pubDate": "2026-08-07",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "包裝創新",
+            "門市擴張"
+          ],
+          "headline": "星巴克首度攜手POP MART推出MOLLY聯名系列，8月11日全台上市",
+          "summary": "星巴克與潮流藝術品牌POP MART首度合作，慶祝經典角色MOLLY誕生20週年，推出亞太限定聯名系列，包含6款杯款、水壺與提袋商品，以及期間限定「草莓布蕾星冰樂」，8月10日星禮程會員搶先購買、8月11日全台門市正式上市。",
+          "whyMatters": "大型IP聯名商品通常帶動短期買氣爆發與限量商品供貨壓力，對周邊商品代工廠（不鏽鋼杯、玻璃杯、提袋）及印刷包材供應商而言是明確的訂單與交期壓力來源，也考驗供應鏈快速反應與庫存管理能力。",
+          "potentialImpact": [
+            "周邊商品代工廠應提前確認POP MART聯名系列各SKU的生產交期與庫存水位",
+            "留意搶購潮可能導致的補貨需求與供應鏈應變能力要求",
+            "評估此類IP聯名模式未來在其他APAC市場（日本、韓國、中國）複製的訂單機會"
+          ],
+          "sourceLinks": [
+            {
+              "label": "美麗佳人",
+              "url": "https://www.marieclaire.com.tw/lifestyle/whats-hot/95148"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-06",
       "label": "08/06",
@@ -470,124 +606,6 @@
             {
               "label": "SoraNews24",
               "url": "https://soranews24.com/2026/07/31/starbucks-japan-releases-first-ever-gacha-capsule-toys-featuring-iconic-menu-items-as-plush-coffee-charms/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-31",
-      "label": "07/31",
-      "items": [
-        {
-          "id": "20260731-1",
-          "market": "🌍 全球",
-          "source": "美聯社(AP)／SEC 8-K",
-          "pubDate": "2026-07-29",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "財務表現",
-            "採購量預測",
-            "供應鏈技術"
-          ],
-          "headline": "星巴克Q3財報優於預期，上修全年展望並加速門店翻新",
-          "summary": "星巴克公布截至6月的第三財季營收93.2億美元，同店銷售成長7.9%遠超市場預期的5.7%，並將全年每股盈餘展望上修至2.55-2.65美元。公司表示已完成逾1,000家北美門店翻新，計畫本財年再完成500家，本季度取得的關稅退款也大幅抵銷了前三季支付的進口關稅。",
-          "whyMatters": "同店銷售顯著成長與翻新計畫加速，意味著門店設備、家具與裝修材料採購量將提升；關稅退款動態也顯示星巴克對進口成本高度敏感，供應商應留意匯率與關稅政策對訂單價格的影響。",
-          "potentialImpact": [
-            "門店裝修／設備供應商可預期未來12個月訂單量增加",
-            "留意星巴克對進口原料關稅成本的議價與轉嫁策略",
-            "同店銷售加速可能帶動整體採購量與原料需求同步成長"
-          ],
-          "sourceLinks": [
-            {
-              "label": "SEC 8-K申報文件",
-              "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000129/sbux-20260729.htm"
-            },
-            {
-              "label": "ClickOrlando (AP)",
-              "url": "https://www.clickorlando.com/business/2026/07/29/starbucks-reports-strong-quarterly-sales-and-raises-annual-outlook/"
-            }
-          ]
-        },
-        {
-          "id": "20260731-2",
-          "market": "🇹🇼 台灣市場",
-          "source": "今周刊",
-          "pubDate": "2026-07-27",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "品牌策略",
-            "飲品趨勢",
-            "包裝創新"
-          ],
-          "headline": "星巴克攜手周杰倫推出聯名系列，8月3日全台上市",
-          "summary": "星巴克典藏DREAM PLAZA台北於7月27日搶先開賣周杰倫聯名限量不鏽鋼杯與多款周邊商品，8月3日起全台門市將同步推出周杰倫親自參與風味設計的「黑糖鴛鴦布蕾星冰樂」及「冰蜜桃莫希托青」兩款限定飲品。",
-          "whyMatters": "大型藝人聯名活動通常帶動短期單店銷量與周邊商品（杯具、包材）採購需求激增，對台灣及華人市場的包裝與周邊供應商是重要商機，也反映星巴克持續透過在地化聯名強化品牌黏著度的策略方向。",
-          "potentialImpact": [
-            "周邊商品(不鏽鋼杯等)供應商可留意台灣及後續海外市場加單機會",
-            "飲品原料(黑糖、蜜桃風味糖漿)供應商應提前備貨因應限定期間需求高峰",
-            "觀察聯名活動是否延伸至中國、香港等其他華語市場帶來規模化訂單"
-          ],
-          "sourceLinks": [
-            {
-              "label": "今周刊",
-              "url": "https://www.businesstoday.com.tw/article/category/183030/post/202607270005/"
-            }
-          ]
-        },
-        {
-          "id": "20260731-3",
-          "market": "🌍 全球（美國市場為主）",
-          "source": "Time Out",
-          "pubDate": "2026-07-29",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "飲品趨勢",
-            "原料需求",
-            "品牌策略"
-          ],
-          "headline": "星巴克推出「橙香奶油」全系列飲品，攜手Dandy Worldwide推限定周邊",
-          "summary": "星巴克自7月28日起在美國門市推出橙香奶油風味系列，橫跨冷萃、濃縮咖啡、抹茶與奶茶等多種飲品平台，同時與南加州戶外品牌Dandy Worldwide推出水壺、保溫瓶與帽子等限定聯名周邊商品。",
-          "whyMatters": "單一風味橫跨多條飲品產品線的作法，意味著橙香調味糖漿／濃縮液供應商可能取得跨品類的大量訂單；戶外生活風格聯名周邊也顯示星巴克持續透過非咖啡品類周邊擴大營收來源，帶動不鏽鋼與周邊材料供應鏈需求。",
-          "potentialImpact": [
-            "風味糖漿／香精供應商留意橙香口味跨品類放量的原料備貨需求",
-            "周邊商品(水壺／保溫瓶)供應商可評估爭取後續聯名合作機會",
-            "觀察此類聯名周邊商品的市場反應，評估是否成為常態化策略"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Time Out",
-              "url": "https://www.timeout.com/usa/news/starbucks-is-tapping-into-summertime-nostalgia-with-its-dreamy-new-orange-cream-beverage-line-072926"
-            }
-          ]
-        },
-        {
-          "id": "20260731-4",
-          "market": "🇯🇵 日本市場",
-          "source": "SoraNews24",
-          "pubDate": "2026-07-30",
-          "impact": "low",
-          "impactLabel": "ℹ️ 低衝擊",
-          "impactAreas": [
-            "飲品趨勢",
-            "品牌策略",
-            "消費者行為"
-          ],
-          "headline": "星巴克日本推出「無咖啡感」新飲品，鎖定不愛喝咖啡族群",
-          "summary": "繼7月底推出「Clear Coffee」系列後，星巴克日本本週向海外媒體展示這款苦味大幅降低、口感清爽的新飲品，主打吸引原本不習慣咖啡苦味的年輕消費族群。",
-          "whyMatters": "針對非咖啡愛好者開發淡口味咖啡飲品，顯示星巴克持續尋求擴大顧客基礎與新原料／萃取技術的採用，可能牽動特殊萃取製程或原料配方供應商的合作機會，也反映日本市場對差異化產品的高接受度。",
-          "potentialImpact": [
-            "特殊萃取／原料技術供應商可關注低苦味咖啡飲品的原料規格需求",
-            "觀察此類產品線是否複製到其他亞洲市場",
-            "日本作為測試市場的角色，可作為預判星巴克全球產品趨勢的先行指標"
-          ],
-          "sourceLinks": [
-            {
-              "label": "SoraNews24",
-              "url": "https://soranews24.com/2026/07/30/starbucks-japan-unveils-new-coffee-drinks-for-people-who-dont-drink-coffee/"
             }
           ]
         }
