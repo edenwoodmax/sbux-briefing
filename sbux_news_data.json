@@ -1,6 +1,147 @@
 {
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-10",
   "days": [
+    {
+      "date": "2026-08-10",
+      "label": "08/10",
+      "items": [
+        {
+          "id": "20260810-1",
+          "market": "🇰🇷 韓國市場",
+          "source": "Korea Herald",
+          "pubDate": "2026-08-06",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "組織重組",
+            "ESG風險"
+          ],
+          "headline": "南韓警方搜查星巴克總部 「戰車日」促銷引發光州事件爭議",
+          "summary": "南韓警方於8月5日搜查星巴克韓國總部（新世界集團旗下），調查其5月18日推出的「戰車日」隨行杯促銷是否影射光州民主化運動屠殺事件。新世界集團會長鄭溶鎮已公開致歉，前星巴克韓國執行長孫正炫已請辭下台。",
+          "whyMatters": "此事件涉及品牌形象與治理危機，可能導致韓國市場短期行銷預算凍結、採購決策延遲，並促使星巴克韓國加強內部合規審查流程，影響供應商溝通節奏與新品上市時程。",
+          "potentialImpact": [
+            "建議供應商密切關注韓國市場新品/促銷檔期是否延後或取消",
+            "評估與新世界集團相關採購窗口是否因治理審查而收緊",
+            "留意韓國市場品牌聲譽風險是否波及既有訂單及付款流程"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Korea Herald",
+              "url": "https://www.koreaherald.com/article/10831677"
+            }
+          ]
+        },
+        {
+          "id": "20260810-2",
+          "market": "🇨🇳 中國市場",
+          "source": "中國基金報",
+          "pubDate": "2026-08-07",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "採購量預測",
+            "飲品趨勢",
+            "零售競爭"
+          ],
+          "headline": "立秋「秋天第一杯咖啡」補貼混戰 星巴克遭美團、淘寶閃購推入2元價格戰",
+          "summary": "8月7日立秋當天，美團與淘寶閃購針對星巴克疊加優惠券與紅包補貼，部分訂單實付低至2元至4.5元。星巴克中國8月8日回應稱低價源於外送平台補貼活動，品牌方並未主動參與，同時順勢推出金桂系列新品搶佔秋季話題。",
+          "whyMatters": "外送平台補貼戰造成短期訂單量暴增且難以預測，對杯材、包材及原料備貨節奏造成壓力；品牌被動捲入價格戰也可能促使星巴克中國重新檢視與外送平台的合作條款及供應鏈彈性需求。",
+          "potentialImpact": [
+            "建議供應商為中國市場的杯材與包材維持較高安全庫存，以應對促銷帶動的訂單波動",
+            "關注星巴克中國是否因此類價格戰調整與平台方的合作策略，進而影響下單頻率",
+            "留意金桂等秋季新品是否帶動特定原料（如桂花風味劑）需求上升"
+          ],
+          "sourceLinks": [
+            {
+              "label": "中國基金報",
+              "url": "https://www.chnfund.com/article/AR9816c25f-125b-efd1-97d5-3a22f3ce2ff5"
+            }
+          ]
+        },
+        {
+          "id": "20260810-3",
+          "market": "🇹🇼 台灣市場",
+          "source": "NOWnews今日新聞",
+          "pubDate": "2026-08-10",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "包裝創新",
+            "品牌策略",
+            "飲品趨勢"
+          ],
+          "headline": "星巴克台灣攜手POP MART推出MOLLY 20週年聯名 草莓布蕾星冰樂同步開賣",
+          "summary": "星巴克台灣與POP MART合作，慶祝經典角色MOLLY誕生20週年，推出亞太限定聯名系列，包含杯款、水壺、提袋等6款周邊，並同步限定推出「草莓布蕾星冰樂」，8月10日星禮程會員優先購買，8月11日全台門市正式開賣。",
+          "whyMatters": "授權聯名周邊商品需要在短時間內完成大量杯具、水壺、提袋等生產與物流調度，對供應商而言是短期訂單量與交期壓力的重要來源；限定飲品也帶動特定原料（草莓風味漿）採購需求。",
+          "potentialImpact": [
+            "建議杯具、水壺等周邊供應商提前確認台灣門市的鋪貨排程與交期要求",
+            "關注限定飲品原料（草莓布蕾風味）是否有加單需求",
+            "評估POP MART聯名系列後續是否擴大至其他亞太市場，提前準備產能"
+          ],
+          "sourceLinks": [
+            {
+              "label": "NOWnews今日新聞",
+              "url": "https://www.nownews.com/news/6864481"
+            }
+          ]
+        },
+        {
+          "id": "20260810-4",
+          "market": "🌍 全球",
+          "source": "About Starbucks",
+          "pubDate": "2026-08-03",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "包裝創新",
+            "原料需求",
+            "供應鏈管理"
+          ],
+          "headline": "星巴克南瓜香料系列咖啡、奶精與即飲飲品登上美國各大超市貨架",
+          "summary": "星巴克宣布南瓜香料（Pumpkin Spice）系列咖啡豆、奶精及即飲（RTD）飲品陸續於美國各大超市上架，作為門店同步推出的秋季新品之外，進一步擴大零售通路布局。",
+          "whyMatters": "零售通路RTD與包裝食品需要獨立的裝瓶/罐裝、奶精灌裝及南瓜香料風味劑供應鏈，與門店現萃飲品的供應體系不同，通常涉及授權合作生產商及包材供應商的產能調度。",
+          "potentialImpact": [
+            "建議包材及灌裝相關供應商提前確認秋季RTD/奶精生產排程與交期",
+            "關注南瓜香料風味劑、香精原料的季節性需求是否提前拉貨",
+            "留意零售通路銷售表現是否帶動後續加單或退貨風險"
+          ],
+          "sourceLinks": [
+            {
+              "label": "About Starbucks",
+              "url": "https://about.starbucks.com/stories/2026/starbucks-pumpkin-spice-coffees-creamers-and-ready-to-drink-beverages-arrive-in-grocery-stores/"
+            }
+          ]
+        },
+        {
+          "id": "20260810-5",
+          "market": "🇯🇵 日本市場",
+          "source": "Time Out Tokyo",
+          "pubDate": "2026-08-05",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "供應鏈技術",
+            "庫存管理",
+            "ESG風險"
+          ],
+          "headline": "熊本地震影響 星巴克日本首款扭蛋周邊延後發售 東京都內門市重新安排上市",
+          "summary": "因應7月28日熊本地方發生最大震度7的地震，星巴克日本原訂8月2日在東京都內19家門市限定發售的首款扭蛋周邊「Starbucks Joyful Capsule」宣布延期，並重新安排在東京都內門市陸續上市。",
+          "whyMatters": "天災導致商品發售時程與物流調度需臨時調整，反映星巴克在區域性供應鏈與門店鋪貨上具備一定彈性應變機制，供應商需留意此類不可預期事件對於周邊商品、包材交期規劃的影響。",
+          "potentialImpact": [
+            "建議周邊商品供應商建立因應天災的彈性交期條款與庫存緩衝機制",
+            "關注日本市場後續是否有更多因災情調整的上市排程",
+            "留意熊本及周邊地區物流節點是否仍有延誤風險，影響其他日本市場訂單"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Time Out Tokyo",
+              "url": "https://www.timeout.com/tokyo/news/starbucks-japan-is-releasing-adorable-gacha-capsule-toys-at-stores-across-tokyo-080526"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-07",
       "label": "08/07",
@@ -496,116 +637,6 @@
             {
               "label": "東京バーゲンマニア (via ECナビ)",
               "url": "https://ecnavi.jp/mainichi_news/article/e7cf2ad558df47c87e04ab87741f681b/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-03",
-      "label": "08/03",
-      "items": [
-        {
-          "id": "20260803-1",
-          "market": "🌍 全球",
-          "source": "Business Recorder",
-          "pubDate": "2026-07-30",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "原料需求",
-            "成本結構"
-          ],
-          "headline": "阿拉比卡咖啡期貨價格走高，巴西產區收成延遲加劇全球供應緊張",
-          "summary": "ICE 阿拉比卡咖啡期貨近期持續走高，主因巴西主要產區收成進度延遲，交易所認證庫存降至2024年2月以來新低（7月29日僅27.4萬袋，較前週32萬袋明顯下滑，遠低於去年同期79.1萬袋）。巴西米納斯吉拉斯州近期降雨量達歷史均值逾20倍，拖慢農民收成腳步，加劇市場對供應吃緊的擔憂。",
-          "whyMatters": "星巴克每年採購約占全球咖啡供應量3%（約6.5億磅），阿拉比卡豆是其核心原料。期貨價格走高將直接推升採購成本，即便公司透過避險策略平滑波動，部分庫存仍暴露於市場價格風險之下，供應商應密切留意合約條款變化。",
-          "potentialImpact": [
-            "檢視現有咖啡豆採購合約的避險機制與價格調整條款，評估成本轉嫁空間",
-            "持續追蹤巴西收成進度與 ICE 認證庫存數據，提前規劃交期與備貨",
-            "評估哥倫比亞、衣索比亞等替代產區的供貨能力，分散單一產區風險"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Business Recorder",
-              "url": "https://www.brecorder.com/news/40432561/arabica-coffee-prices-climb-boosted-by-tight-supplies"
-            }
-          ]
-        },
-        {
-          "id": "20260803-2",
-          "market": "🌍 全球",
-          "source": "Defense World",
-          "pubDate": "2026-07-31",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "財務表現",
-            "採購量預測"
-          ],
-          "headline": "Q3財報優於預期後，華爾街機構齊上調星巴克目標價",
-          "summary": "星巴克7月29日公布Q3財報後，BMO Capital將目標價自115美元上調至130美元並維持「優於大盤」評等；BNP Paribas Exane、RBC、Mizuho等機構也相繼調升目標價，反映市場對「Back to Starbucks」轉型策略與同店銷售連續四季成長的樂觀態度。星巴克本季已是第二次上調全年財測。",
-          "whyMatters": "分析師集體調升目標價與公司二度上修全年財測，通常意味管理層對下半年展店、門市翻新與新品開發的投入將持續加碼，供應商可預期採購訂單能見度與規模同步提升，但也需留意展望若不如預期時的訂單修正風險。",
-          "potentialImpact": [
-            "關注星巴克下半年門市翻新目標（累計已逾1,000家）進度，預先評估對應設備與物料需求",
-            "留意公司全年財測二度上修的具體驅動因素，判斷是否反映在後續採購量放大",
-            "追蹤分析師報告中北美與國際市場的成長動能評估，調整區域供貨優先順序"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Defense World",
-              "url": "https://www.defenseworld.net/2026/07/31/bnp-paribas-exane-issues-positive-forecast-for-starbucks-nasdaqsbux-stock-price.html"
-            }
-          ]
-        },
-        {
-          "id": "20260803-3",
-          "market": "🇹🇼 台灣市場",
-          "source": "TVBS新聞網",
-          "pubDate": "2026-07-27",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "飲品趨勢",
-            "品牌策略"
-          ],
-          "headline": "星巴克攜手周杰倫推限定聯名，8月3日新品飲品全台開賣、周邊擴大鋪貨",
-          "summary": "星巴克典藏DREAM PLAZA台北迎接開幕一週年，與周杰倫推出JAY聯名企劃。首波不鏽鋼TOGO冷水杯7月27日限定門市開賣，第二波「JAY黑／白不鏽鋼杯」與「JAY不鏽鋼把手杯」預計8月起於全台星巴克門市鋪貨；「冰蜜桃莫希托青」與「黑糖鴛鴦布蕾星冰樂」兩款周杰倫參與設計的飲品則於8月3日起全台開賣。",
-          "whyMatters": "聯名活動從單一旗艦店擴大至全台門市同步鋪貨，意味周邊商品（不鏽鋼杯具）與限定飲品原料（黑糖、烏龍茶、布蕾醬）的採購與物流規模將明顯放大，且時程集中在8月上旬，對供應商的交期與產能調度是短期壓力測試。",
-          "potentialImpact": [
-            "確認8月全台鋪貨的周邊商品（不鏽鋼杯具）生產與到貨排程，避免鋪貨延遲",
-            "檢視黑糖、茶葉、布蕾醬等限定飲品原料的備貨量，因應全台同步開賣的短期需求高峰",
-            "評估聯名活動對台灣市場品牌操作模式的參考價值，作為其他區域類似合作案的借鏡"
-          ],
-          "sourceLinks": [
-            {
-              "label": "TVBS新聞網",
-              "url": "https://news.tvbs.com.tw/entertainment/3268766"
-            }
-          ]
-        },
-        {
-          "id": "20260803-4",
-          "market": "🇯🇵 日本市場",
-          "source": "SoraNews24",
-          "pubDate": "2026-07-31",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "供應鏈管理",
-            "庫存管理"
-          ],
-          "headline": "熊本7.1級地震衝擊，星巴克日本延後扭蛋周邊上市時程",
-          "summary": "星巴克日本原訂8月2日推出首款咖啡主題扭蛋周邊（絨毛咖啡吊飾），因7月28日熊本規模7.1強震造成人員傷亡、部分商場倒塌，宣布延後上市，新日期將另行公告。",
-          "whyMatters": "天災導致日本九州地區門市營運與新商品上市排程臨時中斷，反映區域物流與周邊商品供應鏈易受自然災害衝擊而出現不確定性，供應商需評估緊急應變彈性與庫存調度計畫。",
-          "potentialImpact": [
-            "檢視九州地區物流路線與門市供應動線的災害應變備援方案",
-            "與星巴克日本採購窗口確認週邊商品新上市時程，避免前置生產庫存積壓",
-            "評估其他季節性/限定周邊商品在類似天災風險下的備援供應與延遲交付條款"
-          ],
-          "sourceLinks": [
-            {
-              "label": "SoraNews24",
-              "url": "https://soranews24.com/2026/07/31/starbucks-japan-releases-first-ever-gacha-capsule-toys-featuring-iconic-menu-items-as-plush-coffee-charms/"
             }
           ]
         }
