@@ -1,6 +1,127 @@
 {
-  "lastUpdated": "2026-08-11",
+  "lastUpdated": "2026-08-12",
   "days": [
+    {
+      "date": "2026-08-12",
+      "label": "08/12",
+      "items": [
+        {
+          "id": "20260812-1",
+          "market": "🇹🇼 台灣市場",
+          "source": "NOWnews / 聯合新聞網",
+          "pubDate": "2026-08-11",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "聯名商品",
+            "包裝創新",
+            "限定周邊"
+          ],
+          "headline": "星巴克攜手POP MART推出MOLLY 20週年亞太限定聯名系列 台灣8月11日開賣",
+          "summary": "星巴克首度與潮流藝術品牌POP MART合作，為紀念角色MOLLY誕生20週年推出亞太限定聯名系列，涵蓋三款限定周邊與期間限定「草莓布蕾星冰樂」飲品，8月10日星禮程會員搶先購，8月11日全台門市正式開賣。",
+          "whyMatters": "大型IP聯名系列通常帶動短期周邊商品與包材訂單激增，對杯具、貼紙、包裝供應商而言是重要的短期採購訊號；亞太限定策略也顯示星巴克持續倚重區域限定商品刺激買氣。",
+          "potentialImpact": [
+            "周邊代工廠應留意短期急單與交期壓力，提前備料因應搶購潮",
+            "包裝／印刷供應商可評估是否有機會參與後續亞太聯名項目",
+            "留意限量商品完售後的補貨需求與二次生產可能性"
+          ],
+          "sourceLinks": [
+            {
+              "label": "NOWnews今日新聞",
+              "url": "https://www.nownews.com/news/6864481"
+            },
+            {
+              "label": "聯合新聞網",
+              "url": "https://travel.udn.com/travel/story/7186/9674226"
+            }
+          ]
+        },
+        {
+          "id": "20260812-2",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン（官方）／SoraNews24",
+          "pubDate": "2026-08-11",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "原料需求",
+            "季節性採購"
+          ],
+          "headline": "星巴克日本推出巨峰葡萄兩款秋季新飲品 8月17日限定開賣",
+          "summary": "星巴克日本官方宣布推出「豐潤巨峰凍茶」與「巨峰氣泡輕鬆蘇打」兩款以巨峰葡萄為主題的季節限定飲品，將於8月17日起在日本全國門市限時販售，象徵夏季轉入秋季的季節提案。",
+          "whyMatters": "季節限定飲品持續是星巴克日本市場的重要買氣引擎，巨峰葡萄等在地水果原料的採購需求會隨新品上市集中出現，對日本在地農產與果物加工供應商而言是明確的短期訂單訊號。",
+          "potentialImpact": [
+            "水果原料／果泥供應商可留意巨峰葡萄產季採購動向",
+            "包材與吸管等耗材供應商應配合限定飲品上市備貨",
+            "觀察此類季節限定飲品的市場反應，作為下一季原料備貨參考"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン公式",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-08-10/"
+            },
+            {
+              "label": "SoraNews24",
+              "url": "https://soranews24.com/2026/08/11/starbucks-japan-unveils-new-kyoho-grape-drinks-for-a-taste-thats-quintessentially-japanese/"
+            }
+          ]
+        },
+        {
+          "id": "20260812-3",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン（官方）",
+          "pubDate": "2026-08-07",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "門市擴張",
+            "店裝供應鏈",
+            "文化資產活化"
+          ],
+          "headline": "星巴克日本活化橫濱海之公園歷史建築 新店8月10日開幕",
+          "summary": "星巴克日本宣布在橫濱海之公園內、一棟登錄有形文化財的洋館開設新店「スターバックス コーヒー 横浜海の公園店」，於8月10日開幕，延續其活化地方歷史建築的展店策略。",
+          "whyMatters": "以歷史建築活化為特色的新店型態，通常需要客製化裝修、家具與特殊工程規格，對店裝工程、家具及特殊建材供應商而言是差異化的商機；此類展店也反映星巴克持續在日本推進具地方文化特色的門市擴張策略。",
+          "potentialImpact": [
+            "店裝工程與客製家具供應商可留意此類文化資產活化型門市的標案機會",
+            "評估未來類似歷史建築活化店型在日本擴張的長期供應鏈需求",
+            "留意這類特色門市對周邊觀光及門市營運設備採購的連動效應"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン公式",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-08-07-umi/"
+            }
+          ]
+        },
+        {
+          "id": "20260812-4",
+          "market": "🇯🇵 日本市場",
+          "source": "スターバックス コーヒー ジャパン（官方）",
+          "pubDate": "2026-08-07",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "地域振興"
+          ],
+          "headline": "星巴克日本上陸30週年推出「JIMOTO Action Month」 全國門市展開逾2000種在地活動",
+          "summary": "為紀念進入日本市場30週年，星巴克日本自8月2日起於全國門市展開「JIMOTO Action Month」，推出超過2,000種因地制宜的社區活動，強化品牌與地方社群的連結。",
+          "whyMatters": "此類全國性地方共創活動雖非直接採購行為，但反映星巴克持續強化與在地社群、農產及文化資源的連結策略，長期而言可能延伸出更多在地食材與周邊合作商機。",
+          "potentialImpact": [
+            "在地食品／農產供應商可留意星巴克後續是否推出相關地域限定商品合作",
+            "關注30週年系列活動是否延伸出跨界聯名或限定商品採購需求",
+            "供應商可評估參與星巴克地方創生相關專案的可能性"
+          ],
+          "sourceLinks": [
+            {
+              "label": "スターバックス コーヒー ジャパン公式",
+              "url": "https://stories.starbucks.co.jp/press/2026/2026_0807_01/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-11",
       "label": "08/11",
@@ -497,120 +618,6 @@
             {
               "label": "SoraNews24",
               "url": "https://soranews24.com/2026/08/01/starbucks-japan-opens-new-store-inside-historic-seaside-quarantine-station-near-tokyo/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-05",
-      "label": "08/05",
-      "items": [
-        {
-          "id": "20260805-1",
-          "market": "🌍 全球",
-          "source": "Trading Economics / Business Recorder",
-          "pubDate": "2026-08-04",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "原料需求",
-            "成本結構"
-          ],
-          "headline": "阿拉比卡咖啡期貨走高：巴西降雨延緩採收、交易所庫存創逾兩年新低",
-          "summary": "ICE阿拉比卡咖啡期貨於8月4日單日上漲逾4%，主因巴西降雨延緩今年產季採收進度（截至7月24日僅收成58.3%，落後去年同期的67.1%），加上ICE認證庫存降至28.98萬袋，創2024年2月以來新低，市場供應緊張情緒推升價格。",
-          "whyMatters": "咖啡生豆是星巴克全球採購成本結構的核心變數，價格走高與庫存吃緊將直接影響星巴克及其供應鏈夥伴的採購成本與避險策略，也可能牽動後續菜單定價與長期採購合約的談判空間。",
-          "potentialImpact": [
-            "密切關注巴西採收進度與ICE庫存數據，評估後續生豆採購成本波動風險",
-            "檢視現有長期採購合約的價格避險機制是否足以因應短期供應緊張",
-            "評估是否需分散產區採購來源，降低對巴西單一產區的依賴風險"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Trading Economics - Arabica Coffee Futures Up",
-              "url": "https://tradingeconomics.com/commodity/coffee/news/519705"
-            },
-            {
-              "label": "Business Recorder - Arabica coffee prices rise",
-              "url": "https://www.brecorder.com/news/amp/40432416"
-            }
-          ]
-        },
-        {
-          "id": "20260805-2",
-          "market": "🇨🇳 中國市場",
-          "source": "星巴克中國官方新聞",
-          "pubDate": "2026-08-04",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "原料需求",
-            "包裝創新"
-          ],
-          "headline": "星巴克中國茶拿鐵系列全面升級 採用「龍井43」原葉整茶粉、多款配方減糖逾50%",
-          "summary": "星巴克中國宣布自8月19日起，王牌茶拿鐵系列煥新升級，抹茶拿鐵、焙茶拿鐵等6款產品改採茶園特供的高品質「龍井43」鮮葉製成的原葉整茶粉，其中抹茶拿鐵配方減糖超過50%，抹茶星冰樂減糖超過30%。",
-          "whyMatters": "此次升級涉及原料來源與規格的實質變更（指定茶葉品種、原葉整茶粉取代舊配方），對茶葉原料供應商的種植、加工與交期要求提高，也顯示星巴克在健康化趨勢下對供應鏈的原料規格控管趨嚴。",
-          "potentialImpact": [
-            "茶葉原料供應商應確認「龍井43」品種的種植與加工產能是否能配合8月19日全面上市時程",
-            "留意減糖配方對糖漿、風味糖漿供應商訂單量可能帶來的下修影響",
-            "評估原葉整茶粉工藝是否需要新增設備或認證，提前布局供應能力"
-          ],
-          "sourceLinks": [
-            {
-              "label": "星巴克中國官網 - 王牌品類茶拿鐵系列煥新升級",
-              "url": "https://www.starbucks.com.cn/about/news/starbucks-product-refreshing-upgrade/"
-            }
-          ]
-        },
-        {
-          "id": "20260805-3",
-          "market": "🇯🇵 日本市場",
-          "source": "スターバックス コーヒー ジャパン",
-          "pubDate": "2026-08-04",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "門市擴張",
-            "APAC策略"
-          ],
-          "headline": "星巴克日本擴大新幹線月台店服務 規劃2027年進駐名古屋、京都新幹線月台",
-          "summary": "星巴克咖啡日本宣布，JR新橫濱站新幹線下行月台11號店的服務內容擴充，並規劃於2027年在JR名古屋站、JR京都站的新幹線月台推動展店，延伸「新幹線月台咖啡店」這項日本首創的特殊店型。",
-          "whyMatters": "新幹線月台店屬高流量、小坪數的特殊店型，對出杯設備、包材與耗材規格的要求與一般門市不同；若2027年展店計畫確定，將帶動相關供應商提前規劃標準化物料與交期。",
-          "potentialImpact": [
-            "供應商可提前評估新幹線月台特殊店型所需的小型化設備與包材規格",
-            "留意日本鐵路沿線通路是否延伸至其他車站，帶來批量採購機會",
-            "追蹤2027年名古屋、京都展店時間表，預先規劃產能與交期"
-          ],
-          "sourceLinks": [
-            {
-              "label": "スターバックス コーヒー ジャパン プレスリリース",
-              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0804/"
-            }
-          ]
-        },
-        {
-          "id": "20260805-4",
-          "market": "🇺🇸 美國市場",
-          "source": "Forbes",
-          "pubDate": "2026-08-04",
-          "impact": "low",
-          "impactLabel": "ℹ️ 低衝擊",
-          "impactAreas": [
-            "消費者行為",
-            "品牌策略"
-          ],
-          "headline": "星巴克與達美航空重啟集點合作 8月5日起每消費1美元累積1哩程",
-          "summary": "星巴克與達美航空自8月5日起恢復「消費1美元累積1哩程」的集點方式，取代先前綁定儲值金額的規則；會員須於過去12個月內搭乘過達美航班才符合資格，現有會員則有至10月5日的緩衝期可豁免此條件。",
-          "whyMatters": "忠誠計畫規則調整可能影響會員的消費頻率與客單價，進而牽動門市（尤其機場門市）尖峰時段的原物料備貨與消耗品需求預測。",
-          "potentialImpact": [
-            "關注集點規則調整後的到店頻率變化，作為短期備貨參考",
-            "留意是否伴隨限定聯名杯款或周邊商品，帶來額外採購需求",
-            "評估航空聯名活動對機場門市等特定通路銷售量的影響"
-          ],
-          "sourceLinks": [
-            {
-              "label": "Forbes - Delta is changing its Starbucks Rewards program again",
-              "url": "https://www.forbes.com/sites/baileyberg/2026/08/04/delta-is-changing-its-starbucks-rewards-program-again-heres-whats-new/"
             }
           ]
         }
