@@ -1,6 +1,146 @@
 {
-  "lastUpdated": "2026-08-13",
+  "lastUpdated": "2026-08-14",
   "days": [
+    {
+      "date": "2026-08-14",
+      "label": "08/14",
+      "items": [
+        {
+          "id": "20260814-1",
+          "market": "🇰🇷 韓國市場",
+          "source": "Bloomberg",
+          "pubDate": "2026-08-13",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "財務表現",
+            "品牌聲譽風險",
+            "採購量預測"
+          ],
+          "headline": "星巴克韓國27年來首見單季虧損，「坦克日」公關危機重創業績",
+          "summary": "受5月「Tank Day」促銷爭議引發的抵制運動與警方搜查總部事件影響，經營星巴克韓國業務的SCK Company第二季（4-6月）出現1.84億韓元營業虧損，去年同期為402.8億韓元盈利，是星巴克韓國27年來首次單季虧損。",
+          "whyMatters": "韓國是星巴克全球第二大市場，此次首次單季虧損反映抵制運動對門市營收與客流的實質衝擊，可能導致韓國分公司緊縮採購預算、延後展店與設備更新計畫。對供應商而言，這是評估韓國市場短期訂單能見度的重要訊號。",
+          "potentialImpact": [
+            "密切關注SCK Company後續原料與設備採購計畫是否縮減或延後",
+            "評估既有韓國市場合約的付款與展店排程風險",
+            "留意品牌聲譽危機是否波及其他亞太市場的聯名或行銷合作預算"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-13/starbucks-korea-suffers-first-loss-in-27-years-on-pr-debacle?srnd=homepage-asia"
+            }
+          ]
+        },
+        {
+          "id": "20260814-2",
+          "market": "🇨🇳 中國市場",
+          "source": "光明網（廣州日報）",
+          "pubDate": "2026-08-12",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "供應鏈管理",
+            "採購架構",
+            "成本結構"
+          ],
+          "headline": "星巴克否認「蜜雪代工」傳聞，證實供應鏈本土化改造目標降本30%-40%",
+          "summary": "針對「星巴克紙杯、吸管、抹茶粉將由蜜雪冰城代工」的市場傳聞，星巴克回應嚴重失實。但報導證實，博裕資本收購星巴克中國60%股權後，由前山姆中國首席採購官張青主導供應鏈本土化改造，目標是壓降供應鏈成本30%-40%，除特定原料外，牛奶、烘焙及包材或將引入本土頭部供應商。",
+          "whyMatters": "儘管否認了與蜜雪冰城的具體代工傳聞，但官方證實的本土化採購改革方向，對現有全球供應商而言是重大結構性風險——牛奶、烘焙、包材類供應商的既有合約可能面臨重新議價或被本土供應商取代。",
+          "potentialImpact": [
+            "現有牛奶、烘焙、包材類供應商應主動確認中國市場合約續約條件是否受影響",
+            "評估本土供應商競爭加劇下的報價策略，避免訂單流失",
+            "持續關注博裕資本主導的正式採購政策變化與時程"
+          ],
+          "sourceLinks": [
+            {
+              "label": "光明網",
+              "url": "https://m.gmw.cn/2026-08/12/content_1304547322.htm"
+            }
+          ]
+        },
+        {
+          "id": "20260814-3",
+          "market": "🇨🇳 中國市場",
+          "source": "騰訊新聞（紅星新聞）",
+          "pubDate": "2026-08-10",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "零售競爭",
+            "消費者行為",
+            "成本結構"
+          ],
+          "headline": "外送平台補貼將星巴克飲品壓至4元人民幣，中國咖啡價格戰延燒",
+          "summary": "多名中國消費者曬出以4至5元人民幣購得星巴克飲品的訂單，經查證為淘寶閃購、美團等外送平台疊加補貼所致，星巴克門店回應「與品牌無關」。報導指出，隨著庫迪、瑞幸的9.9元價格戰進入下半場，外送平台正將戰火燒向星巴克。",
+          "whyMatters": "此事件雖非星巴克主動降價，但反映中國咖啡市場價格戰持續施壓星巴克的品牌定位與利潤結構。星巴克中國已於2025年對星冰樂等產品集體降價，未來為維持競爭力可能持續尋求壓低原料與包材採購成本。",
+          "potentialImpact": [
+            "供應商應預期星巴克中國持續尋求更具成本效益的原料與包材選項",
+            "留意星巴克是否進一步跟進降價策略，連帶壓縮供應鏈利潤空間",
+            "觀察瑞幸、庫迪等對手動態，評估中國咖啡市場整體採購量變化"
+          ],
+          "sourceLinks": [
+            {
+              "label": "騰訊新聞",
+              "url": "https://news.qq.com/rain/a/20260810A0B6KD00"
+            }
+          ]
+        },
+        {
+          "id": "20260814-4",
+          "market": "🌏 APAC",
+          "source": "Starbucks Stories Asia（官方）",
+          "pubDate": "2026-08-10",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "包裝創新",
+            "供應鏈管理"
+          ],
+          "headline": "星巴克攜手POP MART慶祝MOLLY 20週年，聯名橫跨8個亞太市場",
+          "summary": "星巴克官方宣布與POP MART合作，推出MOLLY角色20週年亞太獨家聯名系列，涵蓋香港、新加坡、馬來西亞、印尼、泰國、中國、澳洲及菲律賓8個市場，自8月10日起陸續在門市與線上販售不鏽鋼杯、馬克杯、提袋等限定周邊及聯名飲品。",
+          "whyMatters": "跨8個市場同步推出的大規模IP聯名，需要大量客製化周邊商品與限定包裝物料，對周邊商品、印刷包裝供應商而言是規模可觀的短期訂單機會，也顯示星巴克持續加碼IP聯名作為亞太成長策略。",
+          "potentialImpact": [
+            "周邊商品與包材供應商可主動接洽是否有其他區域限定聯名的供貨機會",
+            "評估短期內大量客製化生產的產能配置與交期需求",
+            "留意聯名商品銷售熱度是否帶動後續補貨訂單"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks Stories Asia",
+              "url": "https://stories.starbucks.com/asia/stories/2026/starbucks-and-pop-mart-celebrate-20-years-of-molly/"
+            }
+          ]
+        },
+        {
+          "id": "20260814-5",
+          "market": "🇯🇵 日本市場",
+          "source": "SoraNews24",
+          "pubDate": "2026-08-14",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "APAC策略"
+          ],
+          "headline": "星巴克日本推出30週年紀念影片，聚焦門市顧客與夥伴的溫情故事",
+          "summary": "星巴克日本上陸30週年企劃最終章上線，公開一支以門市顧客與夥伴（員工）真實互動故事為靈感的紀念影片，呼應全年約30億次店內「哈囉」與「謝謝」的顧客連結時刻。",
+          "whyMatters": "此為星巴克日本30週年系列活動收官之作，聚焦品牌情感敘事，雖非直接採購訊號，但反映星巴克日本持續加碼在地化品牌投資，與同期JIMOTO在地共創計畫等區域擴張策略相呼應。",
+          "potentialImpact": [
+            "供應商可留意30週年系列後續是否延伸出更多限定商品或在地聯名需求",
+            "關注日本市場品牌投資力度是否與展店、在地採購計畫同步加大",
+            "可作為評估其他市場週年慶行銷投入規模的參考範本"
+          ],
+          "sourceLinks": [
+            {
+              "label": "SoraNews24",
+              "url": "https://soranews24.com/2026/08/14/starbucks-releases-tear-jerking-new-video-inspired-by-heartwarming-encounters-in-japanese-stores/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-13",
       "label": "08/13",
@@ -518,142 +658,6 @@
             {
               "label": "Time Out Tokyo",
               "url": "https://www.timeout.com/tokyo/news/starbucks-japan-is-releasing-adorable-gacha-capsule-toys-at-stores-across-tokyo-080526"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "label": "08/07",
-      "items": [
-        {
-          "id": "20260807-1",
-          "market": "🌍 全球",
-          "source": "American Market News (MarketBeat)",
-          "pubDate": "2026-08-02",
-          "impact": "high",
-          "impactLabel": "🔥 高衝擊",
-          "impactAreas": [
-            "財務表現",
-            "採購量預測"
-          ],
-          "headline": "星巴克Q3財報優於預期，多家分析師上調目標價、全年財測同步調高",
-          "summary": "星巴克公布2026財年第三季財報，調整後每股盈餘0.85美元優於市場預期的0.66美元，營收93.2億美元，全球同店銷售成長7.9%。公司將全年調整後每股盈餘財測上調至2.55–2.65美元，DA Davidson等多家機構同步上調目標價至110美元。",
-          "whyMatters": "財報顯示星巴克全球客流與交易量回升動能強勁，同店銷售連續四季成長，意味著門市採購量與原料需求可能隨之擴大。財測上調也反映管理層對「Back to Starbucks」轉型計畫的信心，供應商可預期訂單規模將隨美國市場復甦而回升。",
-          "potentialImpact": [
-            "密切關注星巴克第四季及全年實際採購量變化，提前評估產能配置",
-            "留意美國市場服務效率提升相關投資（新設備、耗材）可能帶動的採購需求",
-            "評估股價與財測上調對星巴克資本支出與供應鏈投資意願的正向影響"
-          ],
-          "sourceLinks": [
-            {
-              "label": "American Market News",
-              "url": "https://www.americanbankingnews.com/2026/08/02/starbucks-nasdaqsbux-price-target-raised-to-110-00.html"
-            }
-          ]
-        },
-        {
-          "id": "20260807-2",
-          "market": "🇨🇳 中國市場",
-          "source": "新浪新聞（封面新聞）",
-          "pubDate": "2026-08-04",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "品牌策略",
-            "消費者行為"
-          ],
-          "headline": "南昌星巴克員工侮辱周杰倫海報事件延燒，涉事員工遭辭退",
-          "summary": "南昌一家星巴克臻選門市員工於社群平台發布對品牌代言人周杰倫海報做出翻白眼、捏鼻子等冒犯動作及不當言論的影片，引發網路熱議。星巴克於8月4日確認已將涉事員工辭退，並表示將加強員工培訓。",
-          "whyMatters": "此事件雖非直接影響供應鏈，但凸顯星巴克在中國市場對品牌代言合作與員工行為規範的重視程度，牽涉品牌形象維護成本與公關風險管理，可能促使星巴克中國（Boyu Capital合資公司）加強門市營運與人員培訓相關採購。",
-          "potentialImpact": [
-            "關注星巴克中國後續是否加強門市培訓或合規相關採購需求",
-            "評估品牌代言合作（如周杰倫聯名商品）後續行銷物料需求是否受影響",
-            "留意類似事件對星巴克中國消費者信心與客流的短期影響"
-          ],
-          "sourceLinks": [
-            {
-              "label": "新浪新聞",
-              "url": "https://www.sina.cn/news/detail/5328164003776755.html"
-            }
-          ]
-        },
-        {
-          "id": "20260807-3",
-          "market": "🇯🇵 日本市場",
-          "source": "SoraNews24",
-          "pubDate": "2026-08-07",
-          "impact": "low",
-          "impactLabel": "ℹ️ 低衝擊",
-          "impactAreas": [
-            "採購關係",
-            "包裝創新"
-          ],
-          "headline": "星巴克日本攜手Traveler's Company推出全新文具聯名商品",
-          "summary": "星巴克儲備烘焙工坊東京（Starbucks Reserve Roastery Tokyo）與日本文具品牌Traveler's Company自2019年起幾乎每年推出聯名商品，本次以「像旅行一樣享受每一天」為主題推出五款新品，8月6日起限定於東京烘焙工坊門市販售。",
-          "whyMatters": "此類聯名周邊商品涉及第三方品牌授權製造與限量商品的物流配送，對文具、皮革及印刷包裝供應商而言是穩定的短期訂單來源，也顯示星巴克持續透過異業合作維持品牌新鮮感與周邊商品銷售動能。",
-          "potentialImpact": [
-            "文具、皮革製品及包裝供應商可留意星巴克日本後續聯名周邊的打樣與生產需求",
-            "評估限量商品生產排期對供應商產能規劃的影響",
-            "觀察此類聯名模式是否複製至其他市場，帶來跨區域訂單機會"
-          ],
-          "sourceLinks": [
-            {
-              "label": "SoraNews24",
-              "url": "https://soranews24.com/2026/08/07/starbucks-japan-teams-up-with-travelers-company-for-new-stationery-and-goods-collection/"
-            }
-          ]
-        },
-        {
-          "id": "20260807-4",
-          "market": "🇯🇵 日本市場",
-          "source": "スターバックス コーヒー ジャパン 官方新聞稿",
-          "pubDate": "2026-08-06",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "原料需求",
-            "包裝創新"
-          ],
-          "headline": "星巴克日本推出新版即飲咖啡「COFFEE OF THE DAY 咖啡摩卡」，8月18日上市",
-          "summary": "星巴克咖啡日本官方宣布，瓶裝即飲咖啡系列「スターバックス® COFFEE OF THE DAY」將於8月18日推出新口味「カフェモカ」（咖啡摩卡），主打帶苦甜韻味的成熟風味。",
-          "whyMatters": "即飲（RTD）產品線的新品上市代表星巴克日本對瓶裝咖啡原料（可可／摩卡風味劑、乳製品）與包材（PET瓶、標籤）需求增加，對飲料代工廠與包材供應商而言是明確的訂單訊號。",
-          "potentialImpact": [
-            "飲料代工與原料供應商可提前確認新口味所需摩卡風味劑、乳製品供應排程",
-            "包材供應商留意新品標籤與瓶身設計變更對印刷與模具的影響",
-            "觀察此RTD新品銷售表現，評估是否有後續加單或擴大市場機會"
-          ],
-          "sourceLinks": [
-            {
-              "label": "スターバックス コーヒー ジャパン",
-              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-08-05/"
-            }
-          ]
-        },
-        {
-          "id": "20260807-5",
-          "market": "🇹🇼 台灣市場",
-          "source": "美麗佳人（Marie Claire Taiwan）",
-          "pubDate": "2026-08-07",
-          "impact": "medium",
-          "impactLabel": "⚠️ 中衝擊",
-          "impactAreas": [
-            "包裝創新",
-            "門市擴張"
-          ],
-          "headline": "星巴克首度攜手POP MART推出MOLLY聯名系列，8月11日全台上市",
-          "summary": "星巴克與潮流藝術品牌POP MART首度合作，慶祝經典角色MOLLY誕生20週年，推出亞太限定聯名系列，包含6款杯款、水壺與提袋商品，以及期間限定「草莓布蕾星冰樂」，8月10日星禮程會員搶先購買、8月11日全台門市正式上市。",
-          "whyMatters": "大型IP聯名商品通常帶動短期買氣爆發與限量商品供貨壓力，對周邊商品代工廠（不鏽鋼杯、玻璃杯、提袋）及印刷包材供應商而言是明確的訂單與交期壓力來源，也考驗供應鏈快速反應與庫存管理能力。",
-          "potentialImpact": [
-            "周邊商品代工廠應提前確認POP MART聯名系列各SKU的生產交期與庫存水位",
-            "留意搶購潮可能導致的補貨需求與供應鏈應變能力要求",
-            "評估此類IP聯名模式未來在其他APAC市場（日本、韓國、中國）複製的訂單機會"
-          ],
-          "sourceLinks": [
-            {
-              "label": "美麗佳人",
-              "url": "https://www.marieclaire.com.tw/lifestyle/whats-hot/95148"
             }
           ]
         }
