@@ -1,6 +1,120 @@
 {
-    "lastUpdated":  "2026-08-21",
+    "lastUpdated":  "2026-08-24",
     "days":  [
+                 {
+                     "date":  "2026-08-24",
+                     "label":  "08/24",
+                     "items":  [
+                                   {
+                                       "id":  "20260824-1",
+                                       "market":  "🇹🇼 台灣市場",
+                                       "source":  "壹蘋新聞網",
+                                       "pubDate":  "2026-08-23",
+                                       "impact":  "medium",
+                                       "impactLabel":  "⚠️ 中衝擊",
+                                       "impactAreas":  [
+                                                           "包材採購",
+                                                           "永續發展",
+                                                           "成本結構"
+                                                       ],
+                                       "headline":  "星巴克台灣門市飲料提袋全面收費，鼓勵顧客自備購物袋",
+                                       "summary":  "星巴克台灣宣布自2026年8月24日起，門市購物提袋（含飲料袋與禮袋）全面改為付費提供。單杯、雙杯、四杯飲料袋均為2元，禮袋依尺寸分為3元（小）與5元（大），藉此推動減塑與垃圾減量，並鼓勵消費者自備購物袋。",
+                                       "whyMatters":  "此政策反映星巴克在包材採購策略上持續朝「減量、可自備」方向轉型，對紙袋、塑膠袋等一次性包材供應商的訂單結構將產生直接影響。長期而言可能壓縮一次性包材採購量，但同時為可重複使用提袋、環保周邊等新品類創造需求。",
+                                       "potentialImpact":  [
+                                                               "包材供應商應評估一次性提袋訂單量可能下滑的風險，提前規劃產品組合調整",
+                                                               "可重複使用購物袋、環保提袋類供應商可爭取星巴克或聯名周邊採購合作機會",
+                                                               "供應商可觀察此政策是否複製至其他亞太市場（如香港、新加坡），提前準備跨市場供貨方案"
+                                                           ],
+                                       "sourceLinks":  [
+                                                           {
+                                                               "label":  "壹蘋新聞網",
+                                                               "url":  "https://news.nextapple.com/life/20260823/CF273989CEDE3541A84CA04F68A78130"
+                                                           }
+                                                       ]
+                                   },
+                                   {
+                                       "id":  "20260824-2",
+                                       "market":  "🌏 新加坡市場",
+                                       "source":  "Alvinology",
+                                       "pubDate":  "2026-08-21",
+                                       "impact":  "low",
+                                       "impactLabel":  "ℹ️ 低衝擊",
+                                       "impactAreas":  [
+                                                           "周邊商品採購",
+                                                           "品牌策略",
+                                                           "消費者行為"
+                                                       ],
+                                       "headline":  "星巴克攜手日本插畫IP Mofusand推出新加坡限定聯名系列",
+                                       "summary":  "星巴克新加坡自8月25日起與人氣貓咪插畫品牌Mofusand再度合作，推出限定杯身、保溫杯、腕包及盲盒吊飾等周邊商品；針對外送訂單滿額顧客並提供免費聯名環保杯套，星禮程會員亦可提前於8月21日搶購線上獨家組合。",
+                                       "whyMatters":  "限量IP聯名周邊商品的高頻率推出，反映星巴克持續透過聯名策略刺激客單價與品牌黏著度。對周邊商品代工廠、授權製造與包裝供應商而言，此類活動是穩定但具有明顯尖峰特性的訂單來源。",
+                                       "potentialImpact":  [
+                                                               "周邊商品代工供應商可關注星巴克亞太IP聯名頻率，提前備料因應短期爆量訂單",
+                                                               "環保杯套、贈品類包裝供應商可爭取聯名限定款開發合作",
+                                                               "供應商應留意此類商品的區域限定特性，避免跨區調貨造成庫存風險"
+                                                           ],
+                                       "sourceLinks":  [
+                                                           {
+                                                               "label":  "Alvinology",
+                                                               "url":  "https://alvinology.com/2026/08/21/mofusand-and-starbucks-return-with-new-singapore-exclusive-collectables/"
+                                                           }
+                                                       ]
+                                   },
+                                   {
+                                       "id":  "20260824-3",
+                                       "market":  "🇺🇸 美國市場 / 🌍 全球",
+                                       "source":  "The Motley Fool",
+                                       "pubDate":  "2026-08-18",
+                                       "impact":  "medium",
+                                       "impactLabel":  "⚠️ 中衝擊",
+                                       "impactAreas":  [
+                                                           "採購量預測",
+                                                           "飲品趨勢",
+                                                           "原料需求"
+                                                       ],
+                                       "headline":  "獨角獸星冰樂回歸創星巴克史上最佳週末業績，單一週末熱銷逾200萬杯",
+                                       "summary":  "星巴克限時回歸招牌「獨角獸星冰樂」，在北美自營門市於單一週末創下超過200萬杯的銷售紀錄，寫下公司史上最佳週六銷售日。市場分析視此為第三季轉型成效的最新佐證，帶動股價走高。",
+                                       "whyMatters":  "突發性爆量需求對芒果風味糖漿、藍色風味粉、鮮奶油等關鍵原料的即時供貨能力構成壓力測試；此類限時商品的成功也可能促使星巴克未來更頻繁推出限量飲品，供應商需具備快速反應的彈性產能。",
+                                       "potentialImpact":  [
+                                                               "風味糖漿與粉類原料供應商應評估短期爆量訂單的產能彈性與安全庫存策略",
+                                                               "杯材與包裝供應商需關注限時活動期間的用量峰值，提前協調物流排程",
+                                                               "供應商可主動與星巴克採購團隊溝通未來限量商品上市時程，爭取提前備料窗口"
+                                                           ],
+                                       "sourceLinks":  [
+                                                           {
+                                                               "label":  "The Motley Fool",
+                                                               "url":  "https://www.fool.com/investing/2026/08/18/starbucks-just-landed-the-biggest-weekend-in-the-company-s-history-you-won-t-believe-what-drove-it/"
+                                                           }
+                                                       ]
+                                   },
+                                   {
+                                       "id":  "20260824-4",
+                                       "market":  "🇯🇵 日本市場",
+                                       "source":  "SoraNews24",
+                                       "pubDate":  "2026-08-19",
+                                       "impact":  "low",
+                                       "impactLabel":  "ℹ️ 低衝擊",
+                                       "impactAreas":  [
+                                                           "飲品趨勢",
+                                                           "原料需求",
+                                                           "APAC策略"
+                                                       ],
+                                       "headline":  "星巴克日本推出巨峰葡萄新飲品，模糊夏秋季節界線",
+                                       "summary":  "星巴克日本於8月17日推出兩款以日本巨峰葡萄為主題的季節性飲品，包括「濃郁巨峰凍茶」，作為夏季轉入秋季前的過渡新品，延續今年30周年系列活動的一環。",
+                                       "whyMatters":  "區域限定水果原料飲品的推出頻率，反映星巴克日本持續透過在地化原料（如巨峰葡萄）強化差異化競爭力，對日本在地農產品及水果原料供應商而言，是穩定的季節性採購機會。",
+                                       "potentialImpact":  [
+                                                               "在地水果原料供應商可關注星巴克日本季節性新品開發週期，提前對接供貨",
+                                                               "包裝與茶飲原料供應商應留意30週年系列後續新品節奏，預作產能規劃",
+                                                               "供應商可評估此類在地化策略是否延伸至其他亞太市場的在地水果採購需求"
+                                                           ],
+                                       "sourceLinks":  [
+                                                           {
+                                                               "label":  "SoraNews24",
+                                                               "url":  "https://soranews24.com/2026/08/19/starbucks-japan-releases-two-new-seasonal-drinks-that-blur-the-line-between-summer-and-autumn/"
+                                                           }
+                                                       ]
+                                   }
+                               ]
+                 },
                  {
                      "date":  "2026-08-21",
                      "label":  "08/21",
@@ -317,131 +431,6 @@
                                                            {
                                                                "label":  "聯合新聞網",
                                                                "url":  "https://travel.udn.com/travel/story/7186/9699342"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 },
-                 {
-                     "date":  "2026-08-17",
-                     "label":  "08/17",
-                     "items":  [
-                                   {
-                                       "id":  "20260817-1",
-                                       "market":  "🇰🇷 韓國市場",
-                                       "source":  "Korea Times / Inside Retail Asia",
-                                       "pubDate":  "2026-08-14",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "財務表現",
-                                                           "品牌策略",
-                                                           "採購量預測"
-                                                       ],
-                                       "headline":  "星巴克韓國27年來首見單季虧損 「坦克日」行銷風波重創業績",
-                                       "summary":  "星巴克韓國營運商SCK公司公布第二季（4–6月）營業虧損184億韓元（約1,290萬美元），為1999年進入韓國市場以來首次單季虧損，同店銷售下滑6.1%。虧損源於5月「坦克日」促銷活動引發的杯葛抵制，該活動因喚起1980年光州民主化運動的軍事鎮壓記憶而遭強烈批評，警方甚至突襲星巴克韓國總部展開調查。",
-                                       "whyMatters":  "韓國是星巴克全球第二大市場，僅次於美國，門市數量龐大。單季虧損及消費者信心受創，可能導致韓國分公司緊縮採購預算、延後新店擴張與設備更新計畫，直接影響當地供應商訂單量與付款週期。",
-                                       "potentialImpact":  [
-                                                               "密切關注韓國分公司後續採購訂單是否因成本控制而縮減或延遲",
-                                                               "評估韓國市場品牌信任度修復進度，作為中長期供貨規劃參考",
-                                                               "留意韓國警方調查後續發展，可能影響當地管理層人事與採購決策權"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Korea Times",
-                                                               "url":  "https://www.koreatimes.co.kr/amp/business/companies/20260813/starbucks-korea-sinks-into-loss-after-tank-day-promotional-fiasco"
-                                                           },
-                                                           {
-                                                               "label":  "Inside Retail Asia",
-                                                               "url":  "https://insideretail.asia/2026/08/14/starbucks-korea-plunges-into-the-red-after-marketing-scandal/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260817-2",
-                                       "market":  "🌏 APAC",
-                                       "source":  "Starbucks Stories Asia",
-                                       "pubDate":  "2026-08-15",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "飲品趨勢",
-                                                           "原料需求",
-                                                           "包裝創新"
-                                                       ],
-                                       "headline":  "獨角獸星冰樂首度登陸亞太 澳洲紐西蘭新加坡越南限時3天販售",
-                                       "summary":  "星巴克宣布病毒式爆紅飲品「獨角獸星冰樂」（Unicorn Frappuccino）於8月15日至17日首度在亞太地區的澳洲、紐西蘭、新加坡與越南限時販售。飲品以椰奶為基底，融合草莓風味與芒果龍舌蘭風味，並淋上藍莓與白巧克力醬。",
-                                       "whyMatters":  "限時聯名飲品在短時間內於多國同步推出，對椰奶、莓果風味糖漿、龍舌蘭果粉等特殊原料及限定包裝物料造成短期集中採購需求，供應商需具備快速調度與跨國一致品質控管能力。",
-                                       "potentialImpact":  [
-                                                               "評估區域限定原料（椰奶、莓果風味糖漿）短期供貨彈性與庫存緩衝",
-                                                               "留意限量商品若銷售超預期，是否有追加訂單的可能",
-                                                               "檢視跨國同步上市對物流與包裝供應鏈的協調需求"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Starbucks Stories Asia",
-                                                               "url":  "https://stories.starbucks.com/asia/stories/2026/unicorn-frappuccino-blended-beverage-makes-its-debut-in-asia-pacific/"
-                                                           },
-                                                           {
-                                                               "label":  "The Travelers Today",
-                                                               "url":  "https://www.travelerstoday.com/articles/60851/20260816/unicorn-frappuccino-debuts-australia-singapore-vietnam-new-zealand.htm"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260817-3",
-                                       "market":  "🇨🇳 中國市場",
-                                       "source":  "網易新聞 / 新浪新聞",
-                                       "pubDate":  "2026-08-14",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "消費者行為",
-                                                           "品牌策略"
-                                                       ],
-                                       "headline":  "常州星巴克遭老人長期占座蹭空調 店員關閉空調應對登上熱搜",
-                                       "summary":  "江蘇常州一家星巴克門市因持續高溫，遭附近多名長者當作免費納涼據點，全天占座打牌卻無消費，店員在勸導與報警均無效後被迫關閉空調清場，事件於8月14日登上熱搜，引發商業空間邊界與公共納涼資源不足的討論。星巴克中國回應稱門市從未設有強制消費入座規定。",
-                                       "whyMatters":  "此類事件雖非直接影響採購或合約，但反映星巴克中國門市在客流管理與品牌形象維護上面臨的營運挑戰，可能促使公司檢討門市空間政策，間接影響顧客體驗相關的物料與服務設計需求。",
-                                       "potentialImpact":  [
-                                                               "留意中國門市是否因此類事件調整座位管理政策或營運時段",
-                                                               "評估品牌聲譽事件對區域客流量與飲品銷售量預測的潛在影響",
-                                                               "觀察後續官方聲明是否影響門市服務標準或物料採購"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "網易新聞",
-                                                               "url":  "https://www.163.com/dy/article/L4CPOJV70553KB4S.html"
-                                                           },
-                                                           {
-                                                               "label":  "新浪新聞",
-                                                               "url":  "https://k.sina.com.cn/article_7880068208_1d5b04c7006801wj0q.html?from=news"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260817-4",
-                                       "market":  "🌍 全球",
-                                       "source":  "Simply Wall St",
-                                       "pubDate":  "2026-08-15",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "APAC策略",
-                                                           "ESG風險"
-                                                       ],
-                                       "headline":  "分析師檢視韓國虧損是否牽動星巴克全球品牌風險敘事",
-                                       "summary":  "隨著星巴克韓國爆出27年來首次單季虧損，市場分析開始討論此一區域性公關危機是否會擴散影響星巴克全球品牌形象與投資人觀感，尤其在星巴克同時評估日本股權出售或IPO、中國轉為合資授權模式之際，亞太市場的營運穩定性備受關注。",
-                                       "whyMatters":  "星巴克近期密集調整亞太多個市場的所有權與營運結構（中國合資、日本潛在股權出售），韓國危機若處理不當，可能加深投資人與供應商對亞太區域治理與品牌風險的疑慮，影響資本支出與展店步調。",
-                                       "potentialImpact":  [
-                                                               "追蹤星巴克亞太整體展店計畫是否因單一市場危機而趨於保守",
-                                                               "留意日本股權出售/IPO進度是否受韓國事件影響決策時程",
-                                                               "評估品牌風險事件對供應商合約續約與新籤約談判籌碼的影響"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Simply Wall St",
-                                                               "url":  "https://simplywall.st/stocks/us/consumer-services/nasdaq-sbux/starbucks/news/did-starbucks-koreas-boycott-driven-loss-just-shift-starbuck/amp"
                                                            }
                                                        ]
                                    }
