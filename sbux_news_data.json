@@ -1,6 +1,132 @@
 {
-  "lastUpdated": "2026-09-25",
+  "lastUpdated": "2026-09-28",
   "days": [
+    {
+      "date": "2026-09-28",
+      "label": "09/28",
+      "items": [
+        {
+          "id": "20260928-1",
+          "market": "🇺🇸 美國市場",
+          "source": "三立新聞網／Yahoo 新聞、Starbucks Everywhere、About Starbucks",
+          "pubDate": "2026-09-25",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "成本結構",
+            "門市擴張",
+            "採購量預測"
+          ],
+          "headline": "北美 250 家關店已於 9/26 執行完畢，星巴克同步鎖定 2028 年前削減約 20 億美元成本、9/30 前完成 1,500 家門市翻新",
+          "summary": "第三方門市追蹤網站彙整顯示，北美約 250 家門市多數已於 9 月 26 日（週六）正式關閉，涵蓋美國與加拿大多州／省，名單中不少是 2024–2026 年才開幕的新店。外媒與台媒報導指出，執行長 Niccol 目標在 2028 年前削減約 20 億美元成本，本輪關店重組費用約 3 億美元（含 2 億美元現金支出與 1 億美元資產減損），同時公司仍計畫於 FY26 結束（9/30）前完成 1,500 家門市翻新。",
+          "whyMatters": "關店已從「宣布」進入「執行完成」階段，受影響門市的配送、設備與耗材訂單即刻歸零；而 20 億美元的降本目標意味著未來兩年採購端將面臨持續的議價與規格整併壓力。另一方面，1,500 家翻新工程與「Green Apron Service」標準，對裝修、家具、設備供應商仍是明確的短期需求。",
+          "potentialImpact": [
+            "比對官方關店名單與自身配送點，確認 9/26 後的出貨、租賃設備回收與應收帳款處理，避免呆帳與滯留庫存",
+            "預期 FY27 降本談判將聚焦單價與 SKU 精簡，建議提前準備成本拆解、量價方案與替代規格，以爭取保留份額",
+            "新店開幕中也出現短期即關閉的案例，門市建置類供應商應重新評估北美新店專案的回收週期與付款條件"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Yahoo 新聞（三立）：星巴克關 250 家店、2028 前砍 20 億美元支出",
+              "url": "https://tw.news.yahoo.com/%E6%98%9F%E5%B7%B4%E5%85%8B%E5%A4%A7%E6%8F%AE%E5%88%80-%E5%AE%A3%E5%B8%83%E5%8C%97%E7%BE%8E-%E9%97%9C250%E5%AE%B6%E5%BA%97-%E5%96%8A2028%E5%89%8D%E7%A0%8D636%E5%84%84%E6%94%AF%E5%87%BA-132500385.html"
+            },
+            {
+              "label": "Starbucks Everywhere：2026 年 9 月關店名單",
+              "url": "https://starbuckseverywhere.net/StarbucksClosures_Sep2026.htm"
+            },
+            {
+              "label": "About Starbucks：COO Mike Grams 致夥伴信",
+              "url": "https://about.starbucks.com/press/2026/creating-coffeehouses-customers-love-and-partners-are-proud-of/"
+            }
+          ]
+        },
+        {
+          "id": "20260928-2",
+          "market": "🌍 全球",
+          "source": "Reuters（Business Recorder 轉載）、Perfect Daily Grind",
+          "pubDate": "2026-09-25",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "原料需求",
+            "成本結構",
+            "供應鏈管理"
+          ],
+          "headline": "阿拉比卡咖啡期貨跌至三個月低點，巴西 Conab 上修 2026/27 產量至歷史新高",
+          "summary": "ICE 阿拉比卡期貨 9/23 跌至每磅約 2.71 美元的三個月低點，羅布斯塔亦跌至三個半月低點，主因巴西與越南作物前景改善。巴西 Conab 9 月下旬將 2026/27 產量上修至 6,760 萬袋、創歷史紀錄；StoneX 預估 2026 年全球咖啡市場將轉為約 1,000 萬袋供給過剩。不過交易所認證庫存仍處於低檔，且 El Niño 可能影響巴西開花期，價格波動風險仍在。",
+          "whyMatters": "生豆價格走弱是星巴克毛利的重要順風，也可能讓星巴克在 FY27 合約中爭取更低的固定價或調整「待定價」（price-to-be-fixed）部位。對生豆貿易商、烘焙與 RTD 合作夥伴而言，採購方議價力上升；對包材、乳品等非咖啡供應商，星巴克的成本壓力可能從咖啡轉移到其他品項。",
+          "potentialImpact": [
+            "生豆與咖啡萃取物供應商應預期 Q4／FY27 報價遭要求反映期貨跌幅，建議預先規劃避險與分段定價方案",
+            "低檔認證庫存與 El Niño 風險並存，可主動提出長約鎖價或彈性交期組合，強化「供應穩定性」的價值主張",
+            "非咖啡品項（杯材、乳品、糖漿）供應商需留意：咖啡成本下降後，降本目標可能轉向其他品類"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Reuters via Business Recorder：Arabica coffee sets three-month low",
+              "url": "https://www.brecorder.com/news/40440897/arabica-coffee-sets-three-month-low-sugar-and-cocoa-also-fall"
+            },
+            {
+              "label": "Perfect Daily Grind：Coffee News Recap 25 Sep 2026",
+              "url": "https://perfectdailygrind.com/2026/09/coffee-news-recap-25-september-2026/"
+            }
+          ]
+        },
+        {
+          "id": "20260928-3",
+          "market": "🌏 APAC",
+          "source": "Việt Nam News",
+          "pubDate": "2026-09-24",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "APAC 策略",
+            "零售競爭",
+            "採購關係"
+          ],
+          "headline": "Jollibee 出售 Highlands Coffee 11% 股權，越南 VTI 重掌控股權並推進 2027 年 IPO",
+          "summary": "菲律賓 Jollibee 9/23 宣布以約 8,900 萬美元出售越南 Highlands Coffee 11% 股權給創辦人 David Thái 領導的 Viet Thai International（VTI），持股由 60% 降至 49%，VTI 升至 51% 取回控制權，交易隱含估值約 8 億美元。Highlands 門市已達約 1,062 家，計畫於 2027 年第一季完成 3–4 億美元 IPO。據公開資料，VTI 同時是星巴克越南的授權營運商。",
+          "whyMatters": "Highlands 是越南最大本土咖啡連鎖，控股權回到同時經營星巴克越南的 VTI 手中，可能影響該集團在越南的資本配置與展店優先順序。對在東南亞供應星巴克授權市場的廠商而言，授權商的集團資源與採購整合方向值得追蹤。",
+          "potentialImpact": [
+            "供應星巴克越南的廠商，可留意 VTI 旗下品牌是否整合物流、倉儲或共同採購，爭取跨品牌供應機會",
+            "Highlands IPO 前可能加速展店，越南咖啡連鎖競爭升溫，星巴克越南的促銷與新品節奏可能隨之調整",
+            "持續觀察 APAC 授權／合資模式的變化（中國博裕、日本出售股權評估、越南 VTI），調整區域業務布局"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Việt Nam News：Highlands Coffee founder spends over $88 million to buy back stake",
+              "url": "https://vietnamnews.vn/economy/1800450/highlands-coffee-founder-spends-over-88-million-to-buy-back-stake.html"
+            }
+          ]
+        },
+        {
+          "id": "20260928-4",
+          "market": "🌍 全球",
+          "source": "Perfect Daily Grind（產業週報）",
+          "pubDate": "2026-09-25",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "供應鏈技術",
+            "原料需求",
+            "零售競爭"
+          ],
+          "headline": "咖啡上游產能擴張：Kerry 賓州新萃取廠、Swiss Water 低咖啡因產能增 15%，英國 Greggs 門市數超越 Costa",
+          "summary": "產業週報整理本週動態：Kerry 將在美國賓州開設新的咖啡萃取設施、擴充萃取產能；Swiss Water 宣布投資擴產，產量預計提升 15%，2027 年 7 月商轉；英國 Greggs 以 2,737 家門市小幅超越 Costa，反映平價與非傳統咖啡通路崛起。",
+          "whyMatters": "萃取與低咖啡因加工產能擴增，將提高 RTD 與即溶產品的供應選擇與議價空間；平價通路搶占咖啡消費，則可能促使星巴克在價值感與菜單上持續調整，連動原料與包材需求結構。",
+          "potentialImpact": [
+            "RTD／濃縮液相關供應商應評估新產能進場帶來的價格競爭，強化品質一致性與認證優勢",
+            "低咖啡因與功能性飲品需求上升，可提前準備相關原料規格與樣品提案",
+            "關注歐美平價咖啡通路成長，評估星巴克可能推出的價值型產品對成本與規格的要求"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Perfect Daily Grind：Coffee News Recap 25 Sep 2026",
+              "url": "https://perfectdailygrind.com/2026/09/coffee-news-recap-25-september-2026/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-25",
       "label": "09/25",
