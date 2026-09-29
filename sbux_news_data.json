@@ -1,280 +1,406 @@
 {
-    "lastUpdated":  "2026-09-28",
-    "days":  [
-                 {
-                     "date":  "2026-09-28",
-                     "label":  "09/28",
-                     "items":  [
-                                   {
-                                       "id":  "20260928-1",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "三立新聞網／Yahoo 新聞、Starbucks Everywhere、About Starbucks",
-                                       "pubDate":  "2026-09-25",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "成本結構",
-                                                           "門市擴張",
-                                                           "採購量預測"
-                                                       ],
-                                       "headline":  "北美 250 家關店已於 9/26 執行完畢，星巴克同步鎖定 2028 年前削減約 20 億美元成本、9/30 前完成 1,500 家門市翻新",
-                                       "summary":  "第三方門市追蹤網站彙整顯示，北美約 250 家門市多數已於 9 月 26 日（週六）正式關閉，涵蓋美國與加拿大多州／省，名單中不少是 2024–2026 年才開幕的新店。外媒與台媒報導指出，執行長 Niccol 目標在 2028 年前削減約 20 億美元成本，本輪關店重組費用約 3 億美元（含 2 億美元現金支出與 1 億美元資產減損），同時公司仍計畫於 FY26 結束（9/30）前完成 1,500 家門市翻新。",
-                                       "whyMatters":  "關店已從「宣布」進入「執行完成」階段，受影響門市的配送、設備與耗材訂單即刻歸零；而 20 億美元的降本目標意味著未來兩年採購端將面臨持續的議價與規格整併壓力。另一方面，1,500 家翻新工程與「Green Apron Service」標準，對裝修、家具、設備供應商仍是明確的短期需求。",
-                                       "potentialImpact":  [
-                                                               "比對官方關店名單與自身配送點，確認 9/26 後的出貨、租賃設備回收與應收帳款處理，避免呆帳與滯留庫存",
-                                                               "預期 FY27 降本談判將聚焦單價與 SKU 精簡，建議提前準備成本拆解、量價方案與替代規格，以爭取保留份額",
-                                                               "新店開幕中也出現短期即關閉的案例，門市建置類供應商應重新評估北美新店專案的回收週期與付款條件"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Yahoo 新聞（三立）：星巴克關 250 家店、2028 前砍 20 億美元支出",
-                                                               "url":  "https://tw.news.yahoo.com/%E6%98%9F%E5%B7%B4%E5%85%8B%E5%A4%A7%E6%8F%AE%E5%88%80-%E5%AE%A3%E5%B8%83%E5%8C%97%E7%BE%8E-%E9%97%9C250%E5%AE%B6%E5%BA%97-%E5%96%8A2028%E5%89%8D%E7%A0%8D636%E5%84%84%E6%94%AF%E5%87%BA-132500385.html"
-                                                           },
-                                                           {
-                                                               "label":  "Starbucks Everywhere：2026 年 9 月關店名單",
-                                                               "url":  "https://starbuckseverywhere.net/StarbucksClosures_Sep2026.htm"
-                                                           },
-                                                           {
-                                                               "label":  "About Starbucks：COO Mike Grams 致夥伴信",
-                                                               "url":  "https://about.starbucks.com/press/2026/creating-coffeehouses-customers-love-and-partners-are-proud-of/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260928-2",
-                                       "market":  "🌍 全球",
-                                       "source":  "Reuters（Business Recorder 轉載）、Perfect Daily Grind",
-                                       "pubDate":  "2026-09-25",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "原料需求",
-                                                           "成本結構",
-                                                           "供應鏈管理"
-                                                       ],
-                                       "headline":  "阿拉比卡咖啡期貨跌至三個月低點，巴西 Conab 上修 2026/27 產量至歷史新高",
-                                       "summary":  "ICE 阿拉比卡期貨 9/23 跌至每磅約 2.71 美元的三個月低點，羅布斯塔亦跌至三個半月低點，主因巴西與越南作物前景改善。巴西 Conab 9 月下旬將 2026/27 產量上修至 6,760 萬袋、創歷史紀錄；StoneX 預估 2026 年全球咖啡市場將轉為約 1,000 萬袋供給過剩。不過交易所認證庫存仍處於低檔，且 El Niño 可能影響巴西開花期，價格波動風險仍在。",
-                                       "whyMatters":  "生豆價格走弱是星巴克毛利的重要順風，也可能讓星巴克在 FY27 合約中爭取更低的固定價或調整「待定價」（price-to-be-fixed）部位。對生豆貿易商、烘焙與 RTD 合作夥伴而言，採購方議價力上升；對包材、乳品等非咖啡供應商，星巴克的成本壓力可能從咖啡轉移到其他品項。",
-                                       "potentialImpact":  [
-                                                               "生豆與咖啡萃取物供應商應預期 Q4／FY27 報價遭要求反映期貨跌幅，建議預先規劃避險與分段定價方案",
-                                                               "低檔認證庫存與 El Niño 風險並存，可主動提出長約鎖價或彈性交期組合，強化「供應穩定性」的價值主張",
-                                                               "非咖啡品項（杯材、乳品、糖漿）供應商需留意：咖啡成本下降後，降本目標可能轉向其他品類"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Reuters via Business Recorder：Arabica coffee sets three-month low",
-                                                               "url":  "https://www.brecorder.com/news/40440897/arabica-coffee-sets-three-month-low-sugar-and-cocoa-also-fall"
-                                                           },
-                                                           {
-                                                               "label":  "Perfect Daily Grind：Coffee News Recap 25 Sep 2026",
-                                                               "url":  "https://perfectdailygrind.com/2026/09/coffee-news-recap-25-september-2026/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260928-3",
-                                       "market":  "🌏 APAC",
-                                       "source":  "Việt Nam News",
-                                       "pubDate":  "2026-09-24",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "APAC 策略",
-                                                           "零售競爭",
-                                                           "採購關係"
-                                                       ],
-                                       "headline":  "Jollibee 出售 Highlands Coffee 11% 股權，越南 VTI 重掌控股權並推進 2027 年 IPO",
-                                       "summary":  "菲律賓 Jollibee 9/23 宣布以約 8,900 萬美元出售越南 Highlands Coffee 11% 股權給創辦人 David Thái 領導的 Viet Thai International（VTI），持股由 60% 降至 49%，VTI 升至 51% 取回控制權，交易隱含估值約 8 億美元。Highlands 門市已達約 1,062 家，計畫於 2027 年第一季完成 3–4 億美元 IPO。據公開資料，VTI 同時是星巴克越南的授權營運商。",
-                                       "whyMatters":  "Highlands 是越南最大本土咖啡連鎖，控股權回到同時經營星巴克越南的 VTI 手中，可能影響該集團在越南的資本配置與展店優先順序。對在東南亞供應星巴克授權市場的廠商而言，授權商的集團資源與採購整合方向值得追蹤。",
-                                       "potentialImpact":  [
-                                                               "供應星巴克越南的廠商，可留意 VTI 旗下品牌是否整合物流、倉儲或共同採購，爭取跨品牌供應機會",
-                                                               "Highlands IPO 前可能加速展店，越南咖啡連鎖競爭升溫，星巴克越南的促銷與新品節奏可能隨之調整",
-                                                               "持續觀察 APAC 授權／合資模式的變化（中國博裕、日本出售股權評估、越南 VTI），調整區域業務布局"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Việt Nam News：Highlands Coffee founder spends over $88 million to buy back stake",
-                                                               "url":  "https://vietnamnews.vn/economy/1800450/highlands-coffee-founder-spends-over-88-million-to-buy-back-stake.html"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260928-4",
-                                       "market":  "🌍 全球",
-                                       "source":  "Perfect Daily Grind（產業週報）",
-                                       "pubDate":  "2026-09-25",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "供應鏈技術",
-                                                           "原料需求",
-                                                           "零售競爭"
-                                                       ],
-                                       "headline":  "咖啡上游產能擴張：Kerry 賓州新萃取廠、Swiss Water 低咖啡因產能增 15%，英國 Greggs 門市數超越 Costa",
-                                       "summary":  "產業週報整理本週動態：Kerry 將在美國賓州開設新的咖啡萃取設施、擴充萃取產能；Swiss Water 宣布投資擴產，產量預計提升 15%，2027 年 7 月商轉；英國 Greggs 以 2,737 家門市小幅超越 Costa，反映平價與非傳統咖啡通路崛起。",
-                                       "whyMatters":  "萃取與低咖啡因加工產能擴增，將提高 RTD 與即溶產品的供應選擇與議價空間；平價通路搶占咖啡消費，則可能促使星巴克在價值感與菜單上持續調整，連動原料與包材需求結構。",
-                                       "potentialImpact":  [
-                                                               "RTD／濃縮液相關供應商應評估新產能進場帶來的價格競爭，強化品質一致性與認證優勢",
-                                                               "低咖啡因與功能性飲品需求上升，可提前準備相關原料規格與樣品提案",
-                                                               "關注歐美平價咖啡通路成長，評估星巴克可能推出的價值型產品對成本與規格的要求"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Perfect Daily Grind：Coffee News Recap 25 Sep 2026",
-                                                               "url":  "https://perfectdailygrind.com/2026/09/coffee-news-recap-25-september-2026/"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 },
-                 {
-                     "date":  "2026-09-25",
-                     "label":  "09/25",
-                     "items":  [
-                                   {
-                                       "id":  "20260925-1",
-                                       "market":  "🇺🇸 美國市場",
-                                       "source":  "SEC 8-K / CNBC",
-                                       "pubDate":  "2026-09-24",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "門市擴張",
-                                                           "採購量預測",
-                                                           "成本結構"
-                                                       ],
-                                       "headline":  "星巴克宣布關閉北美約 250 家門市，提列約 3 億美元重組費用，FY26 淨新店目標下修至 440 家",
-                                       "summary":  "星巴克董事會於 9/22 核准「Back to Starbucks」策略下的新一輪門市調整，將關閉北美逾 18,000 家門市中約 1%（約 250 家）表現不佳據點，多數於 FY26 結束前完成。公司預估重組費用約 3 億美元（2 億美元現金支出為租約退出與員工遣散、1 億美元為非現金資產減損），並將 FY26 全球淨新店目標由 600–650 家下修至約 440 家，新增門市將主要來自國際市場。",
-                                       "whyMatters":  "北美門市數量縮減將直接降低當地門市端耗材、設備與食材的訂單基數，且關店集中在 FY26 年底前，短期內可能出現訂單取消或庫存回收。另一方面，淨新店成長轉向國際市場，意味著新店設備、裝修與開店物料的採購需求重心將移往海外。",
-                                       "potentialImpact":  [
-                                                               "檢視北美訂單預測，針對 Q4 關店區域預先與採購窗口確認訂單調整與庫存退回條款，避免呆滯庫存",
-                                                               "新店成長轉向國際市場，建議強化 APAC / EMEA 的供貨能力與在地化交付，以承接海外開店設備與物料需求",
-                                                               "關店後重點轉向改裝門市（已逾 1,000 家重新設計），可主動提案門市翻新相關的傢俱、設備與包裝方案"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "SEC Form 8-K (2026-09-22)",
-                                                               "url":  "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000145/sbux-20260922.htm"
-                                                           },
-                                                           {
-                                                               "label":  "CNBC",
-                                                               "url":  "https://www.cnbc.com/2026/09/24/starbucks-to-close-250-stores.html"
-                                                           },
-                                                           {
-                                                               "label":  "Detroit News",
-                                                               "url":  "https://www.detroitnews.com/story/business/2026/09/24/starbucks-cuts-250-locations-back-higher-potential-stores/91917291007/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260925-2",
-                                       "market":  "🇯🇵 日本市場",
-                                       "source":  "Starbucks Japan 官方新聞稿",
-                                       "pubDate":  "2026-09-18",
-                                       "impact":  "high",
-                                       "impactLabel":  "🔥 高衝擊",
-                                       "impactAreas":  [
-                                                           "成本結構",
-                                                           "原料需求",
-                                                           "採購關係"
-                                                       ],
-                                       "headline":  "日本星巴克宣布 10/9 起調漲定番飲品、食品與咖啡豆價格，原因為原料、物流與能源成本上升",
-                                       "summary":  "日本星巴克宣布自 2026 年 10 月 9 日起，全店定番飲品調漲 4–35 日圓、部分定番食品調漲 10–30 日圓，定番咖啡豆與「One More Coffee」也在調整範圍內。官方說明原因為原材料價格、物流與能源等成本持續上升，此為今年 2 月後的再度調價。",
-                                       "whyMatters":  "日本星巴克明確將成本壓力歸因於原料與物流，顯示其採購端正承受高成本，後續可能更積極要求供應商降本或重新議價。價格上調也可能影響來客數與品項組合，進而改變各原料的採購量。",
-                                       "potentialImpact":  [
-                                                               "預期日本採購團隊將加強成本審視，建議提前準備成本結構說明與降本方案（如規格優化、物流整合）",
-                                                               "密切觀察調價後 10–11 月的銷量變化，調整對日本市場的出貨預測",
-                                                               "若日本 stake sale 程序於 Q4 啟動，新股東可能進一步推動成本優化，宜預作合約條款與價格機制的準備"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Starbucks Japan プレスリリース",
-                                                               "url":  "https://stories.starbucks.co.jp/press/2026/pr-2026-0918/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260925-3",
-                                       "market":  "🌍 全球",
-                                       "source":  "About Starbucks",
-                                       "pubDate":  "2026-09-21",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "供應鏈技術",
-                                                           "採購架構",
-                                                           "組織重組"
-                                                       ],
-                                       "headline":  "星巴克科技部門選定印度清奈設立全新技術中心，逐步將外包工作收回內部",
-                                       "summary":  "星巴克技術長 Anand Varadarajan 宣布，公司將於 FY27 在印度清奈（Chennai）設立技術中心，與西雅圖、納什維爾、倫敦、香港等據點協同運作。該中心將支援全球業務，並隨時間把目前由第三方服務商執行的工作收回內部，預計 FY27 Q1 開始招募。",
-                                       "whyMatters":  "星巴克明確表示要將部分由外部 IT 服務商承接的工作內部化，對現有技術與服務類供應商而言是合約縮減的訊號。同時，新據點建置也帶來辦公設備、軟體授權與在地服務的新採購機會。",
-                                       "potentialImpact":  [
-                                                               "IT / 軟體服務供應商應盤點與星巴克的合約範圍，評估哪些工作可能被清奈中心內部化，並提早調整價值主張",
-                                                               "轉向提供平台、工具與授權類產品，成為內部團隊的賦能夥伴而非人力外包角色",
-                                                               "關注清奈中心 FY27 建置期間的辦公、網路與在地服務採購需求"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "About Starbucks",
-                                                               "url":  "https://about.starbucks.com/press/2026/starbucks-technology-to-open-new-hub-in-chennai-india/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260925-4",
-                                       "market":  "🇯🇵 日本市場",
-                                       "source":  "Starbucks Japan 官方新聞稿",
-                                       "pubDate":  "2026-09-24",
-                                       "impact":  "medium",
-                                       "impactLabel":  "⚠️ 中衝擊",
-                                       "impactAreas":  [
-                                                           "品牌策略",
-                                                           "包裝創新",
-                                                           "庫存管理"
-                                                       ],
-                                       "headline":  "日本星巴克 × 寶可夢 9/30 起聯名：推出「皮卡丘蜂蜜奶油拿鐵」與 41 款周邊商品",
-                                       "summary":  "日本星巴克將於 9/30 起與 Pokémon 聯名，推出由全國咖啡師競賽選出的「皮卡丘蜂蜜奶油拿鐵」（限售至 10/8），以及涵蓋隨行杯、不鏽鋼保溫瓶、手沖壺、濾杯、托特包、星巴克卡等共 41 款聯名商品，於門市與官方線上商店販售。發售首 3 日每人每品項限購 1 件，並暫停部分得來速販售以因應人潮。",
-                                       "whyMatters":  "大型 IP 聯名帶動大量周邊（不鏽鋼杯、陶瓷、玻璃、紡織品）與限定原料（蜂蜜、焦糖風味）的短期集中採購，且限購與暫停得來速顯示預期需求極高。對商品與原料供應商而言，是檢驗交期與補貨彈性的關鍵檔期。",
-                                       "potentialImpact":  [
-                                                               "周邊商品供應商應準備快速補貨能力，官方已說明完售後可能再度上架",
-                                                               "飲品限定原料（蜂蜜、焦糖醬、造型裝飾配料）供應商需確認 9/30–10/8 期間的產能與物流",
-                                                               "IP 聯名成效良好時可能延伸至其他 APAC 市場，可主動提出跨市場供貨方案"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Starbucks Japan プレスリリース",
-                                                               "url":  "https://stories.starbucks.co.jp/press/2026/pr-2026-0924/"
-                                                           }
-                                                       ]
-                                   },
-                                   {
-                                       "id":  "20260925-5",
-                                       "market":  "🇹🇼 台灣市場",
-                                       "source":  "Marie Claire 美麗佳人",
-                                       "pubDate":  "2026-09-24",
-                                       "impact":  "low",
-                                       "impactLabel":  "ℹ️ 低衝擊",
-                                       "impactAreas":  [
-                                                           "消費者行為",
-                                                           "採購量預測",
-                                                           "飲品趨勢"
-                                                       ],
-                                       "headline":  "台灣星巴克 9/24 推出「中秋團圓 好友分享日」大杯以上飲品買一送一",
-                                       "summary":  "台灣星巴克於 9/24 中秋前夕 11:00–20:00 推出買一送一活動，購買兩杯容量、冰熱、口味相同的大杯以上飲品即招待一杯，每人每次最多買二送二。秋季新品夏威夷果燕麥系列、雲朵冰搖濃縮等品項不適用，也不適用行動預點、外送與得來速。",
-                                       "whyMatters":  "單日買一送一會造成牛奶、咖啡豆、杯材等基礎耗材用量瞬間放大，屬可預期的尖峰需求。新品系列排除在外，顯示夏威夷果燕麥等新原料供應可能仍以控量為主。",
-                                       "potentialImpact":  [
-                                                               "杯材、杯蓋與乳品供應商應將此類促銷日納入年度尖峰排程，提前備貨",
-                                                               "觀察秋季新品（夏威夷果燕麥系列）排除促銷的原因，評估相關植物奶、堅果原料的供應彈性",
-                                                               "台灣市場促銷頻繁，建議與統一星巴克建立促銷行事曆共享機制，改善預測準確度"
-                                                           ],
-                                       "sourceLinks":  [
-                                                           {
-                                                               "label":  "Marie Claire 美麗佳人",
-                                                               "url":  "https://www.marieclaire.com.tw/lifestyle/taste/96116"
-                                                           }
-                                                       ]
-                                   }
-                               ]
-                 }
-             ]
+  "lastUpdated": "2026-09-29",
+  "days": [
+    {
+      "date": "2026-09-29",
+      "label": "09/29",
+      "items": [
+        {
+          "id": "20260929-1",
+          "market": "🇯🇵 日本市場",
+          "source": "Seoul Economic Daily / Reuters 報導",
+          "pubDate": "2026-09-29",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "採購架構",
+            "APAC 策略",
+            "組織重組"
+          ],
+          "headline": "星巴克評估出售日本事業多數股權，估值約 30 億美元，為美國轉型籌資",
+          "summary": "多家媒體報導星巴克正評估出售日本子公司多數股權，估值約 30 億美元，並已就此向監管機關提交文件。此舉與「Back to Starbucks」轉型、2028 年前每年削減約 20 億美元成本及轉向輕資產授權模式的方向一致，目前尚未公布買家與時程。",
+          "whyMatters": "日本是星巴克在亞太最成熟的市場之一，股權與營運控制權若易主，現行採購政策、供應商名單與合約條款可能被重新檢視。授權/合資模式下，採購決策權可能更多轉移至當地夥伴。",
+          "potentialImpact": [
+            "盤點日本市場現有合約，確認控制權變更（change-of-control）、獨家與價格條款",
+            "與日本採購窗口保持溝通，掌握可能的採購政策或供應商重整時程",
+            "評估新股東主導下議價壓力上升與訂單量變動的情境，預作備案"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Seoul Economic Daily（9/29）",
+              "url": "https://en.sedaily.com/international/2026/09/29/starbucks-weighs-japan-stake-sale-to-fund-us-turnaround"
+            },
+            {
+              "label": "Seoul Economic Daily（9/28）",
+              "url": "https://en.sedaily.com/international/2026/09/28/starbucks-weighs-sale-of-japan-unit-closes-250-north"
+            }
+          ]
+        },
+        {
+          "id": "20260929-2",
+          "market": "🇺🇸 美國市場",
+          "source": "SEC 8-K（Starbucks）",
+          "pubDate": "2026-09-22",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "財務表現",
+            "門市擴張",
+            "採購量預測"
+          ],
+          "headline": "8-K：董事會核准關閉約 250 家北美門市，重組費用約 3 億美元，全年淨新增門市預估由 600–650 家下修至約 440 家",
+          "summary": "星巴克於 9/22 提交 8-K，將關閉約 1%（逾 18,000 家北美門市中約 250 家）表現不佳門市，預計重組費用約 3 億美元（現金約 2 億、非現金約 1 億），多數於 2026 財年底前完成，並下修全年淨新增門市目標。",
+          "whyMatters": "門市總數成長放緩、北美局部收縮，直接影響咖啡豆、乳品、杯材、烘焙及設備的採購量預測，也可能引發庫存與退貨、設備回收等處理需求。",
+          "potentialImpact": [
+            "依關店名單調整北美區域的出貨與庫存計畫，避免過剩庫存",
+            "向採購窗口確認 FY27 需求預測是否更新，並檢視合約最低採購量條款",
+            "留意翻新（remodel）預算集中投入帶來的設備與裝修類新需求"
+          ],
+          "sourceLinks": [
+            {
+              "label": "SEC 8-K（2026-09-22）",
+              "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922426000145/sbux-20260922.htm"
+            },
+            {
+              "label": "Benzinga",
+              "url": "https://www.benzinga.com/markets/large-cap/26/09/61997944/starbucks-to-close-select-north-america-coffeehouses-cuts-store-outlook"
+            }
+          ]
+        },
+        {
+          "id": "20260929-3",
+          "market": "🇺🇸 美國市場 / 🇰🇷 韓國市場",
+          "source": "About Starbucks",
+          "pubDate": "2026-09-28",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "飲品趨勢",
+            "原料需求",
+            "消費者行為"
+          ],
+          "headline": "星巴克 Aerocano 於 9/29 國家咖啡日登陸北美，源自韓國的氣泡化冰美式，另有焦糖版本加入核心菜單",
+          "summary": "Aerocano 以 Blonde 濃縮咖啡加冰，經蒸汽打氣形成綿密質地與瀑布視覺效果，今年稍早已在韓國推出，現擴展至北美門市，焦糖版本也將列入核心菜單。",
+          "whyMatters": "新品採用 Blonde 濃縮與焦糖糖漿，並依賴蒸汽設備及標準化操作，對咖啡豆烘焙規格、糖漿、杯蓋與吸管等相關耗材帶來增量需求；亞洲創新導入北美也顯示區域研發外溢趨勢。",
+          "potentialImpact": [
+            "確認 Blonde 烘焙豆與焦糖糖漿的供應能力，準備上市初期補貨高峰",
+            "評估杯蓋、冷飲杯與吸管等冰飲耗材的需求提升",
+            "關注此類「亞洲首發、全球複製」飲品，提早佈局跨區域供貨"
+          ],
+          "sourceLinks": [
+            {
+              "label": "About Starbucks（9/28）",
+              "url": "https://about.starbucks.com/stories/2026/what-is-the-starbucks-aerocano-meet-the-air-whipped-twist-on-the-iced-americano/"
+            }
+          ]
+        },
+        {
+          "id": "20260929-4",
+          "market": "🇯🇵 日本市場",
+          "source": "星巴克日本官方新聞稿",
+          "pubDate": "2026-09-28",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "原料需求",
+            "品牌策略",
+            "採購關係"
+          ],
+          "headline": "日本星巴克 9/30 推出四款新 Baguette Sandwich 取代 Filone，並上市南瓜濃湯風味 Chicino",
+          "summary": "日本星巴克發布新聞稿，宣布以高含水量（約 85%）麵團製成的四款法棍三明治自 9/30 起取代原有 Filone，售價 510–660 日圓；同日另推出蓬鬆南瓜牛奶風味的 Chicino 飲品。",
+          "whyMatters": "食品線更換配方與產品線，代表麵團、麵粉、起司、火腿香腸、菇類與巧克力奶油等食材供應有調整機會，也顯示日本在秋季食品的在地化與換品節奏。",
+          "potentialImpact": [
+            "烘焙與食材供應商可確認是否已納入新配方的規格與供貨名單",
+            "檢視舊品項（Filone）下市後的庫存與退貨處理",
+            "掌握日本股權檢討期間食品線的採購變動風險"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks Japan（Baguette Sandwich）",
+              "url": "https://stories.starbucks.co.jp/press/2026/0928-01/"
+            },
+            {
+              "label": "Starbucks Japan（Pumpkin Chicino）",
+              "url": "https://stories.starbucks.co.jp/press/2026/0928-02soup/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "label": "09/28",
+      "items": [
+        {
+          "id": "20260928-1",
+          "market": "🇺🇸 美國市場",
+          "source": "三立新聞網／Yahoo 新聞、Starbucks Everywhere、About Starbucks",
+          "pubDate": "2026-09-25",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "成本結構",
+            "門市擴張",
+            "採購量預測"
+          ],
+          "headline": "北美 250 家關店已於 9/26 執行完畢，星巴克同步鎖定 2028 年前削減約 20 億美元成本、9/30 前完成 1,500 家門市翻新",
+          "summary": "第三方門市追蹤網站彙整顯示，北美約 250 家門市多數已於 9 月 26 日（週六）正式關閉，涵蓋美國與加拿大多州／省，名單中不少是 2024–2026 年才開幕的新店。外媒與台媒報導指出，執行長 Niccol 目標在 2028 年前削減約 20 億美元成本，本輪關店重組費用約 3 億美元（含 2 億美元現金支出與 1 億美元資產減損），同時公司仍計畫於 FY26 結束（9/30）前完成 1,500 家門市翻新。",
+          "whyMatters": "關店已從「宣布」進入「執行完成」階段，受影響門市的配送、設備與耗材訂單即刻歸零；而 20 億美元的降本目標意味著未來兩年採購端將面臨持續的議價與規格整併壓力。另一方面，1,500 家翻新工程與「Green Apron Service」標準，對裝修、家具、設備供應商仍是明確的短期需求。",
+          "potentialImpact": [
+            "比對官方關店名單與自身配送點，確認 9/26 後的出貨、租賃設備回收與應收帳款處理，避免呆帳與滯留庫存",
+            "預期 FY27 降本談判將聚焦單價與 SKU 精簡，建議提前準備成本拆解、量價方案與替代規格，以爭取保留份額",
+            "新店開幕中也出現短期即關閉的案例，門市建置類供應商應重新評估北美新店專案的回收週期與付款條件"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Yahoo 新聞（三立）：星巴克關 250 家店、2028 前砍 20 億美元支出",
+              "url": "https://tw.news.yahoo.com/%E6%98%9F%E5%B7%B4%E5%85%8B%E5%A4%A7%E6%8F%AE%E5%88%80-%E5%AE%A3%E5%B8%83%E5%8C%97%E7%BE%8E-%E9%97%9C250%E5%AE%B6%E5%BA%97-%E5%96%8A2028%E5%89%8D%E7%A0%8D636%E5%84%84%E6%94%AF%E5%87%BA-132500385.html"
+            },
+            {
+              "label": "Starbucks Everywhere：2026 年 9 月關店名單",
+              "url": "https://starbuckseverywhere.net/StarbucksClosures_Sep2026.htm"
+            },
+            {
+              "label": "About Starbucks：COO Mike Grams 致夥伴信",
+              "url": "https://about.starbucks.com/press/2026/creating-coffeehouses-customers-love-and-partners-are-proud-of/"
+            }
+          ]
+        },
+        {
+          "id": "20260928-2",
+          "market": "🌍 全球",
+          "source": "Reuters（Business Recorder 轉載）、Perfect Daily Grind",
+          "pubDate": "2026-09-25",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "原料需求",
+            "成本結構",
+            "供應鏈管理"
+          ],
+          "headline": "阿拉比卡咖啡期貨跌至三個月低點，巴西 Conab 上修 2026/27 產量至歷史新高",
+          "summary": "ICE 阿拉比卡期貨 9/23 跌至每磅約 2.71 美元的三個月低點，羅布斯塔亦跌至三個半月低點，主因巴西與越南作物前景改善。巴西 Conab 9 月下旬將 2026/27 產量上修至 6,760 萬袋、創歷史紀錄；StoneX 預估 2026 年全球咖啡市場將轉為約 1,000 萬袋供給過剩。不過交易所認證庫存仍處於低檔，且 El Niño 可能影響巴西開花期，價格波動風險仍在。",
+          "whyMatters": "生豆價格走弱是星巴克毛利的重要順風，也可能讓星巴克在 FY27 合約中爭取更低的固定價或調整「待定價」（price-to-be-fixed）部位。對生豆貿易商、烘焙與 RTD 合作夥伴而言，採購方議價力上升；對包材、乳品等非咖啡供應商，星巴克的成本壓力可能從咖啡轉移到其他品項。",
+          "potentialImpact": [
+            "生豆與咖啡萃取物供應商應預期 Q4／FY27 報價遭要求反映期貨跌幅，建議預先規劃避險與分段定價方案",
+            "低檔認證庫存與 El Niño 風險並存，可主動提出長約鎖價或彈性交期組合，強化「供應穩定性」的價值主張",
+            "非咖啡品項（杯材、乳品、糖漿）供應商需留意：咖啡成本下降後，降本目標可能轉向其他品類"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Reuters via Business Recorder：Arabica coffee sets three-month low",
+              "url": "https://www.brecorder.com/news/40440897/arabica-coffee-sets-three-month-low-sugar-and-cocoa-also-fall"
+            },
+            {
+              "label": "Perfect Daily Grind：Coffee News Recap 25 Sep 2026",
+              "url": "https://perfectdailygrind.com/2026/09/coffee-news-recap-25-september-2026/"
+            }
+          ]
+        },
+        {
+          "id": "20260928-3",
+          "market": "🌏 APAC",
+          "source": "Việt Nam News",
+          "pubDate": "2026-09-24",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "APAC 策略",
+            "零售競爭",
+            "採購關係"
+          ],
+          "headline": "Jollibee 出售 Highlands Coffee 11% 股權，越南 VTI 重掌控股權並推進 2027 年 IPO",
+          "summary": "菲律賓 Jollibee 9/23 宣布以約 8,900 萬美元出售越南 Highlands Coffee 11% 股權給創辦人 David Thái 領導的 Viet Thai International（VTI），持股由 60% 降至 49%，VTI 升至 51% 取回控制權，交易隱含估值約 8 億美元。Highlands 門市已達約 1,062 家，計畫於 2027 年第一季完成 3–4 億美元 IPO。據公開資料，VTI 同時是星巴克越南的授權營運商。",
+          "whyMatters": "Highlands 是越南最大本土咖啡連鎖，控股權回到同時經營星巴克越南的 VTI 手中，可能影響該集團在越南的資本配置與展店優先順序。對在東南亞供應星巴克授權市場的廠商而言，授權商的集團資源與採購整合方向值得追蹤。",
+          "potentialImpact": [
+            "供應星巴克越南的廠商，可留意 VTI 旗下品牌是否整合物流、倉儲或共同採購，爭取跨品牌供應機會",
+            "Highlands IPO 前可能加速展店，越南咖啡連鎖競爭升溫，星巴克越南的促銷與新品節奏可能隨之調整",
+            "持續觀察 APAC 授權／合資模式的變化（中國博裕、日本出售股權評估、越南 VTI），調整區域業務布局"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Việt Nam News：Highlands Coffee founder spends over $88 million to buy back stake",
+              "url": "https://vietnamnews.vn/economy/1800450/highlands-coffee-founder-spends-over-88-million-to-buy-back-stake.html"
+            }
+          ]
+        },
+        {
+          "id": "20260928-4",
+          "market": "🌍 全球",
+          "source": "Perfect Daily Grind（產業週報）",
+          "pubDate": "2026-09-25",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "供應鏈技術",
+            "原料需求",
+            "零售競爭"
+          ],
+          "headline": "咖啡上游產能擴張：Kerry 賓州新萃取廠、Swiss Water 低咖啡因產能增 15%，英國 Greggs 門市數超越 Costa",
+          "summary": "產業週報整理本週動態：Kerry 將在美國賓州開設新的咖啡萃取設施、擴充萃取產能；Swiss Water 宣布投資擴產，產量預計提升 15%，2027 年 7 月商轉；英國 Greggs 以 2,737 家門市小幅超越 Costa，反映平價與非傳統咖啡通路崛起。",
+          "whyMatters": "萃取與低咖啡因加工產能擴增，將提高 RTD 與即溶產品的供應選擇與議價空間；平價通路搶占咖啡消費，則可能促使星巴克在價值感與菜單上持續調整，連動原料與包材需求結構。",
+          "potentialImpact": [
+            "RTD／濃縮液相關供應商應評估新產能進場帶來的價格競爭，強化品質一致性與認證優勢",
+            "低咖啡因與功能性飲品需求上升，可提前準備相關原料規格與樣品提案",
+            "關注歐美平價咖啡通路成長，評估星巴克可能推出的價值型產品對成本與規格的要求"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Perfect Daily Grind：Coffee News Recap 25 Sep 2026",
+              "url": "https://perfectdailygrind.com/2026/09/coffee-news-recap-25-september-2026/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "label": "09/25",
+      "items": [
+        {
+          "id": "20260925-1",
+          "market": "🇺🇸 美國市場",
+          "source": "SEC 8-K / CNBC",
+          "pubDate": "2026-09-24",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "門市擴張",
+            "採購量預測",
+            "成本結構"
+          ],
+          "headline": "星巴克宣布關閉北美約 250 家門市，提列約 3 億美元重組費用，FY26 淨新店目標下修至 440 家",
+          "summary": "星巴克董事會於 9/22 核准「Back to Starbucks」策略下的新一輪門市調整，將關閉北美逾 18,000 家門市中約 1%（約 250 家）表現不佳據點，多數於 FY26 結束前完成。公司預估重組費用約 3 億美元（2 億美元現金支出為租約退出與員工遣散、1 億美元為非現金資產減損），並將 FY26 全球淨新店目標由 600–650 家下修至約 440 家，新增門市將主要來自國際市場。",
+          "whyMatters": "北美門市數量縮減將直接降低當地門市端耗材、設備與食材的訂單基數，且關店集中在 FY26 年底前，短期內可能出現訂單取消或庫存回收。另一方面，淨新店成長轉向國際市場，意味著新店設備、裝修與開店物料的採購需求重心將移往海外。",
+          "potentialImpact": [
+            "檢視北美訂單預測，針對 Q4 關店區域預先與採購窗口確認訂單調整與庫存退回條款，避免呆滯庫存",
+            "新店成長轉向國際市場，建議強化 APAC / EMEA 的供貨能力與在地化交付，以承接海外開店設備與物料需求",
+            "關店後重點轉向改裝門市（已逾 1,000 家重新設計），可主動提案門市翻新相關的傢俱、設備與包裝方案"
+          ],
+          "sourceLinks": [
+            {
+              "label": "SEC Form 8-K (2026-09-22)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000145/sbux-20260922.htm"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/09/24/starbucks-to-close-250-stores.html"
+            },
+            {
+              "label": "Detroit News",
+              "url": "https://www.detroitnews.com/story/business/2026/09/24/starbucks-cuts-250-locations-back-higher-potential-stores/91917291007/"
+            }
+          ]
+        },
+        {
+          "id": "20260925-2",
+          "market": "🇯🇵 日本市場",
+          "source": "Starbucks Japan 官方新聞稿",
+          "pubDate": "2026-09-18",
+          "impact": "high",
+          "impactLabel": "🔥 高衝擊",
+          "impactAreas": [
+            "成本結構",
+            "原料需求",
+            "採購關係"
+          ],
+          "headline": "日本星巴克宣布 10/9 起調漲定番飲品、食品與咖啡豆價格，原因為原料、物流與能源成本上升",
+          "summary": "日本星巴克宣布自 2026 年 10 月 9 日起，全店定番飲品調漲 4–35 日圓、部分定番食品調漲 10–30 日圓，定番咖啡豆與「One More Coffee」也在調整範圍內。官方說明原因為原材料價格、物流與能源等成本持續上升，此為今年 2 月後的再度調價。",
+          "whyMatters": "日本星巴克明確將成本壓力歸因於原料與物流，顯示其採購端正承受高成本，後續可能更積極要求供應商降本或重新議價。價格上調也可能影響來客數與品項組合，進而改變各原料的採購量。",
+          "potentialImpact": [
+            "預期日本採購團隊將加強成本審視，建議提前準備成本結構說明與降本方案（如規格優化、物流整合）",
+            "密切觀察調價後 10–11 月的銷量變化，調整對日本市場的出貨預測",
+            "若日本 stake sale 程序於 Q4 啟動，新股東可能進一步推動成本優化，宜預作合約條款與價格機制的準備"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks Japan プレスリリース",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0918/"
+            }
+          ]
+        },
+        {
+          "id": "20260925-3",
+          "market": "🌍 全球",
+          "source": "About Starbucks",
+          "pubDate": "2026-09-21",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "供應鏈技術",
+            "採購架構",
+            "組織重組"
+          ],
+          "headline": "星巴克科技部門選定印度清奈設立全新技術中心，逐步將外包工作收回內部",
+          "summary": "星巴克技術長 Anand Varadarajan 宣布，公司將於 FY27 在印度清奈（Chennai）設立技術中心，與西雅圖、納什維爾、倫敦、香港等據點協同運作。該中心將支援全球業務，並隨時間把目前由第三方服務商執行的工作收回內部，預計 FY27 Q1 開始招募。",
+          "whyMatters": "星巴克明確表示要將部分由外部 IT 服務商承接的工作內部化，對現有技術與服務類供應商而言是合約縮減的訊號。同時，新據點建置也帶來辦公設備、軟體授權與在地服務的新採購機會。",
+          "potentialImpact": [
+            "IT / 軟體服務供應商應盤點與星巴克的合約範圍，評估哪些工作可能被清奈中心內部化，並提早調整價值主張",
+            "轉向提供平台、工具與授權類產品，成為內部團隊的賦能夥伴而非人力外包角色",
+            "關注清奈中心 FY27 建置期間的辦公、網路與在地服務採購需求"
+          ],
+          "sourceLinks": [
+            {
+              "label": "About Starbucks",
+              "url": "https://about.starbucks.com/press/2026/starbucks-technology-to-open-new-hub-in-chennai-india/"
+            }
+          ]
+        },
+        {
+          "id": "20260925-4",
+          "market": "🇯🇵 日本市場",
+          "source": "Starbucks Japan 官方新聞稿",
+          "pubDate": "2026-09-24",
+          "impact": "medium",
+          "impactLabel": "⚠️ 中衝擊",
+          "impactAreas": [
+            "品牌策略",
+            "包裝創新",
+            "庫存管理"
+          ],
+          "headline": "日本星巴克 × 寶可夢 9/30 起聯名：推出「皮卡丘蜂蜜奶油拿鐵」與 41 款周邊商品",
+          "summary": "日本星巴克將於 9/30 起與 Pokémon 聯名，推出由全國咖啡師競賽選出的「皮卡丘蜂蜜奶油拿鐵」（限售至 10/8），以及涵蓋隨行杯、不鏽鋼保溫瓶、手沖壺、濾杯、托特包、星巴克卡等共 41 款聯名商品，於門市與官方線上商店販售。發售首 3 日每人每品項限購 1 件，並暫停部分得來速販售以因應人潮。",
+          "whyMatters": "大型 IP 聯名帶動大量周邊（不鏽鋼杯、陶瓷、玻璃、紡織品）與限定原料（蜂蜜、焦糖風味）的短期集中採購，且限購與暫停得來速顯示預期需求極高。對商品與原料供應商而言，是檢驗交期與補貨彈性的關鍵檔期。",
+          "potentialImpact": [
+            "周邊商品供應商應準備快速補貨能力，官方已說明完售後可能再度上架",
+            "飲品限定原料（蜂蜜、焦糖醬、造型裝飾配料）供應商需確認 9/30–10/8 期間的產能與物流",
+            "IP 聯名成效良好時可能延伸至其他 APAC 市場，可主動提出跨市場供貨方案"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Starbucks Japan プレスリリース",
+              "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0924/"
+            }
+          ]
+        },
+        {
+          "id": "20260925-5",
+          "market": "🇹🇼 台灣市場",
+          "source": "Marie Claire 美麗佳人",
+          "pubDate": "2026-09-24",
+          "impact": "low",
+          "impactLabel": "ℹ️ 低衝擊",
+          "impactAreas": [
+            "消費者行為",
+            "採購量預測",
+            "飲品趨勢"
+          ],
+          "headline": "台灣星巴克 9/24 推出「中秋團圓 好友分享日」大杯以上飲品買一送一",
+          "summary": "台灣星巴克於 9/24 中秋前夕 11:00–20:00 推出買一送一活動，購買兩杯容量、冰熱、口味相同的大杯以上飲品即招待一杯，每人每次最多買二送二。秋季新品夏威夷果燕麥系列、雲朵冰搖濃縮等品項不適用，也不適用行動預點、外送與得來速。",
+          "whyMatters": "單日買一送一會造成牛奶、咖啡豆、杯材等基礎耗材用量瞬間放大，屬可預期的尖峰需求。新品系列排除在外，顯示夏威夷果燕麥等新原料供應可能仍以控量為主。",
+          "potentialImpact": [
+            "杯材、杯蓋與乳品供應商應將此類促銷日納入年度尖峰排程，提前備貨",
+            "觀察秋季新品（夏威夷果燕麥系列）排除促銷的原因，評估相關植物奶、堅果原料的供應彈性",
+            "台灣市場促銷頻繁，建議與統一星巴克建立促銷行事曆共享機制，改善預測準確度"
+          ],
+          "sourceLinks": [
+            {
+              "label": "Marie Claire 美麗佳人",
+              "url": "https://www.marieclaire.com.tw/lifestyle/taste/96116"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
